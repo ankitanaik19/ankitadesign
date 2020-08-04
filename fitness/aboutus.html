@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Full Screen Slider</title>
+    <title>About</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -24,9 +24,8 @@
             text-align: center;
             padding: 100px;
             height: 500px;
-            font-family: sans-serif;
         }
-        
+
         .head1 {
             position: relative;
             left: 8%;
@@ -34,7 +33,7 @@
             float: left;
             margin-top: 20%;
         }
-        
+
         .head1:after {
             position: absolute;
             top: 150%;
@@ -45,6 +44,139 @@
             height: 3px;
             width: 200px;
         }
+
+        @media only screen and (max-width:768px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 500px;
+            }
+
+            .head1 {
+                position: relative;
+                left: 0%;
+                font-size: 26px;
+                float: left;
+                margin-top: 40%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 160px;
+            }
+
+        }
+
+        @media only screen and (max-width:425px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 500px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -30%;
+                font-size: 22px;
+                float: left;
+                margin-top: 120%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 160px;
+            }
+
+        }
+
+        @media only screen and (max-width:375px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 420px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -50%;
+                font-size: 22px;
+                float: left;
+                margin-top: 120%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 150px;
+            }
+
+        }
+
+        @media only screen and (max-width:320px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 80px;
+                height: 420px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -50%;
+                font-size: 22px;
+                float: left;
+                margin-top: 150%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 150px;
+            }
+
+        }
+
     </style>
 </head>
 
@@ -65,10 +197,11 @@
             </div>
         </nav>
     </section>
-<section id="promo">
-    <div class="container">
-        <h1 class="head1">About Us</h1> </div>
-</section>
+    <section id="promo">
+        <div class="container">
+            <h1 class="head1">About Us</h1>
+        </div>
+    </section>
 
     <section id="about">
         <div class="container">
@@ -189,7 +322,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="single-footer">
                         <h4>General Enquiries</h4>
-                        <form id="foot-contact" action="" method="post">
+                        <form id="foot-contact" method="post" onsubmit="this.reset()">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <input type="text" id="footname" placeholder="Enter Your Name"> </div>
@@ -208,10 +341,10 @@
             </div>
         </div>
     </section>
-        <section id="chat">
+    <section id="chat">
         <button class="open-button" onclick="openForm()"><i class='far fa-comment' style='font-size:60px;margin-right:10px;color: #5fc7ae'></i></button>
         <div class="chat-popup" id="mychat">
-            <form action="/action_page.php" class="form-container" onclick="this.reset()">
+            <form class="form-container" onclick="this.reset()">
                 <button type="button" class="btn cancel" onclick="closeForm()">Send Us Message</button>
                 <textarea placeholder="Got any questions? We're happy to help." rows="10" class="chat-textarea" id="displaymsg" name="msg" readonly></textarea>
                 <div class="row" id="submit">
@@ -233,7 +366,7 @@
     <script src="js/quote.js"></script>
     <script src="js/product-des.js"></script>
     <script src="js/carousel.js"></script>
-<script src="js/chat.js"></script>
-    </body>
+    <script src="js/chat.js"></script>
+</body>
 
 </html>

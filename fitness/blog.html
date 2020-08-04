@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Full Screen Slider</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -24,9 +24,8 @@
             text-align: center;
             padding: 100px;
             height: 500px;
-            font-family: sans-serif;
         }
-        
+
         .head1 {
             position: relative;
             left: 8%;
@@ -34,7 +33,7 @@
             float: left;
             margin-top: 20%;
         }
-        
+
         .head1:after {
             position: absolute;
             top: 150%;
@@ -45,6 +44,139 @@
             height: 3px;
             width: 200px;
         }
+
+        @media only screen and (max-width:768px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 500px;
+            }
+
+            .head1 {
+                position: relative;
+                left: 0%;
+                font-size: 26px;
+                float: left;
+                margin-top: 40%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 160px;
+            }
+
+        }
+
+        @media only screen and (max-width:425px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 500px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -30%;
+                font-size: 22px;
+                float: left;
+                margin-top: 120%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 160px;
+            }
+
+        }
+
+        @media only screen and (max-width:375px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 420px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -50%;
+                font-size: 22px;
+                float: left;
+                margin-top: 120%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 150px;
+            }
+
+        }
+
+        @media only screen and (max-width:320px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 80px;
+                height: 420px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -50%;
+                font-size: 22px;
+                float: left;
+                margin-top: 150%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 150px;
+            }
+
+        }
+
     </style>
 </head>
 
@@ -67,14 +199,16 @@
     </section>
     <section id="promo">
         <div class="container">
-            <h1 class="head1">Blog</h1> </div>
+            <h1 class="head1">Blog</h1>
+        </div>
     </section>
     <section id="blog" class="blogsec">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
-                        <h2>Blogs</h2> </div>
+                        <h2>Blogs</h2>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -82,10 +216,10 @@
                     <div class="single-blog">
                         <div class="blog-pic single-image"> <img src="images/blog1.jpg" alt="blog" width="100%"> </div>
                         <div class="blog-content">
-                            <h3><a href="blog.html">Reebok Fitness Blog</a></h3>
+                            <h3><a href="blog.html">Blogilates</a></h3>
                             <h6>25 March 2020</h6>
-                            <p>This site is from one of the most popular brands of sporting gear and equipment. Subscribe and get the latest news on fitness, health, and wellness.</p>
-                            <button class="read"><a href="#">Read More</a></button>
+                            <p>Blogilates is a fun and innovative exercise site featuring various workouts, food advice and a clothing range.</p>
+                            <button class="read"><a href="https://www.blogilates.com/blog/">Read More</a></button>
                         </div>
                     </div>
                 </div>
@@ -93,10 +227,10 @@
                     <div class="single-blog">
                         <div class="blog-pic single-image"> <img src="images/blog4.jpg" alt="blog" width="100%"> </div>
                         <div class="blog-content">
-                            <h3><a href="blog.html">Born Fitness</a></h3>
+                            <h3><a href="https://www.bornfitness.com/blog/">Born Fitness</a></h3>
                             <h6>19 February 2020</h6>
-                            <p>Born Fitness' goal is to make sure its readers have a place where questions about health, fitness, and nutrition are answered in a helpful way as possible.</p>
-                            <button class="read"><a href="#">Read More</a></button>
+                            <p>Born Fitness is a resource of fitness and nutrition knowledge, the site also offers its own coaching programme.</p>
+                            <button class="read"><a href="https://www.bornfitness.com/blog/">Read More</a></button>
                         </div>
                     </div>
                 </div>
@@ -106,10 +240,10 @@
                     <div class="single-blog">
                         <div class="blog-pic single-image"> <img src="images/blog3.jpg" alt="blog" width="100%"> </div>
                         <div class="blog-content">
-                            <h3><a href="blog.html">Tony Gentilcore</a></h3>
+                            <h3><a href="https://tonygentilcore.com/blog/">Tony Gentilcore</a></h3>
                             <h6>12 June 2020</h6>
-                            <p>Money can indeed buy you tons of stuff, “love” included. However, that is not the case when it comes to your wellness and fitness. Being fit takes sheer hard work and determination.</p>
-                            <button class="read"><a href="#">Read More</a></button>
+                            <p>Tony Gentilcore is a trainer and co-founder of Cressey Sports Performance, a fitness training facility “by athletes for athletes.” His focus is largely on weightlifting.</p>
+                            <button class="read"><a href="https://tonygentilcore.com/blog/">Read More</a></button>
                         </div>
                     </div>
                 </div>
@@ -117,10 +251,10 @@
                     <div class="single-blog">
                         <div class="blog-pic single-image"> <img src="images/blog2.jpg" alt="blog" width="100%"> </div>
                         <div class="blog-content">
-                            <h3><a href="blog.html">Nerd Fitness</a></h3>
+                            <h3><a href="https://www.nerdfitness.com/blog/">Nerd Fitness</a></h3>
                             <h6>19 February 2020</h6>
-                            <p>Overambitious plans are the greatest enemy of fitness progress. It is always wise to start with the baby steps first. I may not be the sensei in advising on fitness, but Steve Kamb is.</p>
-                            <button class="read"><a href="#">Read More</a></button>
+                            <p>The Inverted Bodyweight Row is one of the BEST, simple, most effective exercises you can do for your “pull” muscles.</p>
+                            <button class="read"><a href="https://www.nerdfitness.com/blog/">Read More</a></button>
                         </div>
                     </div>
                 </div>
@@ -132,7 +266,8 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
-                        <h2>Gift Our Client Say</h2> </div>
+                        <h2>Gift Our Client Say</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -206,7 +341,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="single-footer">
                         <h4>General Enquiries</h4>
-                        <form id="foot-contact" action="" method="post">
+                        <form id="foot-contact" method="post" onsubmit="this.reset()">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <input type="text" id="footname" placeholder="Enter Your Name"> </div>
@@ -228,7 +363,7 @@
     <section id="chat">
         <button class="open-button" onclick="openForm()"><i class='far fa-comment' style='font-size:60px;margin-right:10px;color: #5fc7ae'></i></button>
         <div class="chat-popup" id="mychat">
-            <form action="/action_page.php" class="form-container" onclick="this.reset()">
+            <form class="form-container" onclick="this.reset()">
                 <button type="button" class="btn cancel" onclick="closeForm()">Send Us Message</button>
                 <textarea placeholder="Got any questions? We're happy to help." rows="10" class="chat-textarea" id="displaymsg" name="msg" readonly></textarea>
                 <div class="row" id="submit">
@@ -241,6 +376,7 @@
             </form>
         </div>
     </section>
+
     <section id="copyfooter" class="footer">
         <div class="copyright-footer">
             <p>Copyright@<b>Handstand</b> 2019. All Rights Reserved</p>

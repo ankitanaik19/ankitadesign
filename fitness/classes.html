@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Full Screen Slider</title>
+    <title>Classes</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -24,9 +24,8 @@
             text-align: center;
             padding: 100px;
             height: 500px;
-            font-family: sans-serif;
         }
-        
+
         .head1 {
             position: relative;
             left: 8%;
@@ -34,7 +33,7 @@
             float: left;
             margin-top: 20%;
         }
-        
+
         .head1:after {
             position: absolute;
             top: 150%;
@@ -44,6 +43,138 @@
             display: block;
             height: 3px;
             width: 200px;
+        }
+
+        @media only screen and (max-width:768px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 500px;
+            }
+
+            .head1 {
+                position: relative;
+                left: 0%;
+                font-size: 26px;
+                float: left;
+                margin-top: 40%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 160px;
+            }
+
+        }
+
+        @media only screen and (max-width:425px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 500px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -30%;
+                font-size: 22px;
+                float: left;
+                margin-top: 120%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 160px;
+            }
+
+        }
+
+        @media only screen and (max-width:375px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 420px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -50%;
+                font-size: 22px;
+                float: left;
+                margin-top: 120%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 150px;
+            }
+
+        }
+
+        @media only screen and (max-width:320px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 80px;
+                height: 420px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -50%;
+                font-size: 22px;
+                float: left;
+                margin-top: 150%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 150px;
+            }
+
         }
 
     </style>
@@ -68,7 +199,8 @@
     </section>
     <section id="promo">
         <div class="container">
-            <h1 class="head1">Classes</h1> </div>
+            <h1 class="head1">Classes</h1>
+        </div>
     </section>
     <section id="class" class="bgclass">
         <div class="container">
@@ -80,7 +212,7 @@
                     </div>
                 </div>
             </div>
-                        <div class="row">
+            <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="product-card">
                         <div class="product-tumb"><img src="images/classes1.jpg" alt="" width="100%"> </div>
@@ -119,7 +251,9 @@
                         <div class="product-details">
                             <h4><a href="">Pilates</a></h4>
                             <div class="product-bottom-details">
-                                <div class="product-links"> <i class="fa fa-clock-o" style="font-size:13px;color:#5fc7ae;"></i> <p>08:00 AM - 10:00 AM</p> <a id="view-des3" class="view-hover">View Details</a></div>
+                                <div class="product-links"> <i class="fa fa-clock-o" style="font-size:13px;color:#5fc7ae;"></i>
+                                    <p>08:00 AM - 10:00 AM</p> <a id="view-des3" class="view-hover">View Details</a>
+                                </div>
                             </div>
                         </div>
                         <div id="product-description3">
@@ -129,7 +263,7 @@
                 </div>
             </div>
 
-            
+
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="product-card">
@@ -138,7 +272,8 @@
                             <h4><a href="">Barre</a></h4>
                             <div class="product-bottom-details">
                                 <div class="product-links"> <i class="fa fa-clock-o" style="font-size:13px;color:#5fc7ae;"></i>
-                                    <p>06:00 PM - 08:00 PM</p> <a id="view-des4" class="view-hover">View Details</a> </div>
+                                    <p>06:00 PM - 08:00 PM</p> <a id="view-des4" class="view-hover">View Details</a>
+                                </div>
                             </div>
                         </div>
                         <div id="product-description4">
@@ -153,7 +288,8 @@
                             <h4><a href="">Spinning</a></h4>
                             <div class="product-bottom-details">
                                 <div class="product-links"><i class="fa fa-clock-o" style="font-size:13px;color:#5fc7ae;"></i>
-                                    <p>06:00 PM - 08:00 PM</p> <a id="view-des5" class="view-hover">View Details</a> </div>
+                                    <p>06:00 PM - 08:00 PM</p> <a id="view-des5" class="view-hover">View Details</a>
+                                </div>
                             </div>
                         </div>
                         <div id="product-description5">
@@ -168,7 +304,8 @@
                             <h4><a href="">Boxing</a></h4>
                             <div class="product-bottom-details">
                                 <div class="product-links"> <i class="fa fa-clock-o" style="font-size:13px;color:#5fc7ae;"></i>
-                                    <p>06:00 AM - 08:00 PM</p> <a id="view-des6" class="view-hover">View Details</a></div>
+                                    <p>06:00 AM - 08:00 PM</p> <a id="view-des6" class="view-hover">View Details</a>
+                                </div>
                             </div>
                         </div>
                         <div id="product-description6">
@@ -185,7 +322,8 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
-                        <h2 class="padddingresp">Schedule</h2> </div>
+                        <h2 class="padddingresp">Schedule</h2>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -297,13 +435,14 @@
         </div>
     </section>
 
-    
+
     <section id="price" class="pricesec">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
-                        <h2>Membership</h2> </div>
+                        <h2>Membership</h2>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -311,28 +450,32 @@
                     <div class="single-table text-center">
                         <div class="table-head">
                             <h2>UNLIMITED MEMBERSHIP</h2>
-                            <h1>$50<span>/MONTH</span></h1> </div>
+                            <h1>$50<span>/MONTH</span></h1>
+                        </div>
                         <div class="table-body">
                             <ul>
                                 <li>Free T-Shirt &amp; swags</li>
                                 <li>Free of all message treatments</li>
                                 <li>Unlimited access to all our timetabled classes as often as you like.</li>
                                 <li>Out Door activites</li>
-                            </ul> <a href="#">Get Started</a> </div>
+                            </ul> <a href="#">Get Started</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="single-table text-center single-tableresp">
                         <div class="table-head">
                             <h2>3 CLASSES PER WEEK</h2>
-                            <h1>$40<span>/MONTH</span></h1> </div>
+                            <h1>$40<span>/MONTH</span></h1>
+                        </div>
                         <div class="table-body">
                             <ul>
                                 <li>Attend a maximum of three scheduled classes in one calendar week.</li>
                                 <li>Free of all message treatments</li>
                                 <li>Access Clup Facilites</li>
                                 <li>Out Door activites</li>
-                            </ul> <a href="#">Get Started</a> </div>
+                            </ul> <a href="#">Get Started</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
@@ -340,14 +483,16 @@
                         <div class="single-table text-center single-tableresp">
                             <div class="table-head">
                                 <h2>2 Classes Per week</h2>
-                                <h1>$20<span>/MONTH</span></h1> </div>
+                                <h1>$20<span>/MONTH</span></h1>
+                            </div>
                             <div class="table-body">
                                 <ul>
                                     <li>Free T-Shirt &amp; swags</li>
                                     <li>Free of all message treatments</li>
                                     <li>Access Clup Facilites</li>
                                     <li>Attend a maximum of one scheduled class in one calendar week.</li>
-                                </ul> <a href="#">Get Started</a> </div>
+                                </ul> <a href="#">Get Started</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -359,7 +504,8 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
-                        <h2>Gift Our Client Say</h2> </div>
+                        <h2>Gift Our Client Say</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -433,7 +579,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="single-footer">
                         <h4>General Enquiries</h4>
-                        <form id="foot-contact" action="" method="post">
+                        <form id="foot-contact" method="post" onsubmit="this.reset()">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <input type="text" id="footname" placeholder="Enter Your Name"> </div>
@@ -452,11 +598,10 @@
             </div>
         </div>
     </section>
-    
-        <section id="chat">
+    <section id="chat">
         <button class="open-button" onclick="openForm()"><i class='far fa-comment' style='font-size:60px;margin-right:10px;color: #5fc7ae'></i></button>
         <div class="chat-popup" id="mychat">
-            <form action="/action_page.php" class="form-container" onclick="this.reset()">
+            <form class="form-container" onclick="this.reset()">
                 <button type="button" class="btn cancel" onclick="closeForm()">Send Us Message</button>
                 <textarea placeholder="Got any questions? We're happy to help." rows="10" class="chat-textarea" id="displaymsg" name="msg" readonly></textarea>
                 <div class="row" id="submit">
@@ -469,7 +614,7 @@
             </form>
         </div>
     </section>
-    
+
     <section id="copyfooter" class="footer">
         <div class="copyright-footer">
             <p>Copyright@<b>Handstand</b> 2019. All Rights Reserved</p>
@@ -479,7 +624,7 @@
     <script src="js/quote.js"></script>
     <script src="js/product-des.js"></script>
     <script src="js/carousel.js"></script>
-<script src="js/chat.js"></script>
-    </body>
+    <script src="js/chat.js"></script>
+</body>
 
 </html>

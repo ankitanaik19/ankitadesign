@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Full Screen Slider</title>
+    <title>Home</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -87,83 +87,6 @@
             }
         }
 
-        .modal {
-            display: none;
-            /* Hidden by default */
-            position: fixed;
-            /* Stay in place */
-            z-index: 1;
-            /* Sit on top */
-            padding-top: 100px;
-            /* Location of the box */
-            left: 0;
-            top: 0;
-            width: 100%;
-            /* Full width */
-            height: 100%;
-            /* Full height */
-            overflow: auto;
-            /* Enable scroll if needed */
-        }
-
-        /* Modal Content */
-        .modal-content {
-            position: relative;
-            margin: auto;
-            padding: 0;
-            border: 1px solid #888;
-            width: 80%;
-            -webkit-animation-name: animatetop;
-            -webkit-animation-duration: 0.4s;
-            animation-name: animatetop;
-            animation-duration: 0.4s
-        }
-
-        /* Add Animation */
-        @-webkit-keyframes animatetop {
-            from {
-                top: -300px;
-                opacity: 0
-            }
-
-            to {
-                top: 0;
-                opacity: 1
-            }
-        }
-
-        @keyframes animatetop {
-            from {
-                top: -300px;
-                opacity: 0
-            }
-
-            to {
-                top: 0;
-                opacity: 1
-            }
-        }
-
-        /* The Close Button */
-        .close {
-            color: #d2d2d2;
-            float: right;
-            font-size: 28px;
-            margin-right: 5px;
-            font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        .modal-header {
-            padding: 2px 2px;
-            color: white;
-        }
 
         @media only screen and (max-width:768px) {
 
@@ -187,6 +110,7 @@
                 bottom: 70px;
                 background: #5fc7ae;
             }
+
         }
 
         @media only screen and (max-width:425px) {
@@ -211,6 +135,7 @@
                 bottom: 40px;
                 background: #5fc7ae;
             }
+
         }
 
         @media only screen and (max-width:375px) {
@@ -235,6 +160,7 @@
                 bottom: 40px;
                 background: #5fc7ae;
             }
+
         }
 
 
@@ -260,6 +186,9 @@
                 bottom: 40px;
                 background: #5fc7ae;
             }
+
+
+
         }
 
     </style>
@@ -309,20 +238,7 @@
                             <a href="https://www.youtube.com/watch?v=1f8yoFFdkcY"><img src="images/about.jpg" width="570" height="342" alt="about" class="aboutresp"></a>
                         </div>
                         <div class="video-icon" id="myBtn">
-                            <i class="fa fa-play"></i>
-                            <div id="myModal" class="modal">
-
-                                <!-- Modal content -->
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <a class="close">&times;</a>
-
-                                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/Qia2ZXEzyLw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                                    </div>
-
-                                </div>
-                            </div>
+                            <a href="https://www.youtube.com/embed/Qia2ZXEzyLw"> <i class="fa fa-play" style="color: #fff"></i></a>
 
                         </div>
                     </div>
@@ -645,25 +561,26 @@
                     <div class="single-blog">
                         <div class="blog-pic single-image"> <img src="images/blog1.jpg" alt="blog" width="100%"> </div>
                         <div class="blog-content">
-                            <h3><a href="blog.html">Reebok Fitness Blog</a></h3>
+                            <h3><a href="blog.html">Blogilates</a></h3>
                             <h6>25 March 2020</h6>
-                            <p>This site is from one of the most popular brands of sporting gear and equipment. Subscribe and get the latest news on fitness, health, and wellness.</p>
-                            <button class="read"><a href="#">Read More</a></button>
+                            <p>Blogilates is a fun and innovative exercise site featuring various workouts, food advice and a clothing range.</p>
+                            <button class="read"><a href="https://www.blogilates.com/blog/">Read More</a></button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="single-blog">
-                        <div class="blog-pic single-image"> <img src="images/blog2.jpg" alt="blog" width="100%"> </div>
+                        <div class="blog-pic single-image"> <img src="images/blog4.jpg" alt="blog" width="100%"> </div>
                         <div class="blog-content">
-                            <h3><a href="blog.html">Born Fitness</a></h3>
+                            <h3><a href="https://www.bornfitness.com/blog/">Born Fitness</a></h3>
                             <h6>19 February 2020</h6>
-                            <p>Born Fitness' goal is to make sure its readers have a place where questions about health, fitness, and nutrition are answered in a helpful way as possible.</p>
-                            <button class="read"><a href="#">Read More</a></button>
+                            <p>Born Fitness is a resource of fitness and nutrition knowledge, the site also offers its own coaching programme.</p>
+                            <button class="read"><a href="https://www.bornfitness.com/blog/">Read More</a></button>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
     <section id="price" class="pricesec">
@@ -688,7 +605,7 @@
                                 <li>Free of all message treatments</li>
                                 <li>Unlimited access to all our timetabled classes as often as you like.</li>
                                 <li>Out Door activites</li>
-                            </ul> <a href="#">Get Started</a>
+                            </ul> <a href="contact.html">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -704,7 +621,7 @@
                                 <li>Free of all message treatments</li>
                                 <li>Access Clup Facilites</li>
                                 <li>Out Door activites</li>
-                            </ul> <a href="#">Get Started</a>
+                            </ul> <a href="contact.html">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -721,7 +638,7 @@
                                     <li>Free of all message treatments</li>
                                     <li>Access Clup Facilites</li>
                                     <li>Attend a maximum of one scheduled class in one calendar week.</li>
-                                </ul> <a href="#">Get Started</a>
+                                </ul> <a href="contact.html">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -809,7 +726,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="single-footer">
                         <h4>General Enquiries</h4>
-                        <form id="foot-contact" action="" method="post">
+                        <form id="foot-contact" method="post" onsubmit="this.reset()">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <input type="text" id="footname" placeholder="Enter Your Name"> </div>
@@ -831,7 +748,7 @@
     <section id="chat">
         <button class="open-button" onclick="openForm()"><i class='far fa-comment' style='font-size:60px;margin-right:10px;color: #5fc7ae'></i></button>
         <div class="chat-popup" id="mychat">
-            <form action="/action_page.php" class="form-container" onclick="this.reset()">
+            <form class="form-container" onclick="this.reset()">
                 <button type="button" class="btn cancel" onclick="closeForm()">Send Us Message</button>
                 <textarea placeholder="Got any questions? We're happy to help." rows="10" class="chat-textarea" id="displaymsg" name="msg" readonly></textarea>
                 <div class="row" id="submit">
