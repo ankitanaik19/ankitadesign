@@ -383,7 +383,7 @@ Created : Ankita Naik
                 /**Gallery Start*/
                 #gallery {
                     text-align: center;
-                    margin : 100px 100px;
+                    margin : 10px;
                 }
   
               img.galleryimage {
@@ -1151,6 +1151,18 @@ Created : Ankita Naik
                         border: 3px solid #3c3c3c;
                     }
                     /**Quotes End*/
+            
+
+               /**Gallery Start*/
+               #gallery {
+                text-align: center;
+                margin : 10px;
+            }
+
+          img.galleryimage {
+                width: 100% !important;
+            }
+            /**Gallery End**/
                     /**Services Start*/
                     #services {
                         padding: 100px 0;
@@ -1633,6 +1645,16 @@ Created : Ankita Naik
                         padding-bottom: 50px;
                     }
                     /* Clients End**/
+      /**Gallery Start*/
+      #gallery {
+        text-align: center;
+        margin : 10px;
+    }
+
+  img.galleryimage {
+        width: 100% !important;
+    }
+    /**Gallery End**/
                     /* Quote Start */
                     .quote-head h2 {
                         font-size: 18px !important;
@@ -1692,6 +1714,18 @@ Created : Ankita Naik
                         border: 3px solid #3c3c3c;
                     }
                     /**Quotes End*/
+
+                          /**Gallery Start*/
+                #gallery {
+                    text-align: center;
+                    margin : 10px;
+                }
+  
+              img.galleryimage {
+                    width: 100% !important;
+                }
+                /**Gallery End**/
+
                     /**Services Start*/
                     #services {
                         padding: 100px 0;
@@ -1903,7 +1937,7 @@ Created : Ankita Naik
                         text-align: center;
                     }
                     /**Footer End*/
-                }
+           }
                 /**425px end**/
                 /**375px start**/
                 @media only screen and (max-width: 375px) {
@@ -2059,7 +2093,17 @@ Created : Ankita Naik
                         border: 3px solid #3c3c3c;
                     }
                     /**Quotes End*/
-                    /**Services Start*/
+                 /**Gallery Start*/
+                 #gallery {
+                    text-align: center;
+                    margin : 10px;
+                }
+  
+              img.galleryimage {
+                    width: 100% !important;
+                }
+                /**Gallery End**/
+                         /**Services Start*/
                     #services {
                         padding: 100px 0;
                     }
@@ -2355,6 +2399,16 @@ Created : Ankita Naik
                         border: 3px solid #3c3c3c;
                     }
                     /**Quotes End*/
+                      /**Gallery Start*/
+                #gallery {
+                    text-align: center;
+                    margin : 10px;
+                }
+  
+              img.galleryimage {
+                    width: 100% !important;
+                }
+                /**Gallery End**/
                     /* Contact Start**/
                     #contact {
                         padding-top: 100px;
