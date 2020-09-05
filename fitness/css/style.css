@@ -1260,18 +1260,26 @@ transform: scale(1.1);
         font-weight: 500;
     }
 
+
+
     .open-button {
-        padding: 16px 20px;
+        padding: 10px 10px;
         border: none;
         cursor: pointer;
         opacity: 0.8;
         position: fixed;
         bottom: 10px;
         right: 8px;
-        background: none;
-        font-size: 40px;
+        background: #5fc7ae;
+        border-radius: 10px;
     }
-
+    
+    .open-button span.help {
+        font-size: 16px;
+    color: #fff;
+    padding : 10px 0;
+    }
+    
     /* The popup chat - hidden by default */
     .chat-popup {
         display: none;
@@ -1959,18 +1967,31 @@ transform: scale(1.1);
         font-weight: 500;
     }
 
+
+
     .open-button {
-        padding: 16px 20px;
+        padding: 10px 10px;
         border: none;
         cursor: pointer;
         opacity: 0.8;
         position: fixed;
         bottom: 10px;
         right: 8px;
-        background: none;
-        font-size: 10px;
+        background: #5fc7ae;
+        border-radius: 10px;
+    }
+    
+    .open-button .faresp {
+       font-size: 16px !important;
+    }
+    .open-button span.help {
+        font-size: 14px;
+    color: #fff;
+    padding : 10px 0;
     }
 
+
+    
     /* The popup chat - hidden by default */
     .chat-popup {
         display: none;
@@ -2821,17 +2842,25 @@ transform: scale(1.1);
         font-size: 10px;
         font-weight: 500;
     }
-
     .open-button {
-        padding: 16px 20px;
+        padding: 10px 10px;
         border: none;
         cursor: pointer;
         opacity: 0.8;
         position: fixed;
         bottom: 10px;
         right: 8px;
-        background: none;
-        font-size: 10px;
+        background: #5fc7ae;
+        border-radius: 10px;
+    }
+    
+    .open-button .faresp {
+       font-size: 16px !important;
+    }
+    .open-button span.help {
+        font-size: 14px;
+    color: #fff;
+    padding : 10px 0;
     }
 
     /* The popup chat - hidden by default */
@@ -3678,15 +3707,24 @@ transform: scale(1.1);
     }
 
     .open-button {
-        padding: 16px 20px;
+        padding: 10px 10px;
         border: none;
         cursor: pointer;
         opacity: 0.8;
         position: fixed;
         bottom: 10px;
         right: 8px;
-        background: none;
-        font-size: 10px;
+        background: #5fc7ae;
+        border-radius: 10px;
+    }
+    
+    .open-button .faresp {
+       font-size: 16px !important;
+    }
+    .open-button span.help {
+        font-size: 14px;
+    color: #fff;
+    padding : 10px 0;
     }
 
     /* The popup chat - hidden by default */
