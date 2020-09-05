@@ -35,18 +35,25 @@ body {
 
 /*chat window*/
 
+
+
 .open-button {
-    padding: 16px 20px;
+    padding: 10px 10px;
     border: none;
     cursor: pointer;
     opacity: 0.8;
     position: fixed;
     bottom: 10px;
     right: 8px;
-    background: none;
-    font-size: 60px;
+    background: #5fc7ae;
+    border-radius: 10px;
 }
 
+.open-button span.help {
+    font-size: 20px;
+color: #fff;
+padding : 10px 0;
+}
 
 /* The popup chat - hidden by default */
 
@@ -118,6 +125,7 @@ body {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
+    text-align: center;
 }
 
 
@@ -128,9 +136,6 @@ body {
     opacity: 1;
 }
 
-.open-button:hover {
-    transform: scale(1.5);
-}
 
 
 /*chat window end*/
@@ -214,7 +219,7 @@ a.nav-link:hover {
 .aboutpara > h4 {
     margin-top: 140px;
     margin-bottom: 24px;
-    color: #f1f1f1;
+    color: #ffffff;
     font-size: 32px;
     letter-spacing: 1px;
     background: #757575;
@@ -236,14 +241,14 @@ a.nav-link:hover {
     font-size: 14px;
     border: 1px solid #5fc7ae;
     border-radius: 6px;
-    color: #f0f0f0;
+    color: #ffffff;
     display: inline-block;
 }
 
 .aboutread:hover {
     text-decoration: none;
     transform: scale(1.1);
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 .about-video {
@@ -251,7 +256,7 @@ a.nav-link:hover {
     text-align: center;
     display: inline-block;
     box-shadow: 0 0 4px 4px #ECECEC;
-    margin-top: 100px;
+    margin-top: 155px;
     border: 10px solid #ffffff;
 }
 
@@ -340,7 +345,7 @@ h2 {
     align-items: center;
     justify-content: center;
     height: auto;
-    background: #f0f0f0;
+    background: #ffffff;
     overflow: hidden;
 }
 
@@ -486,25 +491,25 @@ button.btnclass {
     font-size: 16px;
     border: 1px solid #5fc7ae;
     border-radius: 20px;
-    color: #f0f0f0;
+    color: #ffffff;
     text-align: center;
     display: block;
 }
 
 button a {
-    color: #f0f0f0;
+    color: #ffffff;
     text-decoration: none;
 }
 
 button a:hover {
-    color: #f0f0f0;
+    color: #ffffff;
     text-decoration: none;
 }
 
 button.btnclass:hover {
     transform: scale(1.1);
     text-decoration: none;
-    color: #f0f0f0;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -562,32 +567,32 @@ td.time p {
 
 td.green {
     background: #75b971;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 td.purple {
     background: #B2A1C7;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 td.blue {
     background: #66d1d1;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 td.pink {
     background: #f76acf;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 td.yellow {
     background: #f7cb3b;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 td.red {
     background: #f73b4b;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 td h4 {
@@ -669,14 +674,15 @@ td.red {
 }
 
 .trainer-name ul li a {
-    color: #f1f1f1;
-    padding: 10px 10px 10px 10px;
+    color: #ffffff;
+    padding: 15px 10px 10px 10px;
 }
 
 .trainer-name ul li a:hover {
     background-color: #f8f9fa;
     color: #5fc7ae;
     padding: 5px 8px;
+    border-radius: 10px;
 }
 
 
@@ -842,20 +848,20 @@ button.read {
     font-size: 14px;
     border: 1px solid #5fc7ae;
     border-radius: 6px;
-    color: #f0f0f0;
+    color: #ffffff;
     text-align: center;
     display: block;
 }
 
 button.read a {
-    color: #f0f0f0;
+    color: #ffffff;
     text-decoration: none;
 }
 
 button.read:hover {
     transform: scale(1.1);
     text-decoration: none;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 
@@ -865,7 +871,7 @@ button.read:hover {
 /*Price Start*/
 
 #price {
-    background: #f0f0f0;
+    background: #ffffff;
     padding-bottom: 100px;
 }
 
@@ -953,7 +959,7 @@ button.read:hover {
     box-shadow: 0 0 4px 4px #e2e2e2;
     padding: 23px;
     color: #5fc7ae;
-    background: #f0f0f0;
+    background: #ffffff;
     border-radius: 36px;
     position: relative;
     font-size: 14px;
@@ -1002,11 +1008,11 @@ button.read:hover {
 .mySlides q {
     font-size: 16px;
     font-style: italic;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 .author {
-    color: #f0f0f0;
+    color: #ffffff;
     font-size: 14px;
     margin: 0px;
     padding-top: 5px;
@@ -1058,7 +1064,8 @@ button.read:hover {
 
 .newsletter h4 {
     font-size: 18px;
-    color: #f0f0f0;
+    font-weight: 600;
+    color: #ffffff;
     text-align: center;
     text-transform: capitalize;
 }
@@ -1071,8 +1078,8 @@ button.read:hover {
 }
 
 #myform > input {
-    color: #f0f0f0;
-    background: #62C1AA;
+    color: #000;
+    background: #ffffff;
     height: 40px;
     width: 100%;
     font-size: 13px;
@@ -1082,18 +1089,20 @@ button.read:hover {
 }
 
 #myform > button {
-    background: #f0f0f0;
+    background: #5fc7ae;
     font-size: 14px;
-    color: #757575;
+    color: #ffffff;
     padding: 6px 25px;
-    border: none;
+    border: 2px solid #ffffff;
     width: 200px;
     height: 40px;
-    width: 100px;
     right: 0px;
     position: absolute;
 }
 
+#myform > button:hover {
+transform: scale(1.1);
+}
 
 /* Quote End */
 
@@ -1116,7 +1125,7 @@ button.read:hover {
 /*new start*/
 
 #news {
-    background: #f0f0f0;
+    background: #ffffff;
 }
 
 
@@ -1126,7 +1135,7 @@ button.read:hover {
 /*foot start*/
 
 #footer {
-    background: #f0f0f0;
+    background: #fdfdfd;
     padding-bottom: 50px;
 }
 
@@ -1176,17 +1185,22 @@ button.read:hover {
     letter-spacing: 1px;
 }
 
-#foot-contact input,
-textarea {
-    padding-left: 5px;
-    background: none;
+#foot-contact #footname, #footemail {
+    padding-left: 10px;
     font-size: 11px;
+    background: #fdfdfd;
     border: 1px solid #b7b4b4;
     margin-bottom: 18px;
 }
 
-textarea {
+
+#foot-contact #footmsg {
     width: 100%;
+    padding-left: 10px;
+    font-size: 11px;
+    background: #fdfdfd;
+    border: 1px solid #b7b4b4;
+    margin-bottom: 18px;
 }
 
 #footsubmit {
@@ -1194,7 +1208,7 @@ textarea {
     font-weight: 600;
     padding: 10px 15px;
     background: #5fc7ae;
-    color: #f0f0f0;
+    color: #ffffff;
     border: none;
 }
 
@@ -1214,7 +1228,7 @@ textarea {
 
 .copyright-footer p {
     font-size: 10px;
-    color: #f0f0f0;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -1308,7 +1322,7 @@ textarea {
     .aboutpara > h4 {
         margin-top: 140px;
         margin-bottom: 24px;
-        color: #f1f1f1;
+        color: #ffffff;
         font-size: 28px;
         text-align: center;
         letter-spacing: 1px;
@@ -1387,7 +1401,7 @@ textarea {
         align-items: center;
         justify-content: center;
         height: auto;
-        background: #f0f0f0;
+        background: #ffffff;
         overflow: hidden;
         width: 100%;
     }
@@ -1562,22 +1576,22 @@ textarea {
 
     td.green {
         background: #75b971;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.purple {
         background: #B2A1C7;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.blue {
         background: #66d1d1;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.pink {
         background: #f76acf;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td h4 {
@@ -1653,7 +1667,7 @@ textarea {
     }
 
     .trainer-name ul li a {
-        color: #f1f1f1;
+        color: #ffffff;
         padding: 10px 10px 10px 10px;
     }
 
@@ -1769,7 +1783,7 @@ textarea {
         box-shadow: 0 0 4px 4px #e2e2e2;
         padding: 20px;
         color: #5fc7ae;
-        background: #f0f0f0;
+        background: #ffffff;
         border-radius: 36px;
         position: relative;
         font-size: 12px;
@@ -1796,8 +1810,9 @@ textarea {
     }
 
     .newsletter h4 {
-        font-size: 14px;
-        color: #f0f0f0;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
         text-align: center;
         text-transform: capitalize;
     }
@@ -1810,28 +1825,36 @@ textarea {
     }
 
     #myform > input {
-        color: #f0f0f0;
-        background: #62C1AA;
+        color: #000;
+        background: #ffffff;
         height: 40px;
         width: 100%;
         font-size: 13px;
         border: none;
-        padding: 0px 30px;
+        padding: 0px 12px;
         text-align: left;
     }
-
+    
     #myform > button {
-        background: #f0f0f0;
+        background: #5fc7ae;
         font-size: 14px;
-        color: #757575;
+        color: #ffffff;
         padding: 6px 25px;
-        border: none;
-        width: 200px;
+        border: 2px solid #ffffff;
+        width: 130px;
         height: 40px;
-        width: 100px;
         right: 0px;
         position: absolute;
     }
+    
+    #myform > button:hover {
+    transform: scale(1.1);
+    }
+    
+
+
+
+
 
     /*news end*/
     .single-footer {
@@ -1905,7 +1928,7 @@ textarea {
         font-weight: 600;
         padding: 10px 15px;
         background: #5fc7ae;
-        color: #f0f0f0;
+        color: #ffffff;
         border: none;
         width: 100%;
     }
@@ -2002,14 +2025,14 @@ textarea {
         font-size: 12px;
         border: 1px solid #5fc7ae;
         border-radius: 6px;
-        color: #f0f0f0;
+        color: #ffffff;
         display: inline-block;
     }
 
     .aboutpara > h4 {
         margin-top: 140px;
         margin-bottom: 24px;
-        color: #f1f1f1;
+        color: #ffffff;
         font-size: 20px;
         text-align: center;
         letter-spacing: 1px;
@@ -2093,7 +2116,7 @@ textarea {
         align-items: center;
         justify-content: center;
         height: auto;
-        background: #f0f0f0;
+        background: #ffffff;
         overflow: hidden;
     }
 
@@ -2206,25 +2229,25 @@ textarea {
         font-size: 12px;
         border: 1px solid #5fc7ae;
         border-radius: 20px;
-        color: #f0f0f0;
+        color: #ffffff;
         text-align: center;
         display: block;
     }
 
     button a {
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
     button a:hover {
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
     button.btnclass:hover {
         transform: scale(1.1);
         text-decoration: none;
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
@@ -2329,22 +2352,22 @@ textarea {
 
     td.green {
         background: #75b971;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.purple {
         background: #B2A1C7;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.blue {
         background: #66d1d1;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.pink {
         background: #f76acf;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td h4 {
@@ -2420,7 +2443,7 @@ textarea {
     }
 
     .trainer-name ul li a {
-        color: #f1f1f1;
+        color: #ffffff;
         padding: 10px 10px 10px 10px;
     }
 
@@ -2495,20 +2518,20 @@ textarea {
         font-size: 12px;
         border: 1px solid #5fc7ae;
         border-radius: 6px;
-        color: #f0f0f0;
+        color: #ffffff;
         text-align: center;
         display: block;
     }
 
     button.read a {
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
     button.read:hover {
         transform: scale(1.1);
         text-decoration: none;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     .single-table {
@@ -2599,7 +2622,7 @@ textarea {
         box-shadow: 0 0 4px 4px #e2e2e2;
         padding: 20px;
         color: #5fc7ae;
-        background: #f0f0f0;
+        background: #ffffff;
         border-radius: 36px;
         position: relative;
         font-size: 12px;
@@ -2623,11 +2646,11 @@ textarea {
     .mySlides q {
         font-size: 12px;
         font-style: italic;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     .author {
-        color: #f0f0f0;
+        color: #ffffff;
         font-size: 10px;
         margin: 0px;
         padding-top: 5px;
@@ -2648,7 +2671,8 @@ textarea {
 
     .newsletter h4 {
         font-size: 12px;
-        color: #f0f0f0;
+        font-weight: 600;
+        color: #ffffff;
         text-align: center;
         text-transform: capitalize;
         margin: 0px;
@@ -2663,28 +2687,32 @@ textarea {
     }
 
     #myform > input {
-        color: #f0f0f0;
-        background: #62C1AA;
+        color: #000;
+        background: #ffffff;
         height: 40px;
         width: 100%;
-        font-size: 13px;
+        font-size: 12px;
         border: none;
         padding: 0px 30px;
         text-align: left;
     }
 
     #myform > button {
-        background: #f0f0f0;
+        background: #5fc7ae;
         font-size: 14px;
-        color: #757575;
+        color: #ffffff;
         padding: 6px 25px;
-        border: none;
-        width: 200px;
-        height: 40px;
+        border: 1px solid #fff;
         width: 100px;
+        height: 40px;
         right: 0px;
         position: absolute;
     }
+    
+    #myform > button:hover {
+    transform: scale(1.1);
+    }
+    
 
     /*news end*/
     .single-footer {
@@ -2758,7 +2786,7 @@ textarea {
         font-weight: 600;
         padding: 10px 15px;
         background: #5fc7ae;
-        color: #f0f0f0;
+        color: #ffffff;
         border: none;
         width: 100%;
     }
@@ -2856,7 +2884,7 @@ textarea {
     .aboutpara > h4 {
         margin-top: 140px;
         margin-bottom: 24px;
-        color: #f1f1f1;
+        color: #ffffff;
         font-size: 20px;
         text-align: center;
         letter-spacing: 1px;
@@ -2940,7 +2968,7 @@ textarea {
         align-items: center;
         justify-content: center;
         height: auto;
-        background: #f0f0f0;
+        background: #ffffff;
         overflow: hidden;
     }
 
@@ -3053,25 +3081,25 @@ textarea {
         font-size: 12px;
         border: 1px solid #5fc7ae;
         border-radius: 20px;
-        color: #f0f0f0;
+        color: #ffffff;
         text-align: center;
         display: block;
     }
 
     button a {
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
     button a:hover {
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
     button.btnclass:hover {
         transform: scale(1.1);
         text-decoration: none;
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
@@ -3176,22 +3204,22 @@ textarea {
 
     td.green {
         background: #75b971;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.purple {
         background: #B2A1C7;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.blue {
         background: #66d1d1;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.pink {
         background: #f76acf;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td h4 {
@@ -3267,7 +3295,7 @@ textarea {
     }
 
     .trainer-name ul li a {
-        color: #f1f1f1;
+        color: #ffffff;
         padding: 10px 10px 10px 10px;
     }
 
@@ -3342,20 +3370,20 @@ textarea {
         font-size: 12px;
         border: 1px solid #5fc7ae;
         border-radius: 6px;
-        color: #f0f0f0;
+        color: #ffffff;
         text-align: center;
         display: block;
     }
 
     button.read a {
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
     button.read:hover {
         transform: scale(1.1);
         text-decoration: none;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     .single-table {
@@ -3446,7 +3474,7 @@ textarea {
         box-shadow: 0 0 4px 4px #e2e2e2;
         padding: 20px;
         color: #5fc7ae;
-        background: #f0f0f0;
+        background: #ffffff;
         border-radius: 36px;
         position: relative;
         font-size: 12px;
@@ -3470,11 +3498,11 @@ textarea {
     .mySlides q {
         font-size: 12px;
         font-style: italic;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     .author {
-        color: #f0f0f0;
+        color: #ffffff;
         font-size: 10px;
         margin: 0px;
         padding-top: 5px;
@@ -3495,7 +3523,8 @@ textarea {
 
     .newsletter h4 {
         font-size: 12px;
-        color: #f0f0f0;
+        color: #ffffff;
+        font-weight: 600;
         text-align: center;
         text-transform: capitalize;
         margin: 0px;
@@ -3510,29 +3539,31 @@ textarea {
     }
 
     #myform > input {
-        color: #f0f0f0;
-        background: #62C1AA;
+        color: #000;
+        background: #ffffff;
         height: 40px;
         width: 100%;
-        font-size: 13px;
+        font-size: 12px;
         border: none;
         padding: 0px 30px;
         text-align: left;
     }
 
     #myform > button {
-        background: #f0f0f0;
+        background: #5fc7ae;
         font-size: 14px;
-        color: #757575;
+        color: #ffffff;
         padding: 6px 25px;
-        border: none;
-        width: 200px;
-        height: 40px;
+        border: 1px solid #fff;
         width: 100px;
+        height: 40px;
         right: 0px;
         position: absolute;
     }
-
+    
+    #myform > button:hover {
+    transform: scale(1.1);
+    }
     /*news end*/
     .single-footer {
         margin-top: 60px;
@@ -3605,7 +3636,7 @@ textarea {
         font-weight: 600;
         padding: 10px 15px;
         background: #5fc7ae;
-        color: #f0f0f0;
+        color: #ffffff;
         border: none;
         width: 100%;
     }
@@ -3617,7 +3648,7 @@ textarea {
         font-size: 12px;
         border: 1px solid #5fc7ae;
         border-radius: 6px;
-        color: #f0f0f0;
+        color: #ffffff;
         display: inline-block;
     }
 
@@ -3708,7 +3739,7 @@ textarea {
     .aboutpara > h4 {
         margin-top: 140px;
         margin-bottom: 24px;
-        color: #f1f1f1;
+        color: #ffffff;
         font-size: 20px;
         text-align: center;
         letter-spacing: 1px;
@@ -3792,7 +3823,7 @@ textarea {
         align-items: center;
         justify-content: center;
         height: auto;
-        background: #f0f0f0;
+        background: #ffffff;
         overflow: hidden;
     }
 
@@ -3905,25 +3936,25 @@ textarea {
         font-size: 12px;
         border: 1px solid #5fc7ae;
         border-radius: 20px;
-        color: #f0f0f0;
+        color: #ffffff;
         text-align: center;
         display: block;
     }
 
     button a {
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
     button a:hover {
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
     button.btnclass:hover {
         transform: scale(1.1);
         text-decoration: none;
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
@@ -4029,22 +4060,22 @@ textarea {
 
     td.green {
         background: #75b971;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.purple {
         background: #B2A1C7;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.blue {
         background: #66d1d1;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td.pink {
         background: #f76acf;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     td h4 {
@@ -4120,7 +4151,7 @@ textarea {
     }
 
     .trainer-name ul li a {
-        color: #f1f1f1;
+        color: #ffffff;
         padding: 10px 10px 10px 10px;
     }
 
@@ -4195,20 +4226,20 @@ textarea {
         font-size: 12px;
         border: 1px solid #5fc7ae;
         border-radius: 6px;
-        color: #f0f0f0;
+        color: #ffffff;
         text-align: center;
         display: block;
     }
 
     button.read a {
-        color: #f0f0f0;
+        color: #ffffff;
         text-decoration: none;
     }
 
     button.read:hover {
         transform: scale(1.1);
         text-decoration: none;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     .single-table {
@@ -4299,7 +4330,7 @@ textarea {
         box-shadow: 0 0 4px 4px #e2e2e2;
         padding: 20px;
         color: #5fc7ae;
-        background: #f0f0f0;
+        background: #ffffff;
         border-radius: 36px;
         position: relative;
         font-size: 12px;
@@ -4323,11 +4354,11 @@ textarea {
     .mySlides q {
         font-size: 12px;
         font-style: italic;
-        color: #f0f0f0;
+        color: #ffffff;
     }
 
     .author {
-        color: #f0f0f0;
+        color: #ffffff;
         font-size: 10px;
         margin: 0px;
         padding-top: 5px;
@@ -4348,7 +4379,8 @@ textarea {
 
     .newsletter h4 {
         font-size: 12px;
-        color: #f0f0f0;
+        color: #ffffff;
+        font-weight: 600;
         text-align: center;
         text-transform: capitalize;
         margin: 0px;
@@ -4362,24 +4394,30 @@ textarea {
         top: 20px;
     }
 
+
+
+
+
+
+
+
     #myform > input {
-        color: #f0f0f0;
-        background: #62C1AA;
+        color: #000000;
+        background: #ffffff;
         height: 40px;
         width: 100%;
-        font-size: 13px;
+        font-size: 11px;
         border: none;
-        padding: 0px 30px;
+        padding: 0px 10px;
         text-align: left;
     }
 
     #myform > button {
-        background: #f0f0f0;
-        font-size: 14px;
-        color: #757575;
-        padding: 6px 25px;
-        border: none;
-        width: 200px;
+        background: #5FC7AE;
+        font-size: 12px;
+        color: #ffffff;
+        padding: 6px 15px;
+        border: 1px solid #fff;
         height: 40px;
         width: 100px;
         right: 0px;
@@ -4458,7 +4496,7 @@ textarea {
         font-weight: 600;
         padding: 10px 15px;
         background: #5fc7ae;
-        color: #f0f0f0;
+        color: #ffffff;
         border: none;
         width: 100%;
     }
@@ -4470,7 +4508,7 @@ textarea {
         font-size: 12px;
         border: 1px solid #5fc7ae;
         border-radius: 6px;
-        color: #f0f0f0;
+        color: #ffffff;
         display: inline-block;
     }
 
@@ -4498,7 +4536,7 @@ textarea {
 
 .cont-head h2 {
 
-    color: #f1f1f1;
+    color: #ffffff;
     font-size: 32px;
     letter-spacing: 1px;
     background: #757575;
@@ -4512,9 +4550,9 @@ textarea {
 .contactform-page {
     padding: 10px;
     width: 100%;
-    background: #f8f9fa;
-    border: 2px solid #eee;
-    box-shadow: 0px 0 0px #f1f1f1;
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    box-shadow: 0px 0 0px #ffffff;
 }
 
 .contactform-page:after {
@@ -4528,7 +4566,7 @@ select,
 textarea {
     width: 100%;
     padding: 10px;
-    border: 2px solid #eee;
+    border: 1px solid #eee;
     border-radius: 4px;
     resize: vertical;
     color: #000000;
@@ -4539,7 +4577,7 @@ textarea {
 input[type="email"] {
     width: 100%;
     padding: 10px;
-    border: 2px solid #eee;
+    border: 1px solid #eee;
     border-radius: 4px;
     resize: vertical;
     color: #000000;
@@ -4549,16 +4587,16 @@ input[type="email"] {
 input[type="submit"] {
     width: 100%;
     padding: 10px;
-    border: 2px solid #5fc7ae;
+    border: 1px solid #5fc7ae;
     border-radius: 4px;
     resize: vertical;
-    color: #f0f0f0;
+    color: #ffffff;
     font-size: 14px;
     background: #5fc7ae;
 }
 
 .contactform-page input textarea:focus {
-    border: 2px solid #eee;
+    border: 1px solid #eee;
     border-radius: 4px;
 }
 
