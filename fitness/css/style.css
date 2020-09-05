@@ -1314,6 +1314,10 @@ transform: scale(1.1);
         font-size: 12px;
         min-height: 200px;
     }
+    .form-container textarea::placeholder {
+        font-size: 12px;
+        
+        }
 
     .input-group input {
         height: 30px;
@@ -2030,6 +2034,10 @@ transform: scale(1.1);
         font-size: 12px;
         min-height: 200px;
     }
+    .form-container textarea::placeholder {
+        font-size: 10px;
+        
+        }
 
     .input-group input {
         height: 30px;
@@ -2905,6 +2913,10 @@ transform: scale(1.1);
         font-size: 12px;
         min-height: 200px;
     }
+    .form-container textarea::placeholder {
+        font-size: 10px;
+        }
+
 
     .input-group input {
         height: 30px;
@@ -3773,6 +3785,10 @@ transform: scale(1.1);
         font-size: 12px;
         min-height: 200px;
     }
+
+    .form-container textarea::placeholder {
+        font-size: 10px;
+        }
 
     .input-group input {
         height: 30px;
