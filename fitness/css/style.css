@@ -4678,5 +4678,12 @@ input[type="submit"] {
     margin-top: 50%;
 }
 
+.form-container .cancel {
+    background-color: #5fc7ae;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
 
 /**contact us end*/
