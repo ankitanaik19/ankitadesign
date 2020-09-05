@@ -1002,9 +1002,12 @@ h2.con {
     /**Resume End*/
 
     .site1 {
-        border: 5px solid #d5d5d5;
+        border: 1px solid #ececec;
         margin: 40px 20px;
+        padding: 30px;
+        background: #fff;
     }
+    
 
     .site1 img:hover {
         transform: scale(1.1);
@@ -1430,9 +1433,12 @@ h2.con {
 
 
     .site1 {
-        border: 5px solid #d5d5d5;
+        border: 1px solid #ececec;
         margin: 40px 20px;
+        padding: 30px;
+        background: #fff;
     }
+    
 
     .site1 img:hover {
         transform: scale(1.1);
@@ -1850,9 +1856,12 @@ h2.con {
 
 
     .site1 {
-        border: 5px solid #d5d5d5;
+        border: 1px solid #ececec;
         margin: 40px 20px;
+        padding: 30px;
+        background: #fff;
     }
+    
 
     .site1 img:hover {
         transform: scale(1.1);
@@ -2269,9 +2278,12 @@ h2.con {
 
 
     .site1 {
-        border: 5px solid #d5d5d5;
+        border: 1px solid #ececec;
         margin: 40px 20px;
+        padding: 30px;
+        background: #fff;
     }
+    
 
     .site1 img:hover {
         transform: scale(1.1);
