@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $(".about").click(function() {
+        $("#closenav").hide();
         $("#aboutcontent").show();
         $("#workcontent").hide();
         $("#services").hide();
@@ -9,5 +10,6 @@ $(document).ready(function() {
         $("#clients").hide();
         $("#quote").hide();
         $(".footer").show();
+        
     });
 });

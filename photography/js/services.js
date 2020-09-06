@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $(".services").click(function() {
+        $("#closenav").hide();
         $("#services").show();
         $("#aboutcontent").hide();
         $("#clients").hide();
