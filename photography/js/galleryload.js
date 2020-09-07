@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $(".gall").click(function() {
-     
+
         $("#gallery").show();
         $("#workcontent").hide();
         $("#aboutcontent").hide();
