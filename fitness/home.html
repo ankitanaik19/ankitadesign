@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Home</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
     <link rel="stylesheet" href="css/style.css" />
     <style>
         .mySlidesimages {
@@ -202,7 +202,7 @@
         </div>
     </section>
     <section id="about">
-        <div class="container">
+        <div class="container contenthidden" id="ab1">
             <div class="row">
                 <div class="col-lg-6 aboutpara">
                     <h4>About Us</h4>
@@ -225,7 +225,7 @@
             </div>
         </div>
     </section>
-    <section id="class" class="bgclass">
+    <section id="class" class="bgclass contenthidden">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -297,7 +297,7 @@
             </div>
         </div>
     </section>
-    <section id="table">
+    <section id="table" class="contenthidden">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -414,7 +414,7 @@
             </div>
         </div>
     </section>
-    <section id="trainer">
+    <section id="trainer" class="contenthidden">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -466,7 +466,7 @@
             </div>
         </div>
     </section>
-    <section id="imagesgallery" class="gallery">
+    <section id="imagesgallery" class="gallery contenthidden">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -506,7 +506,7 @@
             </div>
         </div>
     </section>
-    <section id="event" class="eventsec">
+    <section id="event" class="eventsec contenthidden">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -530,7 +530,7 @@
             </div>
         </div>
     </section>
-    <section id="blog" class="blogsec">
+    <section id="blog" class="blogsec contenthidden">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -566,7 +566,7 @@
 
         </div>
     </section>
-    <section id="price" class="pricesec">
+    <section id="price" class="pricesec contenthidden">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -629,7 +629,7 @@
             </div>
         </div>
     </section>
-    <section id="quote" class="quotesec">
+    <section id="quote" class="quotesec contenthidden">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -661,13 +661,13 @@
             </div>
         </div>
     </section>
-    <section id="map" class="mapsec">
+    <section id="map" class="mapsec contenthidden">
         <div class="google-wrapper">
             <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d11987.183415914811!2d174.7837708!3d-41.3133045!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m5!1s0x6d38afe72ecf2605%3A0x500ef6143a2ea30!2sNewtown!3m2!1d-41.3109311!2d174.779109!4m0!5e0!3m2!1sen!2snz!4v1596004888810!5m2!1sen!2snz"
                 width="100%" height="380" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </section>
-    <section id="news" class="newsec">
+    <section id="news" class="newsec contenthidden">
         <div class="container">
             <div class="row" style="justify-content: center;">
                 <div class="col-lg-8 col-md-12 col-sm-12">
@@ -757,6 +757,54 @@
     <script src="js/product-des.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/chat.js"></script>
+<script>
+    $(document).ready(function(){
+ $(window).scroll(function(){
+var positiontop = $(document).scrollTop();
+console.log(positiontop);
+ if ((positiontop > 500) && (positiontop < 1104)) {
+     $("#ab1").addClass("contentvisible animated slideInUp");
+ }
+ 
+ if ((positiontop > 1104) && (positiontop < 1936)) {
+     $("#class").addClass("contentvisible animated slideInUp");
+ }
+ 
+ if ((positiontop > 1936) && (positiontop < 3036)) {
+     $("#table").addClass("contentvisible animated slideInUp");
+ }
+ 
+ if ((positiontop > 3036) && (positiontop < 3681)) {
+     $("#trainer").addClass("contentvisible animated slideInUp");
+ }
+ 
+ if ((positiontop > 3681) && (positiontop < 4692)) {
+     $("#imagesgallery").addClass("contentvisible animated slideInUp");
+ }
+ if ((positiontop > 4693) && (positiontop < 5438)) {
+     $("#event").addClass("contentvisible animated slideInUp");
+ }
+ if ((positiontop > 5438) && (positiontop < 6056)) {
+     $("#blog").addClass("contentvisible animated slideInUp");
+ }
+ if ((positiontop > 6059) && (positiontop < 6756)) {
+     $("#price").addClass("contentvisible animated slideInUp");
+ }
+ if ((positiontop > 6756) && (positiontop < 7308)) {
+     $("#quote").addClass("contentvisible animated slideInUp");
+ }
+ if ((positiontop > 7308) && (positiontop < 7500)) {
+     $("#map").addClass("contentvisible animated slideInUp");
+ } 
+ if ((positiontop > 7308) && (positiontop < 7500)) {
+     $("#news").addClass("contentvisible animated slideInUp");
+ }
+
+
+});
+    });
+</script>
+
 </body>
 
 </html>

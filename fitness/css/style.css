@@ -67,7 +67,13 @@ padding : 10px 0;
     box-shadow: 0px 0px 2px #eee;
 }
 
+.contenthidden {
+    visibility: hidden;
+}
 
+.contentvisible {
+    visibility: visible;
+}
 /* Add styles to the form container */
 
 .form-container {
@@ -216,6 +222,8 @@ a.nav-link:hover {
 
 /*About Section start*/
 
+
+
 #about {
     padding-bottom: 120px;
 }
@@ -299,7 +307,6 @@ a.nav-link:hover {
 #video {
     display: none;
 }
-
 
 /*About Section End*/
 
