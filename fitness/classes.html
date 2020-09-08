@@ -183,7 +183,7 @@
 
 <body>
     <section id="nav-bar">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light animated fadeInDownBig">
             <a class="navbar-brand logo" href="#"> <img src="images/logo.png" class="logoresp"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" style="font-size: 24px; color: #757575;"></i> </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -200,12 +200,12 @@
     </section>
     <section id="promo">
         <div class="container">
-            <h1 class="head1">Classes</h1>
+            <h1 class="head1 animated fadeInLeft">Classes</h1>
         </div>
     </section>
     <section id="class" class="bgclass">
         <div class="container">
-            <div class="row">
+            <div class="row" id="cl1">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
                         <h2 class="classresp">Classes</h2>
@@ -213,7 +213,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="cl2">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="product-card">
                         <div class="product-tumb"><img src="images/classes1.jpg" alt="" width="100%"> </div>
@@ -320,14 +320,14 @@
 
     <section id="table">
         <div class="container">
-            <div class="row">
+            <div class="row" id="sch1">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
                         <h2 class="padddingresp">Schedule</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="sch2">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="schedule-table table-responsive table-responsive-md text-center">
                         <table>
@@ -439,14 +439,14 @@
 
     <section id="price" class="pricesec">
         <div class="container">
-            <div class="row">
+            <div class="row" id="mem1">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
                         <h2>Membership</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="mem2">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="single-table text-center">
                         <div class="table-head">
@@ -502,7 +502,7 @@
     </section>
     <section id="quote" class="quotesec">
         <div class="container">
-            <div class="row">
+            <div class="row" id="quo1">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
                         <h2>Gift Our Client Say</h2>
@@ -511,7 +511,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row" style="justify-content: center">
+            <div class="row" style="justify-content: center" id="quo2">
                 <div class="col-lg-8 col-md-12 col-sm-12">
                     <div class="slideshow-container-quote">
                         <div class="mySlides"> <q>Best gym in Newtown location for both male as well as female</q>
@@ -625,6 +625,49 @@
     <script src="js/product-des.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/chat.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(window).scroll(function(){
+        var positiontop = $(document).scrollTop();
+     console.log(positiontop);
+     if ((positiontop > 62) && (positiontop < 147)) {
+         $("#cl1").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 147) && (positiontop < 1198)) {
+         $("#cl2").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 1198) && (positiontop < 1310)) {
+         $("#sch1").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 1310) && (positiontop < 2147)) {
+         $("#sch2").addClass("animated fadeInUp animate__delay-3s");
+     }
+
+     if ((positiontop > 2147) && (positiontop < 2255)) {
+         $("#mem1").addClass("animated fadeInUp animate__delay-3s");
+     }
+
+     if ((positiontop > 2255) && (positiontop < 2835)) {
+         $("#mem2").addClass("animated fadeInUp animate__delay-3s");
+     }
+
+     if ((positiontop > 2835) && (positiontop < 2898)) {
+         $("#quo1").addClass("animated fadeInUp animate__delay-3s");
+     }
+
+     if ((positiontop > 2898) && (positiontop < 3200)) {
+         $("#quo2").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 3200) && (positiontop < 3704)) {
+         $("#map").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 3200) && (positiontop < 3704)) {
+         $("#news").addClass("animated fadeInUp animate__delay-3s");
+     }
+    });
+    });
+</script>
+
 </body>
 
 </html>

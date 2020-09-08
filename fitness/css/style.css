@@ -4610,7 +4610,6 @@ transform: scale(1.1);
 /**Contact us start*/
 
 #contact {
-    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -4682,7 +4681,7 @@ input[type="submit"] {
 
 .contactimg {
 
-    margin-top: 50%;
+    margin-top: 110px;
 }
 
 .form-container .cancel {

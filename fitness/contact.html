@@ -14,6 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
+
     <style>
         #promo {
             background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
@@ -169,7 +171,7 @@
 
 <body>
     <section id="nav-bar">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light animated fadeInDownBig">
             <a class="navbar-brand logo" href="#"> <img src="images/logo.png" class="logoresp"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" style="font-size: 24px; color: #757575;"></i> </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -186,13 +188,13 @@
     </section>
     <section id="promo">
         <div class="container">
-            <h1 class="head1">Contact</h1>
+            <h1 class="head1 animated fadeInLeft">Contact</h1>
         </div>
     </section>
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12" id="conleft">
                     <div class="cont-head">
                         <h2 style="text-align: left">Contact Us</h2>
                     </div>
@@ -221,8 +223,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="contactimg"> <img src="images/contactpage.jpg" width="100%" class="img-fluid" height="auto"></div>
+                <div class="col-lg-6 col-md-12 col-sm-12" id="conright">
+                    <div class="contactimg"> <img src="images/unnamed.jpg" width="100%" class="img-fluid" height="auto"></div>
                 </div>
 
 
@@ -324,6 +326,28 @@
     <script src="js/product-des.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/chat.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(window).scroll(function(){
+        var positiontop = $(document).scrollTop();
+     console.log(positiontop);
+     if ((positiontop > 56) && (positiontop < 712)) {
+         $("#conleft").addClass("animated fadeInLeft animate__delay-4s");
+     }
+     if ((positiontop > 56) && (positiontop < 712)) {
+         $("#conright").addClass("animated fadeInRight animate__delay-4s");
+     }
+     if ((positiontop > 712) && (positiontop < 1223)) {
+         $("#map").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 712) && (positiontop < 1223)) {
+         $("#news").addClass("animated fadeInUp animate__delay-3s");
+     }
+    });
+    });
+    </script>
+    
+
 </body>
 
 </html>

@@ -183,7 +183,7 @@
 
 <body>
     <section id="nav-bar">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light animated fadeInDownBig">
             <a class="navbar-brand logo" href="#"> <img src="images/logo.png" class="logoresp"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" style="font-size: 24px; color: #757575;"></i> </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -200,13 +200,13 @@
     </section>
     <section id="promo">
         <div class="container">
-            <h1 class="head1">About Us</h1>
+            <h1 class="head1 animated fadeInLeft">About Us</h1>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
-            <div class="row">
+            <div class="row" id="ab1">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
                         <h2 class="classresp">About Us</h2>
@@ -214,7 +214,7 @@
                 </div>
             </div>
             
-            <div class="row">
+            <div class="row" id="ab2">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <p>Whatever wellness goal you are fighting for, the team at Body Shot is in your corner. It is our mission to help our people “win their fight” by making fitness as much fun as possible. Body Shot Fitness is a great option for those that find the usual gym experience boring or hard to stick to, or for those who want to add some fun and intense variation to their routine.</p>
                     <p>We provide expert boxing and fight conditioning (circuit training) fitness classes, with personal training options available. Consistency is the key factor in winning any health and fitness fight. Give us a try, we’re your best shot.</p>
@@ -229,14 +229,14 @@
     </section>
     <section id="event" class="eventsec">
         <div class="container">
-            <div class="row">
+            <div class="row" id="eve1">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
                         <h2 style="padding-bottom: 15px;">Handstand Event</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="eve2">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="event-wrapper">
                         <div class="event-content text-center">
@@ -252,7 +252,7 @@
     </section>
     <section id="quote" class="quotesec">
         <div class="container">
-            <div class="row">
+            <div class="row" id="quo1">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="section-title">
                         <h2 class="mb-30">Gift Our Client Say</h2>
@@ -261,7 +261,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row" style="justify-content: center">
+            <div class="row" style="justify-content: center" id="quo2">
                 <div class="col-lg-8 col-md-12 col-sm-12">
                     <div class="slideshow-container-quote">
                         <div class="mySlides"> <q>Best gym in Newtown location for both male as well as female</q>
@@ -375,32 +375,39 @@
     <script src="js/product-des.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/chat.js"></script>
-
     <script>
         $(document).ready(function(){
         $(window).scroll(function(){
         var positiontop = $(document).scrollTop();
      console.log(positiontop);
-     if ((positiontop > 66) && (positiontop < 726)) {
-         $("#about").addClass("contentvisible animated slideInUp");
+     if ((positiontop > 116) && (positiontop < 190)) {
+         $("#ab1").addClass("animated fadeInUp animate__delay-3s");
      }
-     
-     if ((positiontop > 726) && (positiontop < 1848)) {
-         $("#event").addClass("contentvisible animated slideInUp");
+     if ((positiontop > 190) && (positiontop < 760)) {
+         $("#ab2").addClass("animated fadeInUp animate__delay-3s");
      }
-     if ((positiontop > 1650) && (positiontop < 2244)) {
-         $("#quote").addClass("contentvisible animated slideInUp");
+     if ((positiontop > 760) && (positiontop < 884)) {
+         $("#eve1").addClass("animated fadeInUp animate__delay-3s");
      }
-     if ((positiontop > 2244) && (positiontop < 2640)) {
-         $("#map").addClass("contentvisible animated slideInUp");
+     if ((positiontop > 884) && (positiontop < 1472)) {
+         $("#eve2").addClass("animated fadeInUp animate__delay-3s");
      }
-     if ((positiontop > 2244) && (positiontop < 2640)) {
-         $("#news").addClass("contentvisible animated slideInUp");
+     if ((positiontop > 1472) && (positiontop < 1585)) {
+         $("#quo1").addClass("animated fadeInUp animate__delay-3s");
+     }
+
+     if ((positiontop > 1585) && (positiontop < 1878)) {
+         $("#quo2").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 1878) && (positiontop < 2388)) {
+         $("#map").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 1878) && (positiontop < 2388)) {
+         $("#news").addClass("animated fadeInUp animate__delay-3s");
      }
     });
     });
-    </script>
-    
+</script>
 
 </body>
 
