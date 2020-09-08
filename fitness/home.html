@@ -759,10 +759,10 @@
     <script src="js/chat.js"></script>
 <script>
     $(document).ready(function(){
- $(window).scroll(function(){
+ $(window => 768).scroll(function(){
 var positiontop = $(document).scrollTop();
 console.log(positiontop);
- if ((positiontop > 500) && (positiontop < 1104)) {
+ if ((positiontop > 400) && (positiontop < 1104)) {
      $("#ab1").addClass("contentvisible animated slideInUp");
  }
  
