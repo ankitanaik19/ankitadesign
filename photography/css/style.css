@@ -37,38 +37,8 @@ Created : Ankita Naik
                 background-repeat: no-repeat;
             }
             
-            .banner-animation {
-                animation: bannerload 500ms ease-in;
-            }
-            
-            .content-animation {
-                animation: contentload 500ms ease-in;
-            }
-            
-            .about-animation {
-                animation: aboutload 500ms ease-in;
-            }
-            
-            .galleryload {
-                animation: imageload 600ms ease;
-            }
-            
-            .gallload {
-                animation: gallload 500ms ease-in;
-            }
-            
-            .contactload {
-                animation: contactload 500ms ease-in;
-            }
-            
-            .mapload {
-                animation: mapload 500ms ease-in reverse;
-            }
-            
-            .servicelefttload {
-                animation: servicelefttload 500ms ease-in;
-            }
-            
+          
+
             
                 /*Navigation*/
                 #nav-bar {
@@ -144,6 +114,8 @@ Created : Ankita Naik
                     left: 35%;
                     font-size: 48px;
                 }
+
+                
                 /**Navbar End**/
                 /***Work start*/
                 .all {
@@ -217,15 +189,12 @@ Created : Ankita Naik
                 .modelshow,
                 .natureshow,
                 .foodshow,
-                #workcontent,
                 #aboutcontent,
                 #gallery,
-                #clients,
                 #services,
                 #features,
-                #contact,
-                .footer,
-                #quote {
+                #contact
+ {
                     display: none;
                 }
                 .wedimage1 {
@@ -675,92 +644,7 @@ widows: 2%;            }
                     text-align: center;
                 }
                 /**Footer End*/
-                /**Keyframes Animation**/
-                @keyframes bannerload {
-                    0% {
-                        transform: translateX(-100%);
-                    }
-                    100% {
-                        transform: translateX(0);
-                    }
-                }
-                @keyframes contentload {
-                    10% {
-                        transform: translateX(-100%);
-                    }
-                    20% {
-                        transform: translateX(-50%);
-                    }
-                    0% {
-                        transform: translateX(0);
-                    }
-                }
-                @keyframes aboutload {
-                    10% {
-                        transform: translateX(-100%);
-                    }
-                    20% {
-                        transform: translateX(-50%);
-                    }
-                    0% {
-                        transform: translateX(0);
-                    }
-                }
-                @keyframes gallload {
-                    0% {
-                        transform: translateX(-100%);
-                    }
-                    100% {
-                        transform: translateX(0);
-                    }
-                }
-                @keyframes imageload {
-                    from {
-                        transform: rotateY(10deg);
-                    }
-                    to {
-                        transform: rotateY(0deg);
-                    }
-                }
-                @keyframes contactload {
-                    0% {
-                        transform: translateX(-100%);
-                    }
-                    100% {
-                        transform: translateX(0);
-                    }
-                }
-                @keyframes mapload {
-                    from {
-                        transform: translateX(0%);
-                    }
-                    to {
-                        transform: translateX(100%);
-                    }
-                }
-                @keyframes servicelefttload {
-                    10% {
-                        transform: translateX(-100%);
-                    }
-                    20% {
-                        transform: translateX(-50%);
-                    }
-                    0% {
-                        transform: translateX(0);
-                    }
-                }
 
-                @keyframes servicerightload {
-                    20% {
-                        transform: translateX(-100%);
-                    }
-                    30% {
-                        transform: translateX(-50%);
-                    }
-                    0% {
-                        transform: translateX(0);
-                    }
-                }
                 /***Media Queries Start*/
                 @media only screen and (max-width:900px) {
                     ul.navbar-nav {
@@ -1239,10 +1123,10 @@ widows: 2%;            }
                         width: 100%;
                         margin-top: 50px;
                     }
-                    #serviceHeadOrder1 {
+                    .serviceHeadOrder1 {
                         order: 1;
                     }
-                    #serviceHeadOrder2 {
+                    .serviceHeadOrder2 {
                         order: 2;
                     }
                     /**Services end**/
@@ -1814,10 +1698,10 @@ widows: 2%;            }
                         width: 100%;
                         margin-top: 30px !important;
                     }
-                    #serviceHeadOrder1 {
+                    .serviceHeadOrder1 {
                         order: 1;
                     }
-                    #serviceHeadOrder2 {
+                    .serviceHeadOrder2 {
                         order: 2;
                     }
                     /**Services end**/
@@ -2197,10 +2081,10 @@ widows: 2%;            }
                         width: 100%;
                         margin-top: 30px !important;
                     }
-                    #serviceHeadOrder1 {
+                    .serviceHeadOrder1 {
                         order: 1;
                     }
-                    #serviceHeadOrder2 {
+                    .serviceHeadOrder2 {
                         order: 2;
                     }
                     /**Services end**/

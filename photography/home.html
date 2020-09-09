@@ -14,6 +14,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
     <style>
         .mySlidesimages {
             display: none;
@@ -180,32 +181,31 @@
 </head>
 
 <body>
-    <div class="banner-animation" id="home">
+    <div id="home">
         <div id="banner">
             <nav class="navbar navbar-expand-lg" id="nav-bar">
 
                 <div class="navleft" style="float: left">
                     <a class="navbar-brand" href="#" id="home">SHINE <i class="fas fa-camera"></i></a>
                 </div>
-                <button id="navshow" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"
                         style="font-size: 24px; color: #ffffff;"></i> </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="navright" style="float: right">
-                        <ul class="navbar-nav" id="closenav">
+                        <ul class="navbar-nav">
                             <li class="nav-item"> <a class="nav-link" href="" id="home">HOME</a> </li>
                             <li class="nav-item"> <a class="nav-link about" href="#aboutcon">ABOUT</a> </li>
-                            <li class="nav-item"> <a class="nav-link services" href="#services">SERVICES</a> </li>
                             <li class="nav-item"> <a class="nav-link gall" href="#gallcon">GALLERY</a> </li>
                             <li class="nav-item"> <a class="nav-link contact" href="#contact">CONTACT</a> </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+
             <div id="banner-content">
-                <a href="#workcontent">
-                    <button class="banner-fa-back"> <i class="fa fa-angle-double-down banner-fa"
-                            style="color:#3c3b3b"></i> </button>
-                </a>
+              
+                <a href="#workcontent"><button class="banner-fa-back animated backInDown"> <i class="fa fa-angle-double-down banner-fa" style="color:#3c3b3b"></i></button></a>
+         
             </div>
         </div>
     </div>
@@ -214,7 +214,7 @@
     <div class="container content-animation" id="workcontent">
         <div class="row">
             <div class="all">
-                <div class="allwork">
+                <div class="allwork" id="allwork">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <h3>Last Work</h3>
                         <button class="workactive showallwork">All</button>
@@ -229,7 +229,7 @@
             </div>
         </div>
         <div id="hideallwork">
-            <div class="row">
+            <div class="row" id="workrow1">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="wedimage1 wedding">
                         <div class="wed-text1">
@@ -252,7 +252,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="workrow2">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="model1 model">
                         <div class="wed-text2">
@@ -349,9 +349,8 @@
     <!------content end----->
     <!--ABOUT Start-->
     <div id="aboutcon">
-        <div class="container-fluid about-animation" id="aboutcontent" style="
-        background: #f9f9f9;">
-            <div class="row">
+        <div class="container-fluid about-animation" id="aboutcontent" style="background: #f9f9f9;">
+            <div class="row" id="ab1">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="aboutimg"> <img src="images/about.jpg" alt="" class="img-fluid about1"> <img src="images/about1.jpg" alt="" class="img-fluid about2"> </div>
                 </div>
@@ -459,21 +458,19 @@
 </div>
 </section>
 
-
-
     <section id="clients">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h2 class="clients">2354+</h2>
+                    <h2 class="clients"><span class="counter">2354</span>+</h2>
                     <p class="clients-reviews">AWESOME SHOTS</p>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h2 class="clients">542+</h2>
+                    <h2 class="clients"><span class="counter">534</span>+</h2>
                     <p class="clients-reviews">photo album</p>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h2 class="clients">672+</h2>
+                    <h2 class="clients"><span class="counter">675</span>+</h2>
                     <p class="clients-reviews">Happy clients</p>
                 </div>
             </div>
@@ -481,7 +478,7 @@
     </section>
     <section id="quote" class="quotesec">
         <div class="container">
-            <div class="row">
+            <div class="row" id="quo1">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="quote-head">
                         <h2 class="mb-30">Client Say</h2>
@@ -489,17 +486,17 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" id="quo2">
             <div class="row" style="justify-content: center">
                 <div class="col-lg-8 col-md-12 col-sm-12">
                     <div class="slideshow-container-quote">
-                        <div class="myQuote"> <q>Best Photography Ever we had.</q>
+                        <div class="myQuote animated fadeInRight"> <q>Best Photography Ever we had.</q>
                             <p class="author">&mdash; John Keats</p>
                         </div>
-                        <div class="myQuote"> <q>You Have given bundle of memories and joy</q>
+                        <div class="myQuote animated fadeInRight"> <q>You Have given bundle of memories and joy</q>
                             <p class="author">&mdash; Ernest Hemingway</p>
                         </div>
-                        <div class="myQuote"> <q>Memories of love</q>
+                        <div class="myQuote animated fadeInRight"> <q>Memories of love</q>
                             <p class="author">&mdash; Thomas A. Edison</p>
                         </div>
                     </div>
@@ -512,8 +509,8 @@
     <section id="services">
         <div class="container">
 
-            <div class="row" id="left">
-                <div class="col-lg-6 col-md-12 col-sm-12" id="serviceHeadOrder2">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 serviceHeadOrder2" id="service1left">
 
                     <h2 class="servicesHeadleft">Wedding Photography</h2>
                     <p class="servicesParaleft">A wedding is not just the culmination of a couple’s commitment. It’s also the final product of much planning and preparation. Yet despite the best-laid plans, your big day won’t necessarily get a free pass from Murphy’s Law. Some chaos
@@ -523,16 +520,16 @@
                     <p class="servicesParaleft">It’s a good idea to get a feel for the atmosphere of the wedding, and while it’s sometimes appropriate to engage in conversation with guests, it’s important to know when to slip away into the background and simply capture the scene
                         with a longer lens if there is a more private moment occurring.</p>
                 </div>
-                <div class="col-lg-6 col-sm-12 col-sm-12" id="serviceHeadOrder1">
+                <div class="col-lg-6 col-sm-12 col-sm-12 serviceHeadOrder1" id="service1right">
                     <img src="images/wedding10.jpg" class="img-fluid serviceimageleft"> </div>
 
             </div>
 
             <div class="row serviceleft servicerightload">
-                <div class="col-lg-6 col-sm-12 col-sm-12" id="serviceHeadOrder1">
+                <div class="col-lg-6 col-sm-12 col-sm-12 serviceHeadOrder1">
                     <img src="images/babyshoot1.jpg" class="img-fluid serviceimageright"> </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12" id="serviceHeadOrder2">
+                <div class="col-lg-6 col-md-12 col-sm-12 serviceHeadOrder2">
 
                     <h2 class="servicesHeadright">Baby Photography</h2>
                     <p class="servicesPararight">It is the only area of photography where the photographer is solely responsible. They need to have the well being of the subject as the main priority. Safety is key. The great thing is, you will have parents who can act as your assistants,
@@ -547,8 +544,8 @@
         </div>
         <div class="container">
 
-            <div class="row serviceleft" id="left">
-                <div class="col-lg-6 col-md-12 col-sm-12" id="serviceHeadOrder2">
+            <div class="row serviceleft">
+                <div class="col-lg-6 col-md-12 col-sm-12 serviceHeadOrder2">
 
                     <h2 class="servicesHeadleft">Adventure Photography</h2>
                     <p class="servicesParaleft">The hardest part about outdoor adventure photography is picking up your camera. That’s not a joke. Conditions can be brutal. There will be many times when staying dry, keeping your fingers from freezing, and protecting your equipment
@@ -556,16 +553,16 @@
                         dry, fair weather tends to come from the east. A couple of miles into the day’s trek, the breeze died.</p>
                     <p class="servicesParaleft">Then, within moments, I felt a puff of air on my face...coming from the west.</p>
                 </div>
-                <div class="col-lg-6 col-sm-12 col-sm-12" id="serviceHeadOrder1">
+                <div class="col-lg-6 col-sm-12 col-sm-12 serviceHeadOrder1">
                     <img src="images/adventure9.jpg" class="img-fluid serviceimageleft"> </div>
 
             </div>
 
             <div class="row serviceleft">
-                <div class="col-lg-6 col-sm-12 col-sm-12" id="serviceHeadOrder1">
+                <div class="col-lg-6 col-sm-12 col-sm-12 serviceHeadOrder1">
                     <img src="images/model5.jpg" class="img-fluid serviceimageright"> </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12" id="serviceHeadOrder2">
+                <div class="col-lg-6 col-md-12 col-sm-12 serviceHeadOrder2">
 
                     <h2 class="servicesHeadright">Fashion Photography</h2>
                     <p class="servicesPararight">Well, here it goes- the main objective of fashion photography is to display a fashion trend, brand or product through the editorial image. So, you should create a perfect angle to show off the clothes and other fashion accessories
@@ -580,7 +577,7 @@
         <div class="container">
 
             <div class="row serviceleft" id="left">
-                <div class="col-lg-6 col-md-12 col-sm-12" id="serviceHeadOrder2">
+                <div class="col-lg-6 col-md-12 col-sm-12 serviceHeadOrder2">
 
                     <h2 class="servicesHeadleft">Nature Photography</h2>
                     <p class="servicesParaleft">Nature photography is a wonderful way to share the beauty and wonder of the natural world with others who don’t have the opportunity to see a given subject first-hand. An obvious benefit of the art is raising awareness about and generating
@@ -588,16 +585,16 @@
                     <p class="servicesParaleft">What the nature photographers of the world, amateurs and pros alike, can agree on is that they want their subject matter to live on. Being respectful of landscapes and wildlife in the quest to “get the shot” is all that’s needed to
                         keep nature photography from becoming a scourge on the environment.</p>
                 </div>
-                <div class="col-lg-6 col-sm-12 col-sm-12" id="serviceHeadOrder1">
+                <div class="col-lg-6 col-sm-12 col-sm-12 serviceHeadOrder1">
                     <img src="images/nature2.jpg" class="img-fluid serviceimageleft"> </div>
 
             </div>
 
             <div class="row serviceleft">
-                <div class="col-lg-6 col-sm-12 col-sm-12" id="serviceHeadOrder1">
+                <div class="col-lg-6 col-sm-12 col-sm-12 serviceHeadOrder1">
                     <img src="images/food1.jpg" class="img-fluid serviceimageright"> </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12" id="serviceHeadOrder2">
+                <div class="col-lg-6 col-md-12 col-sm-12 serviceHeadOrder2">
 
                     <h2 class="servicesHeadright">Food Photography</h2>
                     <p class="servicesPararight">My own contribution to the conversation about food photography is the post, Thankful ... for Food Photography, which first appeared on the blog around Thanksgiving. The post includes details and examples for the heading topics of use
@@ -719,6 +716,7 @@
 
 
 
+
     <!--Footer Start-->
     <div class="footer">
         <div class="container">
@@ -756,16 +754,31 @@
     <script src="js/services.js"></script>
     <script src="js/pricing.js"></script>
     <script src="js/contact.js"></script>
-    <script src="js/serviceleftload.js"></script>
-    <script src="js/navshow.js"></script>
+    <script src="js/contentload.js"></script>
+   
        
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
 
-<script>
+    <script>
+        $(document).ready(function() {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
 
-$(".js-scroll-trigger").click(function(){
-$(".navbar-collapse").collapse('hide');
-});
-</script>
+        });
+
+    </script>
+
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+
+    </script>
+
 <!--Script End-->
 </body>
 
