@@ -15,6 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
+    
 </head>
 
 <body style="background: #f9f9f9;">
@@ -38,27 +39,49 @@
             </nav>
 
     <!-- slider-------->
-    <!--ABOUT Start-->
-    <div id="aboutcontent">
-        <div class="container" style="background: #f9f9f9;">
-            <div class="row" id="ab1">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="aboutimg animated fadeInLeft"> <img src="images/about.jpg" alt="" class="img-fluid about1"> 
-                        <img src="images/about1.jpg" alt="" class="img-fluid about2"> </div>
+      <!----Contact Start--->
+      <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 animated fadeInLeft">
+                    <div class="cont-head">
+                        <h2 style="text-align: left">Contact Us</h2> </div>
+                    <div class="contactform-page">
+                        <form id="contactpage" onsubmit="this.reset()">
+                            <input type="text" id="name" placeholder="Enter Your Name" required>
+                            <br>
+                            <input type="text" id="number" placeholder="Enter Your Phone Number" required>
+                            <br>
+                            <input type="email" id="email" placeholder="Enter Your Email Id" required>
+                            <br>
+                            <select id="subject" style="color: #939393; letter-spacing: 2px;">
+                                <option value="select">Select Photography</option>
+                                <option value="Wedding">Wedding</option>
+                                <option value="baby">Baby</option>
+                                <option value="Adventure">Adventure</option>
+                                <option value="fashion">Fashion</option>
+                                <option value="nature">Nature</option>
+                                <option value="food">Food</option>
+                            </select>
+                            <br>
+                            <input type="number" placeholder="Select Number of Photos">
+                            <br>
+                            <input type="date" id="photodate" style="color: #939393; letter-spacing: 2px;">
+                            <br>
+                            <textarea cols="4" rows="3" placeholder="Message"></textarea>
+                            <input type="submit" value="GET QUOTE" onclick="submit"> </form>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="aboutinfo animated fadeInRight">
-                        <h2>Sam John</h2>
-                        <p>My name is Sam John and I am a fine art photographer and film-maker based in Auckland, New Zealand. I lead a tight-knit team of brilliant creatives, Shine & Co. We capture real weddings for real couples.</p> <p>A few years ago I was living in Salt Lake City, USA surrounded by snowcapped mountains and a barren red desert - it was here I discovered my passion for story telling. I returned to New Zealand to create beautiful, rich, authentic, and bold collections of photo & video.</p>
-                         <img src="images/sign.png" alt="" class="sign img-fluid">
+                <div class="col-lg-6 col-md-12 col-sm-12 animated fadeInRight">
+                    <div class="contactlocation">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11987.183425109146!2d174.78377079999999!3d-41.313304450000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e3!4m0!4m0!5e0!3m2!1sen!2snz!4v1599125137822!5m2!1sen!2snz" width="100%" height="533" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--ABOUT END-->
-
-
+    </section>
+    <!----Contact End--->
+  
     <!--Footer Start-->
     <div class="footer">
         <div class="container">
@@ -79,6 +102,7 @@
             </div>
         </div>
     </div>
+
 
     <!--*Footer End**-->
 

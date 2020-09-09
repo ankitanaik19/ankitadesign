@@ -1244,7 +1244,13 @@ transform: scale(1.1);
     text-align: center;
 }
 
-
+a.backToHome {
+color:#fff;
+}
+a.backToHome:hover {
+    color:#fff;
+    text-decoration: none;
+    }
 /*Media Queries*/
 
 @media only screen and (max-width:900px) {

@@ -553,8 +553,8 @@ Created : Ankita Naik
                 /**Features End***/
                 /* Contact Start**/
                 #contact {
-                    padding-top: 100px;
-                    padding-bottom: 100px;
+                    padding-top: 90px;
+                    padding-bottom: 10px;
                 }
                 .cont-head h2 {
                     color: #3c3c3c;
@@ -567,7 +567,7 @@ Created : Ankita Naik
                     margin-bottom: 30px;
                 }
                 .contactform-page {
-                    padding: 15px;
+                    padding: 5px;
                     width: 100%;
                     border: 2px solid #eee;
                     box-shadow: 0px 0 0px #f1f1f1;
@@ -579,6 +579,7 @@ Created : Ankita Naik
                 }
                 input[type="text"],
                 input[type="email"],
+                input[type="number"],
                 select,
                 textarea {
                     width: 100%;
@@ -593,13 +594,13 @@ Created : Ankita Naik
                 }
                 input[type="date"] {
                     width: 100%;
-                    padding: 18px;
+                    padding: 10px;
                     border-top: none;
                     border-left: none;
                     border-right: none;
                     resize: vertical;
                     color: #3c3c3c;
-                    font-size: 14px;
+                    font-size: 16px;
                     background: #ffffff;
                 }
                 input[type="submit"] {
@@ -617,9 +618,10 @@ Created : Ankita Naik
                     border: 2px solid #eee;
                     border-radius: 4px;
                 }
-                .contactimg {
-                    margin-top: 50%;
-                }
+              .contactlocation {
+                  padding-top: 10px;
+              }
+
                 /**contact us end*/
                 /**** Contact End******/
                 /*Footer*/
@@ -1199,7 +1201,7 @@ Created : Ankita Naik
                         margin-bottom: 30px;
                     }
                     .contactform-page {
-                        padding: 15px;
+                        padding: 5px;
                         width: 100%;
                         border: 2px solid #eee;
                         box-shadow: 0px 0 0px #f1f1f1;
@@ -1211,6 +1213,7 @@ Created : Ankita Naik
                     }
                     input[type="text"],
                     input[type="email"],
+                    input[type="number"],
                     select,
                     textarea {
                         width: 100%;
@@ -1225,13 +1228,13 @@ Created : Ankita Naik
                     }
                     input[type="date"] {
                         width: 100%;
-                        padding: 18px;
+                        padding: 10px;
                         border-top: none;
                         border-left: none;
                         border-right: none;
                         resize: vertical;
                         color: #3c3c3c;
-                        font-size: 14px;
+                        font-size: 16px;
                         background: #ffffff;
                     }
                     input[type="submit"] {
@@ -1761,7 +1764,7 @@ Created : Ankita Naik
                         margin-bottom: 30px;
                     }
                     .contactform-page {
-                        padding: 15px;
+                        padding: 5px;
                         width: 100%;
                         border: 2px solid #eee;
                         box-shadow: 0px 0 0px #f1f1f1;
@@ -1773,6 +1776,7 @@ Created : Ankita Naik
                     }
                     input[type="text"],
                     input[type="email"],
+                    input[type="number"],
                     select,
                     textarea {
                         width: 100%;
@@ -1787,7 +1791,7 @@ Created : Ankita Naik
                     }
                     input[type="date"] {
                         width: 100%;
-                        padding: 18px;
+                        padding: 10px;
                         border-top: none;
                         border-left: none;
                         border-right: none;
@@ -2146,7 +2150,7 @@ Created : Ankita Naik
                         margin-bottom: 30px;
                     }
                     .contactform-page {
-                        padding: 15px;
+                        padding: 5px;
                         width: 100%;
                         border: 2px solid #eee;
                         box-shadow: 0px 0 0px #f1f1f1;
@@ -2172,7 +2176,7 @@ Created : Ankita Naik
                     }
                     input[type="date"] {
                         width: 100%;
-                        padding: 18px;
+                        padding: 10px;
                         border-top: none;
                         border-left: none;
                         border-right: none;
@@ -2350,7 +2354,7 @@ Created : Ankita Naik
                         margin-bottom: 30px;
                     }
                     .contactform-page {
-                        padding: 15px;
+                        padding: 5px;
                         width: 100%;
                         border: 2px solid #eee;
                         box-shadow: 0px 0 0px #f1f1f1;
@@ -2362,6 +2366,7 @@ Created : Ankita Naik
                     }
                     input[type="text"],
                     input[type="email"],
+                    input[type="number"],
                     select,
                     textarea {
                         width: 100%;
@@ -2376,7 +2381,7 @@ Created : Ankita Naik
                     }
                     input[type="date"] {
                         width: 100%;
-                        padding: 18px;
+                        padding: 10px;
                         border-top: none;
                         border-left: none;
                         border-right: none;
