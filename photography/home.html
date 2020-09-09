@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
+    <style>
+        .mySlidesimages {
+            display: none;
+        }
+        
+        img.car {
+            width: 100%;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            border: 15px solid #757575;
+            transition: all 0.1s ease;
+        }
+        /* Slideshow container */
+        
+        .slideshow-containerimages {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+        }
+        
+        .rounded-image {
+            border-radius: 7%;
+        }
+        /* Caption text */
+        
+        .carouselcontent {
+            color: #f2f2f2;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px 20px;
+            position: absolute;
+            width: 30%;
+            text-align: left;
+            left: 0;
+            bottom: 100px;
+            background: #5fc7ae;
+        }
+        /* Next & previous buttons */
+        /* Fading animation */
+        
+        .fade1 {
+            -webkit-animation-name: fade1;
+            -webkit-animation-duration: 1s;
+            animation-name: fade1;
+            animation-duration: 1s;
+            animation-play-state: running;
+        }
+        
+        @-webkit-keyframes fade1 {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fade1 {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        /* On smaller screens, decrease text size */
+        
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+        
+        @media only screen and (max-width:768px) {
+            img.car {
+                width: 100%;
+                vertical-align: middle;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 400px;
+            }
+            .carouselcontent {
+                color: #f2f2f2;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 20px 20px;
+                position: absolute;
+                width: 50%;
+                text-align: left;
+                left: 0;
+                bottom: 70px;
+                background: #5fc7ae;
+            }
+        }
+        
+        @media only screen and (max-width:425px) {
+            img.car {
+                width: 100%;
+                vertical-align: middle;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 250px;
+            }
+            .carouselcontent {
+                color: #f2f2f2;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 20px 10px;
+                position: absolute;
+                width: 55%;
+                text-align: left;
+                left: 0;
+                bottom: 40px;
+                background: #5fc7ae;
+            }
+        }
+        
+        @media only screen and (max-width:375px) {
+            img.car {
+                width: 100%;
+                vertical-align: middle;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 200px;
+            }
+            .carouselcontent {
+                color: #f2f2f2;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 10px 10px;
+                position: absolute;
+                width: 60%;
+                text-align: left;
+                left: 0;
+                bottom: 40px;
+                background: #5fc7ae;
+            }
+        }
+        
+        @media only screen and (max-width:320px) {
+            img.car {
+                width: 100%;
+                vertical-align: middle;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 200px;
+            }
+            .carouselcontent {
+                color: #f2f2f2;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 10px 10px;
+                position: absolute;
+                width: 68%;
+                text-align: left;
+                left: 0;
+                bottom: 40px;
+                background: #5fc7ae;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="home">
+        <div id="banner">
+            <nav class="navbar navbar-expand-lg" id="nav-bar">
+
+                <div class="navleft" style="float: left">
+                    <a class="navbar-brand" href="#" id="home">SHINE <i class="fas fa-camera"></i></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"
+                        style="font-size: 24px; color: #ffffff;"></i> </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navright" style="float: right">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"> <a class="nav-link" href="" id="home">HOME</a> </li>
+                            <li class="nav-item"> <a class="nav-link about" href="about.html">ABOUT</a> </li>
+                            <li class="nav-item"> <a class="nav-link services" href="services.html">SERVICES</a> </li>
+                            <li class="nav-item"> <a class="nav-link gall" href="#gallcon">GALLERY</a> </li>
+                            <li class="nav-item"> <a class="nav-link contact" href="#contact">CONTACT</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="banner-content">
+              <a href="#workcontent"><button class="banner-fa-back animated backInDown"> <i class="fa fa-angle-double-down banner-fa" style="color:#3c3b3b"></i></button></a>
+          </div>
+        </div>
+    </div>
+    <!-- slider-------->
+    <!------content----->
+
+<!---All Work Start-->
+
+<section>
+    <div class="container" id="workcontent">
+        <div class="row">
+            <div class="all">
+                <div class="allwork" id="allwork">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h3>Last Work</h3>
+                        <button class="workactive showallwork">All</button>
+                        <button class="work wedding">wedding</button>
+                        <button class="work baby">baby</button>
+                        <button class="work adventure">adventure</button>
+                        <button class="work model">Fashion</button>
+                        <button class="work nature">Nature</button>
+                        <button class="work food">food</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="hideallwork">
+            <div class="row" id="workrow1">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="wedimage1 wedding">
+                        <div class="wed-text1">
+                            <h1 style="font-size:20px">Wedding</h1> </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="baby1 baby">
+                        <div class="wed-text1">
+                            <h1 style="font-size:20px">Baby</h1> </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="adventure1 adventure">
+                        <div class="wed-text1">
+                            <h1 style="font-size:20px">adventure</h1> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="workrow2">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="model1 model">
+                        <div class="wed-text2">
+                            <h1 style="font-size:20px">Fashion</h1> </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="nature1 nature">
+                        <div class="wed-text2">
+                            <h1 style="font-size:20px">Nature</h1> </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="food1 food">
+                        <div class="wed-text2">
+                            <h1 style="font-size:20px">food</h1> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wedshow">
+            <div class="row imagecolumn">
+                <div class="column">
+                    <img src="images/wedding1.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding2.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding3.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding4.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding5.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding6.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding13.jpg" alt="" class="img-fluid" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/wedding7.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding8.jpg" alt="" class="img-fluid image768col2" width="100%">
+                    <img src="images/wedding9.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding10.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding11.jpg" alt="" class="img-fluid image768col2" width="100%">
+                    <img src="images/wedding12.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding14.jpg" alt="" class="img-fluid lastimage" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/wedding17.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding16.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding15.jpg" alt="" class="img-fluid image768col3" width="100%">
+                    <img src="images/wedding18.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding19.jpg" alt="" class="img-fluid image768col3" width="100%">
+                    <img src="images/wedding21.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/wedding22.jpg" alt="" class="img-fluid col3lastimage" width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="babyshow">
+            <div class="row imagecolumn">
+                <div class="column">
+                    <img src="images/babyshoot1.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot2.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot4.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot3.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot6.jpg" alt="" class="img-fluid lastimagebaby1768-1" width="100%">
+                    <img src="images/babyshoot5.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot12.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot16.jpg" alt="" class="img-fluid lastimagebaby1" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/babyshoot8.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot9.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot7.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot13.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot11.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot10.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot15.jpg" alt="" class="img-fluid" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/babyshoot18.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot17.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot19.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot14.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot20.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot21.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot22.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/babyshoot23.jpg" alt="" class="img-fluid lastimagebaby2 lastimagebaby768-3" width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="adventureshow">
+            <div class="row imagecolumn">
+                <div class="column">
+                    <img src="images/adventure1.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/adventure2.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/adventure7.jpg" alt="" class="img-fluid adventurelast3" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/adventure6.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/adventure3.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/adventure8.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/adventure5.jpg" alt="" class="img-fluid adventurelast1" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/adventure9.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/adventure4.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/adventure10.jpg" alt="" class="img-fluid adventurelast2" width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="modelshow">
+            <div class="row imagecolumn">
+                <div class="column">
+                    <img src="images/model1.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/model3.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/model2.jpg" alt="" class="img-fluid modelimage2" width="100%">
+                    <img src="images/model9.jpg" alt="" class="img-fluid lastmodel1" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/model4.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/model5.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/model6.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/model7.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/model8.jpg" alt="" class="img-fluid" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/model10.jpg" alt="" class="img-fluid modelimage1" width="100%">
+                    <img src="images/model11.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/model12.jpg" alt="" class="img-fluid lastmodel2 modelimage1" width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="natureshow">
+            <div class="row imagecolumn">
+                <div class="column">
+                    <img src="images/nature1.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/nature2.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/nature3.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/nature11.jpg" alt="" class="img-fluid lastnature1 nature3" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/nature4.jpg" alt="" class="img-fluid nature2" width="100%">
+                    <img src="images/nature5.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/nature6.jpg" alt="" class="img-fluid" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/nature10.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/nature6.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/nature7.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/nature8.jpg" alt="" class="img-fluid lastnature2" width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="foodshow">
+            <div class="row imagecolumn">
+                <div class="column">
+                    <img src="images/food1.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/food2.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/food3.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/food9.jpg" alt="" class="img-fluid lastfood1" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/food4.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/food5.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/food6.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/food1.jpg" alt="" class="img-fluid" width="100%">
+                </div>
+                <div class="column">
+                    <img src="images/food10.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/food11.jpg" alt="" class="img-fluid lastfood3" width="100%">
+                    <img src="images/food13.jpg" alt="" class="img-fluid" width="100%">
+                    <img src="images/food7.jpg" alt="" class="img-fluid lastfood2" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--All Work End-->
+
+
+<!--Clients start-->
+
+<section id="clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h2 class="clients"><span class="counter">2354</span>+</h2>
+                <p class="clients-reviews">AWESOME SHOTS</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h2 class="clients"><span class="counter">534</span>+</h2>
+                <p class="clients-reviews">photo album</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h2 class="clients"><span class="counter">675</span>+</h2>
+                <p class="clients-reviews">Happy clients</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--CLients End-->
+
+<!--Quotes Start-->
+<section id="quote" class="quotesec">
+    <div class="container">
+        <div class="row" id="quo1">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="quote-head">
+                    <h2 class="mb-30">Client Say</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="quo2">
+        <div class="row" style="justify-content: center">
+            <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="slideshow-container-quote">
+                    <div class="myQuote">
+                        <q>Best Photography Ever we had.</q>
+                        <p class="author">&mdash; John Keats</p>
+                    </div>
+                    <div class="myQuote">
+                        <q>You Have given bundle of memories and joy</q>
+                        <p class="author">&mdash; Ernest Hemingway</p>
+                    </div>
+                    <div class="myQuote">
+                        <q>Memories of love</q>
+                        <p class="author">&mdash; Thomas A. Edison</p>
+                    </div>
+                </div>
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Quoted End-->
+
+
+
+
+
+
+
+
+
+    <!--ABOUT Start-->
+    <div id="aboutcon">
+        <div class="container-fluid about-animation" id="aboutcontent" style="background: #f9f9f9;">
+            <div class="row" id="ab1">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="aboutimg"> <img src="images/about.jpg" alt="" class="img-fluid about1"> <img src="images/about1.jpg" alt="" class="img-fluid about2"> </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="aboutinfo">
+                        <h2>Sam John</h2>
+                        <p>Vestibulum gravida volutpat ipsum non ultrices. Praesent vitae risus. Ut a erat ullamcorper, accumsan felis lacinia, hendrerit. Vivamus scelerisque posuere arcu, eu malesuada purus.</p>
+                        <p>Suspendisse hendrerit mi vel sapien ultrices gravida. Proin non vehicula, pulvinar lorem vitae, pharetra augue.</p> <img src="images/sign.png" alt="" class="sign">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--ABOUT END-->
+
+
+<!--Content End-->
+    <!--Footer Start-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <p class="footer1">Design by @ankita</p>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <p class="footer1">
+                        <a href="#home">BACK TO TOP</a></p>
+                </div>
+                <div class=" col-lg-4 col-md-12 col-sm-12">
+                    <p class="footer1"> <i class="fab fa-facebook-f"></i> <i class="fab fa-linkedin-in"></i> <i class="fab fa-google-plus-g"></i> <i class="fab fa-twitter"></i> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--*Footer End**-->
+
+    <!---Script Start -->
+    <script src="js/mynav.js"></script>
+    <script src="js/weddingshow.js"></script>
+    <script src="js/showallwork.js"></script>
+    <script src="js/babyshow.js"></script>
+    <script src="js/adventure.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/nature.js"></script>
+    <script src="js/food.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/allworkmenu.js"></script>
+    <script src="js/contentload.js"></script>
+   
+       
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+
+        });
+
+    </script>
+
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+
+    </script>
+
+<!--Script End-->
+</body>
+
+</html>

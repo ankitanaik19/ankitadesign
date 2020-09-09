@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
+
+    <style>
+        #promo {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            background-attachment: fixed;
+            text-align: center;
+            padding: 100px;
+            height: 500px;
+        }
+
+        .head1 {
+            position: relative;
+            left: 8%;
+            font-size: 40px;
+            float: left;
+            margin-top: 20%;
+        }
+
+        .head1:after {
+            position: absolute;
+            top: 150%;
+            left: 0%;
+            content: '';
+            background: #f0f0f0;
+            display: block;
+            height: 3px;
+            width: 200px;
+        }
+
+        @media only screen and (max-width:768px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 500px;
+            }
+
+            .head1 {
+                position: relative;
+                left: 0%;
+                font-size: 26px;
+                float: left;
+                margin-top: 40%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 160px;
+            }
+
+        }
+
+        @media only screen and (max-width:425px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 500px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -30%;
+                font-size: 22px;
+                float: left;
+                margin-top: 120%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 160px;
+            }
+
+        }
+
+        @media only screen and (max-width:375px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 100px;
+                height: 420px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -50%;
+                font-size: 22px;
+                float: left;
+                margin-top: 120%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 150px;
+            }
+
+        }
+
+        @media only screen and (max-width:320px) {
+            #promo {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bn.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 80px;
+                height: 420px;
+            }
+
+            .head1 {
+                position: relative;
+                left: -50%;
+                font-size: 22px;
+                float: left;
+                margin-top: 150%;
+            }
+
+            .head1:after {
+                position: absolute;
+                top: 150%;
+                left: 0%;
+                content: '';
+                background: #f0f0f0;
+                display: block;
+                height: 3px;
+                width: 150px;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-light animated fadeInDownBig">
+            <a class="navbar-brand logo" href="#"> <img src="images/logo.png" class="logoresp"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" style="font-size: 24px; color: #757575;"></i> </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link" href="home.html">HOME </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="aboutus.html">ABOUT US</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="classes.html">CLASSES</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="gallery.html">GALLERY</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="blog.html" style="color: #5fc7ae">BLOG</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section id="promo">
+        <div class="container">
+            <h1 class="head1 animated fadeInLeft">Blog</h1>
+        </div>
+    </section>
+    <section id="blog" class="blogsec" style="background:none">
+        <div class="container">
+            <div class="row" id="blo1">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="section-title">
+                        <h2>Blogs</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="blo2">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="single-blog">
+                        <div class="blog-pic single-image"> <img src="images/blog1.jpg" alt="blog" width="100%"> </div>
+                        <div class="blog-content">
+                            <h3><a href="blog.html">Blogilates</a></h3>
+                            <h6>25 March 2020</h6>
+                            <p>Blogilates is a fun and innovative exercise site featuring various workouts, food advice and a clothing range.</p>
+                            <button class="read"><a href="https://www.blogilates.com/blog/">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="single-blog">
+                        <div class="blog-pic single-image"> <img src="images/blog4.jpg" alt="blog" width="100%"> </div>
+                        <div class="blog-content">
+                            <h3><a href="https://www.bornfitness.com/blog/">Born Fitness</a></h3>
+                            <h6>19 February 2020</h6>
+                            <p>Born Fitness is a resource of fitness and nutrition knowledge, the site also offers its own coaching programme.</p>
+                            <button class="read"><a href="https://www.bornfitness.com/blog/">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="single-blog">
+                        <div class="blog-pic single-image"> <img src="images/blog3.jpg" alt="blog" width="100%"> </div>
+                        <div class="blog-content">
+                            <h3><a href="https://tonygentilcore.com/blog/">Tony Gentilcore</a></h3>
+                            <h6>12 June 2020</h6>
+                            <p>Tony Gentilcore is a trainer and co-founder of Cressey Sports Performance, a fitness training facility “by athletes for athletes.” His focus is largely on weightlifting.</p>
+                            <button class="read"><a href="https://tonygentilcore.com/blog/">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="single-blog">
+                        <div class="blog-pic single-image"> <img src="images/blog2.jpg" alt="blog" width="100%"> </div>
+                        <div class="blog-content">
+                            <h3><a href="https://www.nerdfitness.com/blog/">Nerd Fitness</a></h3>
+                            <h6>19 February 2020</h6>
+                            <p>The Inverted Bodyweight Row is one of the BEST, simple, most effective exercises you can do for your “pull” muscles.</p>
+                            <button class="read"><a href="https://www.nerdfitness.com/blog/">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="quote" class="quotesec">
+        <div class="container">
+            <div class="row" id="quo1">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="section-title">
+                        <h2>Gift Our Client Say</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="justify-content: center" id="quo2">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="slideshow-container-quote">
+                        <div class="mySlides"> <q>Best gym in Newtown location for both male as well as female</q>
+                            <p class="author">&mdash; John Keats</p>
+                        </div>
+                        <div class="mySlides"> <q>Fitness is the key of success.. & This gym stand for this.</q>
+                            <p class="author">&mdash; Ernest Hemingway</p>
+                        </div>
+                        <div class="mySlides"> <q>Perfect gym in Mount Cook.</q>
+                            <p class="author">&mdash; Thomas A. Edison</p>
+                        </div>
+                        <div class="mySlides"> <q>Gym is good and trainers are also good & trainer have a goal's that they build you tough.</q>
+                            <p class="author">&mdash; Ankita Naik</p>
+                        </div>
+                    </div>
+                    <div class="dot-container"> <span class="dot" onclick="currentSlide(1)"></span> <span class="dot" onclick="currentSlide(2)"></span> <span class="dot" onclick="currentSlide(3)"></span> <span class="dot" onclick="currentSlide(4)"></span> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="map" class="mapsec">
+        <div class="google-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d11987.183415914811!2d174.7837708!3d-41.3133045!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m5!1s0x6d38afe72ecf2605%3A0x500ef6143a2ea30!2sNewtown!3m2!1d-41.3109311!2d174.779109!4m0!5e0!3m2!1sen!2snz!4v1596004888810!5m2!1sen!2snz" width="100%" height="380" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+    <section id="news" class="newsec">
+        <div class="container">
+            <div class="row" style="justify-content: center;">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="newsletter fix">
+                        <h4>JOIN NOW</h4>
+                        <form id="myform">
+                            <input type="email" placeholder="Enter Your Email Id">
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="single-footer footer-resp"> <img src="images/logo.png" width="70">
+                        <ul>
+                            <li><i class="fa fa-envelope" style="font-size:12px"></i> handstand@gmail.com</li>
+                            <li><i class="fa fa-phone" style="font-size:12px"></i> (+64 22 5185259)</li>
+                            <li><i class="fa fa-address-book" style="font-size:12px"></i> Newtown Wellington 6021</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="single-footer">
+                        <h4>Recent tweets</h4>
+                        <div class="twitter">
+                            <div class="twit-icon"><i class="fa fa-twitter" style="font-size:12px"></i></div>
+                            <div class="twit-content">@example good News for today!! We got 2 psd templete weekly top selling quality template in technology category !!!</div>
+                        </div>
+                        <div class="twitter">
+                            <div class="twit-icon"><i class="fa fa-twitter" style="font-size:12px"></i></div>
+                            <div class="twit-content">@example good News for today!! We got 2 psd templete weekly top selling quality template in technology category !!!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="single-footer">
+                        <h4>General Enquiries</h4>
+                        <form id="foot-contact" method="post" onsubmit="this.reset()">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="text" id="footname" placeholder="Enter Your Name"> </div>
+                                <div class="col-sm-6">
+                                    <input type="email" id="footemail" placeholder="Enter Your Email Id"> </div>
+                                <div class="col-sm-12">
+                                    <textarea cols="43" rows="3" id="footmsg" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <button id="footsubmit" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="chat">
+        <button class="open-button" onclick="openForm()"><i class='fa fa-envelope-o' style='font-size:22px;margin-right:10px;color: #ffffff;'></i><span class="help">Help ?</span></button>
+        <div class="chat-popup" id="mychat">
+            <form class="form-container" onclick="this.reset()">
+                <button type="button" class="btn cancel" onclick="closeForm()"><span style="float: left;">Send Us Message</span> <span style="float: right;"><i class="fa fa-minus" style="font-size: 22px;color:#ffffff"></i></span></button>
+                <textarea placeholder="Got any questions? We're happy to help." rows="10" class="chat-textarea" id="displaymsg" name="msg" readonly></textarea>
+                <div class="row" id="submit">
+                    <div class="col-lg-12">
+                        <div class="input-group">
+                            <input type="text" id="entertext" placeholder="Write a message here...">
+                            <input type="button" style="font-size: 12px; letter-spacing: 1px; color: #5fc7ae;border: 1px solid #5fc7ae; float: right;background: #5fc7ae;color: #fff;padding-left: 23px;padding-right: 23px;" onclick="entermsg()" value="Send"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="copyfooter" class="footer">
+        <div class="copyright-footer">
+            <p>Copyright@<b>Handstand</b> 2019. All Rights Reserved</p>
+        </div>
+    </section>
+    <script src="js/myscript.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/product-des.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/chat.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(window).scroll(function(){
+        var positiontop = $(document).scrollTop();
+     console.log(positiontop);
+     if ((positiontop > 62) && (positiontop < 167)) {
+         $("#blo1").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 167) && (positiontop < 986)) {
+         $("#blo2").addClass("animated fadeInUp animate__delay-3s");
+     }
+
+     if ((positiontop > 986) && (positiontop < 1053)) {
+         $("#quo1").addClass("animated fadeInUp animate__delay-3s");
+     }
+
+     if ((positiontop > 1053) && (positiontop < 1353)) {
+         $("#quo2").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 1353) && (positiontop < 1861)) {
+         $("#map").addClass("animated fadeInUp animate__delay-3s");
+     }
+     if ((positiontop > 1353) && (positiontop < 1861)) {
+         $("#news").addClass("animated fadeInUp animate__delay-3s");
+     }
+    });
+    });
+</script>
+</body>
+
+</html>
