@@ -14,8 +14,7 @@
     if ((positiontop > 775) && (positiontop < 1089)) {
         $("#clients").addClass("animated bounceIn");
        }
-
-       if ((positiontop > 1499) && (positiontop < 1582)) {
+    if ((positiontop > 1499) && (positiontop < 1582)) {
         $("#quo1").addClass("animated fadeInUp");
     }
     if ((positiontop > 1582) && (positiontop < 1880)) {

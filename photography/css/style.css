@@ -67,6 +67,10 @@ Created : Ankita Naik
                 ul li a:hover {
                     color: #fff ! important;
                 }
+
+                a.navhover:hover {
+                    color: #3c3c3c ! important;
+                }
                 .navbar {
                     background: transparent;
                     width: 100%;
@@ -186,13 +190,8 @@ Created : Ankita Naik
                 .adventureshow,
                 .modelshow,
                 .natureshow,
-                .foodshow,
-                #aboutcontent,
-                #gallery,
-                #services,
-                #features,
-                #contact
- {
+                .foodshow
+                 {
                     display: none;
                 }
                 .wedimage1 {
@@ -329,12 +328,14 @@ Created : Ankita Naik
                 }
                 /*Work End**/
                 /**About start*/
+
                 #aboutcontent {
-                    padding: 60px;
+                    padding-top: 65px !important;
                 }
                 .aboutimg {
                     text-align: center;
                 }
+               
                 .about2 {
                     display: none;
                 }
@@ -342,10 +343,14 @@ Created : Ankita Naik
                     font-size: 34px;
                     margin-top: 50px;
                     margin-bottom: 40px;
-                    font-style: italic;
+                    font-style: normal;
+                    font-weight: bold;
                 }
                 .aboutinfo p {
-                    font-size: 22px;
+                    font-size: 18px;
+                }
+                img.sign {
+                    width: 200px !important;
                 }
                 /**About End*/
                 /**Gallery Start*/
@@ -444,7 +449,8 @@ widows: 2%;            }
                 /**Quotes End*/
                 /**Services Start*/
                 #services {
-                    padding: 100px 0;
+                    padding-top: 130px;
+                    padding-bottom: 100px;
                 }
                 .serviceleft {
                     padding-top: 100px;
@@ -465,13 +471,12 @@ widows: 2%;            }
                     margin: 20px 0 5px;
                 }
                 .servicesParaleft {
-                    font-size: 20px;
+                    font-size: 18px;
                     text-align: justify;
                 }
                 img.serviceimageleft {
                     border: 2px solid #c4c4c4;
                     height: 400px;
-                    margin-top: 100px;
                 }
                 .servicesHeadright {
                     font-size: 32px;
@@ -489,13 +494,12 @@ widows: 2%;            }
                     margin: 20px 0 5px;
                 }
                 .servicesPararight {
-                    font-size: 20px;
+                    font-size: 18px;
                     text-align: justify;
                 }
                 img.serviceimageright {
                     border: 2px solid #c4c4c4;
                     height: 400px;
-                    margin-top: 100px;
                 }
                 /**Services end**/
                 /*Features start**/
@@ -963,26 +967,27 @@ widows: 2%;            }
                     }
                     /* Clients End**/
                     /**About start*/
-                    #aboutcontent {
-                        padding: 60px;
-                    }
-                    .aboutimg {
-                        text-align: center;
-                    }
                     .about1 {
                         display: none;
                     }
                     .about2 {
                         display: block;
                     }
+                    #aboutcontent {
+                        padding: 60px;
+                    }
+                    .aboutimg {
+                        text-align: center;
+                    }
                     .aboutinfo h2 {
                         font-size: 34px;
                         margin-top: 50px;
                         margin-bottom: 40px;
-                        font-style: italic;
+                        font-style: normal;
+                        font-weight: bold;
                     }
                     .aboutinfo p {
-                        font-size: 22px;
+                        font-size: 18px;
                     }
                     /**About End*/
                     /* Quote Start */
@@ -1045,22 +1050,23 @@ widows: 2%;            }
                     }
                     /**Quotes End*/
             
-       /**Gallery Start*/
-       #gallery {
-        text-align: center;
-        margin : 10px;
-    }
-
-.carousel-item img {
-justify-content: center;
-width: auto !important;  
-height: auto !important;
-margin:0 !important;
-padding: 0 !important;
-}
-.carousel-control-prev, .carousel-control-next {
-widows: 2%;            }
-    /**Gallery End**/
+                /**Gallery Start*/
+               #gallery {
+                text-align: center;
+                margin : 10px;
+              } 
+ 
+             .carousel-item img {
+              justify-content: center;
+              width: auto !important;  
+              height: auto !important;
+              margin:0 !important;
+              padding: 0 !important;
+         }
+           .carousel-control-prev, .carousel-control-next {
+                      widows: 2%;  
+                    }
+             /**Gallery End**/
 
                     /**Services Start*/
                     #services {
@@ -1496,29 +1502,31 @@ widows: 2%;            }
                         height: 272px !important;
                     }
                     /**About start*/
-                    #aboutcontent {
-                        padding: 60px;
-                    }
-                    .aboutimg {
-                        text-align: center;
-                    }
+                   
                     .about1 {
                         display: none;
                     }
                     .about2 {
                         display: block;
                     }
+                    #aboutcontent {
+                        padding: 60px;
+                    }
+                    .aboutimg {
+                        text-align: center;
+                    }
                     .aboutinfo h2 {
                         font-size: 18px;
                         margin-top: 50px;
-                        margin-bottom: 40px;
-                        font-style: italic;
+                        margin-bottom: 30px;
+                        font-style: normal;
+                        font-weight: bold;
                     }
                     .aboutinfo p {
                         font-size: 14px;
                     }
                     img.sign {
-                        width: 100px;
+                        width: 100px !important;
                     }
                     /**About End*/
                     /******Alll Work End***/
@@ -1544,22 +1552,24 @@ widows: 2%;            }
                         padding-bottom: 50px;
                     }
                     /* Clients End**/
-         /**Gallery Start*/
-         #gallery {
-            text-align: center;
-            margin : 10px;
-        }
-    
-    .carousel-item img {
-    justify-content: center;
-    width: auto !important;  
-    height: auto !important;
-    margin:0 !important;
-    padding: 0 !important;
-    }
-    .carousel-control-prev, .carousel-control-next {
-    widows: 2%;            }
-        /**Gallery End**/
+
+                       /**Gallery Start*/
+                       #gallery {
+                        text-align: center;
+                        margin : 10px;
+                    }
+                 
+                     .carousel-item img {
+                      justify-content: center;
+                      width: auto !important;  
+                      height: auto !important;
+                      margin:0 !important;
+                      padding: 0 !important;
+                    }
+                    .carousel-control-prev, .carousel-control-next {
+                     widows: 2%; 
+                       }
+                    /**Gallery End**/
                     /* Quote Start */
                     .quote-head h2 {
                         font-size: 18px !important;
@@ -1619,23 +1629,6 @@ widows: 2%;            }
                         border: 3px solid #3c3c3c;
                     }
                     /**Quotes End*/
-
-                       /**Gallery Start*/
-         #gallery {
-            text-align: center;
-            margin : 10px;
-        }
-    
-    .carousel-item img {
-    justify-content: center;
-    width: auto !important;  
-    height: auto !important;
-    margin:0 !important;
-    padding: 0 !important;
-    }
-    .carousel-control-prev, .carousel-control-next {
-    widows: 2%;            }
-        /**Gallery End**/
 
                     /**Services Start*/
                     #services {
@@ -1920,23 +1913,24 @@ widows: 2%;            }
                         background-repeat: no-repeat;
                     }
                     /**About start*/
+                   .about1{
+                     display: none;
+                    }
+                    .about2 {
+                        display: block;
+                    }
                     #aboutcontent {
                         padding: 60px;
                     }
                     .aboutimg {
                         text-align: center;
                     }
-                    .about1 {
-                        display: none;
-                    }
-                    .about2 {
-                        display: block;
-                    }
                     .aboutinfo h2 {
-                        font-size: 14px;
+                        font-size: 16px;
                         margin-top: 50px;
-                        margin-bottom: 40px;
-                        font-style: italic;
+                        margin-bottom: 20px;
+                        font-style: normal;
+                        font-weight: bold;
                     }
                     .aboutinfo p {
                         font-size: 12px;
@@ -2005,21 +1999,22 @@ widows: 2%;            }
                     }
                     /**Quotes End*/
                     /**Gallery Start*/
-         #gallery {
-            text-align: center;
-            margin : 10px;
-        }
+                    #gallery {
+                     text-align: center;
+                     margin : 10px;
+                    }
     
-    .carousel-item img {
-    justify-content: center;
-    width: auto !important;  
-    height: auto !important;
-    margin:0 !important;
-    padding: 0 !important;
-    }
-    .carousel-control-prev, .carousel-control-next {
-    widows: 2%;            }
-        /**Gallery End**/
+                    .carousel-item img {
+                     justify-content: center;
+                     width: auto !important;  
+                     height: auto !important;
+                     margin:0 !important;
+                     padding: 0 !important;
+                     }
+                    .carousel-control-prev, .carousel-control-next {
+                     widows: 2%;   
+                    }
+                        /**Gallery End**/
                          /**Services Start*/
                     #services {
                         padding: 100px 0;
@@ -2257,6 +2252,12 @@ widows: 2%;            }
                         background-position: center;
                         background-repeat: no-repeat;
                     }
+                    .about1 {
+                        display: none;
+                    }
+                    .about2 {
+                        display: block;
+                    }
                     /* Quote Start */
                     .quote-head h2 {
                         font-size: 16px !important;
@@ -2317,21 +2318,22 @@ widows: 2%;            }
                     }
                     /**Quotes End*/
                      /**Gallery Start*/
-         #gallery {
-            text-align: center;
-            margin : 10px;
-        }
+                    #gallery {
+                     text-align: center;
+                     margin : 10px;
+                     }
     
-    .carousel-item img {
-    justify-content: center;
-    width: auto !important;  
-    height: auto !important;
-    margin:0 !important;
-    padding: 0 !important;
-    }
-    .carousel-control-prev, .carousel-control-next {
-    widows: 2%;            }
-        /**Gallery End**/
+                   .carousel-item img {
+                    justify-content: center;
+                    width: auto !important;  
+                    height: auto !important;
+                    margin:0 !important;
+                    padding: 0 !important;
+                     }
+                   .carousel-control-prev, .carousel-control-next {
+                     widows: 2%;     
+                           }
+                    /**Gallery End**/
                     /* Contact Start**/
                     #contact {
                         padding-top: 100px;
