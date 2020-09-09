@@ -38,8 +38,6 @@ Created : Ankita Naik
             }
             
           
-
-            
                 /*Navigation*/
                 #nav-bar {
                     position: fixed;
@@ -51,6 +49,7 @@ Created : Ankita Naik
                     padding-left: 30px;
                     margin-top: 0;
                     color: #ffffff;
+                    padding-top: 10px !important;
                 }
                 ul.navbar-nav {
                     position: absolute;
@@ -356,18 +355,19 @@ Created : Ankita Naik
                 /**Gallery Start*/
                 #gallery {
                     text-align: center;
-                    margin : 10px;
+                    padding-top : 65px;
                 }
   
-.carousel-item img {
-       justify-content: center;
-       width: auto !important;  
-    height: 100vh !important;
-    margin:0 !important;
-    padding: 0 !important;
+               .carousel-item img {
+                justify-content: center;
+                width: auto !important;  
+                height: 100vh !important;
+                margin:0 !important;
+                padding: 0 !important;
             }
-           .carousel-control-prev, .carousel-control-next {
-widows: 2%;            }
+               .carousel-control-prev, .carousel-control-next {
+                 widows: 2%;
+                }
                 /**Gallery End**/
                 /* Clients Start**/
                 #clients {
