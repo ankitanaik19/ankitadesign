@@ -123,7 +123,7 @@ Created : Ankita Naik
                     padding-bottom: 100px;
                 }
                 .allwork {
-                    z-index: 10;
+                    z-index: 2;
                 }
                 .allwork h3 {
                     font-size: 30px;
@@ -686,7 +686,7 @@ widows: 2%;            }
                     #nav-bar {
                         position: fixed;
                         top: 0;
-                        z-index: 99;
+                        z-index: 10;
                     }
                     .navbar-brand {
                         height: 50px;
