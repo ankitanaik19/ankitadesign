@@ -686,7 +686,7 @@ widows: 2%;            }
                     #nav-bar {
                         position: fixed;
                         top: 0;
-                        z-index: 10;
+                        z-index: 99;
                     }
                     .navbar-brand {
                         height: 50px;
