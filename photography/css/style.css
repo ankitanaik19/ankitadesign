@@ -657,10 +657,7 @@ Created : Ankita Naik
                 }
                 /**768px start**/
                 @media only screen and (max-width: 768px) {
-
-
-
-                    
+                 
                     .banner {
                         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/banner1.jpg');
                         height: 100vh !important;
@@ -678,7 +675,7 @@ Created : Ankita Naik
                         background: #fff;
                         position: absolute;
                         bottom: 40%;
-                        left: 45%;
+                        left: 42%;
                         border-radius: 50%;
                         border: none;
                     }
@@ -1064,8 +1061,8 @@ Created : Ankita Naik
               height: auto !important;
               margin:0 !important;
               padding: 0 !important;
-         }
-           .carousel-control-prev, .carousel-control-next {
+              }
+               .carousel-control-prev, .carousel-control-next {
                       widows: 2%;  
                     }
              /**Gallery End**/
@@ -1352,6 +1349,16 @@ Created : Ankita Naik
                         background-size: cover;
                         background-position: center;
                         background-repeat: no-repeat;
+                    }
+                    .banner-fa-back {
+                        width: 60px;
+                        height: 60px;
+                        background: #fff;
+                        position: absolute;
+                        bottom: 40%;
+                        left: 42%;
+                        border-radius: 50%;
+                        border: none;
                     }
                     /**All Work ****/
                     .wedimage1 {
