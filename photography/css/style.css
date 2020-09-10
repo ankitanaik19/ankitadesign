@@ -1923,6 +1923,16 @@ Created : Ankita Naik
                         background-position: center;
                         background-repeat: no-repeat;
                     }
+                    .banner-fa-back {
+                        width: 60px;
+                        height: 60px;
+                        background: #fff;
+                        position: absolute;
+                        bottom: 40%;
+                        left: 42%;
+                        border-radius: 50%;
+                        border: none;
+                    }
                     /**About start*/
                    .about1{
                      display: none;
@@ -2262,6 +2272,16 @@ Created : Ankita Naik
                         background-size: cover;
                         background-position: center;
                         background-repeat: no-repeat;
+                    }
+                    .banner-fa-back {
+                        width: 60px;
+                        height: 60px;
+                        background: #fff;
+                        position: absolute;
+                        bottom: 40%;
+                        left: 42%;
+                        border-radius: 50%;
+                        border: none;
                     }
                     .about1 {
                         display: none;
