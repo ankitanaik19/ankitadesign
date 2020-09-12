@@ -1180,7 +1180,7 @@ Created : Ankita Naik
             /***Video Start*****/
             .video-player {
                 width: 90%;
-                position: absolute;
+                position: fixed;
                 left:50%;
                 top: 50%;
                 transform: translate(-50%, -50%);
@@ -1748,7 +1748,7 @@ Created : Ankita Naik
                  /***Video Start*****/
                  .video-player {
                     width: 90%;
-                    position: absolute;
+                    position: fixed;
                     left:50%;
                     top: 50%;
                     transform: translate(-50%, -50%);
@@ -2258,7 +2258,7 @@ Created : Ankita Naik
                   /***Video Start*****/
                   .video-player {
                     width: 90%;
-                    position: absolute;
+                    position: fixed;
                     left:50%;
                     top: 50%;
                     transform: translate(-50%, -50%);
@@ -2639,7 +2639,7 @@ Created : Ankita Naik
                     /***Video Start*****/
                     .video-player {
                         width: 90%;
-                        position: absolute;
+                        position: fixed;
                         left:50%;
                         top: 50%;
                         transform: translate(-50%, -50%);
