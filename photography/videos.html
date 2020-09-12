@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
+</head>
+
+<body style="background: #f9f9f9;">
+            <nav class="navbar navbar-expand-lg" id="nav-bar" style="background:#ffffff;width: 100%;box-shadow: 0px 0px 4px 0px #3c3c3c;">
+                <div class="navleft animated fadeInLeft" style="float: left">
+                    <a class="navbar-brand" style="color: #3c3c3c;" href="#" id="home">SHINE <i class="fas fa-camera"></i></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"
+                        style="font-size: 24px; color: #3c3c3c;"></i> </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navright" style="float: right">
+                        <ul class="navbar-nav animated fadeInRight">
+                            <li class="nav-item"> <a class="nav-link navhover" style="color: #3c3c3c;" href="home.html" id="home">HOME</a> </li>
+                            <li class="nav-item"> <a class="nav-link navhover" style="color: #3c3c3c;" href="about.html">ABOUT</a> </li>
+                            <li class="nav-item"> <a class="nav-link navhover" style="color: #3c3c3c;" href="services.html">SERVICES</a> </li>
+                            <li class="nav-item"> <a class="nav-link navhover" style="color: #3c3c3c;" href="photos.html">PHOTOS</a> </li>
+                            <li class="nav-item"> <a class="nav-link navhover" style="color: #3c3c3c;" href="videos.html">VIDEOS</a> </li>
+                            <li class="nav-item"> <a class="nav-link navhover" style="color: #3c3c3c;" href="contact.html">CONTACT</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+    <!-- slider-------->
+    <!--Gallery Start-->
+    <section id="videos">
+      <!-------Video Start----->
+ 
+
+<div class="container">
+    <div class="row video" id="videoplayblock">
+    
+
+        <div class="col-lg-8 col-md-12 col-sm-12 video1">
+            <div class="feature-img">
+                <img src="images/video1.jpg" alt="" width="100%" class="video1">
+            <img src="images/playicon.png" alt="" class="playVideo" width="100%" onclick="playVideo('images/siddankita.mp4')">
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 mediumHide">
+            <div class="small-img-row">
+                <div class="small-img">
+                <img src="images/video2.jpg" alt="" class="img-fluid round" width="100%">
+                <img src="images/playicon.png" alt="" class="playVideo" width="100%" onclick="playVideo('images/siddankita3.mp4')">
+                </div>
+               
+             </div>
+             <div class="small-img-row">
+                <div class="small-img">
+                <img src="images/video3.jpg" alt="" class="img-fluid round" width="100%">
+                <img src="images/playicon.png" alt="" class="playVideo" width="100%" onclick="playVideo('images/siddankita1.mp4')">
+                </div>
+             </div>
+             <div class="small-img-row">
+             <div class="small-img">
+             <img src="images/video4.jpg" alt="" class="img-fluid round" width="100%">
+             <img src="images/playicon.png" alt="" class="playVideo" width="100%" onclick="playVideo('images/siddankita2.mp4')">
+             </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="row mediumBottom" id="videoplayblock2">
+      <div class="col-md-12 col-sm-12 mediumShow">
+        <img src="images/video2.jpg" alt="" class="img-fluid videomedium" width="100%">
+        <img src="images/playicon.png" alt="" class="playVideo" width="100%" onclick="playVideo('images/siddankita3.mp4')">
+      </div>
+      <div class="col-md-12 col-sm-12 mediumShow">
+        <img src="images/video3.jpg" alt="" class="img-fluid videomedium" width="100%">
+        <img src="images/playicon.png" alt="" class="playVideo" width="100%" onclick="playVideo('images/siddankita1.mp4')">
+      </div>
+      <div class="col-md-12 col-sm-12 mediumShow">
+        <img src="images/video4.jpg" alt="" class="img-fluid videomedium" width="100%">
+        <img src="images/playicon.png" alt="" class="playVideo" width="100%" onclick="playVideo('images/siddankita2.mp4')">
+      </div>
+
+     </div>
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+<div class="video-player" id="videoPlayer">
+    <video width="80%" controls autoplay id="myVideo">
+        <source src="images/siddankita1.mp4" type="video/mp4">
+    </video>
+    <img src="images/close1.png" alt="" class="close-btn" onclick="stopVideo()">
+</div>
+</div>
+</div>
+</div>
+<!------Video End------>   </section>
+       <!--Gallery END-->
+
+
+    <!--Footer Start-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <p class="footer1">Design by @ankita</p>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <p class="footer1">
+                        <a href="#home">BACK TO TOP</a></p>
+                </div>
+                <div class=" col-lg-4 col-md-12 col-sm-12">
+                    <p class="footer1"> <i class="fab fa-facebook-f"></i> <i class="fab fa-linkedin-in"></i> <i class="fab fa-google-plus-g"></i> <i class="fab fa-twitter"></i> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--*Footer End**-->
+
+    <!---Script Start -->
+ <script src="js/mynav.js"></script>
+ <script>
+    var videoPlayer = document.getElementById("videoPlayer");
+    var myVideo = document.getElementById("myVideo");
+var videoplayblock = document.getElementById("videoplayblock");
+var videoplayblock2 = document.getElementById("videoplayblock2");
+
+    function stopVideo(){
+        videoPlayer.style.display  = "none";
+        myVideo.pause();
+        videoplayblock.style.visibility = "visible";
+        videoplayblock2.style.visibility = "visible";
+    }
+    
+    function playVideo(file) {
+        myVideo.src = file;
+        videoPlayer.style.display = "block";
+        videoplayblock.style.visibility = "hidden";
+        videoplayblock2.style.visibility = "hidden";
+
+    }
+    </script>
+    
+    
+<!--Script End-->
+</body>
+
+</html>
