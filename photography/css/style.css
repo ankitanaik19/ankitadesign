@@ -372,7 +372,7 @@ Created : Ankita Naik
 
                /***Video Start****/
                #videos {
-                   padding-top: 50px ;
+                   padding-top: 60px ;
                    
                 }
                 
@@ -432,6 +432,7 @@ Created : Ankita Naik
                     top: 50%;
                     transform: translate(-50%, -50%);
                     display: none;
+                    margin-top : 35px;
                 }
                 
                 video:focus {
@@ -582,6 +583,32 @@ Created : Ankita Naik
                     border: 2px solid #c4c4c4;
                     height: 400px;
                 }
+
+                .servicesPlayicon {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    cursor: pointer;
+                    width: 30px;
+                }
+
+                .servicesVideoPlayer {
+                    width: 100%;
+                    position: relative;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    display: none;
+                }
+                .servicesCloseBtn {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    width: 10px;
+                    cursor: pointer;
+                }
+    
+
                 /**Services end**/
                 /*Features start**/
                 #features {
@@ -1152,7 +1179,7 @@ Created : Ankita Naik
 
             /***Video Start*****/
             .video-player {
-                width: 70%;
+                width: 90%;
                 position: absolute;
                 left:50%;
                 top: 50%;
@@ -1163,7 +1190,7 @@ Created : Ankita Naik
                 position: absolute;
                 top: 10px;
                 right: 10px;
-                width: 30px;
+                width: 10px;
             }
 
 
@@ -1254,6 +1281,21 @@ Created : Ankita Naik
                     .serviceHeadOrder2 {
                         order: 2;
                     }
+                    .servicesVideoPlayer {
+                        width: 100%;
+                        position: relative;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        display: block;
+                    }
+                    .servicesCloseBtn {
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        width: 10px;
+                    }
+        
                     /**Services end**/
                     /*Features start**/
                     #features {
@@ -1705,7 +1747,7 @@ Created : Ankita Naik
 
                  /***Video Start*****/
                  .video-player {
-                    width: 70%;
+                    width: 90%;
                     position: absolute;
                     left:50%;
                     top: 50%;
@@ -1716,7 +1758,7 @@ Created : Ankita Naik
                     position: absolute;
                     top: 10px;
                     right: 10px;
-                    width: 30px;
+                    width: 10px;
                 }
 
  
@@ -1866,6 +1908,21 @@ Created : Ankita Naik
                     }
                     .serviceHeadOrder2 {
                         order: 2;
+                    }
+
+                    .servicesVideoPlayer {
+                        width: 100%;
+                        position: relative;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        display: block;
+                    }
+                    .servicesCloseBtn {
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        width: 10px;
                     }
                     /**Services end**/
                     /*Features start**/
@@ -2200,7 +2257,7 @@ Created : Ankita Naik
                         /**Gallery End**/
                   /***Video Start*****/
                   .video-player {
-                    width: 70%;
+                    width: 90%;
                     position: absolute;
                     left:50%;
                     top: 50%;
@@ -2211,7 +2268,7 @@ Created : Ankita Naik
                     position: absolute;
                     top: 10px;
                     right: 10px;
-                    width: 30px;
+                    width: 10px;
                 }
 
                         .mediumHide {
@@ -2300,6 +2357,20 @@ Created : Ankita Naik
                     }
                     .serviceHeadOrder2 {
                         order: 2;
+                    }
+                    .servicesVideoPlayer {
+                        width: 100%;
+                        position: relative;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        display: block;
+                    }
+                    .servicesCloseBtn {
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        width: 10px;
                     }
                     /**Services end**/
                     /*Features start**/
@@ -2567,7 +2638,7 @@ Created : Ankita Naik
                     /**Gallery End**/
                     /***Video Start*****/
                     .video-player {
-                        width: 70%;
+                        width: 90%;
                         position: absolute;
                         left:50%;
                         top: 50%;
@@ -2578,7 +2649,7 @@ Created : Ankita Naik
                         position: absolute;
                         top: 10px;
                         right: 10px;
-                        width: 30px;
+                        width: 10px;
                     }
     
 

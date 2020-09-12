@@ -101,8 +101,31 @@
                     <p class="servicesPararight">My own contribution to the conversation about food photography is the post, Thankful ... for Food Photography, which first appeared on the blog around Thanksgiving. The post includes details and examples for the heading topics of use natural light, watch the background, get in close, accessorize, go wide (aperture), and tell a story. Each topic includes an explanation and one or more example images to illustrate the point, which makes it easy to immediate take and apply these suggestions to your own food photographs.</p>
                 </div>
             </div>
+            <div class="row serviceleft">
+                <div class="col-lg-6 col-md-12 col-sm-12 serviceHeadOrder2" id="row7left">
+                    <h2 class="servicesHeadleft">Wedding Videography</h2>
+                    <p class="servicesParaleft">We Produce Inspired, Beautiful Wedding Films That Keep the Memories Alive for a Lifetime. 20 Years Film Making. We Capture the Smallest of Magical Moments from Your Wedding. We have a professional eye for detail and will be onsite capturing the best and most memorable moments of your wedding making sure not one magical moment is missed. We work with you, meeting up to discuss the wedding film, who, where, when and what you want captured. We pride ourselves on creating the best wedding films that create smiles and happy tears as you sit back to remember your special day on demand.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-sm-12 serviceHeadOrder1" id="row7right">
+                    <div id="wedVideoImage">
+                    <img src="images/video3.jpg" class="img-fluid serviceimageleft">
+                    <img src="images/playicon.png" alt="" class="servicesPlayicon" onclick="playVideo('images/siddankita2.mp4')">
+                    </div>
+                    <div class="servicesVideoPlayer" id="videoPlayer">
+                        <video width="100%" controls autoplay id="myVideo">
+                            <source src="images/siddankita2.mp4" type="video/mp4">
+                        </video>
+                        <img src="images/close1.png" alt="" class="servicesCloseBtn" onclick="stopVideo()">
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </section>
+
+ 
+    
+    
     <!--Services END-->
     <!--Features start-->
     <section id="features">
@@ -169,61 +192,24 @@
 
     <!---Script Start -->
     <script src="js/mynav.js"></script>
+    <script src="js/services.js"></script>
 <script>
-    $(document).ready(function(){
-        $(window).scroll(function(){
-        var positiontop = $(document).scrollTop();
-        console.log(positiontop);
-        if ((positiontop > 40) && (positiontop < 544)) {
-         $("#row2left").addClass("animated fadeInLeft");
-        }
-        if ((positiontop > 40) && (positiontop < 544)) {
-         $("#row2right").addClass("animated fadeInRight");
-       }
-       if ((positiontop > 544) && (positiontop < 1082)) {
-         $("#row3left").addClass("animated fadeInLeft");
-        }
-        if ((positiontop > 544) && (positiontop < 1082)) {
-         $("#row3right").addClass("animated fadeInRight");
-       }
-       if ((positiontop > 1082) && (positiontop < 1580)) {
-         $("#row4left").addClass("animated fadeInLeft");
-        }
-        if ((positiontop > 1082) && (positiontop < 1580)) {
-         $("#row4right").addClass("animated fadeInRight");
-       }
+      var videoPlayer = document.getElementById("videoPlayer");
+    var myVideo = document.getElementById("myVideo");
+    var wedVideoImage = document.getElementById("wedVideoImage");
 
-       if ((positiontop > 1580) && (positiontop < 2091)) {
-         $("#row5left").addClass("animated fadeInLeft");
-        }
-        if ((positiontop > 1580) && (positiontop < 2091)) {
-         $("#row5right").addClass("animated fadeInRight");
-       }
+    function stopVideo(){
+        videoPlayer.style.display  = "none";
+        myVideo.pause();
+        wedVideoImage.style.display = "block";
+    }
+    
+    function playVideo(file) {
+        myVideo.src = file;
+        videoPlayer.style.display = "block";
+        wedVideoImage.style.display = "none";
+    }
 
-       if ((positiontop > 2091) && (positiontop < 2589)) {
-         $("#row6left").addClass("animated fadeInLeft");
-        }
-        if ((positiontop > 2091) && (positiontop < 2589)) {
-         $("#row6right").addClass("animated fadeInRight");
-       }
-
-       if ((positiontop > 2589) && (positiontop < 3008)) {
-         $("#feature1").addClass("animated fadeInUp");
-        }
-        if ((positiontop > 2589) && (positiontop < 3008)) {
-         $("#feature1").addClass("animated fadeInUp");
-       }
-       if ((positiontop > 2589) && (positiontop < 3365)) {
-         $("#feature2").addClass("animated fadeInUp");
-        }
-        if ((positiontop > 2589) && (positiontop < 3665)) {
-         $("#feature2").addClass("animated fadeInUp");
-       }
-
-        
-         
-    });
-    });
 </script>
 <!--Script End-->
 </body>
