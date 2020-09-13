@@ -67,9 +67,7 @@ Created : Ankita Naik
                     color: #fff ! important;
                 }
 
-                a.navhover:hover {
-                    color: #3c3c3c ! important;
-                }
+               
                 .navbar {
                     background: transparent;
                     width: 100%;
