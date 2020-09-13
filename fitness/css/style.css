@@ -1245,9 +1245,11 @@ transform: scale(1.1);
 
 a.backToHome {
 color:#fff;
+cursor: pointer;
 }
 a.backToHome:hover {
     color:#fff;
+    cursor: pointer;
     text-decoration: none;
     }
 /*Media Queries*/
@@ -1986,9 +1988,11 @@ a.backToHome:hover {
 
 a.backToHome {
 color:#fff;
+cursor: pointer;
 }
 a.backToHome:hover {
     color:#fff;
+    cursor: pointer;
     text-decoration: none;
     }
 
@@ -2893,9 +2897,11 @@ a.backToHome:hover {
 
 a.backToHome {
 color:#fff;
+cursor: pointer;
 }
 a.backToHome:hover {
     color:#fff;
+    cursor: pointer;
     text-decoration: none;
     }
 
@@ -3802,9 +3808,11 @@ a.backToHome:hover {
 
 a.backToHome {
 color:#fff;
+cursor: pointer;
 }
 a.backToHome:hover {
     color:#fff;
+    cursor: pointer;
     text-decoration: none;
     }
 
@@ -4699,9 +4707,11 @@ a.backToHome:hover {
     
     a.backToHome {
     color:#fff;
+    cursor: pointer;
     }
     a.backToHome:hover {
         color:#fff;
+        cursor: pointer;
         text-decoration: none;
         }
     }
