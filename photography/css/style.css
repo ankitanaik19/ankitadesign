@@ -1440,6 +1440,15 @@ Created : Ankita Naik
                     .serviceHeadOrder2 {
                         order: 2;
                     }
+                    
+                .servicesPlayicon {
+                    position: absolute;
+                    left: 48%;
+                    top: 43%;
+                    cursor: pointer;
+                    width: 30px;
+                }
+
                     .servicesVideoPlayer {
                         width: 100%;
                         position: relative;
@@ -2157,6 +2166,15 @@ Created : Ankita Naik
                         transform: translate(-50%, -50%);
                         display: none;
                     }
+                    
+                    .servicesPlayicon {
+                        position: absolute;
+                        left: 48%;
+                        top: 40%;
+                        cursor: pointer;
+                        width: 30px;
+                    }
+    
                     .servicesCloseBtn {
                         position: absolute;
                         top: 10px;
@@ -2202,7 +2220,7 @@ Created : Ankita Naik
                         width: 80px;
                     }
                     .features p {
-                        font-size: 14px !important;
+                        font-size: 16px !important;
                         margin-top: 10px !important;
                         color: #ccc;
                         text-align: justify;
@@ -2677,6 +2695,15 @@ Created : Ankita Naik
                     .serviceHeadOrder2 {
                         order: 2;
                     }
+                    
+                .servicesPlayicon {
+                    position: absolute;
+                    left: 47%;
+                    top: 36%;
+                    cursor: pointer;
+                    width: 30px;
+                }
+
                     .servicesVideoPlayer {
                         width: 100%;
                         position: relative;
@@ -2730,7 +2757,7 @@ Created : Ankita Naik
                         width: 80px;
                     }
                     .features p {
-                        font-size: 14px !important;
+                        font-size: 16px !important;
                         margin-top: 10px !important;
                         color: #ccc;
                         text-align: justify;
@@ -3088,7 +3115,30 @@ Created : Ankita Naik
                         margin-bottom: 50px;
                     }
 
-
+                    .servicesPlayicon {
+                        position: absolute;
+                        left: 47%;
+                        top: 36%;
+                        cursor: pointer;
+                        width: 30px;
+                    }
+    
+                        .servicesVideoPlayer {
+                            width: 100%;
+                            position: relative;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            display: none;
+                        }
+                        .servicesCloseBtn {
+                            position: absolute;
+                            top: 10px;
+                            right: 10px;
+                            width: 20px;
+                            cursor: pointer;
+                        }
+    
                     /****Services End********/
                     /***Video Start*****/
                     .video-player {
