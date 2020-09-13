@@ -444,6 +444,7 @@ Created : Ankita Naik
                     top: 10px;
                     right: 10px;
                     width: 30px;
+                    cursor: pointer;
                 }
                 
                 .mediumShow {
@@ -537,14 +538,60 @@ Created : Ankita Naik
                 .serviceleft {
                     padding-top: 100px;
                 }
-                .servicesHeadleft {
+                .servicesHeadleft1 {
                     font-size: 32px;
                     text-align: justify;
                     text-transform: uppercase;
                     padding-bottom: 20px;
                     font-weight: 600;
                 }
-                .servicesHeadleft::after {
+                .servicesHeadleft1::after {
+                    content: '';
+                    background: #3c3c3c;
+                    display: block;
+                    height: 4px;
+                    width: 170px;
+                    margin: 20px 0 5px;
+                }
+
+                .servicesHeadleft2 {
+                    font-size: 32px;
+                    text-align: justify;
+                    text-transform: uppercase;
+                    padding-bottom: 20px;
+                    font-weight: 600;
+                }
+                .servicesHeadleft2::after {
+                    content: '';
+                    background: #3c3c3c;
+                    display: block;
+                    height: 4px;
+                    width: 208px;
+                    margin: 20px 0 5px;
+                }
+                .servicesHeadleft3 {
+                    font-size: 32px;
+                    text-align: justify;
+                    text-transform: uppercase;
+                    padding-bottom: 20px;
+                    font-weight: 600;
+                }
+                .servicesHeadleft3::after {
+                    content: '';
+                    background: #3c3c3c;
+                    display: block;
+                    height: 4px;
+                    width: 140px;
+                    margin: 20px 0 5px;
+                }
+                .servicesHeadleft4 {
+                    font-size: 32px;
+                    text-align: justify;
+                    text-transform: uppercase;
+                    padding-bottom: 20px;
+                    font-weight: 600;
+                }
+                .servicesHeadleft4::after {
                     content: '';
                     background: #3c3c3c;
                     display: block;
@@ -560,21 +607,54 @@ Created : Ankita Naik
                     border: 2px solid #c4c4c4;
                     height: 400px;
                 }
-                .servicesHeadright {
+                .servicesHeadright1 {
                     font-size: 32px;
                     text-align: justify;
                     text-transform: uppercase;
                     padding-bottom: 20px;
                     font-weight: 600;
                 }
-                .servicesHeadright::after {
+                .servicesHeadright1::after {
                     content: '';
                     background: #3c3c3c;
                     display: block;
                     height: 4px;
-                    width: 170px;
+                    width: 85px;
                     margin: 20px 0 5px;
                 }
+
+                .servicesHeadright2 {
+                    font-size: 32px;
+                    text-align: justify;
+                    text-transform: uppercase;
+                    padding-bottom: 20px;
+                    font-weight: 600;
+                }
+                .servicesHeadright2::after {
+                    content: '';
+                    background: #3c3c3c;
+                    display: block;
+                    height: 4px;
+                    width: 164px;
+                    margin: 20px 0 5px;
+                }
+
+                .servicesHeadright3 {
+                    font-size: 32px;
+                    text-align: justify;
+                    text-transform: uppercase;
+                    padding-bottom: 20px;
+                    font-weight: 600;
+                }
+                .servicesHeadright3::after {
+                    content: '';
+                    background: #3c3c3c;
+                    display: block;
+                    height: 4px;
+                    width: 96px;
+                    margin: 20px 0 5px;
+                }
+
                 .servicesPararight {
                     font-size: 18px;
                     text-align: justify;
@@ -604,7 +684,7 @@ Created : Ankita Naik
                     position: absolute;
                     top: 10px;
                     right: 10px;
-                    width: 10px;
+                    width: 20px;
                     cursor: pointer;
                 }
     
@@ -1190,7 +1270,8 @@ Created : Ankita Naik
                 position: absolute;
                 top: 10px;
                 right: 10px;
-                width: 15px;
+                width: 20px;
+                cursor: pointer;
             }
 
 
@@ -1223,15 +1304,60 @@ Created : Ankita Naik
                     .serviceleft {
                         padding-top: 30px !important;
                     }
-                    .servicesHeadleft {
+                    .servicesHeadleft1 {
                         font-size: 32px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                        padding-top: 30px;
                     }
-                    .servicesHeadleft::after {
+                    .servicesHeadleft1::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 170px;
+                        margin: 20px 0 5px;
+                    }
+    
+                    .servicesHeadleft2 {
+                        font-size: 32px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft2::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 208px;
+                        margin: 20px 0 5px;
+                    }
+                    .servicesHeadleft3 {
+                        font-size: 32px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft3::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 140px;
+                        margin: 20px 0 5px;
+                    }
+                    .servicesHeadleft4 {
+                        font-size: 32px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft4::after {
                         content: '';
                         background: #3c3c3c;
                         display: block;
@@ -1240,41 +1366,74 @@ Created : Ankita Naik
                         margin: 20px 0 5px;
                     }
                     .servicesParaleft {
-                        font-size: 20px;
+                        font-size: 18px;
                         text-align: justify;
                     }
                     img.serviceimageleft {
                         border: 2px solid #c4c4c4;
-                        height: 400px;
-                        margin-top: 50px;
+                        height: auto;
                         width: 100%;
+                        margin-bottom: 50px;
                     }
-                    .servicesHeadright {
+                    .servicesHeadright1 {
                         font-size: 32px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
-                        padding-top: 30px;
                         font-weight: 600;
                     }
-                    .servicesHeadright::after {
+                    .servicesHeadright1::after {
                         content: '';
                         background: #3c3c3c;
                         display: block;
                         height: 4px;
-                        width: 170px;
+                        width: 85px;
                         margin: 20px 0 5px;
                     }
+    
+                    .servicesHeadright2 {
+                        font-size: 32px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadright2::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 164px;
+                        margin: 20px 0 5px;
+                    }
+    
+                    .servicesHeadright3 {
+                        font-size: 32px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadright3::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 96px;
+                        margin: 20px 0 5px;
+                    }
+    
                     .servicesPararight {
-                        font-size: 20px;
+                        font-size: 18px;
                         text-align: justify;
                     }
                     img.serviceimageright {
                         border: 2px solid #c4c4c4;
-                        height: 400px;
+                        height: auto;
                         width: 100%;
-                        margin-top: 50px;
+                        margin-bottom: 50px;
                     }
+    
                     .serviceHeadOrder1 {
                         order: 1;
                     }
@@ -1293,7 +1452,8 @@ Created : Ankita Naik
                         position: absolute;
                         top: 10px;
                         right: 10px;
-                        width: 10px;
+                        width: 20px;
+                        cursor: pointer;
                     }
         
                     /**Services end**/
@@ -1684,7 +1844,7 @@ Created : Ankita Naik
                         display: block;
                     }
                     #aboutcontent {
-                        padding: 60px;
+                        padding: 10px;
                     }
                     .aboutimg {
                         text-align: center;
@@ -1697,7 +1857,7 @@ Created : Ankita Naik
                         font-weight: bold;
                     }
                     .aboutinfo p {
-                        font-size: 14px;
+                        font-size: 16px;
                     }
                     img.sign {
                         width: 100px !important;
@@ -1758,7 +1918,8 @@ Created : Ankita Naik
                     position: absolute;
                     top: 10px;
                     right: 10px;
-                    width: 15px;
+                    width: 20px;
+                    cursor: pointer;
                 }
 
  
@@ -1851,15 +2012,14 @@ Created : Ankita Naik
                     .serviceleft {
                         padding-top: 20px !important;
                     }
-                    .servicesHeadleft {
-                        font-size: 16px !important;
+                    .servicesHeadleft1 {
+                        font-size: 18px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                        padding-top: 30px;
                     }
-                    .servicesHeadleft::after {
+                    .servicesHeadleft1::after {
                         content: '';
                         background: #3c3c3c;
                         display: block;
@@ -1867,42 +2027,121 @@ Created : Ankita Naik
                         width: 100px;
                         margin: 20px 0 5px;
                     }
+    
+                    .servicesHeadleft2 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft2::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 121px;
+                        margin: 20px 0 5px;
+                    }
+                    .servicesHeadleft3 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft3::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 82px;
+                        margin: 20px 0 5px;
+                    }
+                    .servicesHeadleft4 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft4::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 98px;
+                        margin: 20px 0 5px;
+                    }
                     .servicesParaleft {
-                        font-size: 14px !important;
+                        font-size: 16px;
                         text-align: justify;
                     }
                     img.serviceimageleft {
                         border: 2px solid #c4c4c4;
-                        height: 400px;
-                        margin-top: 30px !important;
+                        height: auto;
                         width: 100%;
+                        margin-bottom: 50px;
                     }
-                    .servicesHeadright {
-                        font-size: 16px !important;
+                    .servicesHeadright1 {
+                        font-size: 18px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
-                        padding-top: 30px;
                         font-weight: 600;
                     }
-                    .servicesHeadright::after {
+                    .servicesHeadright1::after {
                         content: '';
                         background: #3c3c3c;
                         display: block;
                         height: 4px;
-                        width: 100px;
+                        width: 52px;
                         margin: 20px 0 5px;
                     }
+    
+                    .servicesHeadright2 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadright2::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 95px;
+                        margin: 20px 0 5px;
+                    }
+    
+                    .servicesHeadright3 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadright3::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 56px;
+                        margin: 20px 0 5px;
+                    }
+    
                     .servicesPararight {
-                        font-size: 14px !important;
+                        font-size: 16px;
                         text-align: justify;
                     }
                     img.serviceimageright {
                         border: 2px solid #c4c4c4;
-                        height: 400px;
+                        height: auto;
                         width: 100%;
-                        margin-top: 30px !important;
+                        margin-bottom: 50px;
                     }
+    
                     .serviceHeadOrder1 {
                         order: 1;
                     }
@@ -1922,7 +2161,8 @@ Created : Ankita Naik
                         position: absolute;
                         top: 10px;
                         right: 10px;
-                        width: 10px;
+                        width: 20px;
+                        cursor: pointer;
                     }
                     /**Services end**/
                     /*Features start**/
@@ -2160,20 +2400,20 @@ Created : Ankita Naik
                         display: block;
                     }
                     #aboutcontent {
-                        padding: 60px;
+                        padding: 10px;
                     }
                     .aboutimg {
                         text-align: center;
                     }
                     .aboutinfo h2 {
-                        font-size: 16px;
+                        font-size: 18px;
                         margin-top: 50px;
                         margin-bottom: 20px;
                         font-style: normal;
                         font-weight: bold;
                     }
                     .aboutinfo p {
-                        font-size: 12px;
+                        font-size: 16px;
                     }
                     img.sign {
                         width: 100px;
@@ -2268,27 +2508,28 @@ Created : Ankita Naik
                     position: absolute;
                     top: 10px;
                     right: 10px;
-                    width: 15px;
+                    width: 20px;
+                    cursor: pointer;
                 }
 
-                        .mediumHide {
-                            display: none;
-                        }
+                 .mediumHide {
+                   display: none;
+                }
 
-                        .mediumShow {
-                            display: block;
-                        }
+                .mediumShow {
+                   display: block;
+                }
                         
-                        .mediumBottom {
-                            padding-bottom: 45px;
-                        }
-                        .video1 {
-                            height: auto;
-                        }
+                .mediumBottom {
+                   padding-bottom: 45px;
+                }
+                .video1 {
+                   height: auto;
+                }
 
-                        .videomedium {
-                            padding-bottom: 45px;
-                        }
+                .videomedium {
+                    padding-bottom: 45px;
+                }
 
 
             /***Video End****/
@@ -2300,15 +2541,14 @@ Created : Ankita Naik
                     .serviceleft {
                         padding-top: 20px !important;
                     }
-                    .servicesHeadleft {
-                        font-size: 16px !important;
+                    .servicesHeadleft1 {
+                        font-size: 18px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                        padding-top: 30px;
                     }
-                    .servicesHeadleft::after {
+                    .servicesHeadleft1::after {
                         content: '';
                         background: #3c3c3c;
                         display: block;
@@ -2316,42 +2556,121 @@ Created : Ankita Naik
                         width: 100px;
                         margin: 20px 0 5px;
                     }
+    
+                    .servicesHeadleft2 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft2::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 121px;
+                        margin: 20px 0 5px;
+                    }
+                    .servicesHeadleft3 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft3::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 82px;
+                        margin: 20px 0 5px;
+                    }
+                    .servicesHeadleft4 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft4::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 98px;
+                        margin: 20px 0 5px;
+                    }
                     .servicesParaleft {
-                        font-size: 14px !important;
+                        font-size: 16px;
                         text-align: justify;
                     }
                     img.serviceimageleft {
                         border: 2px solid #c4c4c4;
-                        height: 400px;
-                        margin-top: 30px !important;
+                        height: auto;
                         width: 100%;
+                        margin-bottom: 50px;
                     }
-                    .servicesHeadright {
-                        font-size: 16px !important;
+                    .servicesHeadright1 {
+                        font-size: 18px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
-                        padding-top: 30px;
                         font-weight: 600;
                     }
-                    .servicesHeadright::after {
+                    .servicesHeadright1::after {
                         content: '';
                         background: #3c3c3c;
                         display: block;
                         height: 4px;
-                        width: 100px;
+                        width: 52px;
                         margin: 20px 0 5px;
                     }
+    
+                    .servicesHeadright2 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadright2::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 95px;
+                        margin: 20px 0 5px;
+                    }
+    
+                    .servicesHeadright3 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadright3::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 56px;
+                        margin: 20px 0 5px;
+                    }
+    
                     .servicesPararight {
-                        font-size: 14px !important;
+                        font-size: 16px;
                         text-align: justify;
                     }
                     img.serviceimageright {
                         border: 2px solid #c4c4c4;
-                        height: 400px;
+                        height: auto;
                         width: 100%;
-                        margin-top: 30px !important;
+                        margin-bottom: 50px;
                     }
+
                     .serviceHeadOrder1 {
                         order: 1;
                     }
@@ -2370,7 +2689,8 @@ Created : Ankita Naik
                         position: absolute;
                         top: 10px;
                         right: 10px;
-                        width: 10px;
+                        width: 20px;
+                        cursor: pointer;
                     }
                     /**Services end**/
                     /*Features start**/
@@ -2636,6 +2956,140 @@ Created : Ankita Naik
                      widows: 2%;     
                            }
                     /**Gallery End**/
+
+                    /****Services Start*******/
+                    .servicesHeadleft1 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft1::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 100px;
+                        margin: 20px 0 5px;
+                    }
+    
+                    .servicesHeadleft2 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft2::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 121px;
+                        margin: 20px 0 5px;
+                    }
+                    .servicesHeadleft3 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft3::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 82px;
+                        margin: 20px 0 5px;
+                    }
+                    .servicesHeadleft4 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadleft4::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 98px;
+                        margin: 20px 0 5px;
+                    }
+                    .servicesParaleft {
+                        font-size: 16px;
+                        text-align: justify;
+                    }
+                    img.serviceimageleft {
+                        border: 2px solid #c4c4c4;
+                        height: auto;
+                        width: 100%;
+                        margin-bottom: 50px;
+                    }
+                    .servicesHeadright1 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadright1::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 52px;
+                        margin: 20px 0 5px;
+                    }
+    
+                    .servicesHeadright2 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadright2::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 95px;
+                        margin: 20px 0 5px;
+                    }
+    
+                    .servicesHeadright3 {
+                        font-size: 18px;
+                        text-align: justify;
+                        text-transform: uppercase;
+                        padding-bottom: 20px;
+                        font-weight: 600;
+                    }
+                    .servicesHeadright3::after {
+                        content: '';
+                        background: #3c3c3c;
+                        display: block;
+                        height: 4px;
+                        width: 56px;
+                        margin: 20px 0 5px;
+                    }
+    
+                    .servicesPararight {
+                        font-size: 16px;
+                        text-align: justify;
+                    }
+                    img.serviceimageright {
+                        border: 2px solid #c4c4c4;
+                        height: auto;
+                        width: 100%;
+                        margin-bottom: 50px;
+                    }
+
+
+                    /****Services End********/
                     /***Video Start*****/
                     .video-player {
                         width: 90%;
@@ -2649,7 +3103,8 @@ Created : Ankita Naik
                         position: absolute;
                         top: 10px;
                         right: 10px;
-                        width: 15px;
+                        width: 20px;
+                        cursor: pointer;
                     }
     
 
