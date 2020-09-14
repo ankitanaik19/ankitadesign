@@ -5,8 +5,10 @@ Created : Ankita Naik
 ================================================
     1 Home Page    
     2 About
-    3 Gallery
-    4 Contact
+    3 Services
+    4 Photos
+    5 Videos
+    6 Contact
     
 ======================================
 [ End table content ]
@@ -709,7 +711,6 @@ Created : Ankita Naik
                 input[type="text"],
                 input[type="email"],
                 input[type="number"],
-                select,
                 textarea {
                     width: 100%;
                     padding: 10px;
@@ -721,6 +722,33 @@ Created : Ankita Naik
                     font-size: 16px;
                     background: #ffffff;
                 }
+
+                input[type="number"]
+                 {
+                    width: 50%;
+                    padding: 10px;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    resize: vertical;
+                    color: #3c3c3c;
+                    font-size: 16px;
+                    background: #ffffff;
+                    display: table-cell;
+                }
+                select {
+                    width: 50%;
+                    padding: 10px;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    resize: vertical;
+                    color: #3c3c3c;
+                    font-size: 16px;
+                    display: table-cell;
+                    background: #ffffff;
+                }
+                
                 input[type="date"] {
                     width: 100%;
                     padding: 10px;
