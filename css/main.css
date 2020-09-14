@@ -800,7 +800,7 @@ h2.con {
     }
 
     .about-intro {
-        font-size: 17px;
+        font-size: 16px;
         margin-right: 10px;
         margin-top: 20px;
     }
@@ -1285,7 +1285,7 @@ h2.con {
 
     .add-detail {
         display: table-cell;
-        font-size: 12px;
+        font-size: 14px;
         margin: 0;
         padding: 0;
     }
@@ -1760,7 +1760,7 @@ h2.con {
 
     .add-detail {
         display: table-cell;
-        font-size: 12px;
+        font-size: 14px;
         margin: 0;
         padding: 0;
     }
@@ -2235,7 +2235,7 @@ h2.con {
 
     .add-detail {
         display: table-cell;
-        font-size: 12px;
+        font-size: 15px;
         margin: 0;
         padding: 0;
     }
