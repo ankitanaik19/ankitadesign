@@ -442,6 +442,9 @@ h4.exp-code {
 
 /***Portfolio Start */
 
+#all {
+    padding: 0 20px;
+}
 
 .all {
     margin-top: 20px;
@@ -485,16 +488,43 @@ button.webdesign:hover {
     transition: all 0.3s ease 0s;
 }
 
-.site1 {
-    border: 1px solid #ececec;
+.project {
     margin: 40px 20px;
-    padding: 30px;
-    background: #fff;
 }
 
-.site1 img:hover {
-    transform: scale(1.1);
+.overlay {
+    position: relative;
+    top: -20px;
+    right: 0px;
+    background : #6CC254 ;
+    padding: 25px 10px;
+    width: 100%;
+    margin: 0;
+    transition: .5s ease;
+    opacity: 0;
 }
+
+.project:hover .overlay {
+    opacity: 1;
+  }
+  
+.projectImage {
+    width: 100%;
+}
+.text {
+    color: white;
+    background: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 #webdesign {
     display: none;
@@ -1000,19 +1030,70 @@ h2.con {
         letter-spacing: 1px;
     }
 
-    /**Resume End*/
-
-    .site1 {
-        border: 1px solid #ececec;
-        margin: 40px 20px;
-        padding: 30px;
-        background: #fff;
+   #all {
+        padding: 0 40px;
     }
     
-
-    .site1 img:hover {
-        transform: scale(1.1);
+    .all {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        padding: 10px 25px;
+        color: #fff;
+        background: #6cc254;
+        border: none;
+        border-radius: 5px;
     }
+    
+    button.all:hover {
+        color: #fff !important;
+        font-weight: 400 !important;
+        letter-spacing: 2px;
+        background: #6cc254;
+        -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
+        -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
+        transition: all 0.3s ease 0s;
+    }
+    
+    .project {
+        margin :0;
+    }
+    .overlay {
+        position: relative;
+        top: -20px;
+        right: 0px;
+        background : #6CC254 ;
+        padding: 25px 10px;
+        width: 100%;
+        margin-bottom: 40px;
+        transition: .5s ease;
+        opacity: 0;
+    }
+    
+    .project:hover .overlay {
+        opacity: 1;
+      }
+      
+  
+    .text {
+        color: white;
+        background: none;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+    /**Resume End*/
+
+
 
 }
 
@@ -1432,19 +1513,68 @@ h2.con {
 
     /**Resume End*/
 
-
-
-    .site1 {
-        border: 1px solid #ececec;
-        margin: 40px 20px;
-        padding: 30px;
-        background: #fff;
+    #all {
+        padding: 0 20px;
     }
     
-
-    .site1 img:hover {
-        transform: scale(1.1);
+    .all {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        padding: 10px 25px;
+        color: #fff;
+        background: #6cc254;
+        border: none;
+        border-radius: 5px;
     }
+    
+    button.all:hover {
+        color: #fff !important;
+        font-weight: 400 !important;
+        letter-spacing: 2px;
+        background: #6cc254;
+        -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
+        -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
+        transition: all 0.3s ease 0s;
+    }
+    
+    .project {
+        margin :0;
+    }
+    .overlay {
+        position: relative;
+        top: -20px;
+        right: 0px;
+        background : #6CC254 ;
+        padding: 30px 5px;
+        width: 100%;
+        margin-bottom: 50px;
+        transition: .5s ease;
+        opacity: 0;
+    }
+    
+    .project:hover .overlay {
+        opacity: 1;
+      }
+      
+  
+    .text {
+        color: white;
+        background: none;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+
 
 }
 
@@ -1857,18 +1987,68 @@ h2.con {
 
     /**Resume End*/
 
-
-    .site1 {
-        border: 1px solid #ececec;
-        margin: 40px 20px;
-        padding: 30px;
-        background: #fff;
+    #all {
+        padding: 0 20px;
     }
     
-
-    .site1 img:hover {
-        transform: scale(1.1);
+    .all {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        padding: 10px 25px;
+        color: #fff;
+        background: #6cc254;
+        border: none;
+        border-radius: 5px;
     }
+    
+    button.all:hover {
+        color: #fff !important;
+        font-weight: 400 !important;
+        letter-spacing: 2px;
+        background: #6cc254;
+        -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
+        -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
+        transition: all 0.3s ease 0s;
+    }
+    
+    .project {
+        margin :0;
+    }
+    .overlay {
+        position: relative;
+        top: -20px;
+        right: 0px;
+        background : #6CC254 ;
+        padding: 20px 0px;
+        width: 100%;
+        margin-bottom: 30px;
+        transition: .5s ease;
+        opacity: 0;
+    }
+    
+    .project:hover .overlay {
+        opacity: 1;
+      }
+      
+  
+    .text {
+        color: white;
+        background: none;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+
 
 }
 
@@ -2130,7 +2310,7 @@ h2.con {
         width: 140px;
         font-size: 12px;
         padding: 12px;
-        color: #f0f0f.contactmedia;
+        color: #f0f0f0;
         background: #6cc254;
         border: none;
         border-radius: 10px;
@@ -2280,18 +2460,68 @@ h2.con {
 
     /**Resume End*/
 
-
-    .site1 {
-        border: 1px solid #ececec;
-        margin: 40px 20px;
-        padding: 30px;
-        background: #fff;
+    #all {
+        padding: 0 20px;
     }
     
-
-    .site1 img:hover {
-        transform: scale(1.1);
+    .all {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        padding: 10px 25px;
+        color: #fff;
+        background: #6cc254;
+        border: none;
+        border-radius: 5px;
     }
+    
+    button.all:hover {
+        color: #fff !important;
+        font-weight: 400 !important;
+        letter-spacing: 2px;
+        background: #6cc254;
+        -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
+        -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
+        transition: all 0.3s ease 0s;
+    }
+    
+    .project {
+        margin :0;
+    }
+    .overlay {
+        position: relative;
+        top: -20px;
+        right: 0px;
+        background : #6CC254 ;
+        padding: 20px 0px;
+        width: 100%;
+        margin-bottom: 30px;
+        transition: .5s ease;
+        opacity: 0;
+    }
+    
+    .project:hover .overlay {
+        opacity: 1;
+      }
+      
+  
+    .text {
+        color: white;
+        background: none;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+
 
 }
 
