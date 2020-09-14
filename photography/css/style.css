@@ -543,14 +543,6 @@ Created : Ankita Naik
                     padding-bottom: 20px;
                     font-weight: 600;
                 }
-                .servicesHeadleft1::after {
-                    content: '';
-                    background: #3c3c3c;
-                    display: block;
-                    height: 4px;
-                    width: 170px;
-                    margin: 20px 0 5px;
-                }
 
                 .servicesHeadleft2 {
                     font-size: 32px;
@@ -559,14 +551,6 @@ Created : Ankita Naik
                     padding-bottom: 20px;
                     font-weight: 600;
                 }
-                .servicesHeadleft2::after {
-                    content: '';
-                    background: #3c3c3c;
-                    display: block;
-                    height: 4px;
-                    width: 208px;
-                    margin: 20px 0 5px;
-                }
                 .servicesHeadleft3 {
                     font-size: 32px;
                     text-align: justify;
@@ -574,28 +558,12 @@ Created : Ankita Naik
                     padding-bottom: 20px;
                     font-weight: 600;
                 }
-                .servicesHeadleft3::after {
-                    content: '';
-                    background: #3c3c3c;
-                    display: block;
-                    height: 4px;
-                    width: 140px;
-                    margin: 20px 0 5px;
-                }
                 .servicesHeadleft4 {
                     font-size: 32px;
                     text-align: justify;
                     text-transform: uppercase;
                     padding-bottom: 20px;
                     font-weight: 600;
-                }
-                .servicesHeadleft4::after {
-                    content: '';
-                    background: #3c3c3c;
-                    display: block;
-                    height: 4px;
-                    width: 170px;
-                    margin: 20px 0 5px;
                 }
                 .servicesParaleft {
                     font-size: 18px;
@@ -612,29 +580,12 @@ Created : Ankita Naik
                     padding-bottom: 20px;
                     font-weight: 600;
                 }
-                .servicesHeadright1::after {
-                    content: '';
-                    background: #3c3c3c;
-                    display: block;
-                    height: 4px;
-                    width: 85px;
-                    margin: 20px 0 5px;
-                }
-
                 .servicesHeadright2 {
                     font-size: 32px;
                     text-align: justify;
                     text-transform: uppercase;
                     padding-bottom: 20px;
                     font-weight: 600;
-                }
-                .servicesHeadright2::after {
-                    content: '';
-                    background: #3c3c3c;
-                    display: block;
-                    height: 4px;
-                    width: 164px;
-                    margin: 20px 0 5px;
                 }
 
                 .servicesHeadright3 {
@@ -643,14 +594,6 @@ Created : Ankita Naik
                     text-transform: uppercase;
                     padding-bottom: 20px;
                     font-weight: 600;
-                }
-                .servicesHeadright3::after {
-                    content: '';
-                    background: #3c3c3c;
-                    display: block;
-                    height: 4px;
-                    width: 96px;
-                    margin: 20px 0 5px;
                 }
 
                 .servicesPararight {
@@ -1309,29 +1252,12 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadleft1::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 170px;
-                        margin: 20px 0 5px;
-                    }
-    
                     .servicesHeadleft2 {
                         font-size: 32px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadleft2::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 208px;
-                        margin: 20px 0 5px;
                     }
                     .servicesHeadleft3 {
                         font-size: 32px;
@@ -1340,28 +1266,12 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadleft3::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 140px;
-                        margin: 20px 0 5px;
-                    }
                     .servicesHeadleft4 {
                         font-size: 32px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadleft4::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 170px;
-                        margin: 20px 0 5px;
                     }
                     .servicesParaleft {
                         font-size: 18px;
@@ -1380,14 +1290,6 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadright1::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 85px;
-                        margin: 20px 0 5px;
-                    }
     
                     .servicesHeadright2 {
                         font-size: 32px;
@@ -1396,14 +1298,6 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadright2::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 164px;
-                        margin: 20px 0 5px;
-                    }
     
                     .servicesHeadright3 {
                         font-size: 32px;
@@ -1411,14 +1305,6 @@ Created : Ankita Naik
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadright3::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 96px;
-                        margin: 20px 0 5px;
                     }
     
                     .servicesPararight {
@@ -1857,7 +1743,7 @@ Created : Ankita Naik
                         text-align: center;
                     }
                     .aboutinfo h2 {
-                        font-size: 18px;
+                        font-size: 20px;
                         margin-top: 50px;
                         margin-bottom: 30px;
                         font-style: normal;
@@ -2026,14 +1912,6 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadleft1::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 100px;
-                        margin: 20px 0 5px;
-                    }
     
                     .servicesHeadleft2 {
                         font-size: 18px;
@@ -2042,14 +1920,6 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadleft2::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 121px;
-                        margin: 20px 0 5px;
-                    }
                     .servicesHeadleft3 {
                         font-size: 18px;
                         text-align: justify;
@@ -2057,28 +1927,12 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadleft3::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 82px;
-                        margin: 20px 0 5px;
-                    }
                     .servicesHeadleft4 {
                         font-size: 18px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadleft4::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 98px;
-                        margin: 20px 0 5px;
                     }
                     .servicesParaleft {
                         font-size: 16px;
@@ -2097,29 +1951,12 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadright1::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 52px;
-                        margin: 20px 0 5px;
-                    }
-    
                     .servicesHeadright2 {
                         font-size: 18px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadright2::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 95px;
-                        margin: 20px 0 5px;
                     }
     
                     .servicesHeadright3 {
@@ -2128,14 +1965,6 @@ Created : Ankita Naik
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadright3::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 56px;
-                        margin: 20px 0 5px;
                     }
     
                     .servicesPararight {
@@ -2422,7 +2251,7 @@ Created : Ankita Naik
                         text-align: center;
                     }
                     .aboutinfo h2 {
-                        font-size: 18px;
+                        font-size: 20px;
                         margin-top: 50px;
                         margin-bottom: 20px;
                         font-style: normal;
@@ -2564,29 +2393,12 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadleft1::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 100px;
-                        margin: 20px 0 5px;
-                    }
-    
                     .servicesHeadleft2 {
                         font-size: 18px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadleft2::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 121px;
-                        margin: 20px 0 5px;
                     }
                     .servicesHeadleft3 {
                         font-size: 18px;
@@ -2595,28 +2407,12 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadleft3::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 82px;
-                        margin: 20px 0 5px;
-                    }
                     .servicesHeadleft4 {
                         font-size: 18px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadleft4::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 98px;
-                        margin: 20px 0 5px;
                     }
                     .servicesParaleft {
                         font-size: 16px;
@@ -2635,14 +2431,6 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadright1::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 52px;
-                        margin: 20px 0 5px;
-                    }
     
                     .servicesHeadright2 {
                         font-size: 18px;
@@ -2651,14 +2439,6 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadright2::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 95px;
-                        margin: 20px 0 5px;
-                    }
     
                     .servicesHeadright3 {
                         font-size: 18px;
@@ -2666,14 +2446,6 @@ Created : Ankita Naik
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadright3::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 56px;
-                        margin: 20px 0 5px;
                     }
     
                     .servicesPararight {
@@ -2990,14 +2762,6 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadleft1::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 100px;
-                        margin: 20px 0 5px;
-                    }
     
                     .servicesHeadleft2 {
                         font-size: 18px;
@@ -3006,14 +2770,6 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadleft2::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 110px;
-                        margin: 20px 0 5px;
-                    }
                     .servicesHeadleft3 {
                         font-size: 18px;
                         text-align: justify;
@@ -3021,28 +2777,12 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadleft3::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 82px;
-                        margin: 20px 0 5px;
-                    }
                     .servicesHeadleft4 {
                         font-size: 18px;
                         text-align: justify;
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadleft4::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 98px;
-                        margin: 20px 0 5px;
                     }
                     .servicesParaleft {
                         font-size: 16px;
@@ -3061,14 +2801,6 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadright1::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 52px;
-                        margin: 20px 0 5px;
-                    }
     
                     .servicesHeadright2 {
                         font-size: 18px;
@@ -3077,14 +2809,6 @@ Created : Ankita Naik
                         padding-bottom: 20px;
                         font-weight: 600;
                     }
-                    .servicesHeadright2::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 95px;
-                        margin: 20px 0 5px;
-                    }
     
                     .servicesHeadright3 {
                         font-size: 18px;
@@ -3092,14 +2816,6 @@ Created : Ankita Naik
                         text-transform: uppercase;
                         padding-bottom: 20px;
                         font-weight: 600;
-                    }
-                    .servicesHeadright3::after {
-                        content: '';
-                        background: #3c3c3c;
-                        display: block;
-                        height: 4px;
-                        width: 56px;
-                        margin: 20px 0 5px;
                     }
     
                     .servicesPararight {
