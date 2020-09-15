@@ -725,8 +725,8 @@ Created : Ankita Naik
 
                 input[type="number"]
                  {
-                    width: 50%;
-                    padding: 10px;
+                    width: 48%;
+                    padding: 10px 5px;
                     border-top: none;
                     border-left: none;
                     border-right: none;
@@ -737,7 +737,7 @@ Created : Ankita Naik
                     display: table-cell;
                 }
                 select {
-                    width: 50%;
+                    width: 48%;
                     padding: 10px;
                     border-top: none;
                     border-left: none;
@@ -1455,8 +1455,6 @@ Created : Ankita Naik
                     }
                     input[type="text"],
                     input[type="email"],
-                    input[type="number"],
-                    select,
                     textarea {
                         width: 100%;
                         padding: 10px;
@@ -1468,6 +1466,34 @@ Created : Ankita Naik
                         font-size: 16px;
                         background: #ffffff;
                     }
+
+                    
+                input[type="number"]
+                {
+                   width: 48%;
+                   padding: 10px;
+                   border-top: none;
+                   border-left: none;
+                   border-right: none;
+                   resize: vertical;
+                   color: #3c3c3c;
+                   font-size: 16px;
+                   background: #ffffff;
+                   display: table-cell;
+               }
+               select {
+                   width: 48%;
+                   padding: 10px;
+                   border-top: none;
+                   border-left: none;
+                   border-right: none;
+                   resize: vertical;
+                   color: #3c3c3c;
+                   font-size: 16px;
+                   display: table-cell;
+                   background: #ffffff;
+               }
+
                     input[type="date"] {
                         width: 100%;
                         padding: 10px;
@@ -2115,8 +2141,6 @@ Created : Ankita Naik
                     }
                     input[type="text"],
                     input[type="email"],
-                    input[type="number"],
-                    select,
                     textarea {
                         width: 100%;
                         padding: 10px;
@@ -2128,7 +2152,34 @@ Created : Ankita Naik
                         font-size: 14px !important;
                         background: #ffffff;
                     }
-                    input[type="date"] {
+
+
+                    input[type="number"]
+                    {
+                       width: 48%;
+                       padding: 10px;
+                       border-top: none;
+                       border-left: none;
+                       border-right: none;
+                       resize: vertical;
+                       color: #3c3c3c;
+                       font-size: 14px !important;
+                       background: #ffffff;
+                       display: table-cell;
+                   }
+                   select {
+                       width: 48%;
+                       padding: 10px;
+                       border-top: none;
+                       border-left: none;
+                       border-right: none;
+                       resize: vertical;
+                       color: #3c3c3c;
+                       font-size: 14px !important;
+                       display: table-cell;
+                       background: #ffffff;
+                   }
+                       input[type="date"] {
                         width: 100%;
                         padding: 10px;
                         border-top: none;
@@ -2595,7 +2646,6 @@ Created : Ankita Naik
                     }
                     input[type="text"],
                     input[type="email"],
-                    select,
                     textarea {
                         width: 100%;
                         padding: 10px;
@@ -2607,6 +2657,34 @@ Created : Ankita Naik
                         font-size: 12px !important;
                         background: #ffffff;
                     }
+
+                    
+                input[type="number"]
+                {
+                   width: 48%;
+                   padding: 10px;
+                   border-top: none;
+                   border-left: none;
+                   border-right: none;
+                   resize: vertical;
+                   color: #3c3c3c;
+                   font-size: 12px;
+                   background: #ffffff;
+                   display: table-cell;
+               }
+               select {
+                   width: 48%;
+                   padding: 10px;
+                   border-top: none;
+                   border-left: none;
+                   border-right: none;
+                   resize: vertical;
+                   color: #3c3c3c;
+                   font-size: 12px;
+                   display: table-cell;
+                   background: #ffffff;
+               }
+
                     input[type="date"] {
                         width: 100%;
                         padding: 10px;
@@ -2950,8 +3028,6 @@ Created : Ankita Naik
                     }
                     input[type="text"],
                     input[type="email"],
-                    input[type="number"],
-                    select,
                     textarea {
                         width: 100%;
                         padding: 10px;
@@ -2963,6 +3039,34 @@ Created : Ankita Naik
                         font-size: 12px !important;
                         background: #ffffff;
                     }
+
+                    
+                input[type="number"]
+                {
+                   width: 48%;
+                   padding: 10px;
+                   border-top: none;
+                   border-left: none;
+                   border-right: none;
+                   resize: vertical;
+                   color: #3c3c3c;
+                   font-size: 11px !important;
+                   background: #ffffff;
+                   display: table-cell;
+               }
+               select {
+                   width: 48%;
+                   padding: 10px;
+                   border-top: none;
+                   border-left: none;
+                   border-right: none;
+                   resize: vertical;
+                   color: #3c3c3c;
+                   font-size: 12px !important;
+                   display: table-cell;
+                   background: #ffffff;
+               }
+
                     input[type="date"] {
                         width: 100%;
                         padding: 10px;
