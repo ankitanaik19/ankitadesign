@@ -710,7 +710,6 @@ Created : Ankita Naik
                 }
                 input[type="text"],
                 input[type="email"],
-                input[type="number"],
                 textarea {
                     width: 100%;
                     padding: 10px;
@@ -726,7 +725,7 @@ Created : Ankita Naik
                 input[type="number"]
                  {
                     width: 48%;
-                    padding: 10px 5px;
+                    padding: 10px;
                     border-top: none;
                     border-left: none;
                     border-right: none;
@@ -738,7 +737,7 @@ Created : Ankita Naik
                 }
                 select {
                     width: 48%;
-                    padding: 10px;
+                    padding: 10px 5px;
                     border-top: none;
                     border-left: none;
                     border-right: none;
@@ -1483,7 +1482,7 @@ Created : Ankita Naik
                }
                select {
                    width: 48%;
-                   padding: 10px;
+                   padding: 10px 5px;
                    border-top: none;
                    border-left: none;
                    border-right: none;
@@ -2169,7 +2168,7 @@ Created : Ankita Naik
                    }
                    select {
                        width: 48%;
-                       padding: 10px;
+                       padding: 10px 5px;
                        border-top: none;
                        border-left: none;
                        border-right: none;
@@ -2674,7 +2673,7 @@ Created : Ankita Naik
                }
                select {
                    width: 48%;
-                   padding: 10px;
+                   padding: 10px 5px;
                    border-top: none;
                    border-left: none;
                    border-right: none;
@@ -3056,7 +3055,7 @@ Created : Ankita Naik
                }
                select {
                    width: 48%;
-                   padding: 10px;
+                   padding: 10px 5px;
                    border-top: none;
                    border-left: none;
                    border-right: none;
