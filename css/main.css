@@ -258,14 +258,17 @@ img.imgborder:hover {
     margin-right: 20px;
     border-radius: 50%;
     background: #d0d0d0;
+
 }
 
 .media {
     margin-left: 20px;
 }
 
+
 .media i.social {
     color: #212121;
+   
 }
 
 i.social:hover {
@@ -497,23 +500,21 @@ button.webdesign:hover {
 }
 
 .projecthead {
-    background: #6cc254 !important;
+    background: #f4f4f4 !important;
 }
 .projectInfo1 {
-    color: #fff;
     padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 .projectInfo2 {
-    color: #fff;
     text-align: left;
     text-transform: capitalize;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     padding-left: 30px;
     margin-bottom: 10px;
     display: inline-block;
@@ -524,27 +525,24 @@ button.webdesign:hover {
     margin-bottom: 20px;
 }
 .itemTitle {
-    color: #fff;
     text-align: left;
     text-transform: capitalize;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .itemInfo {
-    color: #fff;
     text-align: left;
     text-transform: capitalize;
     font-size: 16px;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 14px;
 }
 .itemInfo2 {
-    color: #fff;
     text-align: left;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: 5px;
 }
 
@@ -1094,24 +1092,22 @@ h2.con {
     }
     
     .projecthead {
-        background: #6cc254 !important;
+        background: #f4f4f4 !important;
         text-align: center;
     }
     .projectInfo1 {
-        color: #fff;
         padding-top: 10px;
         text-align: center;
         text-transform: uppercase;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 500;
         margin-bottom: 10px;
     }
     .projectInfo2 {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
         padding: 0px 40px;
         margin-bottom: 10px;
         display: inline-block;
@@ -1122,26 +1118,23 @@ h2.con {
         margin-bottom: 20px;
     }
     .itemTitle {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
     }
     
     .itemInfo {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
         margin-left: 14px;
     }
     .itemInfo2 {
-        color: #fff;
         text-align: left;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
         margin-left: 5px;
     }
     
@@ -1418,7 +1411,7 @@ h2.con {
     }
 
     .cv-load {
-        width: 155px;
+        width: 170px;
         font-size: 14px;
         padding: 14px;
         color: #f0f0f0;
@@ -1607,25 +1600,23 @@ h2.con {
     }
     
     .projecthead {
-        background: #6cc254 !important;
+        background: #f4f4f4 !important;
         text-align: center;
     }
     .projectInfo1 {
-        color: #fff;
         padding-top: 10px;
         text-align: center;
         text-transform: uppercase;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
         margin-bottom: 10px;
     }
     .projectInfo2 {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 14px;
-        font-weight: 600;
-        padding: 0px 3px;
+        font-weight: 500;
+        padding: 0px 0px;
         margin-bottom: 10px;
         display: inline-block;
     }
@@ -1635,26 +1626,23 @@ h2.con {
         margin-bottom: 20px;
     }
     .itemTitle {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 500;
     }
     
     .itemInfo {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 14px;
-        font-weight: 600;
-        margin-left: 8px;
+        font-weight: 500;
+        margin-left: 5px;
     }
     .itemInfo2 {
-        color: #fff;
         text-align: left;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 500;
         margin-left: 0px;
     }
     
@@ -1921,9 +1909,9 @@ h2.con {
     }
 
     .cv-load {
-        width: 155px;
+        width: 170px;
         font-size: 14px;
-        padding: 14px;
+        padding: 15px;
         color: #f0f0f0;
         background: #6cc254;
         border: none;
@@ -2111,25 +2099,23 @@ h2.con {
     }
     
     .projecthead {
-        background: #6cc254 !important;
+        background: #f4f4f4 !important;
         text-align: center;
     }
     .projectInfo1 {
-        color: #fff;
         padding-top: 10px;
         text-align: center;
         text-transform: uppercase;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
         margin-bottom: 10px;
     }
     .projectInfo2 {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 14px;
-        font-weight: 600;
-        padding: 0px 3px;
+        font-weight: 500;
+        padding: 0px 0px;
         margin-bottom: 10px;
         display: inline-block;
     }
@@ -2139,26 +2125,23 @@ h2.con {
         margin-bottom: 20px;
     }
     .itemTitle {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 500;
     }
     
     .itemInfo {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 14px;
-        font-weight: 600;
-        margin-left: 8px;
+        font-weight: 500;
+        margin-left: 5px;
     }
     .itemInfo2 {
-        color: #fff;
         text-align: left;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 500;
         margin-left: 0px;
     }
     
@@ -2423,9 +2406,9 @@ h2.con {
     }
 
     .cv-load {
-        width: 155px;
+        width: 170px;
         font-size: 14px;
-        padding: 14px;
+        padding: 12px;
         color: #f0f0f0;
         background: #6cc254;
         border: none;
@@ -2614,24 +2597,22 @@ h2.con {
     }
     
     .projecthead {
-        background: #6cc254 !important;
+        background: #f4f4f4 !important;
         text-align: center;
     }
     .projectInfo1 {
-        color: #fff;
         padding-top: 10px;
         text-align: center;
         text-transform: uppercase;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
         margin-bottom: 10px;
     }
     .projectInfo2 {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 500;
         padding: 0px 4px;
         margin-bottom: 10px;
         display: inline-block;
@@ -2642,26 +2623,23 @@ h2.con {
         margin-bottom: 20px;
     }
     .itemTitle {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 12px;
-        font-weight: 600;
+        font-weight: 500;
     }
     
     .itemInfo {
-        color: #fff;
         text-align: left;
         text-transform: capitalize;
         font-size: 12px;
-        font-weight: 600;
+        font-weight: 500;
         margin-left: 5px;
     }
     .itemInfo2 {
-        color: #fff;
         text-align: left;
         font-size: 12px;
-        font-weight: 600;
+        font-weight: 500;
         margin-left: 0px;
     }
     
