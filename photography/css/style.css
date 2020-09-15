@@ -2168,7 +2168,7 @@ Created : Ankita Naik
                    }
                    select {
                        width: 48%;
-                       padding: 10px 5px;
+                       padding: 10px 6px;
                        border-top: none;
                        border-left: none;
                        border-right: none;
@@ -3055,7 +3055,7 @@ Created : Ankita Naik
                }
                select {
                    width: 48%;
-                   padding: 10px 5px;
+                   padding: 10px 6px;
                    border-top: none;
                    border-left: none;
                    border-right: none;
