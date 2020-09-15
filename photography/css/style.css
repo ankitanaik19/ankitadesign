@@ -870,7 +870,7 @@ Created : Ankita Naik
                         font-size: 14px;
                     }
                     ul li a:hover {
-                        color: #fff ! important;
+                        color: #fff;
                     }
                     .navbar {
                         background: transparent;
@@ -1582,7 +1582,7 @@ Created : Ankita Naik
                         font-size: 14px;
                     }
                     ul li a:hover {
-                        color: #fff ! important;
+                        color: #fff;
                     }
                     .navbar {
                         background: transparent;
@@ -2267,7 +2267,7 @@ Created : Ankita Naik
                         font-size: 12px;
                     }
                     ul li a:hover {
-                        color: #fff ! important;
+                        color: #fff;
                     }
                     .navbar {
                         background: transparent;
