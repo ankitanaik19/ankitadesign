@@ -66,7 +66,7 @@ Created : Ankita Naik
                     color: #fff;
                 }
                 ul li a:hover {
-                    color: #fff ! important;
+                    color: #fff;
                 }
 
                
@@ -82,6 +82,9 @@ Created : Ankita Naik
                 .navbg a,
                 .navbg li a {
                     color: #3c3c3c !important;
+                }
+                a.navhover:hover {
+                    color: #3c3c3c ;
                 }
                 .navbg a:hover {
                     color: #3c3c3c !important;
