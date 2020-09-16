@@ -109,6 +109,7 @@ a:hover span {
 .date {
     margin-top: 80px;
     margin-left: 40px;
+    color: #3e3e3e !important;
 }
 
 h3::after {
@@ -124,6 +125,7 @@ h3::after {
     margin-top: 40px;
     margin-left: 40px;
     font-size: 30px;
+    color: #3e3e3e !important;
 }
 
 .design-slogan {
@@ -132,12 +134,14 @@ h3::after {
     margin-left: 40px;
     margin-top: 35px;
     text-transform: uppercase;
+    color: #3e3e3e !important;
 }
 
 .self {
     margin-top: 20px;
     margin-left: 40px;
     font-size: 20px;
+    color: #3e3e3e !important;
 }
 
 .startbtn { 
@@ -219,6 +223,7 @@ img.imgborder:hover {
     font-size: 18px;
     margin-right: 100px;
     margin-top: 20px;
+    color: #3e3e3e !important;
 }
 
 .address {
@@ -235,7 +240,9 @@ img.imgborder:hover {
     display: table-cell;
     font-size: 16px;
     margin: 0;
-    padding: 0;
+    padding: 0;  
+    color: #3e3e3e !important;
+
 }
 
 #after-line p::after {
@@ -304,7 +311,8 @@ a:hover .cv-load {
 /*Resume start**/
 
 h2.resume {
-    font-size: 30px;
+    font-size: 30px; 
+    color: #3e3e3e !important;
     margin-left: 20px;
     margin-top: 40px;
     font-weight: 600;
