@@ -499,10 +499,12 @@ button.webdesign:hover {
 }
 
 .projecthead {
-    background: #f4f4f4 !important;
+    background: #3e3e3e !important;
+    box-shadow: 0 1px 1px 1px #3e3e3e;
 }
 .projectInfo1 {
     padding-top: 10px;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
@@ -513,6 +515,7 @@ button.webdesign:hover {
     text-align: left;
     text-transform: capitalize;
     font-size: 16px;
+    color: #fff;
     font-weight: 500;
     padding-left: 30px;
     margin-bottom: 10px;
@@ -528,12 +531,14 @@ button.webdesign:hover {
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 500;
+    color: #fff;
 }
 
 .itemInfo {
     text-align: left;
     text-transform: capitalize;
     font-size: 16px;
+    color: #fff;
     letter-spacing: 1px;
     font-weight: 500;
     margin-left: 14px;
@@ -541,6 +546,7 @@ button.webdesign:hover {
 .itemInfo2 {
     text-align: left;
     font-size: 16px;
+    color: #fff;
     font-weight: 500;
     margin-left: 5px;
 }
@@ -1091,11 +1097,13 @@ h2.con {
     }
     
     .projecthead {
-        background: #f4f4f4 !important;
+        background: #3e3e3e !important;
         text-align: center;
+       box-shadow: 0 1px 1px 1px #3e3e3e;
     }
     .projectInfo1 {
         padding-top: 10px;
+        color: #fff ;
         text-align: center;
         text-transform: uppercase;
         font-size: 20px;
@@ -1106,6 +1114,7 @@ h2.con {
         text-align: left;
         text-transform: capitalize;
         font-size: 16px;
+        color: #fff;
         font-weight: 500;
         padding: 0px 40px;
         margin-bottom: 10px;
@@ -1120,6 +1129,7 @@ h2.con {
         text-align: left;
         text-transform: capitalize;
         font-size: 16px;
+        color: #fff;
         font-weight: 500;
     }
     
@@ -1127,12 +1137,14 @@ h2.con {
         text-align: left;
         text-transform: capitalize;
         font-size: 16px;
+        color: #fff;
         font-weight: 500;
         margin-left: 14px;
     }
     .itemInfo2 {
         text-align: left;
         font-size: 16px;
+        color: #fff;
         font-weight: 500;
         margin-left: 5px;
     }
@@ -1599,11 +1611,13 @@ h2.con {
     }
     
     .projecthead {
-        background: #f4f4f4 !important;
+        background: #3e3e3e !important;
         text-align: center;
+        box-shadow: 0 1px 1px 1px #3e3e3e;
     }
     .projectInfo1 {
         padding-top: 10px;
+        color: #fff;
         text-align: center;
         text-transform: uppercase;
         font-size: 16px;
@@ -1612,6 +1626,7 @@ h2.con {
     }
     .projectInfo2 {
         text-align: left;
+color: #fff;
         text-transform: capitalize;
         font-size: 14px;
         font-weight: 500;
@@ -1629,6 +1644,7 @@ h2.con {
         text-transform: capitalize;
         font-size: 14px;
         font-weight: 500;
+        color: #fff;
     }
     
     .itemInfo {
@@ -1637,12 +1653,14 @@ h2.con {
         font-size: 14px;
         font-weight: 500;
         margin-left: 5px;
+        color: #fff;
     }
     .itemInfo2 {
         text-align: left;
         font-size: 14px;
         font-weight: 500;
         margin-left: 0px;
+        color: #fff;
     }
     
     .projectImage {
@@ -2098,14 +2116,16 @@ h2.con {
     }
     
     .projecthead {
-        background: #f4f4f4 !important;
+        background: #3e3e3e !important;
         text-align: center;
+        box-shadow: 0 1px 1px 1px #3e3e3e;
     }
     .projectInfo1 {
         padding-top: 10px;
         text-align: center;
         text-transform: uppercase;
         font-size: 16px;
+        color: #fff;
         font-weight: 500;
         margin-bottom: 10px;
     }
@@ -2115,6 +2135,7 @@ h2.con {
         font-size: 14px;
         font-weight: 500;
         padding: 0px 0px;
+        color: #fff;
         margin-bottom: 10px;
         display: inline-block;
     }
@@ -2128,6 +2149,7 @@ h2.con {
         text-transform: capitalize;
         font-size: 14px;
         font-weight: 500;
+        color : #FFF;
     }
     
     .itemInfo {
@@ -2136,12 +2158,14 @@ h2.con {
         font-size: 14px;
         font-weight: 500;
         margin-left: 5px;
+        color: #FFF;
     }
     .itemInfo2 {
         text-align: left;
         font-size: 14px;
         font-weight: 500;
         margin-left: 0px;
+        color:#fff;
     }
     
     .projectImage {
@@ -2596,8 +2620,9 @@ h2.con {
     }
     
     .projecthead {
-        background: #f4f4f4 !important;
+        background: #3e3e3e !important;
         text-align: center;
+        box-shadow: 0 1px 1px 1px #3e3e3e;
     }
     .projectInfo1 {
         padding-top: 10px;
@@ -2605,6 +2630,7 @@ h2.con {
         text-transform: uppercase;
         font-size: 16px;
         font-weight: 500;
+        color: #fff;
         margin-bottom: 10px;
     }
     .projectInfo2 {
@@ -2615,6 +2641,7 @@ h2.con {
         padding: 0px 4px;
         margin-bottom: 10px;
         display: inline-block;
+        color: #fff;
     }
     
     .projectInfo2:last-child
@@ -2626,6 +2653,7 @@ h2.con {
         text-transform: capitalize;
         font-size: 12px;
         font-weight: 500;
+        color: #fff;
     }
     
     .itemInfo {
@@ -2633,6 +2661,7 @@ h2.con {
         text-transform: capitalize;
         font-size: 12px;
         font-weight: 500;
+        color: #fff;
         margin-left: 5px;
     }
     .itemInfo2 {
@@ -2640,6 +2669,7 @@ h2.con {
         font-size: 12px;
         font-weight: 500;
         margin-left: 0px;
+        color: #fff;
     }
     
     .projectImage {
