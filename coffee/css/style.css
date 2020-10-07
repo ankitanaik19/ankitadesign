@@ -1950,8 +1950,8 @@ input[type="email"] {
 textarea {
     width: 99%;
     padding: 5px 5px 5px 10px;
-    margin-left: 8px;
-    margin-right: 15px;
+    margin-left: 11px;
+    margin-right: 11px;
     font-size: 18px;
     border: 1px solid #d2d2d2;
 }
@@ -1977,14 +1977,21 @@ button[type="submit"] {
     margin-top: 20px;
 }
 
-.contactPage h4 {
-    font-size: 22px;
+.contactPage h4:first-child {
+    font-size: 20px;
     color: #934715;
     font-weight: bold;
+    margin-top: 0px;
+}
+.contactPage h4 {
+    font-size: 20px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
 .contactPage .add {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 
@@ -2771,6 +2778,156 @@ h3.headInfo {
 
 /**Quotes End*/
 
+/***Contact page start****/
+
+.bannercontact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+}
+
+.contactHead {
+    font-size: 50px;
+    color: #ca743b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form1 {
+    width: 100%;
+    align-items: center;
+}
+
+.contactBg {
+    background: rgba(32, 32, 32, 0.7);
+    padding: 50px 100px 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 31%;
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border: 1px solid #d2d2d2;
+}
+
+textarea {
+    width: 98%;
+    padding: 5px 5px 5px 10px;
+    margin-left: 11px;
+    margin-right: 11px;
+    font-size: 18px;
+    border: 1px solid #d2d2d2;
+}
+
+input::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+textarea::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+button[type="submit"] {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    background: #934715;
+    color: #fff;
+    border: none;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.contactPage h4:first-child {
+    font-size: 20px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.contactPage h4 {
+    font-size: 20px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.contactPage .add {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.mapIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 12px;
+}
+
+.phoneIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 8px;
+}
+
+.hashIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 6px;
+}
+
+.contactcoffeebeansimage {
+    float: right;
+    height: 149px;
+    position: absolute;
+    right: 0;
+    top: -80px;
+}
+
+.map {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 89%;
+}
+
+.fb {
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+.twit {
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.insta {
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.coffeebanner3 {
+    padding-left: 0;
+    padding-right: 0;
+    height: 150px;
+}
+
+
+/***Contact Page End*******/
+
+
+
 }
 
 
@@ -2830,7 +2987,7 @@ h3.headInfo {
     }
     .navbar-nav li {
         padding: 4px 0px;
-        font-size: 20px;
+        font-size: 18px;
     }
     .navbar-nav li a {
         float: right;
@@ -2847,7 +3004,7 @@ h3.headInfo {
     .nav-link {
         color: #4f4f4f;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 2px;
     }
     a.nav-link:hover {
@@ -3578,6 +3735,156 @@ h3.headInfo {
 
 
 /**Quotes End*/
+/***Contact page start****/
+
+.bannercontact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+}
+
+.contactHead {
+    font-size: 50px;
+    color: #ca743b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form1 {
+    width: 100%;
+    align-items: center;
+}
+
+.contactBg {
+    background: rgba(32, 32, 32, 0.7);
+    padding: 50px 100px 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 31%;
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border: 1px solid #d2d2d2;
+}
+
+textarea {
+    width: 98%;
+    padding: 5px 5px 5px 10px;
+    margin-left: 11px;
+    margin-right: 11px;
+    font-size: 18px;
+    border: 1px solid #d2d2d2;
+}
+
+input::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+textarea::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+button[type="submit"] {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    background: #934715;
+    color: #fff;
+    border: none;
+    width: 150px;
+    margin-top: 20px;
+}
+.contactPage {
+    text-align: center;
+}
+.contactPage h4:first-child {
+    font-size: 20px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.contactPage h4 {
+    font-size: 20px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.contactPage .add {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.mapIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 12px;
+}
+
+.phoneIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 8px;
+}
+
+.hashIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 6px;
+}
+
+.contactcoffeebeansimage {
+    float: right;
+    height: 149px;
+    position: absolute;
+    right: 0;
+    top: -80px;
+}
+
+.map {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.fb {
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+.twit {
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.insta {
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.coffeebanner3 {
+    padding-left: 0;
+    padding-right: 0;
+    height: 150px;
+}
+
+
+/***Contact Page End*******/
 
     /*foot start*/
 
@@ -3715,7 +4022,7 @@ h3.headInfo {
     }
     .navbar-nav li {
         padding: 4px 0px;
-        font-size: 20px;
+        font-size: 16px;
     }
     .navbar-nav li a {
         float: right;
@@ -3732,7 +4039,7 @@ h3.headInfo {
     .nav-link {
         color: #4f4f4f;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 2px;
     }
     a.nav-link:hover {
@@ -4543,6 +4850,156 @@ h3.headInfo {
 
 
 /**Quotes End*/
+/***Contact page start****/
+
+.bannercontact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+}
+
+.contactHead {
+    font-size: 40px;
+    color: #ca743b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form1 {
+    width: 100%;
+    align-items: center;
+}
+
+.contactBg {
+    background: rgba(32, 32, 32, 0.7);
+    padding: 50px 40px 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border: 1px solid #d2d2d2;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 16px;
+    border: 1px solid #d2d2d2;
+}
+
+input::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+textarea::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+button[type="submit"] {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    background: #934715;
+    color: #fff;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+}
+.contactPage {
+    text-align: center;
+}
+.contactPage h4:first-child {
+    font-size: 20px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.contactPage h4 {
+    font-size: 20px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.contactPage .add {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.mapIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 12px;
+}
+
+.phoneIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 8px;
+}
+
+.hashIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 6px;
+}
+
+.contactcoffeebeansimage {
+    float: right;
+    height: 130px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+
+.map {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.fb {
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+.twit {
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.insta {
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.coffeebanner3 {
+    padding-left: 0;
+    padding-right: 0;
+    height: 100px;
+}
+
+
+/***Contact Page End*******/
 
         /*foot start*/
 
@@ -4650,7 +5107,7 @@ h3.headInfo {
         position: absolute;
         right: 0;
         top: 0;
-        padding: 24px 22px;
+        padding: 18px 22px;
         color: #4f4f4f;
     }
     .menu:hover {
@@ -4675,7 +5132,7 @@ h3.headInfo {
     }
     .navbar-nav li {
         padding: 4px 0px;
-        font-size: 20px;
+        font-size:16px;
     }
     .navbar-nav li a {
         float: right;
@@ -4692,7 +5149,7 @@ h3.headInfo {
     .nav-link {
         color: #4f4f4f;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 2px;
     }
     a.nav-link:hover {
@@ -5502,6 +5959,159 @@ h3.headInfo {
 
 /**Quotes End*/
 
+
+/***Contact page start****/
+
+.bannercontact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+}
+
+.contactHead {
+    font-size: 24px;
+    color: #ca743b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form1 {
+    width: 100%;
+    align-items: center;
+}
+
+.contactBg {
+    background: rgba(32, 32, 32, 0.7);
+    padding: 50px 40px 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border: 1px solid #d2d2d2;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 14px;
+    border: 1px solid #d2d2d2;
+}
+
+input::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+textarea::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+button[type="submit"] {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    background: #934715;
+    color: #fff;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+}
+.contactPage {
+    text-align: center;
+}
+.contactPage h4:first-child {
+    font-size: 18px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.contactPage h4 {
+    font-size: 18px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.contactPage .add {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.mapIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 12px;
+}
+
+.phoneIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 8px;
+}
+
+.hashIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 6px;
+}
+
+.contactcoffeebeansimage {
+    float: right;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+
+.map {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.fb {
+    font-size: 16px;
+    color: #1a1a1a;
+}
+
+.twit {
+    font-size: 16px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.insta {
+    font-size: 16px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.coffeebanner3 {
+    padding-left: 0;
+    padding-right: 0;
+    height: 80px;
+}
+
+
+/***Contact Page End*******/
+
+
             /*foot start*/
 
 .footer {
@@ -5608,7 +6218,7 @@ h3.headInfo {
         position: absolute;
         right: 0;
         top: 0;
-        padding: 24px 22px;
+        padding: 18px 22px;
         color: #4f4f4f;
     }
     .menu:hover {
@@ -5633,7 +6243,7 @@ h3.headInfo {
     }
     .navbar-nav li {
         padding: 4px 0px;
-        font-size: 20px;
+        font-size: 16px;
     }
     .navbar-nav li a {
         float: right;
@@ -5650,7 +6260,7 @@ h3.headInfo {
     .nav-link {
         color: #4f4f4f;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 2px;
     }
     a.nav-link:hover {
@@ -6466,6 +7076,156 @@ h3.headInfo {
 
 
 /**Quotes End*/
+/***Contact page start****/
+
+.bannercontact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+}
+
+.contactHead {
+    font-size: 24px;
+    color: #ca743b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form1 {
+    width: 100%;
+    align-items: center;
+}
+
+.contactBg {
+    background: rgba(32, 32, 32, 0.7);
+    padding: 50px 40px 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border: 1px solid #d2d2d2;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 14px;
+    border: 1px solid #d2d2d2;
+}
+
+input::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+textarea::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+button[type="submit"] {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    background: #934715;
+    color: #fff;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+}
+.contactPage {
+    text-align: center;
+}
+.contactPage h4:first-child {
+    font-size: 18px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.contactPage h4 {
+    font-size: 18px;
+    color: #934715;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.contactPage .add {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.mapIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 12px;
+}
+
+.phoneIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 8px;
+}
+
+.hashIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 6px;
+}
+
+.contactcoffeebeansimage {
+    float: right;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+
+.map {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.fb {
+    font-size: 16px;
+    color: #1a1a1a;
+}
+
+.twit {
+    font-size: 16px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.insta {
+    font-size: 16px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.coffeebanner3 {
+    padding-left: 0;
+    padding-right: 0;
+    height: 80px;
+}
+
+
+/***Contact Page End*******/
 
             /*foot start*/
 
