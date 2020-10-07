@@ -2043,13 +2043,19 @@ button[type="submit"] {
     color: #fff;
     font-size: 16px;
     margin-left: 10%;
-    margin-top: 50px;
 }
 
 .footerRow {
     margin-left: 10%;
 }
-
+.footerRow::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 2px;
+    margin: 30px 13% 35px 0px;   
+}
 .footerCol {
     padding-left: 0;
     margin-top: 15px;
@@ -3066,11 +3072,18 @@ table.priceTable4 td {
     color: #fff;
     font-size: 16px;
     margin-left: 10%;
-    margin-top: 50px;
 }
 
 .footerRow {
     margin-left: 10%;
+}
+.footerRow::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 2px;
+    margin: 30px 13% 35px 0px;   
 }
 
 .footerCol {
@@ -3259,7 +3272,7 @@ table.priceTable4 td {
 .coffeechoose:after {
     content: "";
     position: absolute;
-    right: 16%;
+    right: 13%;
     top: 53%;
     margin-top: -4px;
     border-top: 8px solid #fff;
@@ -3809,11 +3822,18 @@ table.priceTable4 td {
     color: #fff;
     font-size: 14px;
     margin-left: 10%;
-    margin-top: 50px;
 }
 
 .footerRow {
     margin-left: 10%;
+}
+.footerRow::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 2px;
+    margin: 30px 14% 35px 0px;   
 }
 
 .footerCol {
@@ -4000,7 +4020,7 @@ table.priceTable4 td {
 .coffeechoose:after {
     content: "";
     position: absolute;
-    right: 12%;
+    right: 10%;
     top: 53%;
     margin-top: -4px;
     border-top: 8px solid #fff;
@@ -4550,11 +4570,18 @@ table.priceTable4 td {
     color: #fff;
     font-size: 14px;
     margin-left: 10%;
-    margin-top: 30px;
 }
 
 .footerRow {
     margin-left: 10%;
+}
+.footerRow::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 2px;
+    margin: 30px 14% 35px 0px;   
 }
 
 .footerCol {
@@ -4741,7 +4768,7 @@ table.priceTable4 td {
 .coffeechoose:after {
     content: "";
     position: absolute;
-    right: 12%;
+    right: 10%;
     top: 53%;
     margin-top: -4px;
     border-top: 8px solid #fff;
@@ -5299,12 +5326,20 @@ table.priceTable4 td {
     color: #fff;
     font-size: 14px;
     margin-left: 10%;
-    margin-top: 30px;
 }
 
 .footerRow {
     margin-left: 10%;
 }
+.footerRow::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 2px;
+    margin: 30px 14% 35px 0px;   
+}
+
 
 .footerCol {
     padding-left: 0;
