@@ -1432,19 +1432,21 @@ cursor: pointer;}
 .para {
     font-size: 18px;
     letter-spacing: 1px;
+    text-align: justify;
 }
 
 .coffeebanner2 {
     padding-left: 0;
     padding-right: 0;
 }
+/***Mission Statement Start***/
 
 .bannerMission {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 644px;
+    height: 600px;
     margin-bottom: 100px;
 }
 
@@ -1459,7 +1461,7 @@ cursor: pointer;}
     background: #fff;
     padding-left: 0;
     padding-right: 0;
-    height: 440px;
+    height: 385px;
 }
 
 .missionPara1 {
@@ -1468,7 +1470,8 @@ cursor: pointer;}
     padding-right: 0;
     margin: 0;
     padding-bottom: 0;
-    height: 440px;
+    height: 385px;
+    
 }
 
 .missionSubSec {
@@ -1479,7 +1482,7 @@ cursor: pointer;}
     margin: 0;
     padding: 0;
     width:  100%;
-    height: 440px;
+    height: 385px;
 }
 
 .missionSubSec h3 {
@@ -1493,7 +1496,12 @@ cursor: pointer;}
     font-size: 18px;
     font-weight: normal;
     text-decoration: none;
+    text-align: justify;
 }
+
+/***Mission Statement End***/
+
+/**Coffee Farms Start*/
 
 .coffeebg {
     background-image: url('../images/coffeeleaf3.jpg');
@@ -1567,6 +1575,7 @@ h3.headInfo {
     padding-top: 0px;
 }
 
+/**Coffee Farms Start*/
 
 /* Quote Start */
 
@@ -2502,6 +2511,266 @@ table.priceTable4 td {
     cursor: pointer;
 }
 
+/*About Start*/
+
+#aboutpage {
+    padding-top: 100px;
+}
+
+.aboutcoffeeleafimage {
+    float: right;
+    height: 270px;
+    position: absolute;
+    right: 0;
+    top: -80px;
+}
+
+.para {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.coffeebanner2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+/***Mission Statement Start***/
+
+.bannerMission {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 635px;
+    margin-bottom: 100px;
+}
+
+.mission {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.missionPara {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    height: 435px;
+}
+
+.missionPara1 {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    padding-bottom: 0;
+    height: 435px;
+}
+
+.missionSubSec {
+    padding: 50px;
+}
+
+.coffeeaboutimage {
+    margin: 0;
+    padding: 0;
+    width:  100%;
+    height: 435px;
+}
+
+.missionSubSec h3 {
+    font-size: 40px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.missionSubSec p {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: justify;
+}
+.missionSubSec p:last-child {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+/***Mission Statement End***/
+/**Coffee Farms Start*/
+
+.coffeebg {
+    background-image: url('../images/coffeeleaf3.jpg');
+    float: left;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.coffeedetails {
+    margin-bottom: 0px;
+    position: relative;
+    top: -120px;
+}
+
+.coffeeInfo {
+    text-align: center;
+}
+
+h2.headcount {
+    font-size: 60px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h3.headInfo {
+    font-size: 26px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.infoPara {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.firstpara {
+    font-size: 124px;
+    margin-bottom: -90px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.secondpara {
+    font-size: 124px;
+    margin-bottom: -15px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    overflow: hidden;
+    margin-left: 48%;
+}
+
+.bgabout {
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
+    height: 270px;
+    width: 100%;
+}
+
+.coffeeHouse {
+    margin-top: -100px;
+    padding-top: 0px;
+}
+
+/**Coffee Farms Start*/
+
+/* Quote Start */
+
+.quote-head {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#quote {
+    padding: 100px 0;
+}
+
+.slideshow-container-quote {
+    position: relative;
+}
+
+.quotetop {
+    position: absolute;
+    width: 50px;
+}
+
+.quotebottom {
+    position: absolute;
+    width: 50px;
+    right: 13px;
+    bottom: 0;
+}
+
+
+/* Quotes Slides */
+
+.myQuote {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.myQuote p {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    color: #934715;
+    padding: 0 100px;
+}
+
+.author {
+    color: #934715;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.quoteReviewImage {
+    margin-top: 20px;
+}
+
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border: 3px solid #934715;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the active dot/circle */
+
+.dotactive {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    top: 3px;
+    border: 3px solid #934715;
+}
+
+
+/**Quotes End*/
+
 }
 
 
@@ -2557,10 +2826,10 @@ table.priceTable4 td {
         color: #934715;
     }
     ul.navbar-nav {
-        margin-right: 15px;
+        margin-right: 0px;
     }
     .navbar-nav li {
-        padding: 20px 10px;
+        padding: 10px 0px;
         font-size: 20px;
     }
     .navbar-nav li a {
@@ -3045,80 +3314,268 @@ table.priceTable4 td {
 
 /* Price end*/
 
+/*About Start*/
+
+#aboutpage {
+    padding-top: 100px;
+}
+
+.aboutcoffeeleafimage {
+    float: right;
+    height: 179px;
+    position: absolute;
+    right: 0;
+    top: -53px;
+}
+
+.para {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.coffeebanner2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+/***Mission Statement Start***/
+
+.bannerMission {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1070px;
+    margin-bottom: 100px;
+}
+
+.mission {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.missionPara {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    height: 435px;
+}
+
+.missionPara1 {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    padding-bottom: 0;
+    height: 435px;
+}
+
+.missionSubSec {
+    padding: 50px;
+}
+
+.coffeeaboutimage {
+    margin: 0;
+    padding: 0;
+    width:  100%;
+    height: 435px;
+}
+
+.missionSubSec h3 {
+    font-size: 40px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.missionSubSec p {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: justify;
+}
+.missionSubSec p:last-child {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+/***Mission Statement End***/
+
+/**Coffee Farms Start*/
+
+.coffeebg {
+    background-image: url('../images/coffeeleaf3.jpg');
+    float: left;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.coffeedetails {
+    margin-bottom: 0px;
+    position: relative;
+    top: -120px;
+}
+
+.coffeeInfo {
+    text-align: center;
+}
+
+h2.headcount {
+    font-size: 60px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+h3.headInfo {
+    font-size: 26px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.infoPara {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.firstpara {
+    font-size: 77px;
+    margin-bottom: -90px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.secondpara {
+    font-size: 77px;
+    margin-bottom: -15px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    overflow: hidden;
+    margin-left: 53%;
+}
+
+.bgabout {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: 5px;
+    height: 200px;
+    width: 100%;
+}
+
+.coffeeHouse {
+    margin-top: -100px;
+    padding-top: 0px;
+}
+
+/**Coffee Farms Start*/
+
+/* Quote Start */
+
+.quote-head {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#quote {
+    padding: 100px 0;
+}
+
+.slideshow-container-quote {
+    position: relative;
+}
+
+.quotetop {
+    position: absolute;
+    width: 50px;
+}
+
+.quotebottom {
+    position: absolute;
+    width: 50px;
+    right: 16px;
+    bottom: 0;
+}
 
 
+/* Quotes Slides */
+
+.myQuote {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.myQuote p {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    color: #934715;
+    padding: 0 100px;
+}
+
+.author {
+    color: #934715;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.quoteReviewImage {
+    margin-top: 20px;
+}
 
 
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 0;
+}
 
 
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border: 3px solid #934715;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
 
 
+/* Add a background color to the active dot/circle */
+
+.dotactive {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    top: 3px;
+    border: 3px solid #934715;
+}
 
 
-
-
-
-
-    /* Quote Start */
-    .quote-head {
-        font-size: 32px;
-        text-align: center;
-        padding-bottom: 50px;
-        text-transform: uppercase;
-    }
-    #quote {
-        background: #fdfdfd;
-        padding: 100px 0;
-    }
-    .slideshow-container-quote {
-        position: relative;
-        background: #3c3c3c;
-        border-radius: 5%;
-        box-shadow: 0px 0px 5px grey;
-    }
-    /* Quotes Slides */
-    .myQuote {
-        display: none;
-        padding: 50px;
-        text-align: center;
-    }
-    .myQuote q {
-        font-size: 20px;
-        font-style: italic;
-        color: #f0f0f0;
-    }
-    .author {
-        color: #f0f0f0;
-        font-size: 14px;
-        margin: 0px;
-        padding-top: 5px;
-    }
-    /* The dot/bullet/indicator container */
-    .dot-container {
-        text-align: center;
-        padding: 20px 0 0;
-    }
-    /* The dots/bullets/indicators */
-    .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        border: 3px solid #3c3c3c;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-    /* Add a background color to the active dot/circle */
-    .dotactive {
-        position: relative;
-        height: 20px;
-        width: 20px;
-        top: 3px;
-        border: 3px solid #3c3c3c;
-    }
-    /**Quotes End*/
-
+/**Quotes End*/
 
     /*foot start*/
 
@@ -3247,10 +3704,10 @@ table.priceTable4 td {
         color: #934715;
     }
     ul.navbar-nav {
-        margin-right: 15px;
+        margin-right: 0px;
     }
     .navbar-nav li {
-        padding: 20px 10px;
+        padding: 10px 0px;
         font-size: 20px;
     }
     .navbar-nav li a {
@@ -3810,66 +4267,273 @@ table.priceTable4 td {
 
 /* Price end*/
 
-    /* Quote Start */
-    .quote-head h2 {
-        font-size: 18px !important;
-        text-align: center;
-        padding-bottom: 20px;
-        text-transform: uppercase;
-    }
-    #quote {
-        background: #fdfdfd;
-        padding: 100px 0;
-    }
-    .slideshow-container-quote {
-        position: relative;
-        background: #3c3c3c;
-        border-radius: 5%;
-        box-shadow: 0px 0px 5px grey;
-    }
-    /* Quotes Slides */
-    .myQuote {
-        display: none;
-        padding: 50px;
-        text-align: center;
-    }
-    .myQuote q {
-        font-size: 14px;
-        font-style: italic;
-        color: #f0f0f0;
-    }
-    .author {
-        color: #f0f0f0;
-        font-size: 14px;
-        margin: 0px;
-        padding-top: 5px;
-    }
-    /* The dot/bullet/indicator container */
-    .dot-container {
-        text-align: center;
-        padding: 20px 0 0;
-    }
-    /* The dots/bullets/indicators */
-    .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        border: 3px solid #3c3c3c;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-    /* Add a background color to the active dot/circle */
-    .dotactive {
-        position: relative;
-        height: 20px;
-        width: 20px;
-        top: 3px;
-        border: 3px solid #3c3c3c;
-    }
-    /**Quotes End*/
+/*About Start*/
 
+#aboutpage {
+    padding-top: 20px;
+}
+
+.aboutcoffeeleafimage {
+    float: right;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.para {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.coffeebanner2 {
+    padding-left: 0;
+    padding-right: 0;
+    width: 150px;
+}
+/***Mission Statement Start***/
+
+.bannerMission {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 875px;
+    margin-bottom: 20px;
+}
+
+.mission {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.missionPara {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    height: 336px;
+}
+
+.missionPara1 {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    padding-bottom: 0;
+    height: 347px;
+}
+
+.missionSubSec {
+    padding: 20px;
+}
+
+.coffeeaboutimage {
+    margin: 0;
+    padding: 0;
+    width:  100%;
+    height: 347px;
+}
+
+.missionSubSec h3 {
+    font-size: 22px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.missionSubSec p {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: justify;
+}
+.missionSubSec p:last-child {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+/***Mission Statement End***/
+
+/**Coffee Farms Start*/
+
+.coffeebg {
+    background-image: url('../images/coffeeleaf3.jpg');
+    float: left;
+    height: 235px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.coffeedetails {
+    margin-bottom: 0px;
+    position: relative;
+    top: -50px;
+}
+
+.coffeeInfo {
+    text-align: center;
+}
+
+h2.headcount {
+    font-size: 24px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+h3.headInfo {
+    font-size: 18px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.infoPara {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.firstpara {
+    font-size: 49px;
+    margin-bottom: -44px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    margin-left: 0px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.secondpara {
+    font-size: 49px;
+    margin-bottom: -50px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    overflow: hidden;
+    margin-left: 36%;
+}
+
+.bgabout {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: -79px;
+    height: 150px;
+    width: 28%;
+}
+
+.coffeeHouse {
+    margin-top: -100px;
+    padding-top: 0px;
+}
+
+/**Coffee Farms Start*/
+
+
+/* Quote Start */
+
+.quote-head {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#quote {
+    padding: 100px 0;
+}
+
+.slideshow-container-quote {
+    position: relative;
+}
+
+.quotetop {
+    position: absolute;
+    width: 30px;
+}
+
+.quotebottom {
+    position: absolute;
+    width: 30px;
+    right: 16px;
+    bottom: 0;
+}
+
+
+/* Quotes Slides */
+
+.myQuote {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.myQuote p {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    color: #934715;
+    padding: 0 30px;
+    margin-bottom: 5px;
+}
+
+.author {
+    color: #934715;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 2px;
+}
+
+.quoteReviewImage {
+    margin-top: 10px;
+    width: 72px;
+}
+
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    border: 3px solid #934715;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the active dot/circle */
+
+.dotactive {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    top: 3px;
+    border: 3px solid #934715;
+}
+
+
+/**Quotes End*/
 
         /*foot start*/
 
@@ -3998,10 +4662,10 @@ table.priceTable4 td {
         color: #934715;
     }
     ul.navbar-nav {
-        margin-right: 15px;
+        margin-right: 0px;
     }
     .navbar-nav li {
-        padding: 20px 10px;
+        padding: 10px 0px;
         font-size: 20px;
     }
     .navbar-nav li a {
@@ -4561,65 +5225,271 @@ table.priceTable4 td {
 
 /* Price end*/
 
-    /* Quote Start */
-    .quote-head h2 {
-        font-size: 18px !important;
-        text-align: center;
-        padding-bottom: 20px;
-        text-transform: uppercase;
-    }
-    #quote {
-        background: #fdfdfd;
-        padding: 100px 0;
-    }
-    .slideshow-container-quote {
-        position: relative;
-        background: #3c3c3c;
-        border-radius: 5%;
-        box-shadow: 0px 0px 5px grey;
-    }
-    /* Quotes Slides */
-    .myQuote {
-        display: none;
-        padding: 50px;
-        text-align: center;
-    }
-    .myQuote q {
-        font-size: 14px;
-        font-style: italic;
-        color: #f0f0f0;
-    }
-    .author {
-        color: #f0f0f0;
-        font-size: 14px;
-        margin: 0px;
-        padding-top: 5px;
-    }
-    /* The dot/bullet/indicator container */
-    .dot-container {
-        text-align: center;
-        padding: 20px 0 0;
-    }
-    /* The dots/bullets/indicators */
-    .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        border: 3px solid #3c3c3c;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-    /* Add a background color to the active dot/circle */
-    .dotactive {
-        position: relative;
-        height: 20px;
-        width: 20px;
-        top: 3px;
-        border: 3px solid #3c3c3c;
-    }
-    /**Quotes End*/
+/*About Start*/
+
+#aboutpage {
+    padding-top: 20px;
+}
+
+.aboutcoffeeleafimage {
+    float: right;
+    height: 89px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.para {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.coffeebanner2 {
+    padding-left: 0;
+    padding-right: 0;
+    width: 150px;
+}
+/***Mission Statement Start***/
+
+.bannerMission {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 790px;
+    margin-bottom: 10px;
+}
+
+.mission {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.missionPara {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    height: 335px;
+}
+
+.missionPara1 {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    padding-bottom: 0;
+    height: 347px;
+}
+
+.missionSubSec {
+    padding: 20px;
+}
+
+.coffeeaboutimage {
+    margin: 0;
+    padding: 0;
+    width:  100%;
+    height: 347px;
+}
+
+.missionSubSec h3 {
+    font-size: 22px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.missionSubSec p {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: justify;
+}
+.missionSubSec p:last-child {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+/***Mission Statement End***/
+/**Coffee Farms Start*/
+
+.coffeebg {
+    background-image: url('../images/coffeeleaf3.jpg');
+    float: left;
+    height: 235px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.coffeedetails {
+    margin-bottom: 0px;
+    position: relative;
+    top: -50px;
+}
+
+.coffeeInfo {
+    text-align: center;
+}
+
+h2.headcount {
+    font-size: 24px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+h3.headInfo {
+    font-size: 18px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.infoPara {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.firstpara {
+    font-size: 49px;
+    margin-bottom: -44px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    margin-left: 0px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.secondpara {
+    font-size: 49px;
+    margin-bottom: -50px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    overflow: hidden;
+    margin-left: 36%;
+}
+
+.bgabout {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: -79px;
+    height: 122px;
+    width: 28%;
+}
+
+.coffeeHouse {
+    margin-top: -100px;
+    padding-top: 0px;
+}
+
+/**Coffee Farms Start*/
+
+/* Quote Start */
+
+.quote-head {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#quote {
+    padding: 70px 0;
+}
+
+.slideshow-container-quote {
+    position: relative;
+}
+
+.quotetop {
+    position: absolute;
+    width: 30px;
+}
+
+.quotebottom {
+    position: absolute;
+    width: 30px;
+    right: 16px;
+    bottom: 0;
+}
+
+
+/* Quotes Slides */
+
+.myQuote {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.myQuote p {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    color: #934715;
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+.author {
+    color: #934715;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 2px;
+}
+
+.quoteReviewImage {
+    margin-top: 10px;
+    width: 72px;
+}
+
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    border: 3px solid #934715;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the active dot/circle */
+
+.dotactive {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    top: 3px;
+    border: 3px solid #934715;
+}
+
+
+/**Quotes End*/
 
             /*foot start*/
 
@@ -4748,10 +5618,10 @@ table.priceTable4 td {
         color: #934715;
     }
     ul.navbar-nav {
-        margin-right: 15px;
+        margin-right: 0px;
     }
     .navbar-nav li {
-        padding: 20px 10px;
+        padding: 10px 0px;
         font-size: 20px;
     }
     .navbar-nav li a {
@@ -5319,66 +6189,271 @@ table.priceTable4 td {
 }
 
 /* Price end*/
+/*About Start*/
 
-    /* Quote Start */
-    .quote-head h2 {
-        font-size: 16px !important;
-        text-align: center;
-        padding-bottom: 20px;
-        text-transform: uppercase;
-    }
-    #quote {
-        background: #fdfdfd;
-        padding: 100px 0;
-    }
-    .slideshow-container-quote {
-        position: relative;
-        background: #3c3c3c;
-        border-radius: 5%;
-        box-shadow: 0px 0px 5px grey;
-    }
-    /* Quotes Slides */
-    .myQuote {
-        display: none;
-        padding: 50px;
-        text-align: center;
-    }
-    .myQuote q {
-        font-size: 12px;
-        font-style: italic;
-        color: #f0f0f0;
-    }
-    .author {
-        color: #f0f0f0;
-        font-size: 12px;
-        margin: 0px;
-        padding-top: 5px;
-    }
-    /* The dot/bullet/indicator container */
-    .dot-container {
-        text-align: center;
-        padding: 20px 0 0;
-    }
-    /* The dots/bullets/indicators */
-    .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        border: 3px solid #3c3c3c;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-    /* Add a background color to the active dot/circle */
-    .dotactive {
-        position: relative;
-        height: 20px;
-        width: 20px;
-        top: 3px;
-        border: 3px solid #3c3c3c;
-    }
-    /**Quotes End*/
+#aboutpage {
+    padding-top: 20px;
+}
+
+.aboutcoffeeleafimage {
+    float: right;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.para {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.coffeebanner2 {
+    padding-left: 0;
+    padding-right: 0;
+    width: 150px;
+}
+/***Mission Statement Start***/
+
+.bannerMission {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 797px;
+    margin-bottom: 10px;
+}
+
+.mission {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.missionPara {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    height: 397px;
+}
+
+.missionPara1 {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    padding-bottom: 0;
+    height: 300px;
+}
+
+.missionSubSec {
+    padding: 20px;
+}
+
+.coffeeaboutimage {
+    margin: 0;
+    padding: 0;
+    width:  100%;
+    height: 300px;
+}
+
+.missionSubSec h3 {
+    font-size: 16px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.missionSubSec p {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: justify;
+}
+.missionSubSec p:last-child {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+/***Mission Statement End***/
+
+/**Coffee Farms Start*/
+
+.coffeebg {
+    background-image: url('../images/coffeeleaf3.jpg');
+    float: left;
+    height: 235px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.coffeedetails {
+    margin-bottom: 0px;
+    position: relative;
+    top: -106px;
+}
+
+.coffeeInfo {
+    text-align: center;
+}
+
+h2.headcount {
+    font-size: 18px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+h3.headInfo {
+    font-size: 16px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.infoPara {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.firstpara {
+    font-size: 34px;
+    margin-bottom: -44px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    margin-left: 0px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.secondpara {
+    font-size: 34px;
+    margin-bottom: -50px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    overflow: hidden;
+    margin-left: 36%;
+}
+
+.bgabout {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: -20px;
+    height: 81px;
+    width: 28%;
+}
+
+.coffeeHouse {
+    margin-top: -100px;
+    padding-top: 0px;
+}
+
+/**Coffee Farms Start*/
+/* Quote Start */
+
+.quote-head {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#quote {
+    padding: 70px 0;
+}
+
+.slideshow-container-quote {
+    position: relative;
+}
+
+.quotetop {
+    position: absolute;
+    width: 30px;
+}
+
+.quotebottom {
+    position: absolute;
+    width: 30px;
+    right: 16px;
+    bottom: 0;
+}
+
+
+/* Quotes Slides */
+
+.myQuote {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.myQuote p {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    color: #934715;
+    padding: 0 15px;
+    margin-bottom: 5px;
+}
+
+.author {
+    color: #934715;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 2px;
+}
+
+.quoteReviewImage {
+    margin-top: 10px;
+    width: 72px;
+}
+
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    border: 3px solid #934715;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the active dot/circle */
+
+.dotactive {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    top: 3px;
+    border: 3px solid #934715;
+}
+
+
+/**Quotes End*/
 
             /*foot start*/
 
