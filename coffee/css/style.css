@@ -3303,6 +3303,8 @@ table.priceTable4 td {
 .breadres {
     display: block;
     width: 100%;
+    margin-left: 6px;
+
 }
 .addCoffee {
     font-size: 15px;
@@ -3648,6 +3650,11 @@ h3.headInfo {
 
 
 /**768 End*/
+
+
+
+
+
 
 
 /*************425px start**********************/
@@ -4257,6 +4264,8 @@ table.priceTable4 td {
 .breadres {
     display: block;
     width: 100%;
+    margin-left: 6px;
+
 }
 .addCoffee {
     font-size: 9px;
@@ -5215,6 +5224,8 @@ table.priceTable4 td {
 .breadres {
     display: block;
     width: 100%;
+    margin-left: 6px;
+
 }
 .addCoffee {
     font-size: 9px;
@@ -6180,6 +6191,7 @@ table.priceTable4 td {
 .breadres {
     display: block;
     width: 100%;
+    margin-left: 6px;
 }
 .addCoffee {
     font-size: 9px;
