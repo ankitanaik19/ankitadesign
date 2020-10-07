@@ -1,0 +1,2728 @@
+/* 
+Created : Ankita Naik 
+================================================
+[  Table of contents  ]
+================================================
+
+    
+    1 Home Page    
+    2 About Us
+    3 Shop
+    4 Contact
+    
+======================================
+[ End table content ]
+======================================
+*/
+
+
+
+body {
+    font-family: "Assistant";
+    color: #1a1a1a;
+    line-height: 1.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 0;
+   padding: 0;
+}
+
+
+/*chat window*/
+
+.open-button {
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 10px;
+    right: 8px;
+    background: #5fc7ae;
+    border-radius: 10px;
+}
+
+.open-button span.help {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+/* The popup chat - hidden by default */
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 1px solid #eee;
+    z-index: 9;
+    box-shadow: 0px 0px 2px #eee;
+}
+
+.contenthidden {
+    visibility: hidden;
+}
+
+.contentvisible {
+    visibility: visible;
+}
+
+
+/* Add styles to the form container */
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+/* Full-width textarea */
+
+.form-container .chat-textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #d9fbf8;
+    resize: none;
+    text-align: right;
+    font-size: 14px;
+    min-height: 200px;
+}
+
+
+/* When the textarea gets focus, do something */
+
+.form-container input:focus {
+    background-color: none;
+    outline: none;
+}
+
+
+/* Set a style for the submit/send button */
+
+.input-group {
+    width: 100%;
+}
+
+.input-group input {
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid #eee;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.input-group input::placeholder {
+    font-size: 12px;
+}
+
+
+/* Add a red background color to the cancel button */
+
+.form-container .cancel {
+    background-color: #5fc7ae;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/* Add some hover effects to buttons */
+
+.form-container .btn:hover,
+{
+    opacity: 1;
+}
+
+
+/*chat window end*/
+
+.mb-100 {
+    padding-bottom: 100px
+}
+
+.mb-30 {
+    padding-bottom: 30px;
+}
+
+
+/****Banner start****/
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/banner1.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a.exploreCoffeeBtn {
+    background: #934715;
+    color: #fff;
+    margin-top: 30px;
+    padding: 18px;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.exploreCoffeeBtn:hover {
+    background: #934715;
+    color: #fff;
+    text-decoration: none;
+}
+
+img.coffeeMug {
+    margin: 30px 0 50px;
+    width: 20%;
+}
+
+.coffeechoose {
+    position: relative;
+    margin-top: 30px;
+}
+
+.coffeechoose span {
+    font-size: 38px;
+    color: #fff;
+    font-family: 'Yeon Sung';
+}
+
+.coffeechoose select {
+    font-size: 34px;
+    font-family: 'Yeon Sung';
+    font-style: normal;
+    text-transform: lowercase;
+    text-align: left;
+    padding: 5px;
+    width: 43%;
+    appearance: none;
+    background: transparent;
+    color: #fff;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.coffeechoose select option {
+    font-size: 24px;
+    font-family: 'Yeon Sung';
+    background-color: transparent;
+    text-transform: lowercase;
+}
+
+.coffeechoose:after {
+    content: "";
+    position: absolute;
+    right: 17%;
+    top: 53%;
+    margin-top: -4px;
+    border-top: 11px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    pointer-events: none;
+}
+
+
+/****Banner End****/
+
+
+/*Navigation*/
+
+.coffeeLogo {
+    font-size: 28px;
+}
+
+#nav-bar {
+    top: 0;
+    z-index: 10;
+    margin-top: 0;
+}
+
+.navbar-brand {
+    padding-left: 40px;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #934715;
+}
+
+.navbar-brand:hover {
+    color: #934715;
+}
+
+ul.navbar-nav {
+    margin-right: 5px;
+}
+
+#navigation {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+.navbar-nav li a {
+    float: right;
+    margin-left: 15px;
+}
+
+#navbar-nav ul li a:hover {
+    color: #934715;
+}
+
+.navbar {
+    background: transparent;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+a.nav-link:hover {
+    color: #934715;
+}
+
+.cart {
+    font-size: 25px;
+}
+
+.search {
+    font-size: 23px;
+}
+
+ul.navsearchcart {
+    margin-right: 12px;
+}
+
+.navsearchcart {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.navsearchcart li:last-child {
+    margin-right: 15px;
+}
+
+.cartUpdate span {
+    position: absolute;
+    top: 20px;
+}
+
+.cartUpdate span {
+    font-size: 14px;
+    padding: 5px;
+    color: #fff;
+    background: #934715;
+    border-radius: 20px;
+}
+
+
+/*Navigation end*/
+
+
+/*TimeLocation start*/
+
+#timeLocation {
+    position: relative;
+    margin-top: -50px;
+}
+
+.timeLocation {
+    background: #fff;
+    padding: 50px;
+    justify-content: center;
+    box-shadow: 0px 0 5px #d2d2d2;
+}
+
+.timeLocation h2 {
+    font-family: "Assistant";
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.timeLocation p {
+    font-family: "Assistant";
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.timeLocation p a {
+    font-family: "Assistant";
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.timeLocation p a:hover {
+    text-decoration: none;
+    color: #934715;
+}
+
+
+/*TimeLocation End*/
+
+
+/*About Section start*/
+
+#about {
+    padding: 100px 0 10px;
+}
+
+.section-title {
+    font-size: 50px;
+    color: #934715;
+    text-align: center;
+    font-weight: 600;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    background: url('../images/coffeebean.png');
+    height: 67px;
+    width: 300px;
+    margin: 10px auto 16px;
+    opacity: 1;
+}
+
+.aboutpara {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.aboutpara2 {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.aboutRead {
+    padding: 15px;
+    font-size: 18px;
+    background: #934715;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.aboutRead:hover {
+    background: #934715;
+    color: #fff;
+    text-decoration: none;
+}
+
+.aboutpadding {
+    padding: 50px;
+}
+
+.aboutImage {
+    margin-top: 40px;
+}
+
+
+/*About Section End*/
+
+
+/*Commitment Start*/
+
+#commit {
+    padding: 100px;
+}
+
+.commitbanner {
+    background-image: url(../images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-title2 {
+    font-size: 50px;
+    color: #ca743b;
+    text-align: center;
+    font-weight: 600;
+}
+
+.section-title3 {
+    font-size: 50px;
+    color: #934715;
+    text-align: center;
+    font-weight: 600;
+}
+
+img.commitImage {
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.commitCol {
+    text-align: center;
+}
+
+.commitpara {
+    font-size: 32px;
+    text-align: center;
+}
+
+.commitpara::after {
+    content: '';
+    display: block;
+    background: url('../images/coffeebean.png');
+    height: 67px;
+    width: 300px;
+    margin: 5px auto 16px;
+    opacity: 1;
+}
+
+.commitHead {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.commitSubPara {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/*Commitment End*/
+
+
+/*Price start*/
+
+#priceTable {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0;
+}
+
+.table1 {
+    padding: 0 40px;
+}
+
+.coffeeLeafImage {
+    position: absolute;
+    margin-left: -220px;
+}
+
+.coffeecup2 {
+    position: absolute;
+    height: auto;
+    margin-top: 80px;
+}
+
+table.priceTable1 th {
+    border-bottom: 2px solid #934715;
+    border-top: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table.priceTable1 td {
+    border-bottom: 1px solid #d2d2d2;
+    border-top: none;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+table.priceTable1 th:first-child {
+    width: 40%;
+    text-align: left;
+}
+
+table.priceTable1 th {
+    width: 20%;
+    text-align: center;
+    color: #934715;
+}
+
+table.priceTable1 td:first-child {
+    width: 34%;
+    text-align: left;
+}
+
+table.priceTable1 td {
+    width: 22%;
+    text-align: center;
+}
+
+.priceTable2 {
+    padding-top: 100px;
+    width: 90%;
+}
+
+.table2 {
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+table.priceTable2 th {
+    border-bottom: 2px solid #934715;
+    border-top: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table.priceTable2 td {
+    border-bottom: 1px solid #d2d2d2;
+    border-top: none;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+table.priceTable2 th:first-child {
+    width: 40%;
+    text-align: left;
+}
+
+table.priceTable2 th {
+    width: 20%;
+    text-align: center;
+    color: #934715;
+}
+
+table.priceTable2 td:first-child {
+    width: 34%;
+    text-align: left;
+}
+
+table.priceTable2 td {
+    width: 22%;
+    text-align: center;
+}
+
+.priceTable3 {
+    margin-top: 50px;
+    width: 100%;
+}
+
+table.priceTable3 th {
+    border-bottom: 2px solid #934715;
+    border-top: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table.priceTable3 td {
+    border-bottom: 1px solid #d2d2d2;
+    border-top: none;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+table.priceTable3 th:first-child {
+    width: 40%;
+    text-align: left;
+}
+
+table.priceTable3 th {
+    width: 20%;
+    text-align: center;
+    color: #934715;
+}
+
+table.priceTable3 td:first-child {
+    width: 40%;
+    text-align: left;
+}
+
+table.priceTable3 td {
+    width: 16%;
+    text-align: center;
+}
+
+.brewedImage {
+    width: 73%;
+    margin-top: 26px;
+}
+
+#table4 {
+    margin-bottom: 50px;
+}
+
+.priceTable4 {
+    margin-top: 50px;
+    width: 75%;
+}
+
+table.priceTable4 tr th {
+    border-bottom: 2px solid #934715;
+    border-top: none;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+
+table.priceTable4 td {
+    border-bottom: 1px solid #d2d2d2;
+    border-top: none;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+table.priceTable4 th:first-child {
+    width: 50%;
+    text-align: left;
+}
+
+table.priceTable4 th {
+    width: 30%;
+    text-align: center;
+    color: #934715;
+}
+
+table.priceTable4 td:first-child {
+    width: 75%;
+    text-align: left;
+}
+
+table.priceTable4 td {
+    width: 25%;
+    text-align: center;
+}
+
+.breadcol2 {
+    position: relative;
+    margin: 0;
+    padding-left: 0;
+}
+
+.addCoffee {
+    font-size: 15px;
+    color: #934715;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+/* Price end*/
+
+
+/*Signature start*/
+
+.banner2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+}
+
+#banner2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/banner1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left {
+    padding: 100px 0px;
+}
+
+.signPara {
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 14% 40px;
+}
+
+a.explore {
+    font-size: 18px;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+a.explore:hover {
+    font-size: 19px;
+    color: #1a1a1a;
+    background: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+
+/*Product Start*/
+
+.productInfo {
+    padding-bottom: 100px;
+}
+
+.coffeeName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.coffeePrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #934715;
+    margin-top: 10px;
+}
+
+.btnCart {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a1a1a;
+    background: none;
+    border: 1px solid #934715;
+    text-decoration: none;
+    padding: 10px 15px;
+    width: 170px;
+    margin-bottom: 30px;
+}
+
+.btnCart:hover {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #934715;
+    border: 1px solid #934715;
+    text-decoration: none;
+    width: 170px
+}
+
+.category {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.exploreCoffee {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #934715;
+    border: 1px solid #934715;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.exploreCoffee:hover {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #934715;
+    border: 1px solid #934715;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.footer h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #934715;
+    margin-left: 10%;
+    padding-top: 7%;
+}
+
+.footer .create {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.footerRow {
+    margin-left: 10%;
+}
+
+.footerCol {
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.footerCol h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #934715;
+    margin-bottom: 20px;
+}
+
+.footerCol p {
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.footPara {
+    margin-bottom: 6px;
+}
+
+.footEmail {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*Product end*/
+
+
+/*Cart Page Start*/
+
+.cartHeader {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.billing {
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+#billingForm {
+    margin-top: 25px;
+}
+
+#billingForm input[name="first"] {
+    width: 48%;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+#billingForm input[name="last"] {
+    width: 48%;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#billingForm input[name="street"],
+#billingForm input[name="town"] {
+    width: 99%;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+#billingForm label[name="first"] {
+    width: 47%;
+}
+
+#billingForm label[name="last"] {
+    width: 47%;
+    margin-left: 12px;
+}
+
+#billingForm label {
+    width: 100%;
+    margin-left: 9px;
+    font-size: 18px;
+}
+
+.notesCol {
+    margin-top: 191px;
+}
+
+.notesCol label {
+    margin-left: 9px;
+    font-size: 18px;
+}
+
+.product-container {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+
+#billingForm input[name="zip"],
+#billingForm input[name="phone"],
+#billingForm input[name="email"] {
+    width: 100%;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.yourOrder {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.productHeader {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #8e8e8e;
+}
+
+.productTitle {
+    width: 50%;
+    display: inline-block;
+    color: #934715;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.productPrice {
+    width: 15%;
+    display: inline-block;
+    color: #934715;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quantity {
+    width: 20%;
+    display: inline-block;
+    color: #934715;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtotal {
+    width: 15%;
+    display: inline-block;
+    color: #934715;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #8e8e8e;
+}
+
+.description {
+    width: 50%;
+}
+
+.description i {
+    font-size: 18px;
+    color: #934715;
+    cursor: pointer;
+}
+
+.description img {
+    width: 70px;
+    border-radius: 5px;
+    margin: 0 5px;
+    border: 1px solid #8a8a8a;
+}
+
+.description span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.itemPrice {
+    width: 15%;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.itemQuantity {
+    width: 20%;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.itemQuantity .plusCart {
+    color: #934715;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.itemQuantity .minusCart {
+    color: #934715;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.itemSubtotal {
+    width: 15%;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.bottomCart {
+    padding-bottom: 100px;
+}
+
+.totalContainer {
+    width: 100%;
+    margin-top: 140px;
+    border: 1px solid #d2d2d2;
+    padding: 20px;
+    box-shadow: 0 0 2px 0 grey;
+    border-radius: 5px;
+}
+
+.totalHead {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size:24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.cartCostTable td {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.cartCostTable td:first-child {
+    color: #934715;
+    font-weight: bold;
+}
+
+.cartCostTable td:last-child {
+    text-align: right;
+}
+
+.cartOut {
+    width: 100%;
+    text-align: center;
+    background: #934715;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.checkout {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checkout:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*Cart Page End*/
+
+
+/**Checkout Page Start***/
+
+.orderTable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+.orderTable th {
+    border-bottom: 1px solid #d2d2d2 !important;
+    font-size: 18px;
+}
+
+.orderTable th:last-child {
+    text-align: right;
+}
+
+.tableorder {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+
+.tabletotal {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.table {
+    font-size: 18px;
+}
+.orderdetails {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.orderdetails .orderplace td {
+    border-top: none;
+    border-bottom: 1px solid #d2d2d2;
+    font-size: 18px;
+}
+
+.qtyitems {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.totalcheckout {
+    width: 100%;
+    border: 1px solid #d2d2d2;
+}
+
+.finalTotal {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #d2d2d2;
+}
+
+.totalcart td {
+    font-size: 18px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.proceedPay {
+    float: right;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: #934715;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+
+/**Checkout Page End***/
+
+/****Payment Page Start****/
+.paymentPage {
+    margin-bottom: 100px;
+} 
+.paymentNav {
+    width: 100%;
+    margin-top: 30px;
+  
+}
+
+.paymentNav li {
+    font-size: 18px;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 25px 40px;    
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+.paymentNav li:first-child {
+    border-top: 1px solid #d2d2d2;
+}
+.paymentNav li:hover {
+cursor: pointer;}
+
+
+.paymentModeborder {
+    border-left: 5px solid #934715;
+}
+.paymentMode {
+    margin-top: 30px;
+}
+.finalOrder {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+#savedcards {
+    border-right: 0px;
+    border-left: 5px solid #934715;
+
+}
+
+.savedcards {
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+
+.cardimage {
+    width: 8%;
+    float: right;
+}
+.cvv1 {
+    position: relative;
+    right: 0;
+    visibility: hidden;
+}
+.radio1 {
+    padding-top: 5px;
+    margin-right: 5px;
+}
+.nameoncard {
+    float: right;
+}
+.cash {
+    font-size:  18px;
+    display: none;
+}
+.cashimage {
+    margin-top: 15px;
+}
+
+.cash input[type="text"]{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.cash button{
+    font-size: 18px;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+}
+.cashimg {
+    width: 150px;
+    height: auto;
+}
+.cashmodePara {
+    margin-bottom: 5px;
+}
+.refeshicon {
+    margin-left: 25px;
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+.creditdebit {
+    font-size:  18px;
+    display: none;
+}
+
+.creditdebit input[type="text"], .creditdebit button, .savedcards button, .cash button, .netbanking button, .gift button {
+    width: 100%;
+    margin-left: 0px;
+}
+.creditdebit select {
+    width: 48%;
+    margin-left: 0px;
+    padding: 10px 10px;
+    border: 1px solid #d2d2d2;
+    color: #1a1a1a;
+}
+
+.creditdebit input[name="cvv"]{
+    width: 15%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.cvvimage {
+    width: 15%;
+    padding: 0 10px;
+}
+
+.creditdebit span {
+    font-size: 14px;
+}
+
+.creditdebit button, .savedcards button, .gift button {
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.netbanking {
+    font-size:  18px;
+    display: none;
+    letter-spacing: 1px;
+}
+
+
+.bankicon {
+    font-size: 24px;
+    color: #934715;
+    padding: 0 11px;
+}
+.bankbranch{
+    color: #ffffff;
+    background: #934715;
+    display: none;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.otherbankbranch{
+    color: #ffffff;
+    background: #934715;
+    display: none;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.gift {
+    font-size:  18px;
+    display: none;
+}
+
+.gift input[type="text"] {
+    width: 100%;
+    margin-left: 0;
+
+}
+.gift button {
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+.finalItems {
+    padding: 10px;
+    font-weight: bold;
+}
+
+/****Payment Page End******/
+/*About Start*/
+
+#aboutpage {
+    padding-top: 100px;
+}
+
+.aboutcoffeeleafimage {
+    float: right;
+    height: 270px;
+    position: absolute;
+    right: 0;
+    top: -80px;
+}
+
+.para {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.coffeebanner2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bannerMission {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.mission {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.missionPara {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.missionPara1 {
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.missionSubSec {
+    padding: 50px;
+}
+
+.coffeeaboutimage {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.missionSubSec h3 {
+    font-size: 50px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.missionSubSec p {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.coffeebg {
+    background-image: url('../images/coffeeleaf3.jpg');
+    float: left;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.coffeedetails {
+    margin-bottom: 0px;
+    position: relative;
+    top: -160px;
+}
+
+.coffeeInfo {
+    text-align: center;
+}
+
+h2.headcount {
+    font-size: 72px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h3.headInfo {
+    font-size: 32px;
+    color: #934715;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.infoPara {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.firstpara {
+    font-size: 146px;
+    margin-bottom: -90px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.secondpara {
+    font-size: 146px;
+    margin-bottom: -15px;
+    padding: 0px !important;
+    color: #934715;
+    opacity: 0.4;
+    overflow: hidden;
+    margin-left: 48%;
+}
+
+.bgabout {
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    height: 360px;
+    width: 100%;
+}
+
+.coffeeHouse {
+    margin-top: -100px;
+    padding-top: 0px;
+}
+
+
+/* Quote Start */
+
+.quote-head {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#quote {
+    padding: 100px 0;
+}
+
+.slideshow-container-quote {
+    position: relative;
+}
+
+.quotetop {
+    position: absolute;
+    width: 50px;
+}
+
+.quotebottom {
+    position: absolute;
+    width: 50px;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* Quotes Slides */
+
+.myQuote {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.myQuote p {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    color: #934715;
+    padding: 0 100px;
+}
+
+.author {
+    color: #934715;
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.quoteReviewImage {
+    margin-top: 20px;
+}
+
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border: 3px solid #934715;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the active dot/circle */
+
+.dotactive {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    top: 3px;
+    border: 3px solid #934715;
+}
+
+
+/**Quotes End*/
+
+
+/*ShopPage start*/
+
+p.showall {
+    font-size: 22px;
+    font-weight: bold;
+    color: #934715;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+p.coffeehead1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #934715;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.shopcoffeePrice {
+    font-size: 22px;
+    font-weight: bold;
+    color: #934715;
+    margin-top: 18px;
+}
+
+.shopcoffeeInfo {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.shopminus {
+    font-size: 18px;
+    color: #934715;
+    margin-right: 10px;
+}
+
+.addingtocart span {
+    font-size: 18px;
+    border: 1px solid #d2d2d2;
+    padding: 5px 12px;
+}
+
+.addingtocart {
+    margin-top: 30px;
+    margin-bottom: 23px;
+}
+
+.addingtocart input[type="text"] {
+    width: 9%;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #d2d2d2;
+}
+
+.addingtocart button {
+    width: 9%;
+    text-align: center;
+    border: none;
+    background: #934715;
+    color: #fff;
+}
+
+.addingtocart .addbtn {
+    margin-left: 8px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.addingtocart .minusbtn {
+    margin-left: 8px;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.shopplus {
+    font-size: 18px;
+    color: #934715;
+    margin-left: 10px;
+}
+
+/* .tabs {
+    padding: 50px 0;
+}
+
+.nav-tabs .nav-link.active {
+    color: #934715;
+}
+
+a.tab1 {
+    font-size: 18px !important;
+    color: #1a1a1a;
+}
+
+.tabdetails {
+    padding-left: 18px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.addReview {
+    font-size: 18px;
+}
+
+.addReviewHead {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.form button {
+    font-size: 18px;
+    color: #fff;
+    background: #934715;
+    padding: 6px 10px;
+    margin-left: 8px;
+    margin-top: 3px;
+    border: none;
+}
+
+.rating {
+    position: relative;
+    width: 161px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rating .text {
+    font-size: 25px;
+    color: #666;
+    font-weight: 500;
+}
+
+.rating .star-widget input {
+    display: none;
+}
+
+.star-widget {
+    margin-right: 3px;
+}
+
+.star-widget label {
+    font-size: 16px;
+    color: #1a1a1a;
+    padding-right: 9px;
+    float: right;
+    left: 0px;
+    transition: all 0.2s ease;
+    margin-top: 13px;
+}
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+    color: #934715;
+}
+
+input:checked ~ label {
+    color: #934715;
+}
+
+input#rate-5:checked ~ label {
+    color: #934715;
+}
+
+.star-widget header {
+    margin-bottom: 5px;
+}
+
+#rate-1:checked ~ header:before {
+    content: "I just hate it 😠";
+    margin-left: 5px;
+}
+
+#rate-2:checked ~ header:before {
+    content: "I don't like it 😒";
+    margin-left: 5px;
+}
+
+#rate-3:checked ~ header:before {
+    content: "It is awesome 😄";
+    margin-left: 5px;
+}
+
+#rate-4:checked ~ header:before {
+    content: "I just like it 😎";
+    margin-left: 5px;
+}
+
+#rate-5:checked ~ header:before {
+    content: "I just love it 😍";
+    margin-left: 5px;
+}
+
+#review {
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+#review p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #934715;
+}
+
+.form input[type="text"] {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+header {
+    font-size: 18px;
+    color: #934715;
+    font-weight: 500;
+    margin: 10px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.relatedProducts {
+    margin-top: 50px;
+}
+
+.relatedhead {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+ */
+/*ShopPage end*/
+
+
+/***Contact page start****/
+
+.bannercontact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/coffeeshop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+}
+
+.contactHead {
+    font-size: 50px;
+    color: #ca743b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form1 {
+    width: 100%;
+    align-items: center;
+}
+
+.contactBg {
+    background: rgba(32, 32, 32, 0.7);
+    padding: 50px 100px 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 32%;
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border: 1px solid #d2d2d2;
+}
+
+textarea {
+    width: 99%;
+    padding: 5px 5px 5px 10px;
+    margin-left: 8px;
+    margin-right: 15px;
+    font-size: 18px;
+    border: 1px solid #d2d2d2;
+}
+
+input::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+textarea::placeholder {
+    color: #000000;
+    font-weight: 400;
+}
+
+button[type="submit"] {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    background: #934715;
+    color: #fff;
+    border: none;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.contactPage h4 {
+    font-size: 22px;
+    color: #934715;
+    font-weight: bold;
+}
+
+.contactPage .add {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.mapIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 12px;
+}
+
+.phoneIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 8px;
+}
+
+.hashIcon {
+    font-size: 20px;
+    color: #934715;
+    margin-right: 6px;
+}
+
+.map {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 89%;
+}
+
+.fb {
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+.twit {
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+.insta {
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-left: 30px;
+}
+
+
+/***Contact Page End*******/
+
+
+/*foot start*/
+
+
+/****Media Queries Start*******/
+
+
+/*************1024px start**********************/
+
+@media only screen and (max-width:1024px) {
+    /*Navigation*/
+    #nav-bar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        margin-top: 0;
+        background: #fff;
+        box-shadow: 0 0 10px 0 grey;
+    }
+    .navbar-brand {
+        padding-left: 40px;
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 30px;
+        letter-spacing: 5px;
+        color: #934715;
+    }
+    .navbar-brand:hover {
+        color: #934715;
+    }
+    ul.navbar-nav {
+        margin-right: 5px;
+    }
+    .navbar-nav li {
+        padding: 20px 10px;
+        font-size: 20px;
+        color: #000;
+    }
+    .nav-item {
+        color: #000;
+    }
+    .navbar-nav li a {
+        float: right;
+    }
+    #navbar-nav ul li a:hover {
+        color: #934715;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+    .nav-link {
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    a.nav-link:hover {
+        color: #934715;
+    }
+    .cart {
+        font-size: 26px;
+    }
+    .search {
+        font-size: 22px;
+    }
+    ul.navsearchcart {
+        margin-right: 10px;
+    }
+    .navsearchcart {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    /*Navigation end*/
+}
+
+
+/*************768px start**********************/
+
+@media only screen and (max-width:768px) {
+    /*Navigation*/
+    #nav-bar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        margin-top: 0;
+        background:transparent;
+    }
+    ul.navsearchcart {
+        margin-right: 54px;
+    }
+    .navsearchcart {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-bottom: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 0;
+    }
+    .cartSearch {
+        padding-right: 30px;
+    }
+    .menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 24px 22px;
+        color: #4f4f4f;
+    }
+    .menu:hover {
+        color: #934715;
+    }
+    .navbar-brand {
+        padding-left: 40px;
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 30px;
+        letter-spacing: 5px;
+        color: #934715;
+    }
+    .navbar-brand:hover {
+        color: #934715;
+    }
+    ul.navbar-nav {
+        margin-right: 15px;
+    }
+    .navbar-nav li {
+        padding: 20px 10px;
+        font-size: 20px;
+    }
+    .navbar-nav li a {
+        float: right;
+    }
+    #navbar-nav ul li a:hover {
+        color: #934715;
+    }
+    .navbar {
+        background:transparent;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+    .nav-link {
+        color: #4f4f4f;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    a.nav-link:hover {
+        color: #934715;
+    }
+    .cart {
+        font-size: 26px;
+    }
+    .search {
+        font-size: 22px;
+    }
+    .nav-link span {
+        position: absolute;
+        top: 11px;
+    }
+    /*Navigation end*/
+    /* Quote Start */
+    .quote-head {
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 50px;
+        text-transform: uppercase;
+    }
+    #quote {
+        background: #fdfdfd;
+        padding: 100px 0;
+    }
+    .slideshow-container-quote {
+        position: relative;
+        background: #3c3c3c;
+        border-radius: 5%;
+        box-shadow: 0px 0px 5px grey;
+    }
+    /* Quotes Slides */
+    .myQuote {
+        display: none;
+        padding: 50px;
+        text-align: center;
+    }
+    .myQuote q {
+        font-size: 20px;
+        font-style: italic;
+        color: #f0f0f0;
+    }
+    .author {
+        color: #f0f0f0;
+        font-size: 14px;
+        margin: 0px;
+        padding-top: 5px;
+    }
+    /* The dot/bullet/indicator container */
+    .dot-container {
+        text-align: center;
+        padding: 20px 0 0;
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        border: 3px solid #3c3c3c;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    /* Add a background color to the active dot/circle */
+    .dotactive {
+        position: relative;
+        height: 20px;
+        width: 20px;
+        top: 3px;
+        border: 3px solid #3c3c3c;
+    }
+    /**Quotes End*/
+}
+
+
+/**768 End*/
+
+
+/*************425px start**********************/
+
+@media only screen and (max-width:425px) {
+    /*Navigation*/
+    #nav-bar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        margin-top: 0;
+        background: #fff;
+    }
+    ul.navsearchcart {
+        margin-right: 54px;
+    }
+    .navsearchcart {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-bottom: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 0;
+    }
+    .cartSearch {
+        padding-right: 30px;
+    }
+    .menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 24px 22px;
+        color: #4f4f4f;
+    }
+    .menu:hover {
+        color: #934715;
+    }
+    .navbar-brand {
+        padding-left: 40px;
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 30px;
+        letter-spacing: 5px;
+        color: #934715;
+    }
+    .navbar-brand:hover {
+        color: #934715;
+    }
+    ul.navbar-nav {
+        margin-right: 15px;
+    }
+    .navbar-nav li {
+        padding: 20px 10px;
+        font-size: 20px;
+    }
+    .navbar-nav li a {
+        float: right;
+    }
+    #navbar-nav ul li a:hover {
+        color: #934715;
+    }
+    .navbar {
+        background: #fff;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+    .nav-link {
+        color: #4f4f4f;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    a.nav-link:hover {
+        color: #934715;
+    }
+    .cart {
+        font-size: 26px;
+    }
+    .search {
+        font-size: 22px;
+    }
+    /*Navigation end*/
+    /* Quote Start */
+    .quote-head h2 {
+        font-size: 18px !important;
+        text-align: center;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+    #quote {
+        background: #fdfdfd;
+        padding: 100px 0;
+    }
+    .slideshow-container-quote {
+        position: relative;
+        background: #3c3c3c;
+        border-radius: 5%;
+        box-shadow: 0px 0px 5px grey;
+    }
+    /* Quotes Slides */
+    .myQuote {
+        display: none;
+        padding: 50px;
+        text-align: center;
+    }
+    .myQuote q {
+        font-size: 14px;
+        font-style: italic;
+        color: #f0f0f0;
+    }
+    .author {
+        color: #f0f0f0;
+        font-size: 14px;
+        margin: 0px;
+        padding-top: 5px;
+    }
+    /* The dot/bullet/indicator container */
+    .dot-container {
+        text-align: center;
+        padding: 20px 0 0;
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        border: 3px solid #3c3c3c;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    /* Add a background color to the active dot/circle */
+    .dotactive {
+        position: relative;
+        height: 20px;
+        width: 20px;
+        top: 3px;
+        border: 3px solid #3c3c3c;
+    }
+    /**Quotes End*/
+}
+
+
+/**425 End*/
+
+
+/*************375px start**********************/
+
+@media only screen and (max-width:375px) {
+    /*Navigation*/
+    #nav-bar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        margin-top: 0;
+        background: #fff;
+    }
+    ul.navsearchcart {
+        margin-right: 54px;
+    }
+    .navsearchcart {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-bottom: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 0;
+    }
+    .cartSearch {
+        padding-right: 30px;
+    }
+    .menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 24px 22px;
+        color: #4f4f4f;
+    }
+    .menu:hover {
+        color: #934715;
+    }
+    .navbar-brand {
+        padding-left: 40px;
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 30px;
+        letter-spacing: 5px;
+        color: #934715;
+    }
+    .navbar-brand:hover {
+        color: #934715;
+    }
+    ul.navbar-nav {
+        margin-right: 15px;
+    }
+    .navbar-nav li {
+        padding: 20px 10px;
+        font-size: 20px;
+    }
+    .navbar-nav li a {
+        float: right;
+    }
+    #navbar-nav ul li a:hover {
+        color: #934715;
+    }
+    .navbar {
+        background: #fff;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+    .nav-link {
+        color: #4f4f4f;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    a.nav-link:hover {
+        color: #934715;
+    }
+    .cart {
+        font-size: 26px;
+    }
+    .search {
+        font-size: 22px;
+    }
+    /*Navigation end*/
+    /* Quote Start */
+    .quote-head h2 {
+        font-size: 18px !important;
+        text-align: center;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+    #quote {
+        background: #fdfdfd;
+        padding: 100px 0;
+    }
+    .slideshow-container-quote {
+        position: relative;
+        background: #3c3c3c;
+        border-radius: 5%;
+        box-shadow: 0px 0px 5px grey;
+    }
+    /* Quotes Slides */
+    .myQuote {
+        display: none;
+        padding: 50px;
+        text-align: center;
+    }
+    .myQuote q {
+        font-size: 14px;
+        font-style: italic;
+        color: #f0f0f0;
+    }
+    .author {
+        color: #f0f0f0;
+        font-size: 14px;
+        margin: 0px;
+        padding-top: 5px;
+    }
+    /* The dot/bullet/indicator container */
+    .dot-container {
+        text-align: center;
+        padding: 20px 0 0;
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        border: 3px solid #3c3c3c;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    /* Add a background color to the active dot/circle */
+    .dotactive {
+        position: relative;
+        height: 20px;
+        width: 20px;
+        top: 3px;
+        border: 3px solid #3c3c3c;
+    }
+    /**Quotes End*/
+}
+
+
+/**375 End*/
+
+
+/*************320px start**********************/
+
+@media only screen and (max-width:320px) {
+    /*Navigation*/
+    #nav-bar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        margin-top: 0;
+        background: #fff;
+    }
+    ul.navsearchcart {
+        margin-right: 54px;
+    }
+    .navsearchcart {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-bottom: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 0;
+    }
+    .cartSearch {
+        padding-right: 30px;
+    }
+    .menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 24px 22px;
+        color: #4f4f4f;
+    }
+    .menu:hover {
+        color: #934715;
+    }
+    .navbar-brand {
+        padding-left: 40px;
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 30px;
+        letter-spacing: 5px;
+        color: #934715;
+    }
+    .navbar-brand:hover {
+        color: #934715;
+    }
+    ul.navbar-nav {
+        margin-right: 15px;
+    }
+    .navbar-nav li {
+        padding: 20px 10px;
+        font-size: 20px;
+    }
+    .navbar-nav li a {
+        float: right;
+    }
+    #navbar-nav ul li a:hover {
+        color: #934715;
+    }
+    .navbar {
+        background: #fff;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+    .nav-link {
+        color: #4f4f4f;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    a.nav-link:hover {
+        color: #934715;
+    }
+    .cart {
+        font-size: 26px;
+    }
+    .search {
+        font-size: 22px;
+    }
+    /*Navigation end*/
+    /* Quote Start */
+    .quote-head h2 {
+        font-size: 16px !important;
+        text-align: center;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+    #quote {
+        background: #fdfdfd;
+        padding: 100px 0;
+    }
+    .slideshow-container-quote {
+        position: relative;
+        background: #3c3c3c;
+        border-radius: 5%;
+        box-shadow: 0px 0px 5px grey;
+    }
+    /* Quotes Slides */
+    .myQuote {
+        display: none;
+        padding: 50px;
+        text-align: center;
+    }
+    .myQuote q {
+        font-size: 12px;
+        font-style: italic;
+        color: #f0f0f0;
+    }
+    .author {
+        color: #f0f0f0;
+        font-size: 12px;
+        margin: 0px;
+        padding-top: 5px;
+    }
+    /* The dot/bullet/indicator container */
+    .dot-container {
+        text-align: center;
+        padding: 20px 0 0;
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        border: 3px solid #3c3c3c;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    /* Add a background color to the active dot/circle */
+    .dotactive {
+        position: relative;
+        height: 20px;
+        width: 20px;
+        top: 3px;
+        border: 3px solid #3c3c3c;
+    }
+    /**Quotes End*/
+}
+
+
+/**320 End*/

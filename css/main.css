@@ -511,7 +511,7 @@ button.webdesign:hover {
     box-shadow: 0 1px 1px 1px #3e3e3e;
 }
 .projectInfo1 {
-    padding-top: 10px;
+    padding: 10px 0px;
     color: #fff;
     text-align: center;
     text-transform: uppercase;

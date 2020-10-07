@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+    <style>
+         .savedcards  .cvvsaved{
+            color: #1a1a1a;
+            display: none;
+            width: 16%;
+    }
+    </style>
+</head>
+
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg animated fadeInDownBig">
+            <a class="navbar-brand logo" href="#">COFFEE <i class="fa fa-coffee coffeeLogo"></i></a>
+            <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" style="font-size: 24px;"></i> </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto" id="navigation">
+                    <li class="nav-item"> <a class="nav-link" href="home.html">HOME</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="menu.html">MENU</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="about.html">ABOUT US</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="contact.html">COFFEE TALK</a> </li>
+                </ul>
+            </div>
+            <div class="cartSearch" id="cart">
+                <ul class="navsearchcart">
+                    <li class="nav-item cartUpdate"><a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart cart"></i><span id="cartCount">0</span></a> </li>
+                    </ul>
+            </div>
+        </nav>
+    </section>
+
+   <div class="container paymentPage">
+       <div class="row">
+        <h2 class="cartHeader">Choose Payment Mode</h2>
+       </div>
+       <div class="row">
+        <div class="col-lg-3 col-md-12 col-sm-12">
+           
+             <ul style="list-style: none;padding-left: 0px;" class="paymentNav">
+                <li id="savedcards">SAVED CARDS
+                </li>
+                 <li id="cash">PAY ON DELIVERY
+                     <br>
+                     (CASH/CARD)
+                 </li>
+                 <li id="creditdebit">CREDIT/DEBIT CARD</li>
+                 <li id="netbanking">NETBANKING</li>
+                 <li id="gift">GIFT CARD</li>
+             </ul>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="paymentMode">
+                    <div class="savedcards">
+                        <p class="cashmodePara">PAY USING SAVED CARDS</p>  
+                       <hr>
+                        <input type="radio" name="colorRadio" value="CVV1">
+                        <label for="card1">xxxx Debit Card</label>
+                       <img src="images/cardimage.jpg" alt="" class="img-fluid cardimage"> 
+                       <br>                        
+                       <label for="card1">***** 1234</label>
+                       <label for="card1" class="nameoncard">ankita naik</label>
+                       <input type="text"  class="CVV1 cvvsaved" placeholder="CVV*">
+                       <br><br>
+                       <input type="radio" name="colorRadio" value="CVV2">
+                       <label for="card1">xxxx Debit Card</label>
+                      <img src="images/cardimage.jpg" alt="" class="img-fluid cardimage"> 
+                      <br>                        
+                      <label for="card1">***** 4567</label>
+                      <label for="card1" class="nameoncard">siddhesh mhatre</label>
+                      <input type="text"  class="CVV2 cvvsaved" placeholder="CVV*">
+                      <br>
+                       <button>PAY NOW</button>   
+                    </div>
+    
+                    <div class="cash">
+                    <p class="cashmodePara">PAY ON DELIVERY</p>  
+                    <p>Pay when your order is recieved</p>
+                    
+                    <div class="cashimage">
+                        <img src="images/cashimage.jpg" alt="" class="img-fluid cashimg" id="cashimage">
+                        <a onclick="changeCashImage()"><i class="fa fa-refresh refeshicon" aria-hidden="true"></i> Change Image</a>
+                    </div>
+                    <input type="text" placeholder="Enter text as shown in above image">
+                     <button>PAY ON DELIVERY</button>
+                </div>
+                    <div class="creditdebit">
+                        <p>CREDIT / DEBIT CARD </p> 
+                        <hr>
+                        <input type="text" placeholder="Enter Your Card Number*">
+                        <input type="text" placeholder="Name on Card">
+                        <br>
+
+                        <select name="expmonth" id="expmonth" placeholde="Expiry Month">
+                            <option value="">January</option>
+                            <option value="">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">October</option>
+                            <option value="">November</option>
+                            <option value="">December</option>
+                        </select> 
+
+                        <select name="expyear" id="expyear">
+                            <option value="">2020</option>
+                            <option value="">2021</option>
+                            <option value="">2022</option>
+                            <option value="">2023</option>
+                            <option value="">2024</option>
+                            <option value="">2025</option>
+                            <option value="">2026</option>
+                            <option value="">2027</option>
+                            <option value="">2028</option>
+                            <option value="">2029</option>
+                            <option value="">2030</option>
+                        </select>
+                        <br>
+                        <input type="text" placeholder="CVV*" name="cvv"> <img src="images/cvv.jpg" alt="" class="img-fluid cvvimage">
+                        <span>Last 3 digit printed on the back of the card</span>
+                        <input type="checkbox"> Save this Card for Faster Payments
+                        <button>PAY NOW</button>
+                    </div>
+                    <div class="netbanking">
+                            <p>NETBANKING</p>
+                            <hr>
+                            <input type="radio" name="bank" value="bank1">
+                            <label for="bank1"><i class="fa fa-bank bankicon"></i> BANK 1</label>
+                            
+                                <button  class="bank1 bankbranch">PAY NOW</button>
+                            <br>
+                        <br>
+                            
+                                <input type="radio" name="bank" value="bank2">
+                                <label for="bank2"><i class="fa fa-bank bankicon"></i> BANK 2</label>
+                            
+                                <button  class="bank2 bankbranch">PAY NOW</button>
+                                <br>
+                                <br>
+                                    
+                                <input type="radio" name="bank" value="bank3">
+                                <label for="bank3"><i class="fa fa-bank bankicon"></i> ADD BANK ACCOUNT</label>
+                            
+                                <button  class="bank3 otherbankbranch">ADD</button>
+
+                    </div>
+
+                    <div class="gift">
+                            <p>ENTER GIFT CARD DETAILS</p>
+                            <hr>
+                            <input type="text" placeholder="Gift Card Number">
+                            <input type="text" placeholder="Gift Card Pin">
+                            <button>ADD TO COFFEE CREDIT</button>
+                    </div>
+            
+              
+                 </div>
+         
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="tableorder">
+                    <table class="table orderTable">
+ <tbody class="allproducts">
+    
+ </tbody>
+</table>
+             </div> 
+             <div class="tabletotal">
+                <table class="table">
+                    <tbody class="finalTotal">
+                        
+                    </tbody>
+                </table>
+             </div>
+           </div>
+   
+
+   </div>
+ 
+   </div>
+
+<div class="container-fluid footer">
+    <h1>COFFEE</h1>
+    <div class="row footerRow">
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Coffee</h2>
+                <p>We’re excited to share the story that every bean can tell. Come on in, take a sip, and explore with us!</p>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Hours</h2>
+                <p class="footPara">MON - FRI 7 AM - 6 PM</p>
+                <p>SAT - SUN 7 AM - 2 PM</p>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Contact</h2>
+                <p class="footPara">+64 22 5475450</p>
+                <p><a href="mailto:coffeeinfo@gmail.com" class="footEmail">coffeeinfo@gmail.com</a></p>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Location</h2>
+            <p><i class='fas fa-map-marker-alt'></i></p>    
+            </div>
+
+        </div>
+        <p class="create">Created by @nkita</p>
+    </div>    
+
+
+    <script src="js/navshrink.js"></script>
+ 
+    <script src="js/paymentmode.js"></script>
+    <script src="js/finalpayment.js"></script>
+<script>
+       function changeCashImage() {
+            var image = document.getElementById('cashimage');
+            if (image.src.match("cashimage")) {
+                image.src = "images/cashimage1.jpg";
+            }
+            else {
+                image.src = "images/cashimage.jpg";
+            }
+        }
+
+        $(document).ready(function(){
+        $('input[type="radio"]').click(function(){
+        var inputValue = $(this).attr("value");
+        var targetBox = $("." + inputValue);
+        $(".bankbranch").not(targetBox).hide();
+        $(targetBox).show();
+    });
+});
+</script>
+
+</body>
+
+</html>

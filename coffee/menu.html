@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+    <style>
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.centered h1 {
+font-size: 65px;
+letter-spacing: 6px;
+text-transform: uppercase;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+  
+.centered h1 span{
+font-size: 45px;
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+
+.centered h2 {
+font-size: 32px;
+letter-spacing: 6px;
+text-transform: uppercase;
+margin-top: 28px;
+}
+  </style>
+</head>
+
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg animated fadeInDownBig">
+            <a class="navbar-brand logo" href="#">COFFEE <i class="fa fa-coffee coffeeLogo"></i></a>
+            <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" style="font-size: 24px;"></i> </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto" id="navigation">
+                    <li class="nav-item"> <a class="nav-link" href="home.html">HOME</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="menu.html" style="color: #934715">MENU</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="about.html">ABOUT US</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="contact.html">COFFEE TALK</a> </li>
+                </ul>
+            </div>
+            <div class="cartSearch" id="cart">
+                <ul class="navsearchcart">
+                    <li class="nav-item cartUpdate"><a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart cart"></i><span id="cartCount">0</span></a> </li>
+                    </ul>
+            </div>
+        </nav>
+    </section>
+    
+    <div class="container-fluid" id="priceTable">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2 class="section-title3">Menu</h2>
+                <p class="commitpara">Our specialities and popular favourites</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-1">
+            <img src="images/coffeeleaf.jpg" alt="" class="coffeeLeafImage">
+            </div>
+
+            <div class="col-lg-7 col-md-12 col-sm-12 table-responsive table1" id="col1">
+            <table class="table priceTable1" id="coffee">
+               <thead>
+                <tr>
+                 <th>Coffee</th>
+                 <th>Tall</th>
+                 <th>Venti</th>
+                 <th>Grande</th>
+               </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td>Caffe Americano</td>
+                       <td><img src="images/caffeAmericanoTall.jpg" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                       <td><img src="images/caffeAmericanoVenti.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                       <td><img src="images/caffeAmericanoGrande.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                   </tr>
+                   <tr>
+                    <td>Caffe Latte</td>
+                    <td><img src="images/caffeLatteTall.jpg" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caffeLatteVenti.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caffeLatteGrande.jpg" style="display: none;">$7.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Cappuccino</td>
+                    <td><img src="images/cappuccinoTall.jpg" style="display: none;">$3.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/cappuccinoVenti.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/cappuccinoGrande.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Caffe Mocha</td>
+                    <td><img src="images/caffemochaTall.jpg" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caffemochaVenti.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caffemochaGrande.jpg" style="display: none;">$7.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Caramel Macchiato</td>
+                    <td><img src="images/caramelmacchiatoTall.jpg" style="display: none;">$3.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caramelmacchiatoVenti.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caramelmacchiatoGrande.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Raspberry White</td>
+                    <td><img src="images/raspberrywhiteTall.jpg" style="display: none;">$3.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/raspberrywhiteVenti.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/raspberrywhiteGrande.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Dolce De Late</td>
+                    <td><img src="images/dolcedelateTall.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/dolcedelateVenti.jpg" style="display: none;">$7.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/dolcedelateGrande.jpg" style="display: none;">$8.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+               </tbody>
+            </table> 
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12" id="col2">
+            <img src="images/coffeecup2.jpg" alt="" class="img-fluid coffeecup2">    
+            </div>
+
+        </div>   
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="row">
+            <div class="col-lg-4">
+            <img src="images/coffeecup3.jpg" alt="" class="coffeecup3 img-fluid">
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 table-responsive table2" id="col1">
+            <table class="table priceTable2" id="espresso">
+               <thead>
+                <tr>
+                 <th>Espresso</th>
+                 <th></th>
+                 <th>Single</th>
+                 <th>Double</th>
+               </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td>Espresso</td>
+                       <td>&nbsp;</td>
+                       <td><img src="images/espressoSingle.jpg" style="display: none;">$3.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                       <td><img src="images/espressoDouble.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                   </tr>
+                   <tr>
+                    <td>Espresso Macchiato</td>
+                    <td>&nbsp;</td>
+                    <td><img src="images/espressomacchiatoSingle.jpg" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/espressomacchiatoDouble.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Espresso Con Panna</td>
+                    <td>&nbsp;</td>
+                    <td><img src="images/espressoconpannaSingle.jpg" style="display: none;">$3.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/espressoconpannaDouble.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+               </tbody>
+            </table> 
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+            <table class="table priceTable3" id="brewed">
+                <thead>
+                 <tr>
+                  <th>Brewed Coffee</th>
+                  <th>Tall</th>
+                   <th>Venti</th>
+                    <th>Grande</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Caffe Tradizionale</td>
+                        <td><img src="images/caffetradizionaleTall.png" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                        <td><img src="images/caffetradizionaleVenti.png" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                        <td><img src="images/caffetradizionaleGrande.png" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    </tr>
+                    <tr>
+                     <td>Shot In The Dark</td>
+                     <td><img src="images/shotinthedarkTall.png" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                     <td><img src="images/shotinthedarkVenti.png" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                     <td><img src="images/shotinthedarkGrande.png" style="display: none;">$7.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                 </tr>
+                </tbody>
+             </table> 
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12" style="text-align: center;">
+            <img src="images/brewedcoffee.jpg" alt="" class="img-fluid brewedImage">
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="table4">
+    <div class="row">
+        <div class="col-lg-5 col-md-12 col-sm-12 breadcol2">
+            <img src="images/bread.jpg" alt="" class="img-fluid">
+            </div>
+        <div class="col-lg-7 col-md-12 col-sm-12 table-responsive" id="col1">
+        <table class="table priceTable4" id="bread">
+           <thead>
+            <tr>
+             <th>Breads & Yogurt</th>
+          <th>&nbsp;</th>
+           </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>Croissant</td>
+                   <td><img src="images/croissant.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+            </tr>
+               <tr>
+                <td>Pain au Chocolat</td>
+                <td><img src="images/painauChocolat.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+            </tr>
+            <tr>
+                <td>Yogurt & Granola Parfait</td>
+                <td><img src="images/yogurtgranolaparfait.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+            </tr>
+           </tbody>
+        </table> 
+  
+        </div>
+      
+    
+    </div>
+</div>
+
+
+<div class="container-fluid footer">
+    <h1>COFFEE</h1>
+    <div class="row footerRow">
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Coffee</h2>
+                <p>We’re excited to share the story that every bean can tell. Come on in, take a sip, and explore with us!</p>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Hours</h2>
+                <p class="footPara">MON - FRI 7 AM - 6 PM</p>
+                <p>SAT - SUN 7 AM - 2 PM</p>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Contact</h2>
+                <p class="footPara">+64 22 5475450</p>
+                <p><a href="mailto:coffeeinfo@gmail.com" class="footEmail">coffeeinfo@gmail.com</a></p>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Location</h2>
+            <p><i class='fas fa-map-marker-alt'></i></p>    
+            </div>
+
+        </div>
+        <p class="create">Created by @nkita</p>
+    </div>    
+
+
+
+    <!-- <div class="container-fluid" id="slideCart">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+             <div class="slideCart">
+                <div class="row">
+                    <a href=""><i class="fa fa-times closeCart"></i></a>
+                </div>
+<div class="row">
+<div class="cartItem">
+    dddddddddd
+</div>
+</div>
+             </div>                
+            </div>
+        </div>
+    </div> -->
+    <script src="js/navshrink.js"></script>
+    <script src="js/addcartcounter.js"></script>
+
+<script>
+    
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coffee</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Yeon Sung' rel='stylesheet'>
+<style>
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 33%;
+  left: 43%;
+  transform: translate(-43%, -33%);
+}
+
+.centered h1 {
+font-size: 42px;
+letter-spacing: 6px;
+text-transform: uppercase;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+  
+.centered h1 span{
+font-size: 35px;
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+
+.centered h2 {
+font-size: 32px;
+letter-spacing: 6px;
+text-transform: uppercase;
+margin-top: 30px;
+}
+
+@media only screen and (max-width:1024px) {
+ .centered {
+  position: absolute;
+  top: 33%;
+  left: 35%;
+  transform: translate(-24%, -33%);
+}
+
+.centered h1 {
+font-size: 32px;
+letter-spacing: 6px;
+text-transform: uppercase;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+  
+.centered h1 span{
+font-size: 28px;
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+
+.centered h2 {
+font-size: 32px;
+letter-spacing: 6px;
+text-transform: uppercase;
+margin-top: 30px;
+}
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .centered {
+position: absolute;
+top: 33%;
+left: 17%;
+transform: translate(-10%, -33%);
+}
+
+.centered h1 {
+font-size: 32px;
+letter-spacing: 6px;
+text-transform: uppercase;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+  
+.centered h1 span {
+font-size: 28px;
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+
+.centered h2 {
+font-size: 28px;
+letter-spacing: 6px;
+text-transform: uppercase;
+margin-top: 28px;
+}
+
+}
+@media only screen and (max-width:425px) {
+
+.centered {
+position: absolute;
+top: 33%;
+left: 13%;
+transform: translate(-5%, -33%);
+}
+
+.centered h1 {
+font-size: 24px;
+letter-spacing: 6px;
+text-transform: uppercase;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.centered h1 span {
+font-size: 19px;
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+
+.centered h2 {
+font-size: 28px;
+letter-spacing: 6px;
+text-transform: uppercase;
+margin-top: 28px;
+}
+
+}
+
+@media only screen and (max-width:375px) {
+
+.centered {
+position: absolute;
+top: 33%;
+left: 13%;
+transform: translate(-5%, -33%);
+}
+
+.centered h1 {
+font-size: 22px;
+line-height: 30px;
+letter-spacing: 6px;
+text-transform: uppercase;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.centered h1 span {
+font-size: 19px;
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+
+.centered h2 {
+font-size: 28px;
+letter-spacing: 6px;
+text-transform: uppercase;
+margin-top: 28px;
+}
+
+}
+
+@media only screen and (max-width:375px) {
+
+.centered {
+position: absolute;
+top: 33%;
+left: 13%;
+transform: translate(-5%, -33%);
+}
+
+.centered h1 {
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 6px;
+text-transform: uppercase;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.centered h1 span {
+font-size: 16px;
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+
+.centered h2 {
+font-size: 28px;
+letter-spacing: 6px;
+text-transform: uppercase;
+margin-top: 28px;
+}
+
+}
+</style>
+</head>
+
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg animated fadeInDownBig">
+            <a class="navbar-brand logo" href="#">COFFEE <i class="fa fa-coffee coffeeLogo"></i></a>
+            <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" style="font-size: 24px;"></i> </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto" id="navigation">
+                    <li class="nav-item"> <a class="nav-link" href="home.html" style="color: #934715">HOME</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="menu.html">MENU</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="about.html">ABOUT US</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="contact.html">COFFEE TALK</a> </li>
+                </ul>
+            </div>
+            <div class="cartSearch" id="cart">
+                <ul class="navsearchcart">
+                    <li class="nav-item cartUpdate"><a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart cart"></i><span id="cartCount">0</span></a> </li>
+                    </ul>
+            </div>
+        </nav>
+    </section>
+    <div class="banner">
+        <div class="centered">
+        <h1>G<span>ET</span> U<span>P!</span> G<span>ET</span> C<span>OFFEE!</span> B<span>E</span> H<span>APPY!</span></h1>
+     
+        <div class="coffeechoose" style="background: transparent;">
+           <span>I will have</span>
+            <select name="" id="selectcoffee">
+            <option value="coffee" selected>coffee</option> 
+            <option value="espresso">espresso</option>
+            <option value="brewed">brewed coffee</option>
+            <option value="bread">bread</option>
+        </select> 
+        </div>
+        </div>
+    </div>
+    
+
+
+
+    <section id="timeLocation"> 
+       <div class="container timeLocation">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h2>Contact Us</h2>
+                <p>+64 22 1234554</p>
+                <p><a href="mailto:coffeeinfo@gmail.com" style="color: #934715;">coffeeinfo@gmail.com</a></p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h2>Timings</h2>
+                <p>MON - FRI 7 AM - 6 PM</p>
+                <p>SAT - SUN 7 AM - 2 PM</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">               
+                 <h2>Location</h2>
+                 <p>18/30 Newtown</p>
+                 <p>Wellington, 6021</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 aboutpadding" id="welcomecol2">
+                <h2 class="section-title">Welcome</h2>
+                <p class="aboutpara">Newtown is a town known for bikes and tattoos, and it is a close to Wellington City organic fresh fare, so it’s no wonder that its coffee culture is up-to-speed with the West Coast’s refined tastes. Coffee House, located on Mansfield Street, offers an array of blends from around the world, which they roast in-house, giving the cafe an added buzz.</p>
+                <p class="aboutpara2">Our baristas compete competitions, flexing their espresso skills. Customers won’t be disappointed and will leave caffeinated and ready to bike – or even drive – to their next destination.</p>
+               <a href="about.html" class="aboutRead">Read More</a>
+            </div>
+    
+            <div class="col-lg-6 col-md-12 col-sm-12 aboutpadding" id="welcomecol1">
+             <img src="images/coffeabout.jpg" alt="" width="100%" class="aboutImage">   
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2 class="section-title3">Menu</h2>
+                <p class="commitpara">Our specialities and popular favourites</p>
+            </div>
+        </div>
+       <div class="row coffee1 coffee">
+            <div class="col-lg-1 col-md-1 col-sm-1" id="coffeetableorder2">
+            <img src="images/coffeeleaf.jpg" alt="" class="coffeeLeafImage">
+            </div>
+
+            <div class="col-lg-7 col-md-12 col-sm-12 table1" id="coffeetableorder3">
+            <table class="table priceTable1 table-responsive" id="coffee">
+               <thead>
+                <tr>
+                 <th>Coffee</th>
+                 <th>Tall</th>
+                 <th>Venti</th>
+                 <th>Grande</th>
+               </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td>Caffe Americano</td>
+                       <td><img src="images/caffeAmericanoTall.jpg" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                       <td><img src="images/caffeAmericanoVenti.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                       <td><img src="images/caffeAmericanoGrande.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                   </tr>
+                   <tr>
+                    <td>Caffe Latte</td>
+                    <td><img src="images/caffeLatteTall.jpg" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caffeLatteVenti.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caffeLatteGrande.jpg" style="display: none;">$7.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Cappuccino</td>
+                    <td><img src="images/cappuccinoTall.jpg" style="display: none;">$3.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/cappuccinoVenti.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/cappuccinoGrande.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Caffe Mocha</td>
+                    <td><img src="images/caffemochaTall.jpg" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caffemochaVenti.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caffemochaGrande.jpg" style="display: none;">$7.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Caramel Macchiato</td>
+                    <td><img src="images/caramelmacchiatoTall.jpg" style="display: none;">$3.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caramelmacchiatoVenti.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/caramelmacchiatoGrande.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Raspberry White</td>
+                    <td><img src="images/raspberrywhiteTall.jpg" style="display: none;">$3.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/raspberrywhiteVenti.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/raspberrywhiteGrande.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Dolce De Late</td>
+                    <td><img src="images/dolcedelateTall.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/dolcedelateVenti.jpg" style="display: none;">$7.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/dolcedelateGrande.jpg" style="display: none;">$8.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+               </tbody>
+            </table> 
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12" id="coffeetableorder1">
+            <img src="images/coffeecup2.jpg" alt="" class="img-fluid coffeecup2">    
+            </div>
+
+        </div>   
+</div>    
+
+<div class="container">
+    <div class="row coffee1 espresso">
+            <div class="col-lg-4 espressocol1">
+            <img src="images/coffeecup3.jpg" alt="" class="coffeecup3 img-fluid">
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 table2 espressocol2">
+            <table class="table priceTable2 table-responsive">
+               <thead>
+                <tr>
+                 <th>Espresso</th>
+                 <th>Single</th>
+                 <th>Double</th>
+               </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td>Espresso</td>
+                       <td><img src="images/espressoSingle.jpg" style="display: none;">$3.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                       <td><img src="images/espressoDouble.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                   </tr>
+                   <tr>
+                    <td>Espresso Macchiato</td>
+                    <td><img src="images/espressomacchiatoSingle.jpg" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/espressomacchiatoDouble.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+                <tr>
+                    <td>Espresso Con Panna</td>
+                    <td><img src="images/espressoconpannaSingle.jpg" style="display: none;">$3.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    <td><img src="images/espressoconpannaDouble.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                </tr>
+               </tbody>
+            </table> 
+            </div>
+      
+    </div>
+</div>
+<div class="container">
+    <div class="row coffee1 brewed">
+        <div class="col-lg-7 col-md-12 col-sm-12" id="brewedtable2">
+            <table class="table priceTable3">
+                <thead>
+                 <tr>
+                  <th>Brewed Coffee</th>
+                  <th>Tall</th>
+                   <th>Venti</th>
+                    <th>Grande</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Caffe Tradizionale</td>
+                        <td><img src="images/caffetradizionaleTall.png" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                        <td><img src="images/caffetradizionaleVenti.png" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                        <td><img src="images/caffetradizionaleGrande.png" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                    </tr>
+                    <tr>
+                     <td>Shot In The Dark</td>
+                     <td><img src="images/shotinthedarkTall.png" style="display: none;">$4.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                     <td><img src="images/shotinthedarkVenti.png" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                     <td><img src="images/shotinthedarkGrande.png" style="display: none;">$7.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+                 </tr>
+                </tbody>
+             </table> 
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12" style="text-align: center;" id="brewedtable1">
+            <img src="images/brewedcoffee.jpg" alt="" class="img-fluid brewedImage">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="table4">
+    <div class="row coffee1 bread">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <img src="images/bread.jpg" alt="" class="img-fluid breadfullwidth" width="100%">
+            <img src="images/breadres.jpg" alt="" class="img-fluid breadres" width="100%">
+        </div>
+        <div class="col-lg-8 col-md-12 col-sm-12" id="col1">
+        <table class="table priceTable4">
+           <thead>
+            <tr>
+             <th>Breads & Yogurt</th>
+          <th>&nbsp;</th>
+           </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>Croissant</td>
+                   <td><img src="images/croissant.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+            </tr>
+               <tr>
+                <td>Pain au Chocolat</td>
+                <td><img src="images/painauChocolat.jpg" style="display: none;">$6.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+            </tr>
+            <tr>
+                <td>Yogurt & Granola Parfait</td>
+                <td><img src="images/yogurtgranolaparfait.jpg" style="display: none;">$5.00 <i class="fa fa-plus addCart addCoffee"></i></td>
+            </tr>
+           </tbody>
+        </table> 
+        </div>
+    </div>
+</div>
+<div class="container-fluid commitbanner" id="commit">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h2 class="section-title4">Our Commitment</h2>
+            <p class="commitpara1">We promise the best quality</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12 commitCol">
+            <img src="images/beans.png" alt="" class="img-fluid commitImage">
+            <h3 class="commitHead">Ethically Sourced Arabica Beans</h3>
+            <p class="commitSubPara">All of our arabica beans come from farms we’ve been to. We meet the team, inspect the quality of their coffee trees, and tour the facilities. We ensure our coffee growers are paid fair wages.</p>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 commitCol">
+            <img src="images/roasting.png" alt="" class="img-fluid commitImage">
+            <h3 class="commitHead">Locally Roasting Coffee</h3>
+            <p class="commitSubPara">Roasting green beans transform their properties into the light, medium, or dark coffee beans you know of. We’re proud of our technique, which has passed down the generations in our family.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12 commitCol">
+            <img src="images/cup.png" alt="" class="img-fluid commitImage">
+            <h3 class="commitHead">Quality In Each Cup</h3>
+            <p class="commitSubPara">The quality is in the details. A coffee is sour if the brewing temperature was low, or if the cherry over-ripened before harvesting. We love coffee and we’re invested every step of the way.</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid footer">
+    <h1>COFFEE</h1>
+    <div class="row footerRow">
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Coffee</h2>
+                <p class="footPara">We’re excited to share the story that every bean can tell. Come on in, take a sip, and explore with us!</p>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Hours</h2>
+                <p class="footPara">MON - FRI 7 AM - 6 PM</p>
+                <p>SAT - SUN 7 AM - 2 PM</p>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Contact</h2>
+                <p class="footPara">+64 22 5475450</p>
+                <p><a href="mailto:coffeeinfo@gmail.com" class="footEmail">coffeeinfo@gmail.com</a></p>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 footerCol">
+                <h2>Location</h2>
+            <p><i class='fas fa-map-marker-alt'></i></p>    
+            </div>
+
+        </div>
+        <p class="create">Created by @nkita</p>
+    </div>    
+
+    <script src="js/navshrink.js"></script>
+    <script src="js/addcartcounter.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("select").change(function(){
+            $(this).find("option:selected").each(function(){
+               var optionValue = $(this).attr("value");
+               if(optionValue)
+                 {
+                     $(".coffee1").not("." + optionValue).hide();
+                     $("." + optionValue).show();
+                 }  
+                 else {
+                     $(".coffee1").hide();
+                   }
+            });   
+            }).change();
+        });
+    </script>
+
+</body>
+
+</html>
