@@ -500,18 +500,18 @@ button.webdesign:hover {
 .project {
     margin: 40px 20px;
    padding: 0 !important;
-   transition: transform 4s;
+   transition: transform 3s ease;
 }
 .project:hover {
- transform: scale(1.05);
+ transform: scale(1.03);
 }
 
 .projecthead {
     background: #3e3e3e !important;
-    box-shadow: 0 1px 1px 1px #3e3e3e;
+    box-shadow: 0px 0px 1px 0px #3e3e3e;
 }
 .projectInfo1 {
-    padding: 10px 0px;
+    padding: 15px 0px;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -1097,17 +1097,17 @@ h2.con {
     .project {
         margin: 25px 10px;
        padding: 20px 40px !important;
-       transition: transform 4s;
+       transition: transform 3s ease;
     }
 
     .project:hover {
-     transform: scale(1.05);
+     transform: scale(1.03);
     }
     
     .projecthead {
         background: #3e3e3e !important;
         text-align: center;
-       box-shadow: 0 1px 1px 1px #3e3e3e;
+       box-shadow: 0 0px 1px 0px #3e3e3e;
     }
     .projectInfo1 {
         padding-top: 10px;
@@ -1609,19 +1609,19 @@ h2.con {
     }
     
     .project {
-        margin: 25px 10px;
+        margin: 5px 10px;
        padding: 20px 20px !important;
-       transition: transform 4s;
+       transition: transform 3s ease;
     }
 
     .project:hover {
-     transform: scale(1.05);
+     transform: scale(1.03);
     }
     
     .projecthead {
         background: #3e3e3e !important;
         text-align: center;
-        box-shadow: 0 1px 1px 1px #3e3e3e;
+        box-shadow: 0px 0px 1px 0px #3e3e3e;
     }
     .projectInfo1 {
         padding-top: 10px;
@@ -2114,19 +2114,19 @@ color: #fff;
     }
     
     .project {
-        margin: 25px 10px;
+        margin: 5px 10px;
        padding: 20px 10px !important;
-       transition: transform 4s;
+       transition: transform 4s ease;
     }
 
     .project:hover {
-     transform: scale(1.05);
+     transform: scale(1.03);
     }
     
     .projecthead {
         background: #3e3e3e !important;
         text-align: center;
-        box-shadow: 0 1px 1px 1px #3e3e3e;
+        box-shadow: 0 0px 1px 0px #3e3e3e;
     }
     .projectInfo1 {
         padding-top: 10px;
@@ -2618,19 +2618,19 @@ color: #fff;
     
    
     .project {
-        margin: 25px 10px;
+        margin: 5px 10px;
        padding: 20px 10px !important;
-       transition: transform 4s;
+       transition: transform 3s ease;
     }
 
     .project:hover {
-     transform: scale(1.05);
+     transform: scale(1.03);
     }
     
     .projecthead {
         background: #3e3e3e !important;
         text-align: center;
-        box-shadow: 0 1px 1px 1px #3e3e3e;
+        box-shadow: 0px 0px 1px 0px #3e3e3e;
     }
     .projectInfo1 {
         padding-top: 10px;
