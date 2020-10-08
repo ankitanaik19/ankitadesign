@@ -99,7 +99,7 @@ $(document).ready(function(){
   });
 
   $(document).ready(function(){
-      $(".bankbranch").click(function(){
+      $(".oldbank").click(function(){
         $(".savedcards").show();
         $(".netbanking").hide();
         
@@ -107,7 +107,7 @@ $(document).ready(function(){
   });
 
   $(document).ready(function(){
-    $(".otherbankbranch").click(function(){
+    $(".newbank").click(function(){
       $(".creditdebit").show();
       $(".netbanking").hide();
       
