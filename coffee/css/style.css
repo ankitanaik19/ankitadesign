@@ -3211,6 +3211,197 @@ button[type="submit"] {
 
 
 /**Checkout Page End***/
+/****Payment Page Start****/
+.paymentPage {
+    margin-bottom: 100px;
+} 
+.paymentNav {
+    width: 100%;
+    margin-top: 30px;
+  
+}
+
+.paymentNav li {
+    font-size: 18px;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 25px 18px;    
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+.paymentNav li:first-child {
+    border-top: 1px solid #d2d2d2;
+}
+.paymentNav li:hover {
+cursor: pointer;}
+
+
+.paymentModeborder {
+    border-left: 5px solid #934715;
+}
+.paymentMode {
+    margin-top: 30px;
+}
+.finalOrder {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+#savedcards {
+    border-right: 0px;
+    border-left: 5px solid #934715;
+
+}
+
+.savedcards {
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+
+.cardimage {
+    width: 8%;
+    float: right;
+}
+.cvv1 {
+    position: relative;
+    right: 0;
+    visibility: hidden;
+}
+.radio1 {
+    padding-top: 5px;
+    margin-right: 5px;
+}
+.nameoncard {
+    float: right;
+}
+.cash {
+    font-size:  18px;
+    display: none;
+}
+.cashimage {
+    margin-top: 15px;
+}
+
+.cash input[type="text"]{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.cash button{
+    font-size: 18px;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+}
+.cashimg {
+    width: 150px;
+    height: auto;
+}
+.cashmodePara {
+    margin-bottom: 5px;
+}
+.refeshicon {
+    margin-left: 25px;
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+.creditdebit {
+    font-size:  18px;
+    display: none;
+}
+
+.creditdebit input[type="text"], .creditdebit button, .savedcards button, .cash button, .netbanking button, .gift button {
+    width: 100%;
+    margin-left: 0px;
+}
+.creditdebit select {
+    width: 48%;
+    margin-left: 0px;
+    padding: 10px 10px;
+    border: 1px solid #d2d2d2;
+    color: #1a1a1a;
+}
+
+.creditdebit input[name="cvv"]{
+    width: 15%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.cvvimage {
+    width: 15%;
+    padding: 0 10px;
+}
+
+.creditdebit span {
+    font-size: 14px;
+}
+
+.creditdebit button, .savedcards button, .gift button {
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.netbanking {
+    font-size:  18px;
+    display: none;
+    letter-spacing: 1px;
+}
+
+
+.bankicon {
+    font-size: 24px;
+    color: #934715;
+    padding: 0 11px;
+}
+.bankbranch{
+    color: #ffffff;
+    background: #934715;
+    display: none;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+.gift {
+    font-size:  18px;
+    display: none;
+}
+
+.gift input[type="text"] {
+    width: 100%;
+    margin-left: 0;
+
+}
+.gift button {
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+.finalItems {
+    padding: 10px;
+    font-weight: bold;
+}
+
+/****Payment Page End******/
 
 
 }
@@ -4476,6 +4667,197 @@ button[type="submit"] {
 
 
 /**Checkout Page End***/
+/****Payment Page Start****/
+.paymentPage {
+    margin-bottom: 100px;
+} 
+.paymentNav {
+    width: 100%;
+    margin-top: 30px;
+  
+}
+
+.paymentNav li {
+    font-size: 18px;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 25px 13px;    
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+.paymentNav li:first-child {
+    border-top: 1px solid #d2d2d2;
+}
+.paymentNav li:hover {
+cursor: pointer;}
+
+
+.paymentModeborder {
+    border-left: 5px solid #934715;
+}
+.paymentMode {
+    margin-top: 30px;
+}
+.finalOrder {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+#savedcards {
+    border-right: 0px;
+    border-left: 5px solid #934715;
+
+}
+
+.savedcards {
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+
+.cardimage {
+    width: 8%;
+    float: right;
+}
+.cvv1 {
+    position: relative;
+    right: 0;
+    visibility: hidden;
+}
+.radio1 {
+    padding-top: 5px;
+    margin-right: 5px;
+}
+.nameoncard {
+    float: right;
+}
+.cash {
+    font-size:  18px;
+    display: none;
+}
+.cashimage {
+    margin-top: 15px;
+}
+
+.cash input[type="text"]{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.cash button{
+    font-size: 18px;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+}
+.cashimg {
+    width: 150px;
+    height: auto;
+}
+.cashmodePara {
+    margin-bottom: 5px;
+}
+.refeshicon {
+    margin-left: 25px;
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+.creditdebit {
+    font-size:  18px;
+    display: none;
+}
+
+.creditdebit input[type="text"], .creditdebit button, .savedcards button, .cash button, .netbanking button, .gift button {
+    width: 100%;
+    margin-left: 0px;
+}
+.creditdebit select {
+    width: 48%;
+    margin-left: 0px;
+    padding: 10px 10px;
+    border: 1px solid #d2d2d2;
+    color: #1a1a1a;
+}
+
+.creditdebit input[name="cvv"]{
+    width: 15%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.cvvimage {
+    width: 15%;
+    padding: 0 10px;
+}
+
+.creditdebit span {
+    font-size: 14px;
+}
+
+.creditdebit button, .savedcards button, .gift button {
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.netbanking {
+    font-size:  18px;
+    display: none;
+    letter-spacing: 1px;
+}
+
+
+.bankicon {
+    font-size: 24px;
+    color: #934715;
+    padding: 0 11px;
+}
+.bankbranch{
+    color: #ffffff;
+    background: #934715;
+    display: none;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+.gift {
+    font-size:  18px;
+    display: none;
+}
+
+.gift input[type="text"] {
+    width: 100%;
+    margin-left: 0;
+
+}
+.gift button {
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+.finalItems {
+    padding: 10px;
+    font-weight: bold;
+}
+
+/****Payment Page End******/
 
 
     /*foot start*/
@@ -5901,6 +6283,197 @@ button[type="submit"] {
 
 /**Checkout Page End***/
 
+/****Payment Page Start****/
+.paymentPage {
+    margin-bottom: 70px;
+} 
+.paymentNav {
+    width: 100%;
+    margin-top: 30px;
+  
+}
+
+.paymentNav li {
+    font-size: 14px;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 15px 25px;    
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+.paymentNav li:first-child {
+    border-top: 1px solid #d2d2d2;
+}
+.paymentNav li:hover {
+cursor: pointer;}
+
+
+.paymentModeborder {
+    border-left: 5px solid #934715;
+}
+.paymentMode {
+    margin-top: 30px;
+}
+.finalOrder {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+#savedcards {
+    border-right: 0px;
+    border-left: 5px solid #934715;
+
+}
+
+.savedcards {
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+
+.cardimage {
+    width: 8%;
+    float: right;
+}
+.cvv1 {
+    position: relative;
+    right: 0;
+    visibility: hidden;
+}
+.radio1 {
+    padding-top: 5px;
+    margin-right: 5px;
+}
+.nameoncard {
+    float: right;
+}
+.cash {
+    font-size:  14px;
+    display: none;
+}
+.cashimage {
+    margin-top: 15px;
+}
+
+.cash input[type="text"]{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.cash button{
+    font-size: 14px;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+}
+.cashimg {
+    width: 150px;
+    height: auto;
+}
+.cashmodePara {
+    margin-bottom: 5px;
+}
+.refeshicon {
+    margin-left: 25px;
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+.creditdebit {
+    font-size:  14px;
+    display: none;
+}
+
+.creditdebit input[type="text"], .creditdebit button, .savedcards button, .cash button, .netbanking button, .gift button {
+    width: 100%;
+    margin-left: 0px;
+}
+.creditdebit select {
+    width: 49%;
+    margin-left: 0px;
+    padding: 10px 10px;
+    border: 1px solid #d2d2d2;
+    color: #1a1a1a;
+}
+
+.creditdebit input[name="cvv"]{
+    width: 15%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.cvvimage {
+    width: 15%;
+    padding: 0 10px;
+}
+
+.creditdebit span {
+    font-size: 12px;
+}
+
+.creditdebit button, .savedcards button, .gift button {
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.netbanking {
+    font-size:  14px;
+    display: none;
+    letter-spacing: 1px;
+}
+
+
+.bankicon {
+    font-size: 20px;
+    color: #934715;
+    padding: 0 11px;
+}
+.bankbranch{
+    color: #ffffff;
+    background: #934715;
+    display: none;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+.gift {
+    font-size:  14px;
+    display: none;
+}
+
+.gift input[type="text"] {
+    width: 100%;
+    margin-left: 0;
+
+}
+.gift button {
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+.finalItems {
+    padding: 10px;
+    font-weight: bold;
+}
+
+/****Payment Page End******/
 
 
         /*foot start*/
@@ -7321,6 +7894,198 @@ button[type="submit"] {
 
 
 /**Checkout Page End***/
+
+/****Payment Page Start****/
+.paymentPage {
+    margin-bottom: 70px;
+} 
+.paymentNav {
+    width: 100%;
+    margin-top: 15px;
+  
+}
+
+.paymentNav li {
+    font-size: 14px;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 15px 25px;    
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+.paymentNav li:first-child {
+    border-top: 1px solid #d2d2d2;
+}
+.paymentNav li:hover {
+cursor: pointer;}
+
+
+.paymentModeborder {
+    border-left: 5px solid #934715;
+}
+.paymentMode {
+    margin-top: 30px;
+}
+.finalOrder {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+#savedcards {
+    border-right: 0px;
+    border-left: 5px solid #934715;
+
+}
+
+.savedcards {
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+
+.cardimage {
+    width: 8%;
+    float: right;
+}
+.cvv1 {
+    position: relative;
+    right: 0;
+    visibility: hidden;
+}
+.radio1 {
+    padding-top: 5px;
+    margin-right: 5px;
+}
+.nameoncard {
+    float: right;
+}
+.cash {
+    font-size:  14px;
+    display: none;
+}
+.cashimage {
+    margin-top: 15px;
+}
+
+.cash input[type="text"]{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.cash button{
+    font-size: 14px;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+}
+.cashimg {
+    width: 150px;
+    height: auto;
+}
+.cashmodePara {
+    margin-bottom: 5px;
+}
+.refeshicon {
+    margin-left: 25px;
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+.creditdebit {
+    font-size:  14px;
+    display: none;
+}
+
+.creditdebit input[type="text"], .creditdebit button, .savedcards button, .cash button, .netbanking button, .gift button {
+    width: 100%;
+    margin-left: 0px;
+}
+.creditdebit select {
+    width: 49%;
+    margin-left: 0px;
+    padding: 10px 10px;
+    border: 1px solid #d2d2d2;
+    color: #1a1a1a;
+}
+
+.creditdebit input[name="cvv"]{
+    width: 15%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.cvvimage {
+    width: 15%;
+    padding: 0 10px;
+}
+
+.creditdebit span {
+    font-size: 12px;
+}
+
+.creditdebit button, .savedcards button, .gift button {
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.netbanking {
+    font-size:  14px;
+    display: none;
+    letter-spacing: 1px;
+}
+
+
+.bankicon {
+    font-size: 20px;
+    color: #934715;
+    padding: 0 11px;
+}
+.bankbranch{
+    color: #ffffff;
+    background: #934715;
+    display: none;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+.gift {
+    font-size:  14px;
+    display: none;
+}
+
+.gift input[type="text"] {
+    width: 100%;
+    margin-left: 0;
+
+}
+.gift button {
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+.finalItems {
+    padding: 4px;
+    font-weight: bold;
+}
+
+/****Payment Page End******/
 
 
             /*foot start*/
@@ -8746,6 +9511,197 @@ button[type="submit"] {
 
 /**Checkout Page End***/
 
+/****Payment Page Start****/
+.paymentPage {
+    margin-bottom: 70px;
+} 
+.paymentNav {
+    width: 100%;
+    margin-top: 15px;
+  
+}
+
+.paymentNav li {
+    font-size: 14px;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 15px 25px;    
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+.paymentNav li:first-child {
+    border-top: 1px solid #d2d2d2;
+}
+.paymentNav li:hover {
+cursor: pointer;}
+
+
+.paymentModeborder {
+    border-left: 5px solid #934715;
+}
+.paymentMode {
+    margin-top: 30px;
+}
+.finalOrder {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+#savedcards {
+    border-right: 0px;
+    border-left: 5px solid #934715;
+
+}
+
+.savedcards {
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+
+.cardimage {
+    width: 8%;
+    float: right;
+}
+.cvv1 {
+    position: relative;
+    right: 0;
+    visibility: hidden;
+}
+.radio1 {
+    padding-top: 5px;
+    margin-right: 5px;
+}
+.nameoncard {
+    float: right;
+}
+.cash {
+    font-size:  14px;
+    display: none;
+}
+.cashimage {
+    margin-top: 15px;
+}
+
+.cash input[type="text"]{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.cash button{
+    font-size: 14px;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+}
+.cashimg {
+    width: 150px;
+    height: auto;
+}
+.cashmodePara {
+    margin-bottom: 5px;
+}
+.refeshicon {
+    margin-left: 25px;
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+.creditdebit {
+    font-size:  14px;
+    display: none;
+}
+
+.creditdebit input[type="text"], .creditdebit button, .savedcards button, .cash button, .netbanking button, .gift button {
+    width: 100%;
+    margin-left: 0px;
+}
+.creditdebit select {
+    width: 49%;
+    margin-left: 0px;
+    padding: 10px 10px;
+    border: 1px solid #d2d2d2;
+    color: #1a1a1a;
+}
+
+.creditdebit input[name="cvv"]{
+    width: 15%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.cvvimage {
+    width: 15%;
+    padding: 0 10px;
+}
+
+.creditdebit span {
+    font-size: 12px;
+}
+
+.creditdebit button, .savedcards button, .gift button {
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.netbanking {
+    font-size:  14px;
+    display: none;
+    letter-spacing: 1px;
+}
+
+
+.bankicon {
+    font-size: 20px;
+    color: #934715;
+    padding: 0 11px;
+}
+.bankbranch{
+    color: #ffffff;
+    background: #934715;
+    display: none;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+.gift {
+    font-size:  14px;
+    display: none;
+}
+
+.gift input[type="text"] {
+    width: 100%;
+    margin-left: 0;
+
+}
+.gift button {
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #934715;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+.finalItems {
+    padding: 2px;
+    font-weight: bold;
+}
+
+/****Payment Page End******/
 
             /*foot start*/
 
