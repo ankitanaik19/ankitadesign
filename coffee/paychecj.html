@@ -1,0 +1,41 @@
+<html>
+
+<head></head>
+
+<body>
+    Name: <input type="text" name="fname" id="entercvv">
+    <button onclick="paynow()">Paynow</button>
+  
+
+    <input id="cashimage">
+<button onclick="cashimageclick()">OK</button>
+
+    <script>
+        function paynow(){
+
+var cvv ;
+
+cvv = document.getElementById("entercvv").value;
+if(cvv == "" || isNaN(cvv)) {
+   alert("Please Enter CVV");
+}
+else
+{
+    alert("Order Confirmed");
+
+}
+}
+
+
+function cashimageclick() {
+  var cashimage = document.getElementById("cashimage").value;
+  if (cashimage != "JFz5pt" && cashimage != "QBAgpu") {
+    alert("Please Enter Correct Text Value");
+  } else {
+    alert("Ordeer Confirmed");
+  } 
+} 
+
+    </script>
+</body>
+</html>

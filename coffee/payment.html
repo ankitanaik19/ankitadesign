@@ -77,7 +77,7 @@
                        <br>                        
                        <label for="card1">***** 1234</label>
                        <label for="card1" class="nameoncard">ankita naik</label>
-                       <input type="text"  class="CVV1 cvvsaved" placeholder="CVV*">
+                       <input type="text"  class="CVV1 cvvsaved" placeholder="CVV*" id="entercvv"  maxlength="3" pattern="[1-10]">
                        <br><br>
                        <input type="radio" name="colorRadio" value="CVV2">
                        <label for="card1">xxxx Debit Card</label>
@@ -85,10 +85,10 @@
                       <br>                        
                       <label for="card1">***** 4567</label>
                       <label for="card1" class="nameoncard">siddhesh mhatre</label>
-                      <input type="text"  class="CVV2 cvvsaved" placeholder="CVV*">
+                      <input type="text"  class="CVV2 cvvsaved" placeholder="CVV*" id="entercvv"  maxlength="3" pattern="[1-10]">
                       <br>
-                       <button>PAY NOW</button>   
-                    </div>
+                      <button onclick="paynow()">Paynow</button>
+                                        </div>
     
                     <div class="cash">
                     <p class="cashmodePara">PAY ON DELIVERY</p>  
@@ -98,8 +98,8 @@
                         <img src="images/cashimage.jpg" alt="" class="img-fluid cashimg" id="cashimage">
                         <a onclick="changeCashImage()"><i class="fa fa-refresh refeshicon" aria-hidden="true"></i> Change Image</a>
                     </div>
-                    <input type="text" placeholder="Enter text as shown in above image">
-                     <button>PAY ON DELIVERY</button>
+                    <input type="text" placeholder="Enter text as shown in above image" id="cashtext">
+                     <button onclick="cashimageclick()">PAY ON DELIVERY</button>
                 </div>
                     <div class="creditdebit">
                         <p>CREDIT / DEBIT CARD </p> 
@@ -137,25 +137,26 @@
                             <option value="">2030</option>
                         </select>
                         <br>
-                        <input type="text" placeholder="CVV*" name="cvv"> <img src="images/cvv.jpg" alt="" class="img-fluid cvvimage">
+                        <input type="text" placeholder="CVV*" name="cvv" id="entercvv" maxlength="3" pattern="[1-10]">
+                         <img src="images/cvv.jpg" alt="" class="img-fluid cvvimage">
                         <span>Last 3 digit printed on the back of the card</span>
                         <input type="checkbox"> Save this Card for Faster Payments
-                        <button>PAY NOW</button>
-                    </div>
+                        <button onclick="paynow()">Paynow</button>
+                                        </div>
                     <div class="netbanking">
                             <p>NETBANKING</p>
                             <hr>
                             <input type="radio" name="bank" value="bank1">
                             <label for="bank1"><i class="fa fa-bank bankicon"></i> BANK 1</label>
                             
-                                <button  class="bank1 bankbranch oldbank">PAY NOW</button>
+                                <button  class="bank1 bankbranch oldbank" onclick="paynow()" id="paymentdone">PAY NOW</button>
                             <br>
                         <br>
                             
                                 <input type="radio" name="bank" value="bank2">
                                 <label for="bank2"><i class="fa fa-bank bankicon"></i> BANK 2</label>
                             
-                                <button  class="bank2 bankbranch oldbank">PAY NOW</button>
+                                <button  class="bank2 bankbranch oldbank" onclick="paynow()" id="paymentdone">PAY NOW</button>
                                 <br>
                                 <br>
                                     
@@ -169,9 +170,9 @@
                     <div class="gift">
                             <p>ENTER GIFT CARD DETAILS</p>
                             <hr>
-                            <input type="text" placeholder="Gift Card Number">
-                            <input type="text" placeholder="Gift Card Pin">
-                            <button>ADD TO COFFEE CREDIT</button>
+                            <input type="text" placeholder="Gift Card Number" id="giftcardnumber">
+                            <input type="text" placeholder="Gift Card Pin" id="giftcardpin">
+                            <button onclick="coffeecredit()">ADD TO COFFEE CREDIT</button>
                     </div>
             
               
@@ -243,7 +244,6 @@
                 image.src = "images/cashimage.jpg";
             }
         }
-
         $(document).ready(function(){
         $('input[type="radio"]').click(function(){
         var inputValue = $(this).attr("value");
@@ -252,6 +252,41 @@
         $(targetBox).show();
     });
 });
+
+function paynow(){
+var cvv ;
+cvv = document.getElementById("entercvv").value;
+if(cvv == "" || isNaN(cvv)) {
+       alert("Please Enter CVV");
+  }
+ else
+  {
+   alert("Order Confirmed");
+  }
+}
+
+function cashimageclick() {
+  var text = document.getElementById("cashtext").value;
+  if (text != "JFz5pt" && text != "QBAgpu") {
+        alert("Please Enter Correct Text Value");
+   } 
+   else {
+    alert("Ordeer Confirmed");
+    } 
+  } 
+
+function coffeecredit(){
+  var giftcardnumber, giftcardpin;
+   giftcardnumber = document.getElementById("giftcardnumber").value;
+   giftcardpin = document.getElementById("giftcardpin").value;
+   if(giftcardnumber == "" || giftcardpin == "" || isNaN(giftcardpin) || isNaN(giftcardnumber)) {
+   alert("Please Enter Valid Number");
+    }
+    else 
+   {
+     alert("Order Confirmed");
+    }
+  }
 </script>
 
 </body>
