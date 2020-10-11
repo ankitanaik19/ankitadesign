@@ -13,12 +13,13 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
     
 </head>
 
-<body>
+<body ng-app="myApp">
     <section id="nav-bar">
         <nav class="navbar navbar-expand-lg animated fadeInDownBig">
             <a class="navbar-brand logo" href="#">COFFEE <i class="fa fa-coffee coffeeLogo"></i></a>
@@ -46,36 +47,40 @@
              <h3 class="billing">Billing Details</h3>
              <form action="" id="billingForm">
                 <label for="first" name="first">First Name <span style="color: red;">*</span></label>
-                <input type="text" name="first" id="" placeholder="Enter Your First Name...">
-                <label for="last" name="last">Last Name <span style="color: red;">*</span></label>
-                 <input type="text" name="last" id="" placeholder="Enter Your Last Name...">
-                 <br>
-                 <label for="street">Address <span style="color: red;">*</span></label>
-                 <input type="text" name="street" placeholder="House Number and Street Name">
-                 <input type="text" name="street" placeholder="Apartment Name">   
-                 <br>
-                 <label for="town">Town / City <span style="color: red;">*</span></label>
-                 <input type="text" name="town" placeholder="Town / City">
-                 <br>
-                 <label for="town">ZIP <span style="color: red;">*</span></label>
-                 <input type="text" name="zip" placeholder="ZIP">
-                 <br>
-                 <label for="phone">Phone <span style="color: red;">*</span></label>
-                 <input type="text" name="phone" placeholder="Phone">
-                 <br>
-                 <label for="email">Email <span style="color: red;">*</span></label>
-                 <input type="email" name="email" placeholder="Email">
+                <input type="text" name="first" id="" placeholder="Enter Your First Name..." ng-model="firstName">
+                <label for="phone">Contact Number <span style="color: red;">*</span></label>
+                <input type="text" name="phone" placeholder="Enter Your Contact Number" ng-model="contactnumber"> <br>
+                 <label for="date">Date <span style="color: red;">*</span></label>
+                 <input type="date" name="date" ng-model="coffeedate">
+                 <label for="time">Pick Up Time<span style="color: red;">*</span></label>
+                 <input type="time" name="time" placeholder="Town / City" ng-model="timeshow">
              </form>
            </div>
            <div class="col-lg-6 col-md-12 col-sm-12 notesCol">
                <label for="notes">Special Notes (Optional)</label>
-               <textarea name="notes" id="" cols="30" rows="6" placeholder="Special add on your order"></textarea>
+               <textarea name="notes" id="" cols="30" rows="3" placeholder="Special add on your order" ng-model="specialadd" maxlength="30"></textarea>
            </div>
        </div>
        <div class="row">
            <div class="col-lg-12 col-md-12 col-sm-12">
-                <h3 class="yourOrder">Your Order</h3>
-                <div class="tableorder">
+                <!-- <h3 class="yourOrder">Your Order</h3> -->
+                <div ng-controller="myCtrl">
+                    <table class="orderpersondetails">
+                       <tr>
+                           <td>Hello, {{firstName}}</td>
+                       </tr>
+                       <tr>
+                        <td>Contact: {{contactnumber}}</td>
+                       </tr>
+                       <tr>
+                        <td>Pickup Time: {{coffeedate | date : "MMM d, y"}} {{timeshow | date : "h:mm a"}}</td>
+                        </tr>
+                        <tr>
+                            <td>Special Add-On: {{specialadd}}</td>
+                            </tr>
+                        </table>
+                </div>
+                <div class="tableorder" style="margin-top: 0px;">
                     <table class="table orderTable">
                        <thead>
                        <tr>
@@ -135,7 +140,15 @@
     <script src="js/navshrink.js"></script>
     <script src="js/checkout.js"></script>
 <script>
-    
+    var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.firstName;
+    $scope.contactnumber;
+    $scope.coffeedate;
+    $scope.timeshow;
+    $scope.specialadd;
+});
+
 </script>
 
 </body>

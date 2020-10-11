@@ -15,7 +15,11 @@ Created : Ankita Naik
 ======================================
 */
 
-
+.coffee1 {
+    
+    background: #ffffff;
+    margin-top: 10px;
+}
 
 body {
     font-family: "Assistant";
@@ -28,138 +32,13 @@ body {
 }
 
 
-/*chat window*/
-
-.open-button {
-    padding: 10px 10px;
-    border: none;
-    cursor: pointer;
-    opacity: 0.8;
-    position: fixed;
-    bottom: 10px;
-    right: 8px;
-    background: #5fc7ae;
-    border-radius: 10px;
-}
-
-.open-button span.help {
-    font-size: 20px;
-    color: #fff;
-    padding: 10px 0;
-}
-
-
-/* The popup chat - hidden by default */
-
-.chat-popup {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 15px;
-    border: 1px solid #eee;
-    z-index: 9;
-    box-shadow: 0px 0px 2px #eee;
-}
-
-.contenthidden {
-    visibility: hidden;
-}
-
-.contentvisible {
-    visibility: visible;
-}
-
-
-/* Add styles to the form container */
-
-.form-container {
-    max-width: 300px;
-    padding: 10px;
-    background-color: white;
-}
-
-
-/* Full-width textarea */
-
-.form-container .chat-textarea {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #d9fbf8;
-    resize: none;
-    text-align: right;
-    font-size: 14px;
-    min-height: 200px;
-}
-
-
-/* When the textarea gets focus, do something */
-
-.form-container input:focus {
-    background-color: none;
-    outline: none;
-}
-
-
-/* Set a style for the submit/send button */
-
-.input-group {
-    width: 100%;
-}
-
-.input-group input {
-    height: 30px;
-    font-size: 12px;
-    border: 1px solid #eee;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
-    margin-top: 5px;
-}
-
-.input-group input::placeholder {
-    font-size: 12px;
-}
-
-
-/* Add a red background color to the cancel button */
-
-.form-container .cancel {
-    background-color: #5fc7ae;
-    width: 100%;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: center;
-}
-
-
-/* Add some hover effects to buttons */
-
-.form-container .btn:hover,
-{
-    opacity: 1;
-}
-
-
-/*chat window end*/
-
-.mb-100 {
-    padding-bottom: 100px
-}
-
-.mb-30 {
-    padding-bottom: 30px;
-}
-
 
 /****Banner start****/
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/banner1.jpg');
+    background-image:  url('../images/banner1.jpg');
     width: 100%;
-    height: 100vh;
+    height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1078,11 +957,29 @@ a.explore:hover {
     margin-top: 25px;
 }
 
-#billingForm input[type="text"], #billingForm input[type="email"] {
+#billingForm input[type="text"]{
     width: 100%;
     font-size: 18px;
     margin-left: 0px;
 }
+
+#billingForm input[type="date"]{
+    width: 100%;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
+#billingForm input[type="time"]{
+    width: 50%;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
+
 
 #billingForm label {
     width: 100%;
@@ -1107,6 +1004,21 @@ a.explore:hover {
     font-size: 24px;
     font-weight: normal;
     margin-top: 30px;
+}
+
+.orderpersondetails {
+    margin-top: 30px;
+    border-left: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+
+.orderpersondetails td {
+font-size: 18px;
+border-bottom: 1px solid #d2d2d2;
+padding: 10px 15px;
+border-right: 1px solid #d2d2d2;
+
 }
 
 
@@ -3106,6 +3018,22 @@ button[type="submit"] {
     font-size: 18px;
     margin-left: 0px;
 }
+#billingForm input[type="date"]{
+    width: 100%;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
+#billingForm input[type="time"]{
+    width: 50%;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
 
 #billingForm label {
     width: 100%;
@@ -3132,7 +3060,20 @@ button[type="submit"] {
     margin-top: 30px;
 }
 
+.orderpersondetails {
+    margin-top: 30px;
+    border-left: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
 
+.orderpersondetails td {
+font-size: 18px;
+border-bottom: 1px solid #d2d2d2;
+padding: 10px 15px;
+border-right: 1px solid #d2d2d2;
+
+}
 .orderTable {
     width: 100%;
     border-collapse: collapse;
@@ -4562,6 +4503,23 @@ button[type="submit"] {
     font-size: 18px;
     margin-left: 0px;
 }
+#billingForm input[type="date"]{
+    width: 100%;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
+#billingForm input[type="time"]{
+    width: 50%;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
+
 
 #billingForm label {
     width: 100%;
@@ -4587,7 +4545,20 @@ button[type="submit"] {
     font-weight: normal;
     margin-top: 30px;
 }
+.orderpersondetails {
+    margin-top: 30px;
+    border-left: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
 
+.orderpersondetails td {
+font-size: 18px;
+border-bottom: 1px solid #d2d2d2;
+padding: 10px 15px;
+border-right: 1px solid #d2d2d2;
+
+}
 
 .orderTable {
     width: 100%;
@@ -6178,6 +6149,24 @@ button[type="submit"] {
     margin-left: 0px;
 }
 
+#billingForm input[type="date"]{
+    width: 100%;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
+#billingForm input[type="time"]{
+    width: 50%;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
+
+
 #billingForm label {
     width: 100%;
     font-size: 14px;
@@ -6203,7 +6192,20 @@ button[type="submit"] {
     margin-top: 30px;
 }
 
+.orderpersondetails {
+    margin-top: 30px;
+    border-left: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
 
+.orderpersondetails td {
+font-size: 14px;
+border-bottom: 1px solid #d2d2d2;
+padding: 10px 10px;
+border-right: 1px solid #d2d2d2;
+
+}
 .orderTable {
     width: 100%;
     border-collapse: collapse;
@@ -7788,6 +7790,22 @@ button[type="submit"] {
     font-size: 14px;
     margin-left: 0px;
 }
+#billingForm input[type="date"]{
+    width: 100%;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
+#billingForm input[type="time"]{
+    width: 50%;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
 
 #billingForm label {
     width: 100%;
@@ -7814,7 +7832,20 @@ button[type="submit"] {
     margin-top: 30px;
 }
 
+.orderpersondetails {
+    margin-top: 30px;
+    border-left: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
 
+.orderpersondetails td {
+font-size: 14px;
+border-bottom: 1px solid #d2d2d2;
+padding: 5px 4px;
+border-right: 1px solid #d2d2d2;
+
+}
 .orderTable {
     width: 100%;
     border-collapse: collapse;
@@ -8593,7 +8624,7 @@ table.priceTable1 td {
     border-bottom: 1px solid #d2d2d2;
     border-top: none;
     font-size: 14px;
-    padding: 20px 5px;
+    padding: 20px 4px;
 }
 
 table.priceTable1 th:first-child {
@@ -8698,14 +8729,14 @@ table.priceTable3 td {
 }
 
 table.priceTable3 th:first-child {
-    width: 60%;
+    width: 55%;
     text-align: left;
     padding-left: 0px;
     padding-right: 0px;
 }
 
 table.priceTable3 th {
-    width: 13%;
+    width: 15%;
     text-align: center;
     color: #934715;
 }
@@ -9404,6 +9435,22 @@ button[type="submit"] {
     font-size: 14px;
     margin-left: 0px;
 }
+#billingForm input[type="date"]{
+    width: 100%;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
+#billingForm input[type="time"]{
+    width: 50%;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d2d2d2;
+}
 
 #billingForm label {
     width: 100%;
@@ -9429,7 +9476,21 @@ button[type="submit"] {
     font-weight: normal;
     margin-top: 30px;
 }
+.orderpersondetails {
+    margin-top: 30px;
+    border-left: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
 
+.orderpersondetails td {
+font-size: 14px;
+border-bottom: 1px solid #d2d2d2;
+padding: 4px 2px;
+border-right: 1px solid #d2d2d2;
+display: table-cell;
+
+}
 
 .orderTable {
     width: 100%;
