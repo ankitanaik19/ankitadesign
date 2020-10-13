@@ -14,5 +14,5 @@ slideIndeximages++;
     dotsimages[i].className = dotsimages[i].className.replace(" active", "");
   }
   slidesimages[slideIndeximages-1].style.display = "block";  
-  setTimeout(showSlidesimages, 3000); // Change image every 3 seconds
+  setTimeout(showSlidesimages, 9000); // Change image every 3 seconds
 }
