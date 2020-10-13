@@ -321,11 +321,13 @@ ul.navbar-nav {
     margin-bottom: 5px;
     font-weight: bold;
     letter-spacing: 2px;
+    color: #1744cc;
     }
     
 .enquiryform p {
 font-size: 20px;
 text-align: center;
+color: #1744cc;
 }
 .enquiryform form {
     width: 100%;
