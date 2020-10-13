@@ -141,7 +141,7 @@ font-size: 12px;
 
 /* Add some hover effects to buttons */
 
-.form-container .btn:hover,
+.form-container .btn:hover
     {
     opacity: 1;
 }

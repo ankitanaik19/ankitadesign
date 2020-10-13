@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=DM+Sans&family=Fira+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        .mySlidesimages {
+            display: none;
+        }
+        
+        img.car {
+            width: 100%;
+            height: 560px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Slideshow container */
+        
+        .slideshow-containerimages {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+            display: flexbox;
+            flex-direction: row;
+        }
+        /* Caption text */
+        
+        .carouselcontent {
+            position: absolute;
+            width: 55%;
+            text-align: left;
+            left: 6%;
+            top: 26%;
+            transform: translate(-6%, -26%);
+        }
+
+        .carouselcontent h2 {
+         font-size: 60px;   
+         font-weight: bold;
+         color: #fff;
+        }
+        .carouselcontent p {
+         font-size: 29px;   
+         font-weight: bold;
+         color: #fff;
+         margin-top: 20px;
+        }
+
+        
+        /* Next & previous buttons */
+        /* Fading animation */
+        
+        .fade1 {
+            -webkit-animation-name: fade1;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade1;
+            animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade1 {
+            from {
+                opacity: .5
+            }
+            to {
+                opacity: 1
+            }
+        }
+        
+        @keyframes fade1 {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+        /* On smaller screens, decrease text size */
+        
+       @media only screen and (max-width: 1024px) {
+        .mySlidesimages {
+            display: none;
+        }
+        
+        img.car {
+            width: 100%;
+            height: 560px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Slideshow container */
+        
+        .slideshow-containerimages {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+            display: flexbox;
+            flex-direction: row;
+        }
+        /* Caption text */
+        
+        .carouselcontent {
+            position: absolute;
+            width: 55%;
+            text-align: left;
+            left: 3%;
+            top: 30%;
+            transform: translate(-6%, -30%);
+        }
+
+        .carouselcontent h2 {
+         font-size: 45px;   
+         font-weight: bold;
+         color: #fff;
+        }
+        .carouselcontent p {
+         font-size: 25px;   
+         font-weight: bold;
+         color: #fff;
+         margin-top: 20px;
+        }
+
+        
+        /* Next & previous buttons */
+        /* Fading animation */
+        
+        .fade1 {
+            -webkit-animation-name: fade1;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade1;
+            animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade1 {
+            from {
+                opacity: .5
+            }
+            to {
+                opacity: 1
+            }
+        }
+        
+        @keyframes fade1 {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+       }
+
+/* 1024px end */
+
+
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+        
+        @media only screen and (max-width:768px) {
+
+            .mySlidesimages {
+            display: none;
+        }
+        
+        img.car {
+            width: 100%;
+            height: 560px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Slideshow container */
+        
+        .slideshow-containerimages {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+            display: flexbox;
+            flex-direction: row;
+        }
+        /* Caption text */
+        
+        .carouselcontent {
+            position: absolute;
+            width: 55%;
+            text-align: left;
+            left: 3%;
+            top: 30%;
+            transform: translate(-6%, -30%);
+        }
+
+        .carouselcontent h2 {
+         font-size: 30px;   
+         font-weight: bold;
+         color: #fff;
+        }
+        .carouselcontent p {
+         font-size: 18px;   
+         font-weight: bold;
+         color: #fff;
+         margin-top: 16px;
+        }
+
+        
+        /* Next & previous buttons */
+        /* Fading animation */
+        
+        .fade1 {
+            -webkit-animation-name: fade1;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade1;
+            animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade1 {
+            from {
+                opacity: .5
+            }
+            to {
+                opacity: 1
+            }
+        }
+        
+        @keyframes fade1 {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+    }
+        
+        @media only screen and (max-width:425px) {
+            .mySlidesimages {
+            display: none;
+        }
+        
+        img.car {
+            width: 100%;
+            height: 400px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Slideshow container */
+        
+        .slideshow-containerimages {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+            display: flexbox;
+            flex-direction: row;
+        }
+        /* Caption text */
+        
+        .carouselcontent {
+            position: absolute;
+            width: 100%;
+            text-align: left;
+            left: 2%;
+            top: 9%;
+            transform: translate(-2%, -18%);
+        }
+
+        .carouselcontent h2 {
+         font-size: 30px;   
+         font-weight: bold;
+         color: #fff;
+        }
+        .carouselcontent p {
+         font-size: 18px;   
+         font-weight: bold;
+         color: #fff;
+         margin-top: 16px;
+        }
+
+        
+        /* Next & previous buttons */
+        /* Fading animation */
+        
+        .fade1 {
+            -webkit-animation-name: fade1;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade1;
+            animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade1 {
+            from {
+                opacity: .5
+            }
+            to {
+                opacity: 1
+            }
+        }
+        
+        @keyframes fade1 {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+    }
+        
+        @media only screen and (max-width:375px) {
+            .mySlidesimages {
+            display: none;
+        }
+        
+        img.car {
+            width: 100%;
+            height: 340px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Slideshow container */
+        
+        .slideshow-containerimages {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+            display: flexbox;
+            flex-direction: row;
+        }
+        /* Caption text */
+        
+        .carouselcontent {
+            position: absolute;
+            width: 100%;
+            text-align: left;
+            left: 2%;
+            top: 9%;
+            transform: translate(-2%, -18%);
+        }
+
+        .carouselcontent h2 {
+         font-size: 22px;   
+         font-weight: bold;
+         color: #fff;
+        }
+        .carouselcontent p {
+         font-size: 16px;   
+         font-weight: bold;
+         color: #fff;
+         margin-top: 16px;
+        }
+
+        
+        /* Next & previous buttons */
+        /* Fading animation */
+        
+        .fade1 {
+            -webkit-animation-name: fade1;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade1;
+            animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade1 {
+            from {
+                opacity: .5
+            }
+            to {
+                opacity: 1
+            }
+        }
+        
+        @keyframes fade1 {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+    }
+        
+        @media only screen and (max-width:320px) {
+            .mySlidesimages {
+            display: none;
+        }
+        
+        img.car {
+            width: 100%;
+            height: 340px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Slideshow container */
+        
+        .slideshow-containerimages {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+            display: flexbox;
+            flex-direction: row;
+        }
+        /* Caption text */
+        
+        .carouselcontent {
+            position: absolute;
+            width: 100%;
+            text-align: left;
+            left: 2%;
+            top: 9%;
+            transform: translate(-2%, -18%);
+        }
+
+        .carouselcontent h2 {
+         font-size: 22px;   
+         font-weight: bold;
+         color: #fff;
+        }
+        .carouselcontent p {
+         font-size: 14px;   
+         font-weight: bold;
+         color: #fff;
+         margin-top: 16px;
+        }
+
+        
+        /* Next & previous buttons */
+        /* Fading animation */
+        
+        .fade1 {
+            -webkit-animation-name: fade1;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade1;
+            animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade1 {
+            from {
+                opacity: .5
+            }
+            to {
+                opacity: 1
+            }
+        }
+        
+        @keyframes fade1 {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+    }
+    </style>
+    
+
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row detailsNavBg">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="detailsNav">
+                <ul>
+                    <li><span><i class="fa fa-envelope"></i></span> <a href="mailto:support@sqlquery.co.nz">support@sqlquery.co.nz</a></li>
+                    <li><span><i class="fa fa-map-marker"></i></span> Auckland, New Zealand</li>
+                    <li><span><i class="fa fa-phone phonerotate"></i></span> +64 (0) 9626 2711</li>
+                    <li><span><i class="fa fa-clock-o"></i></span> Mon - Fri 9.00 - 18.00. Sat - Sun Closed</li>
+                </ul>
+            </div>
+            <div class="socialnav">
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                     <li><i class="fab fa-linkedin-in"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg" id="navigation">
+        <a class="navbar-brand logo" href="#"><i class="fa fa-database databaseIcon" id="logo" aria-hidden="true"></i> <p id="logotext">SQL <br>LIMITED QUERY</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" id="menubars" style="font-size: 24px;"></i> </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto" id="navmenu">
+                <li class="nav-item"> <a class="nav-link" href="home.html" id="home">Home</a> </li>
+                    <li class="nav-item dropmenu"> <a class="nav-link" href="about" id="about">About Us <i class="fa fa-caret-down"></i></a>
+      <div class="dropmenuitems">
+        <a class="dropdown-item" href="#">Company Overview</a>
+        <a class="dropdown-item" href="#">Careers</a>
+      </div>
+    </li>
+      <li class="nav-item dropmenu"> <a class="nav-link" href="services" id="services">Services <i class="fa fa-caret-down"></i></a>
+        <div class="dropmenuitems">
+          <a class="dropdown-item" href="#">Databases</a>
+          <a class="dropdown-item" href="#">Business Intelligence</a>
+          <a class="dropdown-item" href="#">Cloud</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropmenu"> <a class="nav-link" href="blog" id="blog">Blog <i class="fa fa-caret-down"></i></a>
+        <div class="dropmenuitems">
+          <a class="dropdown-item" href="#">Blog 1</a>
+          <a class="dropdown-item" href="#">Blog 2</a>
+          <a class="dropdown-item" href="#">Blog 3</a>
+        </div>
+      </li>
+
+                <li class="nav-item"> <a class="nav-link " href="contact.html" id="contact">Contact</a> </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+<section id="carousel">
+    <div class="slideshow-containerimages">
+        <div class="mySlidesimages fade1"> <img src="images/banner1.jpg" class="car">
+            <div class="carouselcontent animated fadeInLeft animate__delay-2s">
+               <h2>Thought Leadership</h2>    
+               <p>With over 15 years of experience helping<br>businesses to find comprehensive solutions </p>
+
+            </div>
+        </div>
+        <div class="mySlidesimages fade1"> <img src="images/banner2.jpg" class="car">
+            <div class="carouselcontent animated fadeInLeft animate__delay-2s"><h2>Talented Consultants</h2>    
+                <p>We look forward to getting to know you and to
+                helping you take your company to new heights!</p>
+             </div>
+        </div>
+        <div class="enquiryform">
+             <p>GET IN TOUCH</p>
+             <p>Let us know how we can help you.</p>
+            <form action="" id="sendequiry">
+                <input type="text" name="name" id="name" placeholder="Your Name"><br>
+                <input type="email" name="email" id="email" placeholder="Your Email"><br>
+                <input type="text" name="number" placeholder="Phone Number"><br>
+                <button>Send</button>
+            </form>
+     </div>
+     
+    </div>
+</section>
+
+<div id="servicesprovide">
+     <div class="container">
+        <h3>WHAT WE DO</h3>
+        <h2>We Provide Truly <span>Database Consultancy</span></h2>
+        <div class="row centerAlign">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="flipbox">
+               <div class="flipboxinner">
+                <div class="flipboxfront">
+                <p><i class="fas fa-user-cog"></i></p>
+                 <h4>Our Consulting</h4> 
+               </div>
+               <div class="flipboxback">
+                <p>We are a full service business development group – we build strategies and systems.</p>
+                <a href="">Read More <i class="fa fa-angle-double-right doublearrow"></i></a>
+               </div>
+              </div>  
+            </div>
+          </div>              
+              
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="flipbox">
+                <div class="flipboxinner">
+                 <div class="flipboxfront">
+                 <p><i class="fas fa-globe"></i></p>
+                  <h4>Global Consumer Insights</h4> 
+                </div>
+                <div class="flipboxback">
+                 <p>Rapid solutions to the most complex business challenges with cooperative process-driven.</p>
+                 <a href="">Read More <i class="fa fa-angle-double-right doublearrow"></i></a>
+                </div>
+               </div>  
+             </div>             
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="flipbox">
+                <div class="flipboxinner">
+                 <div class="flipboxfront">
+                 <p><i class="fas fa-support"></i></p>
+                  <h4>Thought Leadership</h4> 
+                </div>
+                <div class="flipboxback">
+                 <p>A solution is proposed, from here you can action the plan with just outline assistance.</p>
+                 <a href="">Read More <i class="fa fa-angle-double-right doublearrow"></i></a>
+                </div>
+               </div>  
+             </div>             
+          </div>
+     </div>
+</div>
+</div>
+
+
+<div id="aboutsec">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12" id="aboutcol1">
+                <div class="aboutHomePage">
+                <h2>About <span>Us</span></h2>
+                </div>
+                <div class="aboutInfo">
+                       <p>Sql Query Limited aka SQL excels at helping businesses use their data and cloud to transform how they compete and win in this ever-changing environment by delivering advanced on-prem, hybrid, cloud and multi-cloud solutions to solve the toughest data challenges faster and better than anyone else.</p>
+                       <p>Founded and headquartered in Auckland, New Zealand in 2016, SQL now has clients spanning industries from SaaS, media, and gaming to financial services, e-commerce and more. In our early years, SQL focused on supporting mission-critical operational databases. As our experts became known for their ability to solve the toughest data challenges in the industry, our services grew to meet the rapidly changing needs of our clients – expanding from on-premise to the cloud and from operational to analytics data systems.</p>
+                       <a href="" class="readAbout">Read More <i class="fa fa-angle-double-right"></i></a>
+                   </div>
+                    </div>
+            <div class="col-lg-6 col-md-12 col-sm-12" id="aboutcol2">
+                <div class="aboutInfo">
+                    <img src="images/databaseabout.jpg" alt="" width="100%" class="databaseabout img-fluid">
+                </div>
+                </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<div id="industries">
+    <div class="container" style="text-align: center;">
+        <h3>OUR INDUSTRIES</h3>
+        <h2>Why Choose <span>Us</span></h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="industrybox">
+                    <i class='fas fa-coins'></i>
+                    <h4>Financial Services</h4>
+                    <p>We work buy-side and sell-side and give our clients hard-hitting and objective answers and focus hard on the best opportunities.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="industrybox">
+                   <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                    <h4>Health and Public Sector</h4>
+                    <p>We work across all the major health and public sectors, meaning we understand the underlying drivers in public entities.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="industrybox">
+                  <i class='fas fa-chart-line'></i>
+                  <h4>Business Services</h4>
+                  <p>We consider all the drivers of change – from the ground up and we’ll motivate and support you to make the change.</p>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="industrybox">
+                    <i class="fa fa-plane" aria-hidden="true"></i>
+                    <h4>Travel and Aviation</h4>
+                    <p>Company that offers design and build services for you from initial sketches to the final production.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="industrybox">
+                    <i class='fas fa-shopping-cart'></i>
+                    <h4>Consumer Products</h4>
+                    <p>Design repeatable growth models and innovation pipelines that generate new products with higher potential and lower risks of failure.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="industrybox">
+                  <i class="fas fa-ship" aria-hidden="true"></i>
+                  <h4>Marine Transport & Logistics</h4>
+                  <p>We work buy-side and sell-side and give our clients hard-hitting and objective answers and focus hard on the best opportunities.</p>
+              </div>
+          </div>
+        </div>
+
+</div>
+</div>
+
+
+<div id="lookingDatabase">
+    <div class="container-fluid">
+        <div class="row" style="justify-content: center;">
+             <div class="col-lg-11 col-md-12 col-sm-12">
+                 <div class="databasesearch">
+                    <div class="databasesearchinner allcenter">
+                        <p>Looking for a first-class Database | Business Intelligence | Cloud Consultant ?</p>
+                        <a href="mailto:support@sqlquery.co.nz" class="getInTouch">GET IN TOUCH</a>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="container">
+        <div class="row mainfoot">
+             <div class="col-lg-3 col-md-12 col-sm-12">
+              <div class="footcol">
+                   <i class="fa fa-database footerdatabaseIcon" aria-hidden="true"></i> <p id="footertext">SQL <br>LIMITED QUERY
+                    <p class="footpara">Founded and headquartered in Auckland, New Zealand in 2016, SQL now has clients spanning industries from SaaS, media, and gaming to financial services, e-commerce and more.</p>
+                    <p class="footpara">FOLLOW US</p>
+                    <p class="footpara"><i class="fab fa-facebook-f footFb"></i> <i class="fab fa-linkedin-in fooLinkedin"></i></p>
+              </div> 
+           </div>
+           <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="footcol">
+                <h5 class="foot1">OUR SERVICES</h5>
+                <p class="footparaCol2"><i class="fa fa-hand-o-right righthand"></i> Database Services</p>
+                <p class="footparaCol2"><i class="fa fa-hand-o-right righthand"></i> Business Intelligence Services</p>
+                <p class="footparaCol2"><i class="fa fa-hand-o-right righthand"></i> Cloud Services</p>
+            </div> 
+         </div>
+         <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="footcol">
+                <h5 class="foot1">ADDRESS</h5>
+                <p class="footparaCol2"><i class="fa fa-envelope footaddrIcon"></i> <a href="mailto:support@sqlquery.co.nz" class="emailfoot">support@sqlquery.co.nz</a><p>
+                <p class="footparaCol2"><i class="fa fa-map-marker footaddrIcon"></i> Auckland, New Zealand</p>
+                <p class="footparaCol2"><i class="fa fa-phone phonerotate footaddrIcon" aria-hidden="true"></i> +64 (0) 9626 2711</p>
+                <p class="footparaCol2"><i class="fa fa-clock-o footaddrIcon"></i> Mon - Fri 9.00 - 18.00.<br> Sat - Sun Closed</p>
+
+            </div> 
+         </div>
+         <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="footcol">
+                <h5 class="foot1">BLOGS</h5>
+                <p class="footparaCol2"><i class="fa fa-hand-o-right righthand"></i> Blog 1</p>
+                <p class="footparaCol2"><i class="fa fa-hand-o-right righthand"></i> Blog 2</p>
+                <p class="footparaCol2"><i class="fa fa-hand-o-right righthand"></i> Blog 3</p>
+
+            </div> 
+         </div>
+        </div>
+        <div class="copyright">© 2020 Copyright © 2020 & Powered by Allywebs</div>
+    </div>
+</div>
+<script src="js/carousel.js"></script>
+<script src="js/navshrink.js"></script>
+</body>
+</html>
