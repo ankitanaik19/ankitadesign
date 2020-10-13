@@ -45,7 +45,7 @@ body {
     position: fixed;
     bottom: 10px;
     right: 15px;
-    background: #1744cc;
+    background: #f96b16;
     border-top-left-radius: 32px;
     border-bottom-left-radius: 32px;
 }
@@ -133,7 +133,7 @@ font-size: 12px;
 /* Add a red background color to the cancel button */
 
 .form-container .cancel {
-    background-color: #1744cc;
+    background-color: #f96b16;
     width: 100%;
     color: #fff;
     font-size: 16px;
@@ -317,6 +317,7 @@ ul.navbar-nav {
 }
 .enquiryform p:first-child {
     font-size: 20px;
+    color: #1744cc;
     text-align: center;
     margin-bottom: 5px;
     font-weight: bold;
@@ -325,6 +326,7 @@ ul.navbar-nav {
     
 .enquiryform p {
 font-size: 20px;
+color: #1744cc;
 text-align: center;
 }
 .enquiryform form {
@@ -345,7 +347,7 @@ text-align: center;
     font-size: 18px;
     padding: 12px 10px;
     margin: 10px 0px;
-    background: #1744cc;
+    background: #f96b16;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -362,8 +364,8 @@ text-align: center;
 .bannerbtn:hover {
     font-size: 20px;
     padding: 10px 26px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #fff;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -371,8 +373,8 @@ text-align: center;
 .bannerbtn1 {
     font-size: 20px;
     padding: 10px 20px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #fff;
     border-radius: 5px;
     text-decoration: none;
     margin-left: 15px;
@@ -381,7 +383,7 @@ text-align: center;
     font-size: 20px;
     padding: 10px 26px;
     background: #1744cc;
-    color: #fff;
+    color: #fff ;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -415,7 +417,7 @@ text-align: center;
     display: block;
 width: 100px;
 left: 44%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 20px 10px;
 opacity: 0.5;
@@ -448,7 +450,7 @@ animation-timing-function: ease-in-out;
     font-size: 34px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1744cc;
+    color: #f96b16;
 }
 
 
@@ -487,36 +489,36 @@ animation-timing-function: ease-in-out;
     padding: 58px 16px;
 }
 .flipboxfront i {
-    font-size: 20px;
+    font-size: 26px;
     color: #fff;
-    background: #1744cc;
+    background: #f96b16;
     padding: 30px;
     border-radius: 50%;
 }
 .flipboxfront h4 {
     font-size: 20px;
     margin-top: 34px;
+    color: #1744cc;
 }
 
 .flipboxback {
     padding: 70px 15px;
-    background: #1744cc;
+    background: #f96b16;
     transform: rotateX(180deg);
     border-radius: 20px;
 }
 .flipboxback p {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
 .flipboxback a {
     color: #1744cc;
     text-decoration: none;
-    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .doublearrow {
@@ -526,8 +528,7 @@ animation-timing-function: ease-in-out;
 .flipboxback a:hover {
     color: #1744cc;
     text-decoration: none;
-    padding: 5px 10px;
-    background-color: #fff;
+    padding: 5px 15px;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -535,18 +536,20 @@ animation-timing-function: ease-in-out;
 
 
 /* About Home page  start */
-
+#aboutsec {
+    margin-bottom: 100px;
+}
 .aboutHomePage h2 {
     font-size: 34px;
     letter-spacing: 2px;
     text-align: left;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 .aboutHomePage h2 span {
     font-size: 34px;
     letter-spacing: 2px;
     text-align: left;
-    color: #1744cc;
+    color: #f96b16;
 }
 
 .aboutHomePage h2::after {
@@ -555,7 +558,7 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 1%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 20px 10px;
 opacity: 0.5;
@@ -601,7 +604,7 @@ animation-timing-function: ease-in-out;
 .readAbout {
     font-size: 18px;
     color: #ffffff;
-    background-color: #1744cc;
+    background-color: #f96b16;
     padding: 10px 12px;
     border-radius: 5px;
     text-decoration: none; 
@@ -650,7 +653,6 @@ animation-timing-function: ease-in-out;
 
 /* Industries Start */
  #industries {
-     margin: 100px 0px 0px;
      padding: 100px 0px;
      background: #f4f4f4;
      
@@ -667,7 +669,7 @@ animation-timing-function: ease-in-out;
     font-size: 34px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 
 #industries h2::after {
@@ -676,7 +678,7 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 44%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 20px 10px;
 opacity: 0.5;
@@ -709,7 +711,7 @@ animation-timing-function: ease-in-out;
     font-size: 34px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1744cc;
+    color: #f96b16;
 }
  
  .industrybox {
@@ -724,13 +726,13 @@ animation-timing-function: ease-in-out;
     }
 
  .industrybox:hover i {
-    background: #1744cc;
+    background: #f96b16;
     color: #fff;
 }
 
 .industrybox i {
     font-size: 35px;
-    color: #1744cc;
+    color: #f96b16;
     margin-bottom: 35px;
     padding: 30px;
     border-radius: 50%;
@@ -738,7 +740,7 @@ animation-timing-function: ease-in-out;
 }
 .industrybox h4 {
     font-size: 20px;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 
 .industrybox p {
@@ -770,7 +772,7 @@ animation-timing-function: ease-in-out;
     border-radius: 6px;
  }
  .databasesearchinner:hover  {
-    background: #1744cc;
+    background: #f96b16;
    display: flex;
    color: #ffffff;
  }
@@ -788,7 +790,7 @@ animation-timing-function: ease-in-out;
  
 a.getInTouch {
     color: #fff;
-    background-color: #1744cc;
+    background-color: #f96b16;
    position: absolute;
    right: 40px;
    bottom: 14px;
@@ -1087,7 +1089,7 @@ text-align: center;
     font-size: 18px;
     padding: 12px 10px;
     margin: 10px 0px;
-    background: #1744cc;
+    background: #f96b16;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -1105,8 +1107,8 @@ text-align: center;
 .bannerbtn:hover {
     font-size: 20px;
     padding: 10px 26px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -1114,8 +1116,8 @@ text-align: center;
 .bannerbtn1 {
     font-size: 20px;
     padding: 10px 20px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
     margin-left: 15px;
@@ -1149,7 +1151,7 @@ text-align: center;
     font-size: 34px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 
 #servicesprovide h2::after {
@@ -1158,10 +1160,10 @@ text-align: center;
     display: block;
 width: 100px;
 left: 44%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 20px 10px;
-opacity: 0.5;
+opacity: 0.6;
 }
 #servicesprovide h2::before {
     position: absolute;
@@ -1191,7 +1193,7 @@ animation-timing-function: ease-in-out;
     font-size: 34px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1744cc;
+    color: #f96b16;
 }
 
 
@@ -1232,7 +1234,7 @@ animation-timing-function: ease-in-out;
 .flipboxfront i {
     font-size: 20px;
     color: #fff;
-    background: #1744cc;
+    background: #f96b16;
     padding: 30px;
     border-radius: 50%;
 }
@@ -1243,7 +1245,7 @@ animation-timing-function: ease-in-out;
 
 .flipboxback {
     padding: 70px 15px;
-    background: #1744cc;
+    background: #f96b16;
     transform: rotateX(180deg);
     border-radius: 20px;
 }
@@ -1256,7 +1258,6 @@ animation-timing-function: ease-in-out;
 .flipboxback a {
     color: #1744cc;
     text-decoration: none;
-    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 16px;
@@ -1269,8 +1270,7 @@ animation-timing-function: ease-in-out;
 .flipboxback a:hover {
     color: #1744cc;
     text-decoration: none;
-    padding: 5px 10px;
-    background-color: #fff;
+    padding: 5px 15px;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -1287,7 +1287,7 @@ animation-timing-function: ease-in-out;
     font-size: 34px;
     letter-spacing: 2px;
     text-align: left;
-    color: #1744cc;
+    color: #f96b16;
 }
 
 .aboutHomePage h2::after {
@@ -1296,10 +1296,10 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 1%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 20px 10px;
-opacity: 0.5;
+opacity: 0.6;
 }
 .aboutHomePage h2::before {
     position: absolute;
@@ -1342,7 +1342,7 @@ animation-timing-function: ease-in-out;
 .readAbout {
     font-size: 18px;
     color: #ffffff;
-    background-color: #1744cc;
+    background-color: #f96b16;
     padding: 10px 12px;
     border-radius: 5px;
     text-decoration: none; 
@@ -1392,9 +1392,8 @@ animation-timing-function: ease-in-out;
 
 /* Industries Start */
 #industries {
-    margin: 100px 0px 0px;
     padding: 100px 0px;
-    background: #f4f4f4;
+    background: #fbfbfb;
     
 }
 #industries h3 {
@@ -1409,7 +1408,7 @@ animation-timing-function: ease-in-out;
    font-size: 34px;
    letter-spacing: 2px;
    text-align: center;
-   color: #1a1a1a;
+   color: #1744cc;
 }
 
 #industries h2::after {
@@ -1418,7 +1417,7 @@ animation-timing-function: ease-in-out;
    display: block;
 width: 100px;
 left: 44%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 20px 10px;
 opacity: 0.5;
@@ -1451,7 +1450,7 @@ animation-timing-function: ease-in-out;
    font-size: 34px;
    letter-spacing: 2px;
    text-align: center;
-   color: #1744cc;
+   color: #f96b16;
 }
 
 .industrybox {
@@ -1464,13 +1463,13 @@ animation-timing-function: ease-in-out;
     box-shadow: 3px 10px 50px rgba(158,158,158,.25);
 }
 .industrybox:hover i {
-   background: #1744cc;
+   background: #f96b16;
    color: #fff;
 }
 
 .industrybox i {
    font-size: 35px;
-   color: #1744cc;
+   color: #f96b16;
    margin-bottom: 35px;
    padding: 30px;
    border-radius: 50%;
@@ -1478,7 +1477,7 @@ animation-timing-function: ease-in-out;
 }
 .industrybox h4 {
    font-size: 20px;
-   color: #1a1a1a;
+   color: #1744cc;
 }
 
 .industrybox p {
@@ -1510,7 +1509,7 @@ animation-timing-function: ease-in-out;
     border-radius: 6px;
  }
  .databasesearchinner:hover  {
-    background: #1744cc;
+    background: #f96b16;
    display: flex;
    color: #ffffff;
  }
@@ -1528,7 +1527,7 @@ animation-timing-function: ease-in-out;
  
 a.getInTouch {
     color: #fff;
-    background-color: #1744cc;
+    background-color: #f96b16;
    position: absolute;
    right: 20px;
    bottom: 14px;
@@ -1634,7 +1633,7 @@ left: 0px;
     /*Chat Start  */
 
     .form-container .cancel {
-        background-color: #1744cc;
+        background-color: #f96b16;
         width: 100%;
         color: #fff;
         font-size: 14px;
@@ -1651,7 +1650,7 @@ left: 0px;
         position: fixed;
         bottom: 10px;
         right: 8px;
-        background: #1744cc;
+        background: #f96b16;
 border-top-left-radius: 32px;
 border-bottom-left-radius: 32px;
     }
@@ -1712,7 +1711,6 @@ border-bottom-left-radius: 32px;
         }
 
     /* Chat End */
-
 
 
 /*Details Nav Start**/
@@ -1918,7 +1916,7 @@ text-align: center;
     font-size: 14px;
     padding: 12px 10px;
     margin: 10px 0px;
-    background: #1744cc;
+    background: #f96b16;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -1936,8 +1934,8 @@ text-align: center;
 .bannerbtn:hover {
     font-size: 16px;
     padding: 10px 26px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #fff;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -1945,8 +1943,8 @@ text-align: center;
 .bannerbtn1 {
     font-size: 16px;
     padding: 10px 20px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
     margin-left: 15px;
@@ -1982,7 +1980,7 @@ text-align: center;
     font-size: 28px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 
 #servicesprovide h2::after {
@@ -1991,7 +1989,7 @@ text-align: center;
     display: block;
 width: 100px;
 left: 44%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 20px 10px;
 opacity: 0.5;
@@ -2024,7 +2022,7 @@ animation-timing-function: ease-in-out;
     font-size: 28px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1744cc;
+    color: #f96b16;
 }
 
 
@@ -2065,7 +2063,7 @@ animation-timing-function: ease-in-out;
 .flipboxfront i {
     font-size: 20px;
     color: #fff;
-    background: #1744cc;
+    background: #f96b16;
     padding: 30px;
     border-radius: 50%;
 }
@@ -2076,7 +2074,7 @@ animation-timing-function: ease-in-out;
 
 .flipboxback {
     padding: 134px 60px;
-    background: #1744cc;
+    background: #f96b16;
     transform: rotateX(180deg);
     border-radius: 20px;
 }
@@ -2089,7 +2087,6 @@ animation-timing-function: ease-in-out;
 .flipboxback a {
     color: #1744cc;
     text-decoration: none;
-    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 16px;
@@ -2102,8 +2099,7 @@ animation-timing-function: ease-in-out;
 .flipboxback a:hover {
     color: #1744cc;
     text-decoration: none;
-    padding: 5px 10px;
-    background-color: #fff;
+    padding: 5px 15px;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -2132,7 +2128,7 @@ animation-timing-function: ease-in-out;
     font-size: 28px;
     letter-spacing: 2px;
     text-align: left;
-    color: #1744cc;
+    color: #f96b16;
 }
 
 .aboutHomePage h2::after {
@@ -2141,7 +2137,7 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 1%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 18px 10px;
 opacity: 0.5;
@@ -2187,7 +2183,7 @@ animation-timing-function: ease-in-out;
 .readAbout {
     font-size: 16px;
     color: #ffffff;
-    background-color: #1744cc;
+    background-color: #f96b16;
     padding: 10px 12px;
     border-radius: 5px;
     text-decoration: none; 
@@ -2236,7 +2232,6 @@ animation-timing-function: ease-in-out;
 
 /* Industries Start */
 #industries {
-    margin: 100px 0px 0px;
     padding: 100px 0px;
     background: #f4f4f4;
     
@@ -2253,7 +2248,7 @@ animation-timing-function: ease-in-out;
    font-size: 28px;
    letter-spacing: 2px;
    text-align: center;
-   color: #1a1a1a;
+   color: #1744cc;
 }
 
 #industries h2::after {
@@ -2262,7 +2257,7 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 44%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 20px 10px;
 opacity: 0.5;
@@ -2295,7 +2290,7 @@ animation-timing-function: ease-in-out;
    font-size: 28px;
    letter-spacing: 2px;
    text-align: center;
-   color: #1744cc;
+   color: #f96b16;
 }
 
 .industrybox {
@@ -2308,13 +2303,13 @@ animation-timing-function: ease-in-out;
     box-shadow: 3px 10px 50px rgba(158,158,158,.25);
 }
 .industrybox:hover i {
-   background: #1744cc;
+   background: #f96b16;
    color: #fff;
 }
 
 .industrybox i {
    font-size: 35px;
-   color: #1744cc;
+   color: #f96b16;
    margin-bottom: 35px;
    padding: 30px;
    border-radius: 50%;
@@ -2322,7 +2317,7 @@ animation-timing-function: ease-in-out;
 }
 .industrybox h4 {
    font-size: 22px;
-   color: #1a1a1a;
+   color: #1744cc;
 }
 
 .industrybox p {
@@ -2359,7 +2354,7 @@ animation-timing-function: ease-in-out;
     border-radius: 6px;
  }
  .databasesearchinner:hover  {
-    background: #1744cc;
+    background: #f96b16;
    display: flex;
    color: #ffffff;
  }
@@ -2378,7 +2373,7 @@ animation-timing-function: ease-in-out;
  
 a.getInTouch {
     color: #fff;
-    background-color: #1744cc;
+    background-color: #f96b16;
    position: relative;
    right: 0px;
    bottom: 0px;
@@ -2482,10 +2477,10 @@ margin-top: 50px;
 /* 425 px Start */
 
 @media only screen and (max-width:425px){
-/* Chat Start */
+    /* Chat Start */
 
 .form-container .cancel {
-    background-color: #1744cc;
+    background-color: #f96b16;
     width: 100%;
     color: #fff;
     font-size: 12px;
@@ -2502,7 +2497,7 @@ margin-top: 50px;
     position: fixed;
     bottom: 10px;
     right: 8px;
-    background: #1744cc;
+    background: #f96b16;
 border-top-left-radius: 30px;
 border-bottom-left-radius: 30px;
 }
@@ -2568,6 +2563,7 @@ padding : 10px 0;
     }
 
 /* Chat End */
+
 /*Details Nav Start**/
 .detailsNavBg {
     background: #002699;
@@ -2771,7 +2767,7 @@ text-align: center;
     font-size: 14px;
     padding: 12px 10px;
     margin: 10px 0px;
-    background: #1744cc;
+    background: #f96b16;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -2788,8 +2784,8 @@ text-align: center;
 .bannerbtn:hover {
     font-size: 14px;
     padding: 10px 20px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #fff;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -2797,8 +2793,8 @@ text-align: center;
 .bannerbtn1 {
     font-size: 14px;
     padding: 10px 20px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
     margin-left: 15px;
@@ -2834,7 +2830,7 @@ text-align: center;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 
 #servicesprovide h2::after {
@@ -2843,7 +2839,7 @@ text-align: center;
     display: block;
 width: 100px;
 left: 40%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 2px;
 margin: 20px auto;
 opacity: 0.5;
@@ -2876,7 +2872,7 @@ animation-timing-function: ease-in-out;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1744cc;
+    color: #f96b16;
     display: block;
     margin-top: 5px;
 }
@@ -2919,7 +2915,7 @@ animation-timing-function: ease-in-out;
 .flipboxfront i {
     font-size: 20px;
     color: #fff;
-    background: #1744cc;
+    background: #f96b16;
     padding: 30px;
     border-radius: 50%;
 }
@@ -2929,8 +2925,8 @@ animation-timing-function: ease-in-out;
 }
 
 .flipboxback {
-    padding: 134px 60px;
-    background: #1744cc;
+    padding: 134px 40px;
+    background: #f96b16;
     transform: rotateX(180deg);
     border-radius: 20px;
 }
@@ -2943,7 +2939,6 @@ animation-timing-function: ease-in-out;
 .flipboxback a {
     color: #1744cc;
     text-decoration: none;
-    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
@@ -2956,8 +2951,7 @@ animation-timing-function: ease-in-out;
 .flipboxback a:hover {
     color: #1744cc;
     text-decoration: none;
-    padding: 5px 10px;
-    background-color: #fff;
+    padding: 5px 15px;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -2978,13 +2972,13 @@ animation-timing-function: ease-in-out;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: left;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 .aboutHomePage h2 span {
     font-size: 20px;
     letter-spacing: 2px;
     text-align: left;
-    color: #1744cc;
+    color: #f96b16;
 }
 
 .aboutHomePage h2::after {
@@ -2993,7 +2987,7 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 1%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 18px 10px;
 opacity: 0.5;
@@ -3039,7 +3033,7 @@ animation-timing-function: ease-in-out;
 .readAbout {
     font-size: 14px;
     color: #ffffff;
-    background-color: #1744cc;
+    background-color: #f96b16;
     padding: 10px 12px;
     border-radius: 5px;
     text-decoration: none; 
@@ -3087,7 +3081,6 @@ animation-timing-function: ease-in-out;
 
 /* Industries Start */
 #industries {
-    margin: 100px 0px 0px;
     padding: 100px 0px;
     background: #f4f4f4;
     
@@ -3104,7 +3097,7 @@ animation-timing-function: ease-in-out;
    font-size: 20px;
    letter-spacing: 2px;
    text-align: center;
-   color: #1a1a1a;
+   color: #1744cc;
 }
 
 #industries h2::after {
@@ -3113,7 +3106,7 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 40%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 2px;
 margin: 20px auto;
 opacity: 0.5;
@@ -3146,7 +3139,7 @@ animation-timing-function: ease-in-out;
    font-size: 20px;
    letter-spacing: 2px;
    text-align: center;
-   color: #1744cc;
+   color: #f96b16;
 }
 
 .industrybox {
@@ -3159,13 +3152,13 @@ animation-timing-function: ease-in-out;
     box-shadow: 3px 10px 50px rgba(158,158,158,.25);
 }
 .industrybox:hover i {
-   background: #1744cc;
+   background: #f96b16;
    color: #fff;
 }
 
 .industrybox i {
    font-size: 24px;
-   color: #1744cc;
+   color: #f96b16;
    margin-bottom: 35px;
    padding: 30px;
    border-radius: 50%;
@@ -3173,7 +3166,7 @@ animation-timing-function: ease-in-out;
 }
 .industrybox h4 {
    font-size: 18px;
-   color: #1a1a1a;
+   color: #1744cc;
 }
 
 .industrybox p {
@@ -3210,7 +3203,7 @@ animation-timing-function: ease-in-out;
     border-radius: 6px;
  }
  .databasesearchinner:hover  {
-    background: #1744cc;
+    background: #f96b16;
    display: flex;
    color: #ffffff;
  }
@@ -3229,7 +3222,7 @@ animation-timing-function: ease-in-out;
  
 a.getInTouch {
     color: #fff;
-    background-color: #1744cc;
+    background-color: #f96b16;
    position: relative;
    right: 0px;
    bottom: 0px;
@@ -3336,7 +3329,7 @@ margin-top: 50px;
 
 
 .form-container .cancel {
-    background-color: #1744cc;
+    background-color: #f96b16;
     width: 100%;
     color: #fff;
     font-size: 10px;
@@ -3350,7 +3343,7 @@ margin-top: 50px;
     position: fixed;
     bottom: 10px;
     right: 8px;
-    background: #1744cc;
+    background: #f96b16;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
 }
@@ -3414,6 +3407,8 @@ padding : 10px 0;
     }
 
 /* Chat End */
+
+
 /*Details Nav Start**/
 .detailsNavBg {
     background: #002699;
@@ -3618,7 +3613,7 @@ text-align: center;
     font-size: 14px;
     padding: 12px 10px;
     margin: 10px 0px;
-    background: #1744cc;
+    background: #f96b16;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -3635,8 +3630,8 @@ text-align: center;
 .bannerbtn:hover {
     font-size: 14px;
     padding: 10px 20px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -3644,8 +3639,8 @@ text-align: center;
 .bannerbtn1 {
     font-size: 14px;
     padding: 10px 20px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
     margin-left: 15px;
@@ -3679,7 +3674,7 @@ text-align: center;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 
 #servicesprovide h2::after {
@@ -3688,7 +3683,7 @@ text-align: center;
     display: block;
 width: 100px;
 left: 40%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 2px;
 margin: 20px auto;
 opacity: 0.5;
@@ -3721,7 +3716,7 @@ animation-timing-function: ease-in-out;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1744cc;
+    color: #f96b16;
     display: block;
     margin-top: 5px;
 }
@@ -3764,7 +3759,7 @@ animation-timing-function: ease-in-out;
 .flipboxfront i {
     font-size: 20px;
     color: #fff;
-    background: #1744cc;
+    background: #f96b16;
     padding: 30px;
     border-radius: 50%;
 }
@@ -3775,7 +3770,7 @@ animation-timing-function: ease-in-out;
 
 .flipboxback {
     padding: 100px 20px;
-    background: #1744cc;
+    background: #f96b16;
     transform: rotateX(180deg);
     border-radius: 20px;
 }
@@ -3788,7 +3783,6 @@ animation-timing-function: ease-in-out;
 .flipboxback a {
     color: #1744cc;
     text-decoration: none;
-    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
@@ -3801,8 +3795,7 @@ animation-timing-function: ease-in-out;
 .flipboxback a:hover {
     color: #1744cc;
     text-decoration: none;
-    padding: 5px 10px;
-    background-color: #fff;
+    padding: 5px 15px;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -3823,13 +3816,13 @@ animation-timing-function: ease-in-out;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: left;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 .aboutHomePage h2 span {
     font-size: 20px;
     letter-spacing: 2px;
     text-align: left;
-    color: #1744cc;
+    color: #f96b16;
 }
 
 .aboutHomePage h2::after {
@@ -3838,7 +3831,7 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 1%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 18px 10px;
 opacity: 0.5;
@@ -3884,7 +3877,7 @@ animation-timing-function: ease-in-out;
 .readAbout {
     font-size: 14px;
     color: #ffffff;
-    background-color: #1744cc;
+    background-color: #f96b16;
     padding: 10px 12px;
     border-radius: 5px;
     text-decoration: none; 
@@ -3932,7 +3925,6 @@ animation-timing-function: ease-in-out;
 
 /* Industries Start */
 #industries {
-    margin: 100px 0px 0px;
     padding: 100px 0px;
     background: #f4f4f4;
     
@@ -3949,7 +3941,7 @@ animation-timing-function: ease-in-out;
    font-size: 20px;
    letter-spacing: 2px;
    text-align: center;
-   color: #1a1a1a;
+   color: #1744cc;
 }
 
 #industries h2::after {
@@ -3958,7 +3950,7 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 40%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 2px;
 margin: 20px auto;
 opacity: 0.5;
@@ -3991,7 +3983,7 @@ animation-timing-function: ease-in-out;
    font-size: 20px;
    letter-spacing: 2px;
    text-align: center;
-   color: #1744cc;
+   color: #f96b16;
 }
 
 .industrybox {
@@ -4004,13 +3996,13 @@ animation-timing-function: ease-in-out;
     box-shadow: 3px 10px 50px rgba(158,158,158,.25);
 }
 .industrybox:hover i {
-   background: #1744cc;
+   background: #f96b16;
    color: #fff;
 }
 
 .industrybox i {
    font-size: 24px;
-   color: #1744cc;
+   color: #f96b16;
    margin-bottom: 35px;
    padding: 30px;
    border-radius: 50%;
@@ -4018,7 +4010,7 @@ animation-timing-function: ease-in-out;
 }
 .industrybox h4 {
    font-size: 18px;
-   color: #1a1a1a;
+   color: #1744cc;
 }
 
 .industrybox p {
@@ -4055,7 +4047,7 @@ animation-timing-function: ease-in-out;
     border-radius: 6px;
  }
  .databasesearchinner:hover  {
-    background: #1744cc;
+    background: #f96b16;
    display: flex;
    color: #ffffff;
  }
@@ -4074,7 +4066,7 @@ animation-timing-function: ease-in-out;
  
 a.getInTouch {
     color: #fff;
-    background-color: #1744cc;
+    background-color: #f96b16;
    position: relative;
    right: 0px;
    bottom: 0px;
@@ -4174,83 +4166,84 @@ margin-top: 50px;
 
 /* 320 px Start */
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width:320px) {
 
-    /* Chat Start */
+        /* Chat Start */
 
 
-    .open-button {
-        padding: 10px 10px;
-        border: none;
-        cursor: pointer;
-        opacity: 0.8;
-        position: fixed;
-        bottom: 10px;
-        right: 8px;
-        background: #1744cc;
-        border-bottom-left-radius: 30px;
-        border-top-left-radius: 30px;
+        .open-button {
+            padding: 10px 10px;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            position: fixed;
+            bottom: 10px;
+            right: 8px;
+            background: #f96b16;
+            border-bottom-left-radius: 30px;
+            border-top-left-radius: 30px;
+            }
+        
+        .open-button .faresp {
+           font-size: 16px !important;
+        }
+        .open-button span.help {
+            font-size: 14px;
+        color: #fff;
+        padding : 10px 0;
         }
     
-    .open-button .faresp {
-       font-size: 16px !important;
-    }
-    .open-button span.help {
-        font-size: 14px;
-    color: #fff;
-    padding : 10px 0;
-    }
-
-    /* The popup chat - hidden by default */
-    .chat-popup {
-        display: none;
-        position: fixed;
-        bottom: 10;
-        right: 10px;
-        border: none;
-        z-index: 9;
-        box-shadow: 0px 0px 2px #eee;
-    }
-
-    /* Add styles to the form container */
-    .form-container {
-        max-width: 180px;
-        padding: 10px;
-        background-color: white;
-    }
-
-    /* Full-width textarea */
-    .form-container .chat-textarea {
-        width: 100%;
-        padding: 15px;
-        margin: 5px 0 22px 0;
-        border: none;
-        background: #fbfbfb;
-        resize: none;
-        text-align: right;
-        font-size: 12px;
-        min-height: 200px;
-    }
-
-    .form-container textarea::placeholder {
-        font-size: 10px;
+        /* The popup chat - hidden by default */
+        .chat-popup {
+            display: none;
+            position: fixed;
+            bottom: 10;
+            right: 10px;
+            border: none;
+            z-index: 9;
+            box-shadow: 0px 0px 2px #eee;
         }
-
-    .input-group input {
-        height: 30px;
-        font-size: 10px;
-        border: 1px solid #eee;
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 100%;
-        margin-top: 5px;
-    }
-    .input-group input::placeholder {
-        font-size: 10px;
-        
+    
+        /* Add styles to the form container */
+        .form-container {
+            max-width: 180px;
+            padding: 10px;
+            background-color: white;
         }
-
-    /* Chat End */
+    
+        /* Full-width textarea */
+        .form-container .chat-textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #fbfbfb;
+            resize: none;
+            text-align: right;
+            font-size: 12px;
+            min-height: 200px;
+        }
+    
+        .form-container textarea::placeholder {
+            font-size: 10px;
+            }
+    
+        .input-group input {
+            height: 30px;
+            font-size: 10px;
+            border: 1px solid #eee;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 100%;
+            margin-top: 5px;
+        }
+        .input-group input::placeholder {
+            font-size: 10px;
+            
+            }
+    
+        /* Chat End */
+    
 /*Details Nav Start**/
 .detailsNavBg {
     background: #002699;
@@ -4455,7 +4448,7 @@ text-align: center;
     font-size: 14px;
     padding: 12px 10px;
     margin: 10px 0px;
-    background: #1744cc;
+    background: #f96b16;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -4472,8 +4465,8 @@ text-align: center;
 .bannerbtn:hover {
     font-size: 14px;
     padding: 10px 20px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #fff;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -4481,8 +4474,8 @@ text-align: center;
 .bannerbtn1 {
     font-size: 14px;
     padding: 10px 20px;
-    background: #fff;
-    color: #1744cc;
+    background: #f96b16;
+    color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
     margin-left: 10px;
@@ -4520,7 +4513,7 @@ text-align: center;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 
 #servicesprovide h2::after {
@@ -4529,7 +4522,7 @@ text-align: center;
     display: block;
 width: 100px;
 left: 40%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 2px;
 margin: 20px auto;
 opacity: 0.5;
@@ -4562,7 +4555,7 @@ animation-timing-function: ease-in-out;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: center;
-    color: #1744cc;
+    color: #f96b16;
     display: block;
     margin-top: 5px;
 }
@@ -4605,7 +4598,7 @@ animation-timing-function: ease-in-out;
 .flipboxfront i {
     font-size: 20px;
     color: #fff;
-    background: #1744cc;
+    background: #f96b16;
     padding: 30px;
     border-radius: 50%;
 }
@@ -4616,7 +4609,7 @@ animation-timing-function: ease-in-out;
 
 .flipboxback {
     padding: 100px 20px;
-    background: #1744cc;
+    background: #f96b16;
     transform: rotateX(180deg);
     border-radius: 20px;
 }
@@ -4629,7 +4622,6 @@ animation-timing-function: ease-in-out;
 .flipboxback a {
     color: #1744cc;
     text-decoration: none;
-    background-color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
@@ -4642,8 +4634,7 @@ animation-timing-function: ease-in-out;
 .flipboxback a:hover {
     color: #1744cc;
     text-decoration: none;
-    padding: 5px 10px;
-    background-color: #fff;
+    padding: 5px 12px;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -4666,13 +4657,13 @@ animation-timing-function: ease-in-out;
     font-size: 20px;
     letter-spacing: 2px;
     text-align: left;
-    color: #1a1a1a;
+    color: #1744cc;
 }
 .aboutHomePage h2 span {
     font-size: 20px;
     letter-spacing: 2px;
     text-align: left;
-    color: #1744cc;
+    color: #f96b16;
 }
 
 .aboutHomePage h2::after {
@@ -4681,7 +4672,7 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 1%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 3px;
 margin: 18px 10px;
 opacity: 0.5;
@@ -4727,7 +4718,7 @@ animation-timing-function: ease-in-out;
 .readAbout {
     font-size: 14px;
     color: #ffffff;
-    background-color: #1744cc;
+    background-color: #f96b16;
     padding: 10px 12px;
     border-radius: 5px;
     text-decoration: none; 
@@ -4776,7 +4767,6 @@ animation-timing-function: ease-in-out;
 
 /* Industries Start */
 #industries {
-    margin: 100px 0px 0px;
     padding: 100px 0px;
     background: #f4f4f4;
     
@@ -4793,7 +4783,7 @@ animation-timing-function: ease-in-out;
    font-size: 20px;
    letter-spacing: 2px;
    text-align: center;
-   color: #1a1a1a;
+   color: #1744cc;
 }
 
 #industries h2::after {
@@ -4802,7 +4792,7 @@ animation-timing-function: ease-in-out;
     display: block;
 width: 100px;
 left: 40%;
-background-color: #2b2b2b;
+background-color: #f96b16;
 height: 2px;
 margin: 20px auto;
 opacity: 0.5;
@@ -4835,7 +4825,7 @@ animation-timing-function: ease-in-out;
    font-size: 20px;
    letter-spacing: 2px;
    text-align: center;
-   color: #1744cc;
+   color: #f96b16;
 }
 
 .industrybox {
@@ -4848,13 +4838,13 @@ animation-timing-function: ease-in-out;
     box-shadow: 3px 10px 50px rgba(158,158,158,.25);
 }
 .industrybox:hover i {
-   background: #1744cc;
+   background: #f96b16;
    color: #fff;
 }
 
 .industrybox i {
    font-size: 24px;
-   color: #1744cc;
+   color: #f96b16;
    margin-bottom: 35px;
    padding: 30px;
    border-radius: 50%;
@@ -4862,7 +4852,7 @@ animation-timing-function: ease-in-out;
 }
 .industrybox h4 {
    font-size: 18px;
-   color: #1a1a1a;
+   color: #1744cc;
 }
 
 .industrybox p {
@@ -4899,7 +4889,7 @@ animation-timing-function: ease-in-out;
     border-radius: 6px;
  }
  .databasesearchinner:hover  {
-    background: #1744cc;
+    background: #f96b16;
    display: flex;
    color: #ffffff;
  }
@@ -4918,7 +4908,7 @@ animation-timing-function: ease-in-out;
  
 a.getInTouch {
     color: #fff;
-    background-color: #1744cc;
+    background-color: #f96b16;
    position: relative;
    right: 0px;
    bottom: 0px;
