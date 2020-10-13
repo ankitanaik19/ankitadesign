@@ -61,7 +61,7 @@ body {
 .chat-popup {
     display: none;
     position: fixed;
-    bottom: 10px;
+    bottom: 0px;
     right: 0px;
     border: none;
     z-index: 9;
@@ -1713,8 +1713,8 @@ a.getInTouch {
     .chat-popup {
         display: none;
         position: fixed;
-        bottom: 0;
-        right: 15px;
+        bottom: 0px;
+        right: 0px;
         border: none;
         z-index: 9;
         box-shadow: 0px 0px 2px #eee;
@@ -2505,8 +2505,8 @@ a.getInTouch {
     .chat-popup {
         display: none;
         position: fixed;
-        bottom: 10px;
-        right: 9px;
+        bottom: 0px;
+        right: 0px;
         border: none;
         z-index: 9;
         box-shadow: 0px 0px 2px #eee;
@@ -3300,8 +3300,8 @@ a.getInTouch {
     .chat-popup {
         display: none;
         position: fixed;
-        bottom: 0;
-        right: 15px;
+        bottom: 0px;
+        right: 0px;
         border: none;
         z-index: 9;
         box-shadow: 0px 0px 2px #eee;
@@ -4088,8 +4088,8 @@ a.getInTouch {
     .chat-popup {
         display: none;
         position: fixed;
-        bottom: 10;
-        right: 10px;
+        bottom: 0px;
+        right: 0px;
         border: none;
         z-index: 9;
         box-shadow: 0px 0px 2px #eee;
