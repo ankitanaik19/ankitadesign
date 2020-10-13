@@ -304,10 +304,6 @@ function displayCart() {
         <td style="text-align:right"><strike>$5</strike> Free</td>
      </tr>
      <tr>
-     <td><strong>Estimated Time</strong></td>
-     <td style="text-align:right"><strong>20 mins</strong></td>
-  </tr>
-     <tr>
      <td><strong>Total</strong></td>
      <td style="text-align:right"><strong>$${cartCost}.00</strong></td>
      </tr>

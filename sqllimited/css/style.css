@@ -290,8 +290,8 @@ animation-timing-function: ease-in-out;
     height: 100%;
     transition: transform 0.6s ease-in;
     transform-style: preserve-3d;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
-    border-radius: 20px;
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
+        border-radius: 20px;
 }
 
 .flipbox:hover .flipboxinner {
@@ -543,7 +543,8 @@ animation-timing-function: ease-in-out;
      border-radius: 20px;
      padding: 50px 10px;
      margin-top: 80px;
-     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+     box-shadow: 3px 10px 50px rgba(158,158,158,.25);
+
     }
 
  .industrybox:hover i {
@@ -995,7 +996,7 @@ animation-timing-function: ease-in-out;
     height: 100%;
     transition: transform 0.6s ease-in;
     transform-style: preserve-3d;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
     border-radius: 20px;
 }
 
@@ -1247,7 +1248,7 @@ animation-timing-function: ease-in-out;
     border-radius: 20px;
     padding: 50px 10px;
     margin-top: 80px;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+    box-shadow: 3px 10px 50px rgba(158,158,158,.25);
 }
 .industrybox:hover i {
    background: #0029a4;
@@ -1706,7 +1707,7 @@ animation-timing-function: ease-in-out;
     height: 100%;
     transition: transform 0.6s ease-in;
     transform-style: preserve-3d;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
     border-radius: 20px;
 }
 
@@ -1962,13 +1963,6 @@ animation-timing-function: ease-in-out;
    color: #0029a4;
 }
 
-
-
-
-
-
-
-
 .industrybox {
     background: #fff;
     width: 100%;
@@ -1976,7 +1970,7 @@ animation-timing-function: ease-in-out;
     border-radius: 20px;
     padding: 50px 10px;
     margin-top: 80px;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+    box-shadow: 3px 10px 50px rgba(158,158,158,.25);
 }
 .industrybox:hover i {
    background: #0029a4;
@@ -2444,7 +2438,7 @@ animation-timing-function: ease-in-out;
     height: 100%;
     transition: transform 0.6s ease-in;
     transform-style: preserve-3d;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
     border-radius: 20px;
 }
 
@@ -2704,7 +2698,7 @@ animation-timing-function: ease-in-out;
     border-radius: 20px;
     padding: 35px 10px;
     margin-top: 80px;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+    box-shadow: 3px 10px 50px rgba(158,158,158,.25);
 }
 .industrybox:hover i {
    background: #0029a4;
@@ -2837,8 +2831,8 @@ margin-top: 50px;
    font-weight: bold;
    margin-bottom: 0px;
    position: absolute;
-   left: 13%;
-   top: 83px;
+   left: 14%;
+   top: 86px;
    line-height: 16px; 
 }
 
@@ -3170,7 +3164,7 @@ animation-timing-function: ease-in-out;
     height: 100%;
     transition: transform 0.6s ease-in;
     transform-style: preserve-3d;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
     border-radius: 20px;
 }
 
@@ -3430,7 +3424,7 @@ animation-timing-function: ease-in-out;
     border-radius: 20px;
     padding: 35px 10px;
     margin-top: 80px;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+    box-shadow: 3px 10px 50px rgba(158,158,158,.25);
 }
 .industrybox:hover i {
    background: #0029a4;
@@ -3899,7 +3893,7 @@ animation-timing-function: ease-in-out;
     height: 100%;
     transition: transform 0.6s ease-in;
     transform-style: preserve-3d;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
     border-radius: 20px;
 }
 
@@ -4162,7 +4156,7 @@ animation-timing-function: ease-in-out;
     border-radius: 20px;
     padding: 35px 10px;
     margin-top: 80px;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.2);
+    box-shadow: 3px 10px 50px rgba(158,158,158,.25);
 }
 .industrybox:hover i {
    background: #0029a4;
