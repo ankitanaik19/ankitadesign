@@ -187,7 +187,6 @@ ul.navbar-nav {
  
 /* Carousel Start*/
 
-
 .enquiryform {
     position: absolute;
     right: 5%;
@@ -231,6 +230,42 @@ text-align: center;
     border: none;
     border-radius: 5px;
 }
+
+.bannerbtn {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.bannerbtn:hover {
+    font-size: 20px;
+    padding: 10px 26px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bannerbtn1 {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.bannerbtn1:hover {
+    font-size: 20px;
+    padding: 10px 26px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 /* Carousel End */
 
 /* Services Start */
@@ -937,6 +972,43 @@ text-align: center;
     border: none;
     border-radius: 5px;
 }
+
+
+.bannerbtn {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.bannerbtn:hover {
+    font-size: 20px;
+    padding: 10px 26px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bannerbtn1 {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.bannerbtn1:hover {
+    font-size: 20px;
+    padding: 10px 26px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 /* Carousel End */
 
 /* Services Start */
@@ -1647,6 +1719,44 @@ text-align: center;
     border: none;
     border-radius: 5px;
 }
+
+
+.bannerbtn {
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.bannerbtn:hover {
+    font-size: 16px;
+    padding: 10px 26px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bannerbtn1 {
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.bannerbtn1:hover {
+    font-size: 16px;
+    padding: 10px 26px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
 /* Carousel End */
 
 
@@ -2377,6 +2487,44 @@ text-align: center;
     border: none;
     border-radius: 5px;
 }
+
+.bannerbtn {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.bannerbtn:hover {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bannerbtn1 {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.bannerbtn1:hover {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
 /* Carousel End */
 
 /* Services Start */
@@ -3103,6 +3251,42 @@ text-align: center;
     border: none;
     border-radius: 5px;
 }
+
+.bannerbtn {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.bannerbtn:hover {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bannerbtn1 {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.bannerbtn1:hover {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 /* Carousel End */
 
 /* Services Start */
@@ -3829,6 +4013,43 @@ text-align: center;
     border: none;
     border-radius: 5px;
 }
+
+.bannerbtn {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.bannerbtn:hover {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bannerbtn1 {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #0029a4;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.bannerbtn1:hover {
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #0029a4;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
 /* Carousel End */
 
 
