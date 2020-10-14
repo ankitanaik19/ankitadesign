@@ -357,7 +357,10 @@ ul.navbar-nav {
     padding: 12px 10px;
     margin: 10px 0px;
     border-radius: 5px;
-    border: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    border-left: none;
+    border-right: none;
+    border-top: none;
 }
 
 .enquiryform form button {
@@ -1152,7 +1155,10 @@ a.getInTouch {
         padding: 12px 10px;
         margin: 10px 0px;
         border-radius: 5px;
-        border: 1px solid #d2d2d2;
+        border-bottom: 1px solid #d2d2d2;
+        border-left: none;
+        border-right: none;
+        border-top: none;
     }
     .enquiryform form button {
         width: 100%;
@@ -1923,7 +1929,10 @@ a.getInTouch {
         padding: 12px 5px;
         margin: 10px 0px;
         border-radius: 5px;
-        border: 1px solid #d2d2d2;
+        border-bottom: 1px solid #d2d2d2;
+        border-left: none;
+        border-right: none;
+        border-top: none;
     }
     .enquiryform form button {
         width: 100%;
@@ -2716,7 +2725,10 @@ a.getInTouch {
         padding: 12px 5px;
         margin: 10px 0px;
         border-radius: 5px;
-        border: 1px solid #d2d2d2;
+        border-bottom: 1px solid #d2d2d2;
+        border-left: none;
+        border-right: none;
+        border-top: none;
     }
     .enquiryform form button {
         width: 100%;
@@ -3511,7 +3523,10 @@ a.getInTouch {
         padding: 12px 5px;
         margin: 10px 0px;
         border-radius: 5px;
-        border: 1px solid #d2d2d2;
+        border-bottom: 1px solid #d2d2d2;
+        border-left: none;
+        border-right: none;
+        border-top: none;
     }
     .enquiryform form button {
         width: 100%;
@@ -4299,7 +4314,10 @@ a.getInTouch {
         padding: 12px 5px;
         margin: 10px 0px;
         border-radius: 5px;
-        border: 1px solid #d2d2d2;
+        border-bottom: 1px solid #d2d2d2;
+        border-left: none;
+        border-right: none;
+        border-top: none;
     }
     .enquiryform form button {
         width: 100%;

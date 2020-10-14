@@ -496,14 +496,14 @@
             <div class="enquiryform" data-aos="slide-left" data-aos-duration="2000" data-aos-easing="ease-in-out">
                 <p>GET IN TOUCH</p>
                 <p>Let us know how we can help you.</p>
-                <form action="" id="sendequiry">
-                    <input type="text" name="name" id="name" placeholder="Your Name">
+                <form action="" id="sendequiry" onsubmit="this.reset()">
+                    <input type="text" name="name" id="name" placeholder="Your Name" pattern="^[A-Za-z -]+$">
                     <br>
                     <input type="email" name="email" id="email" placeholder="Your Email">
                     <br>
-                    <input type="text" name="number" placeholder="Phone Number">
+                    <input type="text" name="number" placeholder="Phone Number" id="enquireNum">
                     <br>
-                    <button>Send</button>
+                    <button type="submit" onclick="sendenquiry()">Send</button>
                 </form>
             </div>
         </div>
@@ -737,7 +737,22 @@
     <script>
       AOS.init();
     </script>
-    
+    <script>
+        function sendenquiry(){
+          var num; 
+          num = document.getElementById("enquireNum").value;
+          if(num == "" || isNaN(num)) { 
+          alert("Please fill valid details");
+         }
+      }
+      $('input,textarea').focus(function(){
+      $(this).data('placeholder',$(this).attr('placeholder'))
+             .attr('placeholder','');
+              })
+    .blur(function(){
+      $(this).attr('placeholder',$(this).data('placeholder'));
+     });
+    </script>
     <script src="js/chat.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/navshrink.js"></script>
