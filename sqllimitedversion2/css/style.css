@@ -44,7 +44,7 @@ body {
     position: fixed;
     bottom: 10px;
     right: 0px;
-    background: #f96b16;
+    background: #ff5f00;
     border-top-left-radius: 32px;
     border-bottom-left-radius: 32px;
 }
@@ -135,7 +135,7 @@ body {
 /* Add a red background color to the cancel button */
 
 .form-container .cancel {
-    background-color: #f96b16;
+    background-color: #ff5f00;
     width: 100%;
     color: #fff;
     font-size: 16px;
@@ -370,7 +370,7 @@ ul.navbar-nav {
     font-size: 18px;
     padding: 12px 10px;
     margin: 10px 0px;
-    background: #f96b16;
+    background: #ff5f00;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -388,7 +388,7 @@ ul.navbar-nav {
 .bannerbtn:hover {
     font-size: 20px;
     padding: 10px 26px;
-    background: #f96b16;
+    background: #ff5f00;
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
@@ -397,7 +397,7 @@ ul.navbar-nav {
 .bannerbtn1 {
     font-size: 20px;
     padding: 10px 20px;
-    background: #f96b16;
+    background: #ff5f00;
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
@@ -444,7 +444,7 @@ ul.navbar-nav {
     display: block;
     width: 100px;
     left: 44%;
-    background-color: #f96b16;
+    background-color: #ff5f00;
     height: 3px;
     margin: 20px 10px;
     opacity: 0.5;
@@ -486,7 +486,7 @@ ul.navbar-nav {
     font-size: 34px;
     letter-spacing: 2px;
     text-align: center;
-    color: #f96b16;
+    color: #ff5f00;
 }
 
 .flipbox {
@@ -528,7 +528,7 @@ ul.navbar-nav {
 .flipboxfront i {
     font-size: 26px;
     color: #fff;
-    background: #f96b16;
+    background: #ff5f00;
     padding: 30px;
     border-radius: 50%;
 }
@@ -541,7 +541,7 @@ ul.navbar-nav {
 
 .flipboxback {
     padding: 70px 15px;
-    background: #f96b16;
+    background: #ff5f00;
     transform: rotateX(180deg);
     border-radius: 20px;
 }
@@ -593,7 +593,7 @@ ul.navbar-nav {
     font-size: 34px;
     letter-spacing: 2px;
     text-align: left;
-    color: #f96b16;
+    color: #ff5f00;
 }
 
 .aboutHomePage h2::after {
@@ -602,7 +602,7 @@ ul.navbar-nav {
     display: block;
     width: 100px;
     left: 1%;
-    background-color: #f96b16;
+    background-color: #ff5f00;
     height: 3px;
     margin: 20px 10px;
     opacity: 0.5;
@@ -659,7 +659,7 @@ ul.navbar-nav {
 .readAbout {
     font-size: 18px;
     color: #ffffff;
-    background-color: #f96b16;
+    background-color: #ff5f00;
     padding: 10px 12px;
     border-radius: 5px;
     text-decoration: none;
@@ -717,7 +717,7 @@ ul.navbar-nav {
     display: block;
     width: 100px;
     left: 44%;
-    background-color: #f96b16;
+    background-color: #ff5f00;
     height: 3px;
     margin: 20px 10px;
     opacity: 0.5;
@@ -759,7 +759,7 @@ ul.navbar-nav {
     font-size: 34px;
     letter-spacing: 2px;
     text-align: center;
-    color: #f96b16;
+    color: #ff5f00;
 }
 
 .industrybox {
@@ -773,13 +773,13 @@ ul.navbar-nav {
 }
 
 .industrybox:hover i {
-    background: #f96b16;
+    background: #ff5f00;
     color: #fff;
 }
 
 .industrybox i {
     font-size: 35px;
-    color: #f96b16;
+    color: #ff5f00;
     margin-bottom: 35px;
     padding: 30px;
     border-radius: 50%;
@@ -824,7 +824,7 @@ ul.navbar-nav {
 }
 
 .databasesearchinner:hover {
-    background: #f96b16;
+    background: #ff5f00;
     display: flex;
     color: #ffffff;
 }
@@ -843,7 +843,7 @@ ul.navbar-nav {
 
 a.getInTouch {
     color: #fff;
-    background-color: #f96b16;
+    background-color: #ff5f00;
     position: absolute;
     right: 40px;
     bottom: 14px;
@@ -879,7 +879,7 @@ a.getInTouch {
 
 .clientCol i {
     font-size: 35px;
-    color: #f96b16;
+    color: #ff5f00;
     margin-bottom: 10px;
     padding: 30px;
     border-radius: 50%;
@@ -887,13 +887,13 @@ a.getInTouch {
 }
 
 .clientCol:hover i {
-    background-color: #f96b16;
+    background-color: #ff5f00;
     color: #fff;
 }
 
 .clients {
     font-size: 34px;
-    color: #f96b16;
+    color: #ff5f00;
     padding: 10px;
 }
 
@@ -1170,7 +1170,7 @@ a.getInTouch {
         font-size: 18px;
         padding: 12px 10px;
         margin: 24px 0px 0px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border: none;
         border-radius: 5px;
@@ -1186,7 +1186,7 @@ a.getInTouch {
     .bannerbtn:hover {
         font-size: 20px;
         padding: 10px 26px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border-radius: 5px;
         text-decoration: none;
@@ -1194,7 +1194,7 @@ a.getInTouch {
     .bannerbtn1 {
         font-size: 20px;
         padding: 10px 20px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border-radius: 5px;
         text-decoration: none;
@@ -1232,7 +1232,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 44%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 3px;
         margin: 20px 10px;
         opacity: 0.6;
@@ -1271,7 +1271,7 @@ a.getInTouch {
         font-size: 34px;
         letter-spacing: 2px;
         text-align: center;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .flipbox {
         margin-top: 80px;
@@ -1307,7 +1307,7 @@ a.getInTouch {
     .flipboxfront i {
         font-size: 20px;
         color: #fff;
-        background: #f96b16;
+        background: #ff5f00;
         padding: 30px;
         border-radius: 50%;
     }
@@ -1317,7 +1317,7 @@ a.getInTouch {
     }
     .flipboxback {
         padding: 70px 15px;
-        background: #f96b16;
+        background: #ff5f00;
         transform: rotateX(180deg);
         border-radius: 20px;
     }
@@ -1355,7 +1355,7 @@ a.getInTouch {
         font-size: 34px;
         letter-spacing: 2px;
         text-align: left;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .aboutHomePage h2::after {
         position: absolute;
@@ -1363,7 +1363,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 1%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 3px;
         margin: 20px 10px;
         opacity: 0.6;
@@ -1414,7 +1414,7 @@ a.getInTouch {
     .readAbout {
         font-size: 18px;
         color: #ffffff;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         padding: 10px 12px;
         border-radius: 5px;
         text-decoration: none;
@@ -1461,7 +1461,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 44%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 3px;
         margin: 20px 10px;
         opacity: 0.5;
@@ -1500,7 +1500,7 @@ a.getInTouch {
         font-size: 34px;
         letter-spacing: 2px;
         text-align: center;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .industrybox {
         background: #fff;
@@ -1512,12 +1512,12 @@ a.getInTouch {
         box-shadow: 3px 10px 50px rgba(158, 158, 158, .25);
     }
     .industrybox:hover i {
-        background: #f96b16;
+        background: #ff5f00;
         color: #fff;
     }
     .industrybox i {
         font-size: 35px;
-        color: #f96b16;
+        color: #ff5f00;
         margin-bottom: 35px;
         padding: 30px;
         border-radius: 50%;
@@ -1553,7 +1553,7 @@ a.getInTouch {
         border-radius: 6px;
     }
     .databasesearchinner:hover {
-        background: #f96b16;
+        background: #ff5f00;
         display: flex;
         color: #ffffff;
     }
@@ -1569,7 +1569,7 @@ a.getInTouch {
     }
     a.getInTouch {
         color: #fff;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         position: absolute;
         right: 20px;
         bottom: 14px;
@@ -1598,19 +1598,19 @@ a.getInTouch {
     }
     .clientCol i {
         font-size: 35px;
-        color: #f96b16;
+        color: #ff5f00;
         margin-bottom: 10px;
         padding: 30px;
         border-radius: 50%;
         background: rgba(0, 0, 0, 0.1);
     }
     .clientCol:hover i {
-        background-color: #f96b16;
+        background-color: #ff5f00;
         color: #fff;
     }
     .clients {
         font-size: 34px;
-        color: #f96b16;
+        color: #ff5f00;
         padding: 10px;
     }
     .clientsTitle {
@@ -1697,7 +1697,7 @@ a.getInTouch {
 @media only screen and (max-width:768px) {
     /*Chat Start  */
     .form-container .cancel {
-        background-color: #f96b16;
+        background-color: #ff5f00;
         width: 100%;
         color: #fff;
         font-size: 14px;
@@ -1711,7 +1711,7 @@ a.getInTouch {
         position: fixed;
         bottom: 10px;
         right: 0px;
-        background: #f96b16;
+        background: #ff5f00;
         border-top-left-radius: 32px;
         border-bottom-left-radius: 32px;
     }
@@ -1946,7 +1946,7 @@ a.getInTouch {
         font-size: 14px;
         padding: 12px 10px;
         margin: 24px 0px 0px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border: none;
         border-radius: 5px;
@@ -1962,7 +1962,7 @@ a.getInTouch {
     .bannerbtn:hover {
         font-size: 16px;
         padding: 10px 26px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #fff;
         border-radius: 5px;
         text-decoration: none;
@@ -1970,7 +1970,7 @@ a.getInTouch {
     .bannerbtn1 {
         font-size: 16px;
         padding: 10px 20px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border-radius: 5px;
         text-decoration: none;
@@ -2008,7 +2008,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 44%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 3px;
         margin: 20px 10px;
         opacity: 0.5;
@@ -2047,7 +2047,7 @@ a.getInTouch {
         font-size: 28px;
         letter-spacing: 2px;
         text-align: center;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .flipbox {
         margin-top: 80px;
@@ -2083,7 +2083,7 @@ a.getInTouch {
     .flipboxfront i {
         font-size: 20px;
         color: #fff;
-        background: #f96b16;
+        background: #ff5f00;
         padding: 30px;
         border-radius: 50%;
     }
@@ -2093,7 +2093,7 @@ a.getInTouch {
     }
     .flipboxback {
         padding: 134px 60px;
-        background: #f96b16;
+        background: #ff5f00;
         transform: rotateX(180deg);
         border-radius: 20px;
     }
@@ -2137,7 +2137,7 @@ a.getInTouch {
         font-size: 28px;
         letter-spacing: 2px;
         text-align: left;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .aboutHomePage h2::after {
         position: absolute;
@@ -2145,7 +2145,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 1%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 3px;
         margin: 18px 10px;
         opacity: 0.5;
@@ -2196,7 +2196,7 @@ a.getInTouch {
     .readAbout {
         font-size: 16px;
         color: #ffffff;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         padding: 10px 12px;
         border-radius: 5px;
         text-decoration: none;
@@ -2245,7 +2245,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 44%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 3px;
         margin: 20px 10px;
         opacity: 0.5;
@@ -2284,7 +2284,7 @@ a.getInTouch {
         font-size: 28px;
         letter-spacing: 2px;
         text-align: center;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .industrybox {
         background: #fff;
@@ -2296,12 +2296,12 @@ a.getInTouch {
         box-shadow: 3px 10px 50px rgba(158, 158, 158, .25);
     }
     .industrybox:hover i {
-        background: #f96b16;
+        background: #ff5f00;
         color: #fff;
     }
     .industrybox i {
         font-size: 35px;
-        color: #f96b16;
+        color: #ff5f00;
         margin-bottom: 35px;
         padding: 30px;
         border-radius: 50%;
@@ -2341,7 +2341,7 @@ a.getInTouch {
         border-radius: 6px;
     }
     .databasesearchinner:hover {
-        background: #f96b16;
+        background: #ff5f00;
         display: flex;
         color: #ffffff;
     }
@@ -2358,7 +2358,7 @@ a.getInTouch {
     }
     a.getInTouch {
         color: #fff;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         position: relative;
         right: 0px;
         bottom: 0px;
@@ -2391,19 +2391,19 @@ a.getInTouch {
     }
     .clientCol i {
         font-size: 35px;
-        color: #f96b16;
+        color: #ff5f00;
         margin-bottom: 10px;
         padding: 30px;
         border-radius: 50%;
         background: rgba(0, 0, 0, 0.1);
     }
     .clientCol:hover i {
-        background-color: #f96b16;
+        background-color: #ff5f00;
         color: #fff;
     }
     .clients {
         font-size: 34px;
-        color: #f96b16;
+        color: #ff5f00;
         padding: 10px;
     }
     .clientsTitle {
@@ -2491,7 +2491,7 @@ a.getInTouch {
 @media only screen and (max-width:425px) {
     /* Chat Start */
     .form-container .cancel {
-        background-color: #f96b16;
+        background-color: #ff5f00;
         width: 100%;
         color: #fff;
         font-size: 12px;
@@ -2505,7 +2505,7 @@ a.getInTouch {
         position: fixed;
         bottom: 10px;
         right: 0px;
-        background: #f96b16;
+        background: #ff5f00;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
     }
@@ -2744,7 +2744,7 @@ a.getInTouch {
         font-size: 14px;
         padding: 12px 10px;
         margin: 24px 0px 0px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border: none;
         border-radius: 5px;
@@ -2760,7 +2760,7 @@ a.getInTouch {
     .bannerbtn:hover {
         font-size: 14px;
         padding: 10px 20px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #fff;
         border-radius: 5px;
         text-decoration: none;
@@ -2768,7 +2768,7 @@ a.getInTouch {
     .bannerbtn1 {
         font-size: 14px;
         padding: 10px 20px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border-radius: 5px;
         text-decoration: none;
@@ -2806,7 +2806,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 40%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 2px;
         margin: 20px auto;
         opacity: 0.5;
@@ -2845,7 +2845,7 @@ a.getInTouch {
         font-size: 20px;
         letter-spacing: 2px;
         text-align: center;
-        color: #f96b16;
+        color: #ff5f00;
         display: block;
         margin-top: 5px;
     }
@@ -2883,7 +2883,7 @@ a.getInTouch {
     .flipboxfront i {
         font-size: 20px;
         color: #fff;
-        background: #f96b16;
+        background: #ff5f00;
         padding: 30px;
         border-radius: 50%;
     }
@@ -2893,7 +2893,7 @@ a.getInTouch {
     }
     .flipboxback {
         padding: 134px 40px;
-        background: #f96b16;
+        background: #ff5f00;
         transform: rotateX(180deg);
         border-radius: 20px;
     }
@@ -2937,7 +2937,7 @@ a.getInTouch {
         font-size: 20px;
         letter-spacing: 2px;
         text-align: left;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .aboutHomePage h2::after {
         position: absolute;
@@ -2945,7 +2945,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 1%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 3px;
         margin: 18px 10px;
         opacity: 0.5;
@@ -2996,7 +2996,7 @@ a.getInTouch {
     .readAbout {
         font-size: 14px;
         color: #ffffff;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         padding: 10px 12px;
         border-radius: 5px;
         text-decoration: none;
@@ -3045,7 +3045,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 40%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 2px;
         margin: 20px auto;
         opacity: 0.5;
@@ -3084,7 +3084,7 @@ a.getInTouch {
         font-size: 20px;
         letter-spacing: 2px;
         text-align: center;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .industrybox {
         background: #fff;
@@ -3096,12 +3096,12 @@ a.getInTouch {
         box-shadow: 3px 10px 50px rgba(158, 158, 158, .25);
     }
     .industrybox:hover i {
-        background: #f96b16;
+        background: #ff5f00;
         color: #fff;
     }
     .industrybox i {
         font-size: 24px;
-        color: #f96b16;
+        color: #ff5f00;
         margin-bottom: 35px;
         padding: 30px;
         border-radius: 50%;
@@ -3141,7 +3141,7 @@ a.getInTouch {
         border-radius: 6px;
     }
     .databasesearchinner:hover {
-        background: #f96b16;
+        background: #ff5f00;
         display: flex;
         color: #ffffff;
     }
@@ -3158,7 +3158,7 @@ a.getInTouch {
     }
     a.getInTouch {
         color: #fff;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         position: relative;
         right: 0px;
         bottom: 0px;
@@ -3191,19 +3191,19 @@ a.getInTouch {
     }
     .clientCol i {
         font-size: 35px;
-        color: #f96b16;
+        color: #ff5f00;
         margin-bottom: 10px;
         padding: 30px;
         border-radius: 50%;
         background: rgba(0, 0, 0, 0.1);
     }
     .clientCol:hover i {
-        background-color: #f96b16;
+        background-color: #ff5f00;
         color: #fff;
     }
     .clients {
         font-size: 34px;
-        color: #f96b16;
+        color: #ff5f00;
         padding: 10px;
     }
     .clientsTitle {
@@ -3291,7 +3291,7 @@ a.getInTouch {
 @media only screen and (max-width:375px) {
     /* Chat Start */
     .form-container .cancel {
-        background-color: #f96b16;
+        background-color: #ff5f00;
         width: 100%;
         color: #fff;
         font-size: 10px;
@@ -3305,7 +3305,7 @@ a.getInTouch {
         position: fixed;
         bottom: 10px;
         right: 0px;
-        background: #f96b16;
+        background: #ff5f00;
         border-bottom-left-radius: 30px;
         border-top-left-radius: 30px;
     }
@@ -3544,7 +3544,7 @@ a.getInTouch {
         font-size: 14px;
         padding: 12px 10px;
         margin: 24px 0px 0px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border: none;
         border-radius: 5px;
@@ -3560,7 +3560,7 @@ a.getInTouch {
     .bannerbtn:hover {
         font-size: 14px;
         padding: 10px 20px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border-radius: 5px;
         text-decoration: none;
@@ -3568,7 +3568,7 @@ a.getInTouch {
     .bannerbtn1 {
         font-size: 14px;
         padding: 10px 20px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border-radius: 5px;
         text-decoration: none;
@@ -3606,7 +3606,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 40%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 2px;
         margin: 20px auto;
         opacity: 0.5;
@@ -3645,7 +3645,7 @@ a.getInTouch {
         font-size: 20px;
         letter-spacing: 2px;
         text-align: center;
-        color: #f96b16;
+        color: #ff5f00;
         display: block;
         margin-top: 5px;
     }
@@ -3683,7 +3683,7 @@ a.getInTouch {
     .flipboxfront i {
         font-size: 20px;
         color: #fff;
-        background: #f96b16;
+        background: #ff5f00;
         padding: 30px;
         border-radius: 50%;
     }
@@ -3693,7 +3693,7 @@ a.getInTouch {
     }
     .flipboxback {
         padding: 100px 20px;
-        background: #f96b16;
+        background: #ff5f00;
         transform: rotateX(180deg);
         border-radius: 20px;
     }
@@ -3737,7 +3737,7 @@ a.getInTouch {
         font-size: 20px;
         letter-spacing: 2px;
         text-align: left;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .aboutHomePage h2::after {
         position: absolute;
@@ -3745,7 +3745,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 1%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 3px;
         margin: 18px 10px;
         opacity: 0.5;
@@ -3796,7 +3796,7 @@ a.getInTouch {
     .readAbout {
         font-size: 14px;
         color: #ffffff;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         padding: 10px 12px;
         border-radius: 5px;
         text-decoration: none;
@@ -3845,7 +3845,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 40%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 2px;
         margin: 20px auto;
         opacity: 0.5;
@@ -3884,7 +3884,7 @@ a.getInTouch {
         font-size: 20px;
         letter-spacing: 2px;
         text-align: center;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .industrybox {
         background: #fff;
@@ -3896,12 +3896,12 @@ a.getInTouch {
         box-shadow: 3px 10px 50px rgba(158, 158, 158, .25);
     }
     .industrybox:hover i {
-        background: #f96b16;
+        background: #ff5f00;
         color: #fff;
     }
     .industrybox i {
         font-size: 24px;
-        color: #f96b16;
+        color: #ff5f00;
         margin-bottom: 35px;
         padding: 30px;
         border-radius: 50%;
@@ -3941,7 +3941,7 @@ a.getInTouch {
         border-radius: 6px;
     }
     .databasesearchinner:hover {
-        background: #f96b16;
+        background: #ff5f00;
         display: flex;
         color: #ffffff;
     }
@@ -3958,7 +3958,7 @@ a.getInTouch {
     }
     a.getInTouch {
         color: #fff;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         position: relative;
         right: 0px;
         bottom: 0px;
@@ -3991,19 +3991,19 @@ a.getInTouch {
     }
     .clientCol i {
         font-size: 35px;
-        color: #f96b16;
+        color: #ff5f00;
         margin-bottom: 10px;
         padding: 30px;
         border-radius: 50%;
         background: rgba(0, 0, 0, 0.1);
     }
     .clientCol:hover i {
-        background-color: #f96b16;
+        background-color: #ff5f00;
         color: #fff;
     }
     .clients {
         font-size: 34px;
-        color: #f96b16;
+        color: #ff5f00;
         padding: 10px;
     }
     .clientsTitle {
@@ -4098,7 +4098,7 @@ a.getInTouch {
         position: fixed;
         bottom: 10px;
         right: 0px;
-        background: #f96b16;
+        background: #ff5f00;
         border-bottom-left-radius: 30px;
         border-top-left-radius: 30px;
     }
@@ -4337,7 +4337,7 @@ a.getInTouch {
         font-size: 14px;
         padding: 12px 10px;
         margin: 24px 0px 0px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border: none;
         border-radius: 5px;
@@ -4353,7 +4353,7 @@ a.getInTouch {
     .bannerbtn:hover {
         font-size: 14px;
         padding: 10px 20px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #fff;
         border-radius: 5px;
         text-decoration: none;
@@ -4361,7 +4361,7 @@ a.getInTouch {
     .bannerbtn1 {
         font-size: 14px;
         padding: 10px 20px;
-        background: #f96b16;
+        background: #ff5f00;
         color: #ffffff;
         border-radius: 5px;
         text-decoration: none;
@@ -4399,7 +4399,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 40%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 2px;
         margin: 20px auto;
         opacity: 0.5;
@@ -4438,7 +4438,7 @@ a.getInTouch {
         font-size: 20px;
         letter-spacing: 2px;
         text-align: center;
-        color: #f96b16;
+        color: #ff5f00;
         display: block;
         margin-top: 5px;
     }
@@ -4476,7 +4476,7 @@ a.getInTouch {
     .flipboxfront i {
         font-size: 20px;
         color: #fff;
-        background: #f96b16;
+        background: #ff5f00;
         padding: 30px;
         border-radius: 50%;
     }
@@ -4486,7 +4486,7 @@ a.getInTouch {
     }
     .flipboxback {
         padding: 100px 20px;
-        background: #f96b16;
+        background: #ff5f00;
         transform: rotateX(180deg);
         border-radius: 20px;
     }
@@ -4530,7 +4530,7 @@ a.getInTouch {
         font-size: 20px;
         letter-spacing: 2px;
         text-align: left;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .aboutHomePage h2::after {
         position: absolute;
@@ -4538,7 +4538,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 1%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 3px;
         margin: 18px 10px;
         opacity: 0.5;
@@ -4589,7 +4589,7 @@ a.getInTouch {
     .readAbout {
         font-size: 14px;
         color: #ffffff;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         padding: 10px 12px;
         border-radius: 5px;
         text-decoration: none;
@@ -4638,7 +4638,7 @@ a.getInTouch {
         display: block;
         width: 100px;
         left: 40%;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         height: 2px;
         margin: 20px auto;
         opacity: 0.5;
@@ -4677,7 +4677,7 @@ a.getInTouch {
         font-size: 20px;
         letter-spacing: 2px;
         text-align: center;
-        color: #f96b16;
+        color: #ff5f00;
     }
     .industrybox {
         background: #fff;
@@ -4689,12 +4689,12 @@ a.getInTouch {
         box-shadow: 3px 10px 50px rgba(158, 158, 158, .25);
     }
     .industrybox:hover i {
-        background: #f96b16;
+        background: #ff5f00;
         color: #fff;
     }
     .industrybox i {
         font-size: 24px;
-        color: #f96b16;
+        color: #ff5f00;
         margin-bottom: 35px;
         padding: 30px;
         border-radius: 50%;
@@ -4734,7 +4734,7 @@ a.getInTouch {
         border-radius: 6px;
     }
     .databasesearchinner:hover {
-        background: #f96b16;
+        background: #ff5f00;
         display: flex;
         color: #ffffff;
     }
@@ -4751,7 +4751,7 @@ a.getInTouch {
     }
     a.getInTouch {
         color: #fff;
-        background-color: #f96b16;
+        background-color: #ff5f00;
         position: relative;
         right: 0px;
         bottom: 0px;
@@ -4791,12 +4791,12 @@ a.getInTouch {
         background: rgba(0, 0, 0, 0.1);
     }
     .clientCol:hover i {
-        background-color: #f96b16;
+        background-color: #ff5f00;
         color: #fff;
     }
     .clients {
         font-size: 34px;
-        color: #f96b16;
+        color: #ff5f00;
         padding: 10px;
     }
     .clientsTitle {
