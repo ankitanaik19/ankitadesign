@@ -285,9 +285,11 @@ ul.navbar-nav {
     margin-right: -148px;
     text-align: left;
     float: left;
-    max-width: 220px;
+    max-width: 235px;
     background: #fff;
     box-shadow: 1px 0px 5px 1px grey;
+    border-top: 2px solid #2c59e3;
+    padding: 5px;
 }
 
 .dropmenuitems a {
@@ -1098,9 +1100,12 @@ a.getInTouch {
         margin-right: -148px;
         text-align: left;
         float: left;
-        max-width: 220px;
+        max-width: 235px;
         background: #fff;
         box-shadow: 1px 0px 5px 1px grey;
+        border-top: 2px solid #2c59e3;
+        padding: 5px;
+    
     }
     .dropmenuitems a {
         font-size: 18px;
@@ -1874,6 +1879,8 @@ a.getInTouch {
         background: #fff;
         box-shadow: none;
         padding-right: 0px;
+        border-top: none;
+    
     }
     .dropmenuitems a {
         font-size: 18px;
@@ -2669,6 +2676,8 @@ a.getInTouch {
         background: #fff;
         box-shadow: none;
         padding-right: 0px;
+        border-top: none;
+
     }
     .dropmenuitems a {
         font-size: 14px;
@@ -3467,6 +3476,8 @@ a.getInTouch {
         background: #fff;
         box-shadow: none;
         padding-right: 0px;
+        border-top: none;
+
     }
     .dropmenuitems a {
         font-size: 14px;
@@ -4258,6 +4269,8 @@ a.getInTouch {
         background: #fff;
         box-shadow: none;
         padding-right: 0px;
+        border-top: none;
+
     }
     .dropmenuitems a {
         font-size: 14px;
