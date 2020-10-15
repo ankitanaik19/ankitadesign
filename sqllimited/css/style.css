@@ -355,7 +355,7 @@ ul.navbar-nav {
     width: 100%;
     font-size: 18px;
     padding: 12px 10px;
-    margin: 10px 0px;
+    margin: 5px 0px;
     border-radius: 5px;
     border-bottom: 1px solid #d2d2d2;
     border-left: none;
@@ -367,7 +367,7 @@ ul.navbar-nav {
     width: 100%;
     font-size: 18px;
     padding: 12px 10px;
-    margin: 10px 0px;
+    margin: 24px 0px 0px;
     background: #2c59e3;
     color: #ffffff;
     border: none;
@@ -1152,7 +1152,7 @@ a.getInTouch {
         width: 100%;
         font-size: 18px;
         padding: 12px 10px;
-        margin: 10px 0px;
+        margin: 5px 0px;
         border-radius: 5px;
         border-bottom: 1px solid #d2d2d2;
         border-left: none;
@@ -1163,7 +1163,7 @@ a.getInTouch {
         width: 100%;
         font-size: 18px;
         padding: 12px 10px;
-        margin: 10px 0px;
+        margin: 24px 0px 0px;
         background: #2c59e3;
         color: #ffffff;
         border: none;
@@ -1929,7 +1929,7 @@ a.getInTouch {
         width: 100%;
         font-size: 14px;
         padding: 12px 5px;
-        margin: 10px 0px;
+        margin: 5px 0px;
         border-radius: 5px;
         border-bottom: 1px solid #d2d2d2;
         border-left: none;
@@ -1940,7 +1940,7 @@ a.getInTouch {
         width: 100%;
         font-size: 14px;
         padding: 12px 10px;
-        margin: 10px 0px;
+        margin: 24px 0px 0px;
         background: #2c59e3;
         color: #ffffff;
         border: none;
@@ -2728,7 +2728,7 @@ a.getInTouch {
         width: 100%;
         font-size: 14px;
         padding: 12px 5px;
-        margin: 10px 0px;
+        margin: 5px 0px;
         border-radius: 5px;
         border-bottom: 1px solid #d2d2d2;
         border-left: none;
@@ -2739,7 +2739,7 @@ a.getInTouch {
         width: 100%;
         font-size: 14px;
         padding: 12px 10px;
-        margin: 10px 0px;
+        margin: 24px 0px 0px;
         background: #2c59e3;
         color: #ffffff;
         border: none;
@@ -3529,7 +3529,7 @@ a.getInTouch {
         width: 100%;
         font-size: 14px;
         padding: 12px 5px;
-        margin: 10px 0px;
+        margin: 5px 0px;
         border-radius: 5px;
         border-bottom: 1px solid #d2d2d2;
         border-left: none;
@@ -3540,7 +3540,7 @@ a.getInTouch {
         width: 100%;
         font-size: 14px;
         padding: 12px 10px;
-        margin: 10px 0px;
+        margin: 24px 0px 0px;
         background: #2c59e3;
         color: #ffffff;
         border: none;
@@ -4327,7 +4327,7 @@ a.getInTouch {
         width: 100%;
         font-size: 14px;
         padding: 12px 5px;
-        margin: 10px 0px;
+        margin: 5px 0px;
         border-radius: 5px;
         border-bottom: 1px solid #d2d2d2;
         border-left: none;
@@ -4338,7 +4338,7 @@ a.getInTouch {
         width: 100%;
         font-size: 14px;
         padding: 12px 10px;
-        margin: 10px 0px;
+        margin: 24px 0px 0px;
         background: #2c59e3;
         color: #ffffff;
         border: none;
