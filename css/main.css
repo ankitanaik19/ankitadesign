@@ -17,7 +17,7 @@ Created : Ankita Naik
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
-    color: #3c3b3b;
+    color: #423c3c;
     letter-spacing: 1px;
  
 }
@@ -29,7 +29,7 @@ html, body {
     padding: 0;
     font-size: 12px;
     letter-spacing: 1px;
-    color: #3c3b3b;
+    color: #423c3c;
 }
 
 
@@ -84,7 +84,7 @@ html, body {
 }
 
 .menubg a:hover {
-    background-color: #6cc254 !important;
+    background-color: #4ACA26 !important;
     text-decoration: none;
 }
 
@@ -96,7 +96,7 @@ a:hover span {
     display: block;
     font-size: 14px;
     color: #fff;
-    background: #6cc254;
+    background: #4ACA26;
     text-decoration: none;
 }
 
@@ -114,7 +114,7 @@ a:hover span {
 
 h3::after {
     content: '';
-    background: #6cc254;
+    background: #4ACA26;
     display: block;
     height: 3px;
     width: 241px;
@@ -146,7 +146,7 @@ h3::after {
 
 .startbtn { 
     border-radius: 4px;
-    background-color: #6CC254;
+    background-color: #4ACA26;
     border: none;
     color: #FFF;
     text-align: center;
@@ -206,7 +206,7 @@ h3::after {
 }
 
 img.imgborder {
-    border: 2px solid #f0f0f0;
+
     border-radius: 50%;
 }
 
@@ -249,7 +249,7 @@ img.imgborder:hover {
     content: '';
     display: block;
     width: 100px;
-    background: #6cc254;
+    background: #4ACA26;
     height: 3px;
     margin-top: 20px;
     margin-left: 20px;
@@ -279,7 +279,7 @@ img.imgborder:hover {
 
 i.social:hover {
     color: #fff;
-    background: #6cc254;
+    background: #4ACA26;
 }
 
 .download {
@@ -292,14 +292,14 @@ i.social:hover {
     font-size: 16px;
     padding: 15px;
     color: #f0f0f0;
-    background: #6cc254;
+    background: #4ACA26;
     border: none;
     border-radius: 10px;
 }
 
 a:hover .cv-load {
     color: #f0f0f0;
-    background: #6cc254;
+    background: #4ACA26;
     text-decoration: none;
     font-size: 16px;
 }
@@ -324,7 +324,7 @@ h2.resume {
     font-size: 18px;
     padding: 10px;
     color: #fff;
-    background: #6cc254;
+    background: #4ACA26;
     border: none;
     border-radius: 5px;
 }
@@ -333,7 +333,7 @@ button.edu:hover {
     color: #fff !important;
     font-weight: 400 !important;
     letter-spacing: 2px;
-    background: #6cc254;
+    background: #4ACA26;
     -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
     transition: all 0.3s ease 0s;
@@ -345,7 +345,7 @@ button.edu:hover {
     font-size: 18px;
     padding: 10px;
     color: #fff;
-    background: #6cc254;
+    background: #4ACA26;
     border: none;
     border-radius: 5px;
 }
@@ -354,7 +354,7 @@ button.exp:hover {
     color: #fff !important;
     font-weight: 400 !important;
     letter-spacing: 2px;
-    background: #6cc254;
+    background: #4ACA26;
     -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
     transition: all 0.3s ease 0s;
@@ -390,7 +390,7 @@ h4.exp-code {
     display: block;
     width: 130px;
     height: 3px;
-    background: #6cc254;
+    background: #4ACA26;
     margin-top: 15px;
     margin-left: 38%;
 }
@@ -403,7 +403,7 @@ h4.exp-code {
 
 .progress-bar {
     border-radius: 10px;
-    background-color: #6CC254 !important;
+    background-color: #4ACA26 !important;
 }
 
 .progress {
@@ -441,7 +441,7 @@ h4.exp-code {
     font-size: 20px;
     font-weight: bold !important;
     text-transform: uppercase;
-    color: #6cc254;
+    color: #4ACA26;
     letter-spacing: 1px;
 }
 
@@ -461,7 +461,7 @@ h4.exp-code {
     font-size: 18px;
     padding: 10px 25px;
     color: #fff;
-    background: #6cc254;
+    background: #4ACA26;
     border: none;
     border-radius: 5px;
 }
@@ -470,7 +470,7 @@ button.all:hover {
     color: #fff !important;
     font-weight: 400 !important;
     letter-spacing: 2px;
-    background: #6cc254;
+    background: #4ACA26;
     -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
     transition: all 0.3s ease 0s;
@@ -482,7 +482,7 @@ button.all:hover {
     font-size: 18px;
     padding: 10px;
     color: #fff;
-    background: #6cc254;
+    background: #4ACA26;
     border: none;
     border-radius: 5px;
 }
@@ -491,7 +491,7 @@ button.webdesign:hover {
     color: #fff !important;
     font-weight: 400 !important;
     letter-spacing: 2px;
-    background: #6cc254;
+    background: #4ACA26;
     -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
     -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
     transition: all 0.3s ease 0s;
@@ -609,7 +609,7 @@ h2.con {
     font-size: 16px;
     margin-top: 10px;
     font-weight: 500;
-    color: #3c3b3b;
+    color: #423c3c;
     padding-left: 10px;
 }
 
@@ -625,7 +625,7 @@ h2.con {
 
 .contactmedia i.social:hover {
     color: #fff;
-    background: #6cc254;
+    background: #4ACA26;
 }
 
 /*Contact End*/
@@ -659,15 +659,15 @@ h2.con {
         position: absolute;
         right: 0;
         top: 0;
-        color: #6cc254;
+        color: #4ACA26;
     }
 
     .topnav a:hover .icon {
-        color: #6cc254;
+        color: #4ACA26;
     }
 
     #myLinks a:hover {
-        background-color: #6cc254;
+        background-color: #4ACA26;
         color: #fff;
         text-decoration: none;
     }
@@ -704,15 +704,15 @@ h2.con {
         position: absolute;
         right: 0;
         top: 0;
-        color: #6cc254;
+        color: #4ACA26;
     }
 
     .topnav a:hover .icon {
-        color: #6cc254;
+        color: #4ACA26;
     }
 
     #myLinks a:hover {
-        background-color: #6cc254;
+        background-color: #4ACA26;
         color: #fff;
         text-decoration: none;
     }
@@ -725,7 +725,7 @@ h2.con {
 
     h3::after {
         content: '';
-        background: #6cc254;
+        background: #4ACA26;
         display: block;
         height: 3px;
         width: 200px;
@@ -754,7 +754,7 @@ h2.con {
 
     .startbtn {
         border-radius: 4px;
-        background-color: #6CC254;
+        background-color: #4ACA26;
         border: none;
         color: #FFF;
         text-align: center;
@@ -864,7 +864,7 @@ h2.con {
         content: '';
         display: block;
         width: 100px;
-        background: #6cc254;
+        background: #4ACA26;
         height: 3px;
         margin-top: 20px;
         margin-left: 20px;
@@ -891,7 +891,7 @@ h2.con {
 
     i.social:hover {
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
     }
 
     .contactmedia {
@@ -905,7 +905,7 @@ h2.con {
 
     .contactmedia i.social:hover {
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
     }
 
 
@@ -920,14 +920,14 @@ h2.con {
         font-size: 16px;
         padding: 15px;
         color: #f0f0f0;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 10px;
     }
 
     a:hover .cv-load {
         color: #f0f0f0;
-        background: #6cc254;
+        background: #4ACA26;
         text-decoration: none;
         font-size: 16px;
     }
@@ -943,7 +943,7 @@ h2.con {
         font-size: 18px;
         padding: 10px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -952,7 +952,7 @@ h2.con {
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -964,7 +964,7 @@ h2.con {
         font-size: 18px;
         padding: 10px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -973,7 +973,7 @@ h2.con {
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -1012,7 +1012,7 @@ h2.con {
         display: block;
         width: 100px;
         height: 3px;
-        background: #6cc254;
+        background: #4ACA26;
         margin-top: 15px;
         margin-left: 43%;
     }
@@ -1025,7 +1025,7 @@ h2.con {
 
     .progress-bar {
         border-radius: 10px;
-        background-color: #6CC254 !important;
+        background-color: #4ACA26 !important;
     }
 
     .progress {
@@ -1064,7 +1064,7 @@ h2.con {
         font-size: 18px;
         font-weight: bold !important;
         text-transform: uppercase;
-        color: #6cc254;
+        color: #4ACA26;
         letter-spacing: 1px;
     }
 
@@ -1079,7 +1079,7 @@ h2.con {
         font-size: 18px;
         padding: 10px 25px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -1088,7 +1088,7 @@ h2.con {
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -1200,15 +1200,15 @@ h2.con {
         position: absolute;
         right: 0;
         top: 0;
-        color: #6cc254;
+        color: #4ACA26;
     }
 
     .topnav a:hover .icon {
-        color: #6cc254;
+        color: #4ACA26;
     }
 
     #myLinks a:hover {
-        background-color: #6cc254;
+        background-color: #4ACA26;
         color: #fff;
         text-decoration: none;
     }
@@ -1222,7 +1222,7 @@ h2.con {
 
     h3::after {
         content: '';
-        background: #6cc254;
+        background: #4ACA26;
         display: block;
         height: 2px;
         width: 150px;
@@ -1253,7 +1253,7 @@ h2.con {
 
     .startbtn {
         border-radius: 4px;
-        background-color: #6CC254;
+        background-color: #4ACA26;
         border: none;
         color: #FFF;
         text-align: center;
@@ -1363,7 +1363,7 @@ h2.con {
         content: '';
         display: block;
         width: 100px;
-        background: #6cc254;
+        background: #4ACA26;
         height: 3px;
         margin-top: 20px;
         margin-left: 20px;
@@ -1391,7 +1391,7 @@ h2.con {
 
     i.social:hover {
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
     }
 
 
@@ -1418,7 +1418,7 @@ h2.con {
 
     .contactmedia i.social:hover {
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
     }
 
 
@@ -1434,14 +1434,14 @@ h2.con {
         font-size: 14px;
         padding: 14px;
         color: #f0f0f0;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 10px;
     }
 
     a:hover .cv-load {
         color: #f0f0f0;
-        background: #6cc254;
+        background: #4ACA26;
         text-decoration: none;
         font-size: 14px;
     }
@@ -1455,7 +1455,7 @@ h2.con {
         font-size: 16px;
         padding: 10px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -1464,7 +1464,7 @@ h2.con {
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -1476,7 +1476,7 @@ h2.con {
         font-size: 16px;
         padding: 10px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -1485,7 +1485,7 @@ h2.con {
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -1524,7 +1524,7 @@ h2.con {
         display: block;
         width: 100px;
         height: 3px;
-        background: #6cc254;
+        background: #4ACA26;
         margin-top: 15px;
         margin-left: 36%;
     }
@@ -1537,7 +1537,7 @@ h2.con {
 
     .progress-bar {
         border-radius: 10px;
-        background-color: #6CC254 !important;
+        background-color: #4ACA26 !important;
     }
 
     .progress {
@@ -1576,7 +1576,7 @@ h2.con {
         font-size: 16px;
         font-weight: bold !important;
         text-transform: uppercase;
-        color: #6cc254;
+        color: #4ACA26;
         letter-spacing: 1px;
     }
 
@@ -1593,7 +1593,7 @@ h2.con {
         font-size: 18px;
         padding: 10px 25px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -1602,7 +1602,7 @@ h2.con {
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -1708,15 +1708,15 @@ color: #fff;
         position: absolute;
         right: 0;
         top: 0;
-        color: #6cc254;
+        color: #4ACA26;
     }
 
     .topnav a:hover .icon {
-        color: #6cc254;
+        color: #4ACA26;
     }
 
     #myLinks a:hover {
-        background-color: #6cc254;
+        background-color: #4ACA26;
         color: #fff;
         text-decoration: none;
     }
@@ -1730,7 +1730,7 @@ color: #fff;
 
     h3::after {
         content: '';
-        background: #6cc254;
+        background: #4ACA26;
         display: block;
         height: 2px;
         width: 120px;
@@ -1759,7 +1759,7 @@ color: #fff;
 
     .startbtn {
         border-radius: 4px;
-        background-color: #6CC254;
+        background-color: #4ACA26;
         border: none;
         color: #FFF;
         text-align: center;
@@ -1869,7 +1869,7 @@ color: #fff;
         content: '';
         display: block;
         width: 100px;
-        background: #6cc254;
+        background: #4ACA26;
         height: 3px;
         margin-top: 20px;
         margin-left: 20px;
@@ -1897,7 +1897,7 @@ color: #fff;
 
     i.social:hover {
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
     }
 
     .contactmedia .social {
@@ -1923,7 +1923,7 @@ color: #fff;
 
     .contactmedia i.social:hover {
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
     }
 
 
@@ -1938,14 +1938,14 @@ color: #fff;
         font-size: 14px;
         padding: 15px;
         color: #f0f0f0;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 10px;
     }
 
     a:hover .cv-load {
         color: #f0f0f0;
-        background: #6cc254;
+        background: #4ACA26;
         text-decoration: none;
         font-size: 14px;
     }
@@ -1958,7 +1958,7 @@ color: #fff;
         font-size: 16px;
         padding: 10px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -1967,7 +1967,7 @@ color: #fff;
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -1979,7 +1979,7 @@ color: #fff;
         font-size: 16px;
         padding: 10px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -1988,7 +1988,7 @@ color: #fff;
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -2029,7 +2029,7 @@ color: #fff;
         display: block;
         width: 100px;
         height: 3px;
-        background: #6cc254;
+        background: #4ACA26;
         margin-top: 15px;
         margin-left: 35%;
     }
@@ -2042,7 +2042,7 @@ color: #fff;
 
     .progress-bar {
         border-radius: 10px;
-        background-color: #6CC254 !important;
+        background-color: #4ACA26 !important;
     }
 
     .progress {
@@ -2081,7 +2081,7 @@ color: #fff;
         font-size: 16px;
         font-weight: bold !important;
         text-transform: uppercase;
-        color: #6cc254;
+        color: #4ACA26;
         letter-spacing: 1px;
     }
 
@@ -2098,7 +2098,7 @@ color: #fff;
         font-size: 18px;
         padding: 10px 25px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -2107,7 +2107,7 @@ color: #fff;
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -2212,15 +2212,15 @@ color: #fff;
         position: absolute;
         right: 0;
         top: 0;
-        color: #6cc254;
+        color: #4ACA26;
     }
 
     .topnav a:hover .icon {
-        color: #6cc254;
+        color: #4ACA26;
     }
 
     #myLinks a:hover {
-        background-color: #6cc254;
+        background-color: #4ACA26;
         color: #fff;
         text-decoration: none;
     }
@@ -2234,7 +2234,7 @@ color: #fff;
 
     h3::after {
         content: '';
-        background: #6cc254;
+        background: #4ACA26;
         display: block;
         height: 2px;
         width: 120px;
@@ -2263,7 +2263,7 @@ color: #fff;
 
     .startbtn {
         border-radius: 4px;
-        background-color: #6CC254;
+        background-color: #4ACA26;
         border: none;
         color: #FFF;
         text-align: center;
@@ -2374,7 +2374,7 @@ color: #fff;
         content: '';
         display: block;
         width: 100px;
-        background: #6cc254;
+        background: #4ACA26;
         height: 3px;
         margin-top: 20px;
         margin-left: 20px;
@@ -2402,7 +2402,7 @@ color: #fff;
 
     i.social:hover {
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
     }
 
     .contactmedia .social {
@@ -2427,7 +2427,7 @@ color: #fff;
 
     .contactmedia i.social:hover {
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
     }
 
     .download {
@@ -2441,14 +2441,14 @@ color: #fff;
         font-size: 14px;
         padding: 12px;
         color: #f0f0f0;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 10px;
     }
 
     .contactmedia a:hover .cv-load {
         color: #f0f0f0;
-        background: #6cc254;
+        background: #4ACA26;
         text-decoration: none;
         font-size: 14px;
 
@@ -2463,7 +2463,7 @@ color: #fff;
         font-size: 16px;
         padding: 10px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -2472,7 +2472,7 @@ color: #fff;
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -2484,7 +2484,7 @@ color: #fff;
         font-size: 16px;
         padding: 10px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -2493,7 +2493,7 @@ color: #fff;
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
@@ -2532,7 +2532,7 @@ color: #fff;
         display: block;
         width: 100px;
         height: 3px;
-        background: #6cc254;
+        background: #4ACA26;
         margin-top: 15px;
         margin-left: 32%;
     }
@@ -2545,7 +2545,7 @@ color: #fff;
 
     .progress-bar {
         border-radius: 10px;
-        background-color: #6CC254 !important;
+        background-color: #4ACA26 !important;
     }
 
     .progress {
@@ -2584,7 +2584,7 @@ color: #fff;
         font-size: 14px;
         font-weight: bold !important;
         text-transform: uppercase;
-        color: #6cc254;
+        color: #4ACA26;
         letter-spacing: 1px;
     }
 
@@ -2601,7 +2601,7 @@ color: #fff;
         font-size: 18px;
         padding: 10px 25px;
         color: #fff;
-        background: #6cc254;
+        background: #4ACA26;
         border: none;
         border-radius: 5px;
     }
@@ -2610,7 +2610,7 @@ color: #fff;
         color: #fff !important;
         font-weight: 400 !important;
         letter-spacing: 2px;
-        background: #6cc254;
+        background: #4ACA26;
         -webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         -moz-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.57);
         transition: all 0.3s ease 0s;
